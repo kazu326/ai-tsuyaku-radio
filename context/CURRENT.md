@@ -40,20 +40,28 @@ AI通訳ラジオをYouTube単体ではなく、AIニュース・難解トピッ
 
 ## Remotion
 
-既存 `ai-radio-remotion-test` はテストから実運用へ発展した重要な既存環境。現在はまだ独立して保護する。
+旧Remotion環境 `kazu326/ai-radio-remotion-test` のGitHub保存は完了した。
+
+コピー元として固定する基準Commit：`4191ac7ad8d286d296fd340f9e1e0b7f50ffdd51`
+
+MP4はGit管理対象外。ローカル素材38本は素材台帳で管理され、GitHubにはコード・設定・字幕JSON・台本・素材パス・管理情報を保存する。
+
+現在は親への統合フェーズ。統合設計は `video/remotion/MIGRATION.md` を正本とする。
 
 次の手順：
-1. 旧Remotion環境を単独GitHubリポジトリへ正常動作状態でコミット
-2. コピー可能な状態を確認
-3. この親リポジトリの `video/remotion/` へ移植
-4. Studio起動・Composition・素材パス・既存動画が壊れていないことを検証
-5. 検証完了まで旧環境を退役させない
+1. 基準CommitのGit管理対象を `video/remotion/` へコピー
+2. コピー元リポジトリは変更しない
+3. 親をローカル取得し、`video/remotion/` で依存関係を復元
+4. lint / TypeScript / bundle / Composition 6件を再確認
+5. ローカルMP4を素材台帳記載パスへ配置して既存Compositionを確認
+6. 第2話 `AI-Radio-Episode2-Main-v01` をStudioで確認
+7. 検証完了後にのみ、文書やエピソード資産の整理へ進む
 
 ## 現在の優先順位
 
-1. 親リポジトリと共有コンテキストの基盤を作る
-2. 既存Remotionを安全にGitHub保存する
-3. Remotionを親へ統合する
+1. Remotionを親の `video/remotion/` へ同等状態で収容する
+2. 親環境で正常動作を検証する
+3. Remotion固有情報と番組全体情報を段階的に整理する
 4. WebサイトのMVPを作る
 5. 1テーマを動画・記事・SNSまで流す制作パイプラインを検証する
 6. 安定した工程から自動化する
@@ -61,3 +69,5 @@ AI通訳ラジオをYouTube単体ではなく、AIニュース・難解トピッ
 ## 作業原則
 
 最初から全媒体を完全自動化しない。まず「1テーマ → 動画 / 記事 / SNS」が一巡する最小構成を完成させ、実運用で安定した部分だけ自動化する。
+
+動作済みRemotionの移植では、移植とリファクタリングを同時に行わない。まず同等状態を再現し、検証後に整理する。
