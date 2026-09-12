@@ -1,0 +1,38 @@
+{
+  "output": "out/AI-Radio-PromptLength-v03.mp4",
+  "bytes": 118114804,
+  "sha256": "0decfe511ef02db83fac3c2293e7af2803e689a90202dcbde3b3bf9952399785",
+  "baselineHashes": {
+    "src/prompt-length/captions.json": "4381af05eacf5be1f4e02004f508580120d811d529a088d069fb3b0ddf51a888",
+    "src/prompt-length/captions-v02.json": "02dac0c35ab3de1f980cca0da8c37f1587c9ebd2b396f499a006922ab89afc4b",
+    "src/prompt-length/PromptLengthTest.tsx": "909ea1ca297ae0b771beda30db3dec34b0b6251ba7b325cfbc207d6e2c7f6b07",
+    "src/prompt-length/PromptLengthTestV02.tsx": "a12be51be88dda0f38674e10a1a349a1482c4f822a05663b4986d6157b8f15d7",
+    "docs/prompt-length-test/v02-alignment.json": "5bdbd9982453e1f196f35c05a9fd414a6747b563fd76c35ca742cfe2bab91cfb",
+    "docs/prompt-length-test/v02-alignment.json.meta.json": "56c3f881c5213e83bc6def121bed32aa3682784a7324e920fafec5757a1ecece",
+    "docs/prompt-length-test/accepted.txt": "5435e987a51d64a7005baea6ef97209c31dc9730fbebd829072a20b295f426a4",
+    "public/test-90s.mp3": "ca53ef7067b16edf9a1c1f1b5caaa493184473c2f5aa8525381c3287cfd53f4d",
+    "src/Composition.tsx": "b3dc172973e3be0e68209fb101d519b84733f374139641207b4875e063793fc6",
+    "src/data/background-assets.ts": "50f13f24b056b26a245ab671ea3df419d1009371a3bbd877f932cfcd8f090def",
+    "out/AI-Radio-PromptLength-v01.mp4": "b9a0d781a99712744f8f74fc3937603a2ffc5d20dc136863dca7cde01e1ddf7c",
+    "out/AI-Radio-PromptLength-v01-r02.mp4": "6026c4c51ed38bc4f453af05899fc159b5dd06b9d597a1a275c6237b0206fa9f",
+    "out/AI-Radio-PromptLength-v02.mp4": "793c57527454c2c81a5c008f9a3010efef93daf64edc0ba1c42779d6cb99a13c"
+  },
+  "baselineUnchanged": true,
+  "apiCalls": 0,
+  "audioAnalysisRuns": 0,
+  "frames": 2648,
+  "width": 1280,
+  "height": 720,
+  "videoDuration": 88.266667,
+  "containerDuration": 88.32,
+  "codec": "h264",
+  "audioCodec": "aac",
+  "visualSamplesSeconds": [
+    0,
+    4.1,
+    88.2
+  ],
+  "lintErrors": 0,
+  "existingWarnings": 3,
+  "humanEvaluation": "pending"
+}

@@ -1,0 +1,8 @@
+[curious]
+こんにちは。これはAI通訳ラジオのAPI接続テストです。
+
+[explaining]
+今回は、ElevenLabsのAPIから直接音声を生成できるか確認しています。
+
+[continues softly]
+この音声が聞こえたら、最初の接続テストは成功です。

@@ -1,0 +1,184 @@
+[
+  {
+    "text": "ここからは僕の解釈です。",
+    "startMs": 465093.3333333333,
+    "endMs": 466713.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここからはちょっと僕の解釈なんですけど、Cerebrasを見ていると、",
+    "startMs": 467693.3333333333,
+    "endMs": 471913.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今までコンピューター側にAIを合わせていたものが逆になってきている感じがするんですよね。",
+    "startMs": 472393.3333333333,
+    "endMs": 477933.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今まではすでにあるCPUやGPUやサーバーを使って、この上でAIをどう動かそうと考えていた。",
+    "startMs": 479033.3333333333,
+    "endMs": 486793.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも今はAIを早く動かすなら、最初からAIのためのコンピューターを作ればいいじゃんという方向に進み始めている。",
+    "startMs": 487553.3333333333,
+    "endMs": 495813.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "前回話したAI専用インフラという話ですね。",
+    "startMs": 496573.3333333333,
+    "endMs": 499773.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Cerebrasはそのかなりわかりやすい例だと思います。",
+    "startMs": 500793.3333333333,
+    "endMs": 503933.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "まとめ。",
+    "startMs": 505893.3333333333,
+    "endMs": 506293.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "エンディング。",
+    "startMs": 506733.3333333333,
+    "endMs": 507333.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ということで、今回はCerebrasについて話してみました。",
+    "startMs": 508473.3333333333,
+    "endMs": 511473.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Cerebrasって何がそんなに特殊なの？",
+    "startMs": 512393.3333333333,
+    "endMs": 514653.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "というと、僕はまず、今まで小さく切り分けていた計算場所をものすごく大きく1つにまとめた会社",
+    "startMs": 514713.3333333333,
+    "endMs": 522673.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "くらいで覚えておけばいいと思います。",
+    "startMs": 522673.3333333333,
+    "endMs": 524613.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "学校で言うなら、教室を増やし続けるのではなく、壁を取っ払って巨大な1つの教室にした。",
+    "startMs": 525713.3333333333,
+    "endMs": 531893.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そうすれば、隣の人へプリントを渡しやすい。",
+    "startMs": 532733.3333333333,
+    "endMs": 535553.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIも計算だけ早ければいいわけじゃなくて、その計算に必要なデータをどれだけ早く近くで動かせるかが重要だった。",
+    "startMs": 536533.3333333333,
+    "endMs": 544713.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "だからCerebrasは早い。",
+    "startMs": 545573.3333333333,
+    "endMs": 548073.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここまでわかれば、前回のUltra Fastがなぜただのモデル高速化のニュースじゃなかったのかも",
+    "startMs": 548233.3333333333,
+    "endMs": 554453.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "少し見え方が変わってくると思います。",
+    "startMs": 554453.3333333333,
+    "endMs": 556473.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "で、このCerebrasの巨大なチップなんですけど、当然Cerebrasだけで全部作っているわけではありません。",
+    "startMs": 557633.3333333333,
+    "endMs": 563833.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "実際に半導体を作る会社があって、そのための製造装置があって、材料があって、検査する会社がある。",
+    "startMs": 564853.3333333333,
+    "endMs": 571713.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここを調べ始めたら、また面白いことが出てきました。",
+    "startMs": 572773.3333333333,
+    "endMs": 575773.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "日本の会社めちゃくちゃいるんですよ。",
+    "startMs": 576833.3333333333,
+    "endMs": 578713.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "なので次回は、実は日本、今でも半導体王国って知ってました？",
+    "startMs": 579793.3333333333,
+    "endMs": 584733.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "この辺を話してみたいと思います。",
+    "startMs": 584813.3333333333,
+    "endMs": 586593.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それでは今回はこの辺で。",
+    "startMs": 587833.3333333333,
+    "endMs": 589293.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

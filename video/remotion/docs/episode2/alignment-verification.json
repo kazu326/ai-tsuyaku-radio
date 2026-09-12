@@ -1,0 +1,73 @@
+{
+  "status": "blocked-alignment-quality",
+  "compositionImplemented": false,
+  "rendered": false,
+  "apiCalls": 5,
+  "note": "Forced alignment is not independent transcription. Supplied text/audio correspondence is not validated. Do not use these times for captions.",
+  "items": [
+    {
+      "id": "01",
+      "loss": 3.096142617486558,
+      "cacheIntegrity": true,
+      "characters": 1060,
+      "zeroDurationCharacters": 636,
+      "longestZeroDurationRun": {
+        "time": 72.399,
+        "length": 589,
+        "text": "\nそもそも、なんでAIにGPUを使ってるの？\r\nまずCerebrasの前に、\r\nGPUの話をほんの少しだけさせてください。\r\nこれ、知らなくてもChatGPTは普通に使えるので、\r\n普段は全然気にしなくていいんです。\r\nCerebrasが、何を変えたのかを見るには、\r\nここだけ、知っておくと一気に分かりやすくなります。\r\nパソコンにはCPUというものがあります。\r\nで、GPUというものもあります。\r\nそれから、名前は覚えなくても大丈夫です。\r\nちょっと学校で例えてみますね。\r\nCPUが、\r\n一人でものすごくいろんな仕事ができる優秀な委員長だとします。\r\n先生から、\r\n「これ計算して」\r\n「次これ調べて」\r\n「今度これ判断して」\r\nと言われても、\r\nかなり器用に対応できる。\r\n一方GPUは、\r\n一人の天才というより、\r\n教室いっぱいの生徒に、同じような問題を一気に配る\r\nのが得意な感じです。\r\n「はい、この計算みんなで一斉にやって！」\r\nみたいな。\r\nで、AIって実は、\r\nこういう大量の計算をものすごい勢いで繰り返すので、\r\nGPUとめちゃくちゃ相性が良かった。\r\nだから、元々はゲームの映像などで活躍していたGPUが、\r\n今ではAIの世界でも主役になっています。\r\nここまでは、\r\nAIは、大人数で、計算するのが得意な、GPUを使ってる\r\nくらいで大丈夫です。\r\n"
+      }
+    },
+    {
+      "id": "02",
+      "loss": 4.970986536796519,
+      "cacheIntegrity": true,
+      "characters": 604,
+      "zeroDurationCharacters": 300,
+      "longestZeroDurationRun": {
+        "time": 81.519,
+        "length": 59,
+        "text": "も調べていくと、\r\nむしろ、\r\n計算する場所までデータを運ぶこと自体が結構大変なんだ\r\nというのが見えてきました。\r\n"
+      }
+    },
+    {
+      "id": "03",
+      "loss": 4.780612174324367,
+      "cacheIntegrity": true,
+      "characters": 920,
+      "zeroDurationCharacters": 569,
+      "longestZeroDurationRun": {
+        "time": 81.599,
+        "length": 225,
+        "text": "\nこれ、\r\n画像で並べるとかなり面白いです。\r\n「でかっ」\r\nってなると思います。\r\n僕も最初、\r\n「いや、そんなデカくしていいの？」\r\nってなりました。\r\n普通なら小さく切り分けるところを、\r\nできるだけ巨大な一つとして使う。\r\nさっきの教室の話ですよね。\r\n教室をたくさん分けるのではなく、\r\n壁を取っ払って、\r\n一つのめちゃくちゃ大きな空間にする。\r\nそうすると、\r\n中にいる人同士でプリントを渡しやすくなる。\r\nつまりCerebrasって、\r"
+      }
+    },
+    {
+      "id": "04",
+      "loss": 4.573745463698329,
+      "cacheIntegrity": true,
+      "characters": 694,
+      "zeroDurationCharacters": 489,
+      "longestZeroDurationRun": {
+        "time": 123.17,
+        "length": 346,
+        "text": "\nこの話、\r\n半導体の作り方まで行くとまた一本分くらいあるので、\r\n今日はここまでにします。\r\nはい、寄り道から戻ってきました。\r\nで、これが前回のUltraFastにつながる。\r\n前回、\r\n「同じAIなのに、なんでこんなに速くなるんだ？」\r\nって話をしましたよね。\r\nその答えを追っていったら、\r\nモデルそのものではなく、\r\nAIを動かしているコンピューターの作り方が\r\n全然違った。\r\nということだったんです。\r\n僕はここが面白いと思っていて。\r\nAIって、\r\n「次のモデルはどれだけ賢くなる？」\r\nというところばかり注目されますけど、\r\n同じモデルでも、\r\n動かす環境を変えるだけで、\r\n体験がここまで変わる。\r\nだったら、\r\nAIの競争って、\r\nもうモデルだけの競争じゃないよね、\r\n"
+      }
+    },
+    {
+      "id": "05",
+      "loss": 4.568970819513668,
+      "cacheIntegrity": true,
+      "characters": 897,
+      "zeroDurationCharacters": 459,
+      "longestZeroDurationRun": {
+        "time": 28.959,
+        "length": 84,
+        "text": "\nAIを速く動かすなら、\r\n最初からAIのためのコンピューターを作ればいいじゃん\r\nという方向に進み始めている。\r\n前回話した、\r\nAI専用インフラという話ですね。\r\n"
+      }
+    }
+  ],
+  "protectedFiles": {
+    "count": 32,
+    "changed": []
+  }
+}

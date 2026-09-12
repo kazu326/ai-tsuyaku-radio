@@ -1,0 +1,23 @@
+{
+  "sourceOfTruth": "public/Episode2/6.mp3",
+  "referenceOnly": "script-06.txt",
+  "method": "ElevenLabs scribe_v2, Japanese, followed by forced alignment",
+  "edits": [
+    {
+      "from": "一つ",
+      "to": "1つ",
+      "count": 2
+    },
+    "Sentence line breaks only"
+  ],
+  "rawTextMatchesAfterPermittedEdits": true,
+  "audioDurationSeconds": 124.60408163265306,
+  "sttFirst": 0.26,
+  "sttLast": 124.46,
+  "manualFullListening": false,
+  "notes": [
+    "冒頭の言い直しを保持",
+    "まとめ。エンディング。も文字起こし結果のまま保持",
+    "STTとFAは同一サービスによるため独立した聴取検証ではない"
+  ]
+}

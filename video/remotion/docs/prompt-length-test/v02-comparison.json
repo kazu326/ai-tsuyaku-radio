@@ -1,0 +1,280 @@
+{
+  "summary": {
+    "blocks": 27,
+    "meanAbsoluteBoundaryDeltaMs": 318.3333333333333,
+    "maxAbsoluteBoundaryDeltaMs": 1099,
+    "note": "Timing difference is not accuracy. Human listening evaluation is required."
+  },
+  "rows": [
+    {
+      "block": 1,
+      "text": "最近、AIにうまく指示するには、長い文章を書かないといけない。",
+      "v01StartMs": 0,
+      "v02StartMs": 280,
+      "startDeltaMs": 280,
+      "v01EndMs": 4090,
+      "v02EndMs": 4169,
+      "endDeltaMs": 79
+    },
+    {
+      "block": 2,
+      "text": "そんなイメージ、ありませんか？",
+      "v01StartMs": 4240,
+      "v02StartMs": 4339,
+      "startDeltaMs": 99,
+      "v01EndMs": 5710,
+      "v02EndMs": 5729,
+      "endDeltaMs": 19
+    },
+    {
+      "block": 3,
+      "text": "条件を細かく書いて、例もたくさん入れて、禁止事項も並べて。",
+      "v01StartMs": 6280,
+      "v02StartMs": 6559,
+      "startDeltaMs": 279,
+      "v01EndMs": 10430,
+      "v02EndMs": 10449,
+      "endDeltaMs": 19
+    },
+    {
+      "block": 4,
+      "text": "なんとなく、長く書いた方がAIが賢くなる気がしますよね。",
+      "v01StartMs": 10800,
+      "v02StartMs": 11059,
+      "startDeltaMs": 259,
+      "v01EndMs": 14730,
+      "v02EndMs": 14829,
+      "endDeltaMs": 99
+    },
+    {
+      "block": 5,
+      "text": "でも、ここがちょっと面白いところです。",
+      "v01StartMs": 15620,
+      "v02StartMs": 15759,
+      "startDeltaMs": 139,
+      "v01EndMs": 17550,
+      "v02EndMs": 17650,
+      "endDeltaMs": 100
+    },
+    {
+      "block": 6,
+      "text": "AIにとって大事なのは、文章の長さそのものではありません。",
+      "v01StartMs": 17980,
+      "v02StartMs": 18199,
+      "startDeltaMs": 219,
+      "v01EndMs": 21670,
+      "v02EndMs": 21830,
+      "endDeltaMs": 160
+    },
+    {
+      "block": 7,
+      "text": "「何を目指しているのか」と、",
+      "v01StartMs": 22380,
+      "v02StartMs": 22699,
+      "startDeltaMs": 319,
+      "v01EndMs": 24030,
+      "v02EndMs": 24449,
+      "endDeltaMs": 419
+    },
+    {
+      "block": 8,
+      "text": "「判断するために何を知っておく必要があるのか」です。",
+      "v01StartMs": 24220,
+      "v02StartMs": 24559,
+      "startDeltaMs": 339,
+      "v01EndMs": 27710,
+      "v02EndMs": 27849,
+      "endDeltaMs": 139
+    },
+    {
+      "block": 9,
+      "text": "ちょっと旅行で例えてみますね。",
+      "v01StartMs": 28460,
+      "v02StartMs": 28760,
+      "startDeltaMs": 300,
+      "v01EndMs": 30630,
+      "v02EndMs": 30989,
+      "endDeltaMs": 359
+    },
+    {
+      "block": 10,
+      "text": "友だちに、「いい感じの温泉に連れていって」",
+      "v01StartMs": 30640,
+      "v02StartMs": 31079,
+      "startDeltaMs": 439,
+      "v01EndMs": 33540,
+      "v02EndMs": 33749,
+      "endDeltaMs": 209
+    },
+    {
+      "block": 11,
+      "text": "だけだと、さすがに困ります。",
+      "v01StartMs": 33540,
+      "v02StartMs": 33979,
+      "startDeltaMs": 439,
+      "v01EndMs": 35670,
+      "v02EndMs": 35789,
+      "endDeltaMs": 119
+    },
+    {
+      "block": 12,
+      "text": "でも、「静かな温泉で、東京から日帰り。",
+      "v01StartMs": 36200,
+      "v02StartMs": 36459,
+      "startDeltaMs": 259,
+      "v01EndMs": 39770,
+      "v02EndMs": 39609,
+      "endDeltaMs": -161
+    },
+    {
+      "block": 13,
+      "text": "できれば人が少ないところ」",
+      "v01StartMs": 39780,
+      "v02StartMs": 40000,
+      "startDeltaMs": 220,
+      "v01EndMs": 41490,
+      "v02EndMs": 41629,
+      "endDeltaMs": 139
+    },
+    {
+      "block": 14,
+      "text": "まで分かれば、かなり探しやすくなります。",
+      "v01StartMs": 41840,
+      "v02StartMs": 41939,
+      "startDeltaMs": 99,
+      "v01EndMs": 44350,
+      "v02EndMs": 45209,
+      "endDeltaMs": 859
+    },
+    {
+      "block": 15,
+      "text": "逆に、服装や朝ごはんや昨日見たテレビの話まで全部渡しても、",
+      "v01StartMs": 45060,
+      "v02StartMs": 45360,
+      "startDeltaMs": 300,
+      "v01EndMs": 49510,
+      "v02EndMs": 49949,
+      "endDeltaMs": 439
+    },
+    {
+      "block": 16,
+      "text": "温泉探しにはあまり関係ありません。",
+      "v01StartMs": 49740,
+      "v02StartMs": 50000,
+      "startDeltaMs": 260,
+      "v01EndMs": 52150,
+      "v02EndMs": 53020,
+      "endDeltaMs": 870
+    },
+    {
+      "block": 17,
+      "text": "AIも似ています。",
+      "v01StartMs": 52780,
+      "v02StartMs": 53020,
+      "startDeltaMs": 240,
+      "v01EndMs": 53910,
+      "v02EndMs": 54129,
+      "endDeltaMs": 219
+    },
+    {
+      "block": 18,
+      "text": "ここ、一回整理しますね。",
+      "v01StartMs": 54960,
+      "v02StartMs": 55159,
+      "startDeltaMs": 199,
+      "v01EndMs": 56370,
+      "v02EndMs": 57389,
+      "endDeltaMs": 1019
+    },
+    {
+      "block": 19,
+      "text": "大事なのは、たくさん指示することではなく、",
+      "v01StartMs": 57060,
+      "v02StartMs": 57539,
+      "startDeltaMs": 479,
+      "v01EndMs": 60170,
+      "v02EndMs": 60670,
+      "endDeltaMs": 500
+    },
+    {
+      "block": 20,
+      "text": "目的と、必要な情報をちゃんと共有すること。",
+      "v01StartMs": 60360,
+      "v02StartMs": 60840,
+      "startDeltaMs": 480,
+      "v01EndMs": 64270,
+      "v02EndMs": 64449,
+      "endDeltaMs": 179
+    },
+    {
+      "block": 21,
+      "text": "そして最初から完璧に伝えようとしなくても大丈夫です。",
+      "v01StartMs": 64840,
+      "v02StartMs": 65119,
+      "startDeltaMs": 279,
+      "v01EndMs": 68310,
+      "v02EndMs": 69169,
+      "endDeltaMs": 859
+    },
+    {
+      "block": 22,
+      "text": "一度やってもらって、",
+      "v01StartMs": 68880,
+      "v02StartMs": 69239,
+      "startDeltaMs": 359,
+      "v01EndMs": 70060,
+      "v02EndMs": 70469,
+      "endDeltaMs": 409
+    },
+    {
+      "block": 23,
+      "text": "「ここは違う」「こっちはいい」と返していけば、",
+      "v01StartMs": 70060,
+      "v02StartMs": 70519,
+      "startDeltaMs": 459,
+      "v01EndMs": 73150,
+      "v02EndMs": 73459,
+      "endDeltaMs": 309
+    },
+    {
+      "block": 24,
+      "text": "だんだん狙っている方向に近づけられます。",
+      "v01StartMs": 73360,
+      "v02StartMs": 73459,
+      "startDeltaMs": 99,
+      "v01EndMs": 75770,
+      "v02EndMs": 76869,
+      "endDeltaMs": 1099
+    },
+    {
+      "block": 25,
+      "text": "AIへの指示は、長さ勝負ではありません。",
+      "v01StartMs": 76720,
+      "v02StartMs": 76939,
+      "startDeltaMs": 219,
+      "v01EndMs": 79290,
+      "v02EndMs": 79449,
+      "endDeltaMs": 159
+    },
+    {
+      "block": 26,
+      "text": "一緒に目的地を共有して、必要な情報を渡しながら進める。",
+      "v01StartMs": 79940,
+      "v02StartMs": 80259,
+      "startDeltaMs": 319,
+      "v01EndMs": 84450,
+      "v02EndMs": 85099,
+      "endDeltaMs": 649
+    },
+    {
+      "block": 27,
+      "text": "まずはこのくらいのイメージで大丈夫です。",
+      "v01StartMs": 84880,
+      "v02StartMs": 85099,
+      "startDeltaMs": 219,
+      "v01EndMs": 87249,
+      "v02EndMs": 87249,
+      "endDeltaMs": 0
+    }
+  ]
+}

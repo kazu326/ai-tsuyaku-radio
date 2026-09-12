@@ -1,0 +1,22 @@
+import "./index.css";
+import { MyComposition } from "./Composition";
+import { AgentComposition } from "./agent/AgentEpisode";
+import { PromptLengthComposition } from "./prompt-length/PromptLengthTest";
+
+import { PromptLengthCompositionV02 } from "./prompt-length/PromptLengthTestV02";
+
+import { PromptLengthCompositionV03 } from "./prompt-length/PromptLengthTestV03";
+import { Episode2MainComposition } from "./episode2/Episode2Main";
+
+export const RemotionRoot: React.FC = () => {
+  return (
+    <>
+      <MyComposition />
+      <AgentComposition />
+      <PromptLengthComposition />
+      <PromptLengthCompositionV02 />
+      <PromptLengthCompositionV03 />
+      <Episode2MainComposition />
+    </>
+  );
+};

@@ -1,0 +1,11 @@
+{
+  "audioSha256": "ca53ef7067b16edf9a1c1f1b5caaa493184473c2f5aa8525381c3287cfd53f4d",
+  "textSha256": "5435e987a51d64a7005baea6ef97209c31dc9730fbebd829072a20b295f426a4",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "audioPath": "public/test-90s.mp3",
+  "textPath": "docs/prompt-length-test/accepted.txt",
+  "createdAt": "2026-09-07T04:40:00.191Z",
+  "elapsedMs": 1753,
+  "apiCalls": 1,
+  "responseSha256": "5bdbd9982453e1f196f35c05a9fd414a6747b563fd76c35ca742cfe2bab91cfb"
+}

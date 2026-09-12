@@ -1,0 +1,8 @@
+[
+  {"id":"cpu-gpu","kind":"jobs","startSeconds":105.467,"endSeconds":154.232,"enabled":true},
+  {"id":"classrooms-main","kind":"classrooms","startSeconds":154.232,"endSeconds":278.860,"enabled":true},
+  {"id":"wafer-size","kind":"wafer","startSeconds":278.860,"endSeconds":327.780,"enabled":true},
+  {"id":"classrooms-reprise","kind":"classrooms","startSeconds":332.370,"endSeconds":362.207,"enabled":true},
+  {"id":"defect-bypass","kind":"bypass","startSeconds":389.247,"endSeconds":414.386,"enabled":true},
+  {"id":"classrooms-summary","kind":"classrooms","startSeconds":514.713,"endSeconds":548.233,"enabled":true}
+]

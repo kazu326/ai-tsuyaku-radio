@@ -1,0 +1,12 @@
+{
+  "v03Failures": 0,
+  "captions": 97,
+  "oneLine": 71,
+  "twoLines": 26,
+  "overlaps": 29,
+  "durationFrames": 13945,
+  "existingFileChanges": [
+    "src\\Root.tsx"
+  ],
+  "rendered": false
+}

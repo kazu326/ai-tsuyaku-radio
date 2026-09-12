@@ -1,0 +1,17 @@
+{
+  "changedExistingEpisodeFiles": [
+    "src\\episode2\\Episode2Slides.tsx"
+  ],
+  "artworkAndEmphasisUnchanged": true,
+  "sequencesUnchanged": true,
+  "photoUnchanged": true,
+  "entryPanelFrames": 8,
+  "entryContentFrames": 6,
+  "exitContentFrames": 6,
+  "exitPanelFrames": 8,
+  "lint": "PASS, 3 existing warnings",
+  "tsc": "PASS",
+  "compositionLoad": "PASS",
+  "rendered": false,
+  "humanMotionReview": "pending"
+}

@@ -1,0 +1,261 @@
+[
+  {
+    "text": "最近、「AIエージェント」という言葉をよく聞きます。",
+    "startMs": 0,
+    "endMs": 3640,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、いつものAIと、何が違うんでしょうか。",
+    "startMs": 3920,
+    "endMs": 7460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今日は、会議室を探す場面で考えてみます。",
+    "startMs": 7800,
+    "endMs": 11040,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIに「会議室を探すコツを教えて」と聞くと、",
+    "startMs": 11400,
+    "endMs": 14900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "人数や予算を決めましょう、と答えてくれます。",
+    "startMs": 14900,
+    "endMs": 18220,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "その答えを読んで、実際に探すのは自分です。",
+    "startMs": 18220,
+    "endMs": 21860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "では、こんなふうに頼めたらどうでしょう。",
+    "startMs": 22200,
+    "endMs": 24480,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "「来週火曜の午後、駅から近くて、六人が入れる",
+    "startMs": 25060,
+    "endMs": 28800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "会議室を、予算内で三つ探して」",
+    "startMs": 28800,
+    "endMs": 31400,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "条件に合う候補を見つけるところまで、作業を任せる。",
+    "startMs": 32160,
+    "endMs": 35820,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここから、AIエージェントのイメージが見えてきます。",
+    "startMs": 35820,
+    "endMs": 39260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "例えば、会議室の検索サービスを使えるAIなら、",
+    "startMs": 40080,
+    "endMs": 43320,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "まず、日時や人数を入れて空きを調べます。",
+    "startMs": 43320,
+    "endMs": 46900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "次に、見つかった部屋の料金や、駅からの距離を比べます。",
+    "startMs": 47160,
+    "endMs": 51180,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、安い部屋を見つけても、四人しか入れなかった。",
+    "startMs": 51580,
+    "endMs": 54900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それなら、この部屋は候補から外して、もう一度探す。",
+    "startMs": 55260,
+    "endMs": 59100,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "条件に合う部屋が三つそろったら、違いをまとめて知らせる。",
+    "startMs": 59460,
+    "endMs": 63520,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "もし候補が足りなければ、",
+    "startMs": 63520,
+    "endMs": 65540,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "「駅から少し離れてもいいですか」と、人に聞くこともできます。",
+    "startMs": 65540,
+    "endMs": 70020,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "勝手に予算を上げる必要はありません。",
+    "startMs": 70280,
+    "endMs": 72740,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここで大事なのは、ただ検索できることではありません。",
+    "startMs": 73140,
+    "endMs": 76800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "目的に向けて、次に何をするかを選ぶ。",
+    "startMs": 77080,
+    "endMs": 80200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "検索などの道具を使う。",
+    "startMs": 80560,
+    "endMs": 82620,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "返ってきた結果を見て、次の作業を決める。",
+    "startMs": 82620,
+    "endMs": 85920,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "この繰り返しで、仕事を進める仕組みが、今回お話ししているAIエージェントです。",
+    "startMs": 86140,
+    "endMs": 91620,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "決まった順番をそのまま実行する自動処理もありますが、",
+    "startMs": 92000,
+    "endMs": 95560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "この例では、「条件に合わなかったから探し直す」と、",
+    "startMs": 95560,
+    "endMs": 99540,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "結果に応じて進め方を選んでいます。",
+    "startMs": 99540,
+    "endMs": 102380,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "見た目がチャットでも、こうした作業を進める仕組みは作れます。",
+    "startMs": 102800,
+    "endMs": 106780,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ただし、何でも正しく、最後まで任せられるわけではありません。",
+    "startMs": 107080,
+    "endMs": 111360,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "料金を読み違えたり、条件を見落としたりすることもあります。",
+    "startMs": 111720,
+    "endMs": 115800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "使える道具や、与えられた権限によって、できることも変わります。",
+    "startMs": 116240,
+    "endMs": 120640,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "だから今回なら、候補探しは任せて、予約の前には人が確認する。",
+    "startMs": 121100,
+    "endMs": 126180,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "どこまで任せるかを決めておくと、使い方が具体的になります。",
+    "startMs": 126560,
+    "endMs": 131000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIエージェントは、目的に向けて、道具を使い、結果を見ながら作業を進める仕組み。",
+    "startMs": 131460,
+    "endMs": 137660,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "次にこの言葉を聞いたら、「何を任せられて、どこで人が確認するんだろう」と考えてみてください。",
+    "startMs": 137660,
+    "endMs": 144360,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "少し、実像が見えやすくなるはずです。",
+    "startMs": 144680,
+    "endMs": 147420,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "old97CaptionsExact": true,
+  "oldFiveSegmentsExact": true,
+  "sixthV03ExactlyOnce": true,
+  "sixthFullText": true,
+  "sixthMaxLineCharacters": 28,
+  "sixthMaxLines": 2,
+  "frames": 17684,
+  "seconds": 589.4666666666667,
+  "changedExistingFiles": [
+    "src\\episode2\\captions.json",
+    "src\\episode2\\Episode2Main.tsx",
+    "src\\episode2\\timeline.json"
+  ],
+  "compositionLoad": "PASS: all six registered compositions",
+  "lint": "PASS: eslint+tsc; 3 pre-existing warnings in src/Composition.tsx",
+  "renderPerformed": false,
+  "cues": [
+    {
+      "id": "cpu-gpu",
+      "kind": "jobs",
+      "startSeconds": 105.467,
+      "endSeconds": 154.232,
+      "enabled": true,
+      "from": 3164,
+      "endExclusive": 4627
+    },
+    {
+      "id": "classrooms-main",
+      "kind": "classrooms",
+      "startSeconds": 154.232,
+      "endSeconds": 278.86,
+      "enabled": true,
+      "from": 4627,
+      "endExclusive": 8366
+    },
+    {
+      "id": "wafer-size",
+      "kind": "wafer",
+      "startSeconds": 278.86,
+      "endSeconds": 327.78,
+      "enabled": true,
+      "from": 8366,
+      "endExclusive": 9833
+    },
+    {
+      "id": "classrooms-reprise",
+      "kind": "classrooms",
+      "startSeconds": 332.37,
+      "endSeconds": 362.207,
+      "enabled": true,
+      "from": 9971,
+      "endExclusive": 10866
+    },
+    {
+      "id": "defect-bypass",
+      "kind": "bypass",
+      "startSeconds": 389.247,
+      "endSeconds": 414.386,
+      "enabled": true,
+      "from": 11677,
+      "endExclusive": 12432
+    },
+    {
+      "id": "classrooms-summary",
+      "kind": "classrooms",
+      "startSeconds": 514.713,
+      "endSeconds": 548.233,
+      "enabled": true,
+      "from": 15441,
+      "endExclusive": 16447
+    }
+  ]
+}

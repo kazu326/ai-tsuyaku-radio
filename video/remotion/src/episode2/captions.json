@@ -1,0 +1,863 @@
+[
+  {
+    "text": "Cerebrasって結局何がそんなに速いの？",
+    "startMs": 0,
+    "endMs": 3480,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "どうもこんにちは。",
+    "startMs": 4200,
+    "endMs": 5339,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "前回はOpenAIが発表したUltra Fastについて話しました。",
+    "startMs": 5899,
+    "endMs": 10439,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "GPT 5.6ソルを最大で通常の14倍、1秒当たり最大750トークンで動かす。",
+    "startMs": 11080,
+    "endMs": 19039,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "いや、普通に速すぎるんですけど。",
+    "startMs": 19579,
+    "endMs": 22059,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "で、前回その裏側で出てきたのがCerebrasという会社です。",
+    "startMs": 22419,
+    "endMs": 27819,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "「Cerebrasのハードウェアを使って高速化しています」って言われて、",
+    "startMs": 27519,
+    "endMs": 32540,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "僕も最初は「へー、\nすごいコンピューター作ってる会社なんだ」くらいだったんですよ。",
+    "startMs": 32459,
+    "endMs": 37979,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、ちょっと気になって調べてみたら、\n「あ、これ面白いな」ってなったんですよね。",
+    "startMs": 38720,
+    "endMs": 44419,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "というのも、Cerebrasがやっていることって、めちゃくちゃざっくり言うと、",
+    "startMs": 45099,
+    "endMs": 50579,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今まで小さく切って使っていたものを\nものすごく大きなまま使おうという発想なんです。",
+    "startMs": 50519,
+    "endMs": 56840,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "最初見た時、「いや、それで速くなるならみんなやれば良くない？」",
+    "startMs": 57880,
+    "endMs": 62540,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "って思ったんですけど、当然そんな簡単な話じゃない。",
+    "startMs": 62659,
+    "endMs": 66680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今日はこの辺をなるべく難しい言葉を使わずに話してみたいと思います。",
+    "startMs": 67319,
+    "endMs": 72379,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そもそもなんでAIにGPUを使ってるの？",
+    "startMs": 72345.66666666667,
+    "endMs": 76966.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "まず、Cerebrasの前にGPUの話をほんの少しだけさせてください。",
+    "startMs": 76765.66666666667,
+    "endMs": 81445.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "これ、知らなくてもChatGPTは普通に使えるので、\n普段は全然気にしなくていいんです。",
+    "startMs": 82046.66666666667,
+    "endMs": 87225.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Cerebrasが何を変えたのかを見るには、\nここだけ知っておくと一気にわかりやすくなります。",
+    "startMs": 87705.66666666667,
+    "endMs": 93185.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "パソコンにはCPUというものがあります。",
+    "startMs": 93785.66666666667,
+    "endMs": 96365.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "で、GPUというものもあります。",
+    "startMs": 97025.66666666667,
+    "endMs": 99985.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それから、名前は覚えなくても大丈夫です。",
+    "startMs": 99805.66666666667,
+    "endMs": 102645.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ちょっと学校で例えてみますね。",
+    "startMs": 102825.66666666667,
+    "endMs": 104685.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "CPUが1人でものすごくいろんな仕事ができる優秀な委員長だとします。",
+    "startMs": 105166.66666666667,
+    "endMs": 110065.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "先生から「これ計算して、次これ調べて、\n今度これ判断して」と言われても、かなり器用に対応できる。",
+    "startMs": 110565.66666666667,
+    "endMs": 117745.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "一方、GPUは1人の天才というより、\n教室いっぱいの生徒に同じような問題を一気に配るのが得意な感じです。",
+    "startMs": 118405.66666666667,
+    "endMs": 127145.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "「はい、この計算みんなで一斉にやって」みたいな。",
+    "startMs": 126845.66666666667,
+    "endMs": 130745.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "で、AIって実はこういう大量の計算をものすごい勢いで繰り返すので、\nGPUとめちゃくちゃ相性が良かった。",
+    "startMs": 130585.66666666667,
+    "endMs": 139385.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "だから、もともとはゲームの映像などで活躍していたGPUが、\n今ではAIの世界でも主役になっています。",
+    "startMs": 139206.6666666667,
+    "endMs": 147305.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここまでは、AIは大人数で計算するのが得意なGPUを\n使ってるくらいで大丈夫です。",
+    "startMs": 147145.6666666667,
+    "endMs": 153925.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "じゃあGPUをいっぱい増やせばもっと速くなる？",
+    "startMs": 153932.33333333334,
+    "endMs": 157892.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここで僕が次に思ったのが、\n「だったらGPUいっぱい並べればいいじゃん」なんですよ。",
+    "startMs": 158713.33333333334,
+    "endMs": 164112.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "実際、今のAIってものすごい数のGPUを使っています。",
+    "startMs": 164792.33333333334,
+    "endMs": 168872.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "学校で言えば、1つの教室で足りなければ隣にも教室を作る。",
+    "startMs": 169412.33333333334,
+    "endMs": 173713.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "さらに隣にも作る。",
+    "startMs": 173952.33333333334,
+    "endMs": 175512.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "生徒が100人で足りないなら1000人、1万人と増やしていけばいい。",
+    "startMs": 175872.33333333334,
+    "endMs": 180112.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "これ普通に速くなりそうですよね。",
+    "startMs": 180312.33333333334,
+    "endMs": 182392.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でもここで別の問題が出てきます。",
+    "startMs": 183672.33333333334,
+    "endMs": 186092.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "教室が分かれてるんです。",
+    "startMs": 186832.33333333334,
+    "endMs": 188592.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "例えば、隣の教室にいる人へプリントを渡したいとします。",
+    "startMs": 189392.33333333334,
+    "endMs": 193272.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "同じ机なら「はい」で終わりますよね。",
+    "startMs": 193753.33333333334,
+    "endMs": 196972.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、別の教室だったら、1回席を立って廊下に出て、\n隣の教室まで持っていかないといけない。",
+    "startMs": 196792.33333333334,
+    "endMs": 203292.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIでも似たようなことが起きます。",
+    "startMs": 204112.33333333334,
+    "endMs": 207032.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "計算自体はめちゃくちゃ速い。",
+    "startMs": 206992.33333333334,
+    "endMs": 209172.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、計算に必要なデータを別の場所から持ってきたり、\n別の計算場所へ渡したりする必要がある。",
+    "startMs": 208992.33333333334,
+    "endMs": 215872.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "つまり、計算する速さだけじゃなくて、データを運ぶ速さも重要になってくる。",
+    "startMs": 215692.33333333334,
+    "endMs": 221412.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここなんですよね。",
+    "startMs": 221252.33333333334,
+    "endMs": 222933.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "僕は最初、AIの高速化って単純にもっと計算が速いチップを作る\n話だと思ってたんです。",
+    "startMs": 222832.33333333334,
+    "endMs": 229892.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも調べていくと、むしろ計算する場所までデータを運ぶこと自体が\n結構大変なんだというのが見えてきました。",
+    "startMs": 229712.33333333334,
+    "endMs": 236812.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "セレブラスは壁を取っ払った。",
+    "startMs": 236760,
+    "endMs": 239400,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "で、ここでセレブラスです。",
+    "startMs": 241020,
+    "endMs": 242980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "さっきの学校で言うと、普通は教室がいくつも分かれていました。",
+    "startMs": 243540,
+    "endMs": 247640,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "だったらセレブラスはどうしたのか。",
+    "startMs": 248160,
+    "endMs": 250300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "めちゃくちゃざっくり言うと、もう教室の壁取っ払っちゃえばよくない？",
+    "startMs": 250780,
+    "endMs": 255160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "っていう方向に行ったんです。",
+    "startMs": 255220,
+    "endMs": 256860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "これ、かなり力技に聞こえますよね。",
+    "startMs": 257500,
+    "endMs": 259720,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、壁がなければ隣の人にプリントを渡すの楽じゃないですか。",
+    "startMs": 260200,
+    "endMs": 264640,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "わざわざ廊下に出て、別の教室まで持っていかなくていい。",
+    "startMs": 265240,
+    "endMs": 268700,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "必要なものをできるだけ近い場所でやり取りできる。",
+    "startMs": 269540,
+    "endMs": 272940,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "セレブラスが狙っていることも、まずはこのイメージでいいと思います。",
+    "startMs": 273540,
+    "endMs": 277260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "実物を見るとちょっと笑うくらい大きい。",
+    "startMs": 278560,
+    "endMs": 281160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここは音だけより1回画像を見てもらった方が早いです。",
+    "startMs": 281560,
+    "endMs": 285240,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "半導体って最初は大きな丸い板の上に作るんですよ。",
+    "startMs": 286460,
+    "endMs": 290880,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "これをウェハと呼びます。",
+    "startMs": 290640,
+    "endMs": 292360,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "英語ではお菓子のウェハースも同じwaferです。",
+    "startMs": 293270,
+    "endMs": 296780,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "で、普通はこの大きな板の上に小さなチップをたくさん作って、\n最後に切り分けて使います。",
+    "startMs": 297580,
+    "endMs": 303680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "例えば、AIでよく使われてきたNVIDIAのH100というGPU。",
+    "startMs": 304280,
+    "endMs": 309420,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "中の計算するチップ部分はざっくり3センチ四方くらいです。",
+    "startMs": 310220,
+    "endMs": 314280,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "これに対してセレブラスは20センチを超えるような\nとんでもなく巨大な1枚のチップを作っています。",
+    "startMs": 315100,
+    "endMs": 321540,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "これ、画像で並べるとかなり面白いです。",
+    "startMs": 322480,
+    "endMs": 325020,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "デカってなると思います。",
+    "startMs": 325300,
+    "endMs": 326980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "僕も最初、いや、そんなデカくしていいの？",
+    "startMs": 327480,
+    "endMs": 330380,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ってなりました。",
+    "startMs": 330110,
+    "endMs": 330980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "普通なら小さく切り分けるところをできるだけ巨大な1つとして使う。",
+    "startMs": 332070,
+    "endMs": 336560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "さっきの教室の話ですよね。",
+    "startMs": 336940,
+    "endMs": 338760,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "教室をたくさん分けるのではなく、\n壁を取っ払って1つのめちゃくちゃ大きな空間にする。",
+    "startMs": 339500,
+    "endMs": 345460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そうすると、中にいる人同士でプリントを渡しやすくなる。",
+    "startMs": 345960,
+    "endMs": 349460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "つまりセレブラスって、\nただ巨大なチップを作りましたというのが面白いんじゃなくて、",
+    "startMs": 350100,
+    "endMs": 355160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "巨大にすることでAIが使うデータを近い場所で動かせるようにした、\nここが面白いんです。",
+    "startMs": 355540,
+    "endMs": 361840,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でもそんなでかいの作ったら壊れない？",
+    "startMs": 361906.6666666667,
+    "endMs": 367805.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "で、ここで僕がもう1個思ったのが、「そんなにでかいチップって\n作る途中でちょっと失敗したら全部アウトじゃないの？」",
+    "startMs": 367625.6666666667,
+    "endMs": 377905.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "なんですよ。",
+    "startMs": 378165.6666666667,
+    "endMs": 378925.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "普通そう思いますよね。",
+    "startMs": 379325.6666666667,
+    "endMs": 380685.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "これ、実際ウェハくらいのサイズで1つのチップを作る時の\n大きな問題だったみたいです。",
+    "startMs": 381366.6666666667,
+    "endMs": 388225.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ちょっとだけ寄り道すると、セレブラスは絶対に傷のない\n完璧なものを作ろうという方向ではなくて、",
+    "startMs": 388946.6666666667,
+    "endMs": 396325.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "一部に問題があってもそこを避けて動けばいいという作り方をしています。",
+    "startMs": 396946.6666666667,
+    "endMs": 401625.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "道路で工事していたら、そこだけ避けて隣の道を通るみたいな感じです。",
+    "startMs": 402345.6666666667,
+    "endMs": 407485.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "これで今まで難しかった巨大なチップを実際に使えるものにした。",
+    "startMs": 407985.6666666667,
+    "endMs": 414246.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "この話、半導体の作り方までいくとまた1本分くらいあるので、\n今日はここまでにします。",
+    "startMs": 414085.6666666667,
+    "endMs": 421825.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "はい、寄り道から戻ってきました。",
+    "startMs": 421585.6666666667,
+    "endMs": 424325.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "で、これが前回のウルトラファストにつながる。",
+    "startMs": 424165.6666666667,
+    "endMs": 428605.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "前回、同じAIなのに、なんでこんなに速くなるんだって話をしましたよね。",
+    "startMs": 428605.6666666667,
+    "endMs": 434485.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "その答えを追っていったら、モデルそのものではなく、",
+    "startMs": 434346.6666666667,
+    "endMs": 438005.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIを動かしているコンピューターの作り方が全然違ったということだったんです。",
+    "startMs": 437965.6666666667,
+    "endMs": 444246.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "僕はここが面白いと思っていて。",
+    "startMs": 444205.6666666667,
+    "endMs": 446365.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIって次のモデルはどれだけ賢くなる？",
+    "startMs": 446885.6666666667,
+    "endMs": 450466.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "というところばかり注目されますけど、\n同じモデルでも動かす環境を変えるだけで体験がここまで変わる。",
+    "startMs": 450205.6666666667,
+    "endMs": 458545.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "だったら、AIの競争ってもうモデルだけの競争じゃないよね\nという話になってきます。",
+    "startMs": 458385.6666666667,
+    "endMs": 464786.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここからは僕の解釈です。",
+    "startMs": 464793.3333333333,
+    "endMs": 466713.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここからはちょっと僕の解釈なんです\nけど、Cerebrasを見ていると、",
+    "startMs": 467393.3333333333,
+    "endMs": 471913.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今までコンピューター側にAIを合わせていたもの\nが逆になってきている感じがするんですよね。",
+    "startMs": 472093.3333333333,
+    "endMs": 477933.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今まではすでにあるCPUやGPUやサーバーを使\nって、この上でAIをどう動かそうと考えていた。",
+    "startMs": 478733.3333333333,
+    "endMs": 486793.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも今はAIを早く動かすなら、最初からAIのためのコンピ\nューターを作ればいいじゃんという方向に進み始めている。",
+    "startMs": 487253.3333333333,
+    "endMs": 495813.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "前回話したAI専用インフラという話ですね。",
+    "startMs": 496273.3333333333,
+    "endMs": 499773.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Cerebrasはそのかなりわかりやすい例だと思います。",
+    "startMs": 500493.3333333333,
+    "endMs": 503933.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "まとめ。",
+    "startMs": 505593.3333333333,
+    "endMs": 506293.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "エンディング。",
+    "startMs": 506433.3333333333,
+    "endMs": 507333.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ということで、今回はCerebras\nについて話してみました。",
+    "startMs": 508173.3333333333,
+    "endMs": 511473.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Cerebrasって何がそんなに特殊なの？",
+    "startMs": 512093.3333333333,
+    "endMs": 514653.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "というと、僕はまず、今まで小さく切り分けていた\n計算場所をものすごく大きく1つにまとめた会社",
+    "startMs": 514413.3333333333,
+    "endMs": 522673.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "くらいで覚えておけばいいと思います。",
+    "startMs": 522373.3333333333,
+    "endMs": 524613.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "学校で言うなら、教室を増やし続けるのでは\nなく、壁を取っ払って巨大な1つの教室にした。",
+    "startMs": 525413.3333333333,
+    "endMs": 531893.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そうすれば、隣の人へプリントを渡しやすい。",
+    "startMs": 532433.3333333333,
+    "endMs": 535553.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIも計算だけ早ければいいわけじゃなくて、その計算に必要\nなデータをどれだけ早く近くで動かせるかが重要だった。",
+    "startMs": 536233.3333333333,
+    "endMs": 544713.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "だからCerebrasは早い。",
+    "startMs": 545273.3333333333,
+    "endMs": 548073.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここまでわかれば、前回のUltra Fastがなぜ\nただのモデル高速化のニュースじゃなかったのかも",
+    "startMs": 547933.3333333333,
+    "endMs": 554453.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "少し見え方が変わってくると思います。",
+    "startMs": 554153.3333333333,
+    "endMs": 556473.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "で、このCerebrasの巨大なチップなんですけど、当然\nCerebrasだけで全部作っているわけではありません。",
+    "startMs": 557333.3333333333,
+    "endMs": 563833.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "実際に半導体を作る会社があって、そのための製造\n装置があって、材料があって、検査する会社がある。",
+    "startMs": 564553.3333333333,
+    "endMs": 571713.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここを調べ始めたら、また面白いことが出てきました。",
+    "startMs": 572473.3333333333,
+    "endMs": 575773.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "日本の会社めちゃくちゃいるんですよ。",
+    "startMs": 576533.3333333333,
+    "endMs": 578713.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "なので次回は、実は日本、今でも\n半導体王国って知ってました？",
+    "startMs": 579493.3333333333,
+    "endMs": 584733.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "この辺を話してみたいと思います。",
+    "startMs": 584513.3333333333,
+    "endMs": 586593.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それでは今回はこの辺で。",
+    "startMs": 587533.3333333333,
+    "endMs": 589293.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

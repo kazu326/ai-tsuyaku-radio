@@ -1,0 +1,182 @@
+{
+  "a1.mp4": {
+    "r_frame_rate": "24000/1001",
+    "duration": "11.428083",
+    "nb_frames": "274"
+  },
+  "a10.mp4": {
+    "r_frame_rate": "60/1",
+    "duration": "60.000000",
+    "nb_frames": "3600"
+  },
+  "a11.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "59.633333",
+    "nb_frames": "1789"
+  },
+  "a2.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "29.900000",
+    "nb_frames": "897"
+  },
+  "a3.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "28.000000",
+    "nb_frames": "840"
+  },
+  "a4.mp4": {
+    "r_frame_rate": "60/1",
+    "duration": "38.783333",
+    "nb_frames": "2327"
+  },
+  "a5.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "21.166667",
+    "nb_frames": "635"
+  },
+  "a6.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "21.800000",
+    "nb_frames": "654"
+  },
+  "a7.mp4": {
+    "r_frame_rate": "60/1",
+    "duration": "60.233333",
+    "nb_frames": "3614"
+  },
+  "a8.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_frames": "900"
+  },
+  "a9.mp4": {
+    "r_frame_rate": "30000/1001",
+    "duration": "59.991667",
+    "nb_frames": "1798"
+  },
+  "b1.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "30.000000",
+    "nb_frames": "900"
+  },
+  "b10.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "117.133333",
+    "nb_frames": "3514"
+  },
+  "b2.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "15.066667",
+    "nb_frames": "452"
+  },
+  "b3.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "20.000000",
+    "nb_frames": "600"
+  },
+  "b4.mp4": {
+    "r_frame_rate": "24/1",
+    "duration": "108.000000",
+    "nb_frames": "2592"
+  },
+  "b5.mp4": {
+    "r_frame_rate": "24000/1001",
+    "duration": "56.723333",
+    "nb_frames": "1360"
+  },
+  "b6.mp4": {
+    "r_frame_rate": "30000/1001",
+    "duration": "24.190833",
+    "nb_frames": "725"
+  },
+  "b7.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "59.633333",
+    "nb_frames": "1789"
+  },
+  "b8.mp4": {
+    "r_frame_rate": "24/1",
+    "duration": "25.041667",
+    "nb_frames": "601"
+  },
+  "b9.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "59.633333",
+    "nb_frames": "1789"
+  },
+  "c1.mp4": {
+    "r_frame_rate": "50/1",
+    "duration": "20.000000",
+    "nb_frames": "1000"
+  },
+  "c2.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "21.000000",
+    "nb_frames": "630"
+  },
+  "c3.mp4": {
+    "r_frame_rate": "24/1",
+    "duration": "15.041667",
+    "nb_frames": "361"
+  },
+  "c4.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "14.700000",
+    "nb_frames": "441"
+  },
+  "c5.mp4": {
+    "r_frame_rate": "24/1",
+    "duration": "15.041667",
+    "nb_frames": "361"
+  },
+  "c6.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "28.000000",
+    "nb_frames": "840"
+  },
+  "c7.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "29.966667",
+    "nb_frames": "899"
+  },
+  "c8.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "15.866667",
+    "nb_frames": "476"
+  },
+  "cat1.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "26.433333",
+    "nb_frames": "793"
+  },
+  "cat2.mp4": {
+    "r_frame_rate": "30000/1001",
+    "duration": "30.463333",
+    "nb_frames": "913"
+  },
+  "cat3.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "30.066667",
+    "nb_frames": "902"
+  },
+  "cpu1.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "12.000000",
+    "nb_frames": "360"
+  },
+  "gpu1.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "15.000000",
+    "nb_frames": "450"
+  },
+  "gpu2.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "6.400000",
+    "nb_frames": "192"
+  },
+  "server1.mp4": {
+    "r_frame_rate": "30/1",
+    "duration": "12.800000",
+    "nb_frames": "384"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "changedExistingFiles": [
+    "src\\episode2\\Episode2Slides.tsx"
+  ],
+  "noRoundedBoxes": true,
+  "photoFromFrame": 8366,
+  "photoEndExclusive": 8603,
+  "diagramFromFrame": 8603,
+  "staticPreviews": 6,
+  "videoRender": false,
+  "lint": "PASS",
+  "typecheck": "PASS"
+}

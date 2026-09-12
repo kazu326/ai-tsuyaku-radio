@@ -1,0 +1,222 @@
+{
+  "method": "ElevenLabs scribe_v2; audio-only input; Japanese; word timestamps",
+  "verificationScope": "Input hashes, ASR timestamps, complete returned text and reference section boundaries checked. No independent full-audio listening verification; ASR is not proof of verbatim accuracy.",
+  "forcedAlignmentResent": false,
+  "items": [
+    {
+      "id": "01",
+      "audio": "public/Episode2/１.mp3",
+      "referenceSection": "script-01の前半（導入）",
+      "duration": 72.4375,
+      "speechStart": 0.159,
+      "speechEnd": 72.379,
+      "firstSentence": "Cerebrasって結局何がそんなに速いの？",
+      "lastSentence": "今日はこの辺をなるべく難しい言葉を使わずに話してみたいと思います。",
+      "cacheIntegrity": true,
+      "invalidTimestamps": 0,
+      "backwardsTimestamps": 0,
+      "longestZeroDurationLetterRun": 0,
+      "lowLogprobTokens": 0,
+      "edits": [
+        {
+          "from": "Celebras",
+          "to": "Cerebras",
+          "count": 4,
+          "reason": "固有名詞の明らかな英字綴り誤り。元原稿・文脈で確認。"
+        },
+        {
+          "from": "GPT五点六",
+          "to": "GPT 5.6",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        },
+        {
+          "from": "十四倍",
+          "to": "14倍",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        },
+        {
+          "from": "一秒",
+          "to": "1秒",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        },
+        {
+          "from": "七百五十トークン",
+          "to": "750トークン",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        }
+      ],
+      "formatting": "文ごとの改行。ユーザー指示でモデル番号・数量を算用数字化。一方・一斉・一部等の熟語は維持。",
+      "spokenTextSha256": "f30a9a9b4da28fec4d867c013d31ca14535ab19b076761432c844d16021148a1"
+    },
+    {
+      "id": "02",
+      "audio": "public/Episode2/２.mp3",
+      "referenceSection": "script-01の後半（CPU・GPU）",
+      "duration": 81.55425,
+      "speechStart": 0.179,
+      "speechEnd": 81.459,
+      "firstSentence": "そもそもなんでAIにGPUを使ってるの？",
+      "lastSentence": "ここまでは、AIは大人数で計算するのが得意なGPUを使ってるくらいで大丈夫です。",
+      "cacheIntegrity": true,
+      "invalidTimestamps": 0,
+      "backwardsTimestamps": 0,
+      "longestZeroDurationLetterRun": 0,
+      "lowLogprobTokens": 0,
+      "edits": [
+        {
+          "from": "Celebras",
+          "to": "Cerebras",
+          "count": 2,
+          "reason": "固有名詞の明らかな英字綴り誤り。元原稿・文脈で確認。"
+        },
+        {
+          "from": "一人",
+          "to": "1人",
+          "count": 2,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        }
+      ],
+      "formatting": "文ごとの改行。ユーザー指示でモデル番号・数量を算用数字化。一方・一斉・一部等の熟語は維持。",
+      "spokenTextSha256": "b7f9a48ab258472d03717e6e5b6cf96a92d6a52c388a331aa2b1697c33dea0f8"
+    },
+    {
+      "id": "03",
+      "audio": "public/Episode2/3.mp3",
+      "referenceSection": "script-02（GPU間のデータ移動）",
+      "duration": 82.83425,
+      "speechStart": 0.199,
+      "speechEnd": 82.779,
+      "firstSentence": "じゃあGPUをいっぱい増やせばもっと速くなる？",
+      "lastSentence": "でも調べていくと、むしろ計算する場所までデータを運ぶこと自体が結構大変なんだというのが見えてきました。",
+      "cacheIntegrity": true,
+      "invalidTimestamps": 0,
+      "backwardsTimestamps": 0,
+      "longestZeroDurationLetterRun": 0,
+      "lowLogprobTokens": 0,
+      "edits": [
+        {
+          "from": "一つ",
+          "to": "1つ",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        },
+        {
+          "from": "百人",
+          "to": "100人",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        },
+        {
+          "from": "千人",
+          "to": "1000人",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        },
+        {
+          "from": "一万人",
+          "to": "1万人",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        },
+        {
+          "from": "一回",
+          "to": "1回",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        }
+      ],
+      "formatting": "文ごとの改行。ユーザー指示でモデル番号・数量を算用数字化。一方・一斉・一部等の熟語は維持。",
+      "spokenTextSha256": "e078b2345e34e522bf871bb7f8c5d3fa63047beb0c2876edc35b1557194ac602"
+    },
+    {
+      "id": "04",
+      "audio": "public/Episode2/4.mp3",
+      "referenceSection": "script-03（巨大チップ）",
+      "duration": 125.152625,
+      "speechStart": 0.16,
+      "speechEnd": 124.94,
+      "firstSentence": "セレブラスは壁を取っ払った。",
+      "lastSentence": "つまりセレブラスって、ただ巨大なチップを作りましたというのが面白いんじゃなくて、巨大にすることでAIが使うデータを近い場所で動かせるようにした、ここが面白いんです。",
+      "cacheIntegrity": true,
+      "invalidTimestamps": 0,
+      "backwardsTimestamps": 0,
+      "longestZeroDurationLetterRun": 0,
+      "lowLogprobTokens": 0,
+      "edits": [
+        {
+          "from": "一つ",
+          "to": "1つ",
+          "count": 2,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        },
+        {
+          "from": "一回",
+          "to": "1回",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        },
+        {
+          "from": "三センチ",
+          "to": "3センチ",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        },
+        {
+          "from": "二十センチ",
+          "to": "20センチ",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        },
+        {
+          "from": "一枚",
+          "to": "1枚",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        }
+      ],
+      "formatting": "文ごとの改行。ユーザー指示でモデル番号・数量を算用数字化。一方・一斉・一部等の熟語は維持。",
+      "spokenTextSha256": "3a1f59ddc5aacb5ce1d47780093e9949d5e3f3722b71b2b0c52c20d7c6709dc9"
+    },
+    {
+      "id": "05",
+      "audio": "public/Episode2/5.mp3",
+      "referenceSection": "script-04（故障回避・UltraFast）",
+      "duration": 102.765688,
+      "speechStart": 0.14,
+      "speechEnd": 102.72,
+      "firstSentence": "でもそんなでかいの作ったら壊れない？",
+      "lastSentence": "だったら、AIの競争ってもうモデルだけの競争じゃないよねという話になってきます。",
+      "cacheIntegrity": true,
+      "invalidTimestamps": 0,
+      "backwardsTimestamps": 0,
+      "longestZeroDurationLetterRun": 0,
+      "lowLogprobTokens": 0,
+      "edits": [
+        {
+          "from": "一つ",
+          "to": "1つ",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        },
+        {
+          "from": "一個",
+          "to": "1個",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        },
+        {
+          "from": "一本",
+          "to": "1本",
+          "count": 1,
+          "reason": "ユーザー指定：モデル番号・数量を算用数字表記にする。発話内容は変更しない。"
+        }
+      ],
+      "formatting": "文ごとの改行。ユーザー指示でモデル番号・数量を算用数字化。一方・一斉・一部等の熟語は維持。",
+      "spokenTextSha256": "b798b189a1d50f4071896aeb34b200938cff15ba15542f89b6e2d4ee771337a3"
+    }
+  ]
+}

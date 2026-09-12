@@ -1,0 +1,56 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "durationInFrames": 17684,
+  "segments": [
+    {
+      "id": "01",
+      "audio": "Episode2/１.mp3",
+      "from": 0,
+      "durationInFrames": 2174,
+      "audioDurationSeconds": 72.4375,
+      "gapAfterFrames": 0
+    },
+    {
+      "id": "02",
+      "audio": "Episode2/２.mp3",
+      "from": 2174,
+      "durationInFrames": 2447,
+      "audioDurationSeconds": 81.55425,
+      "gapAfterFrames": 0
+    },
+    {
+      "id": "03",
+      "audio": "Episode2/3.mp3",
+      "from": 4621,
+      "durationInFrames": 2486,
+      "audioDurationSeconds": 82.83425,
+      "gapAfterFrames": 0
+    },
+    {
+      "id": "04",
+      "audio": "Episode2/4.mp3",
+      "from": 7107,
+      "durationInFrames": 3755,
+      "audioDurationSeconds": 125.152625,
+      "gapAfterFrames": 0
+    },
+    {
+      "id": "05",
+      "audio": "Episode2/5.mp3",
+      "from": 10862,
+      "durationInFrames": 3083,
+      "audioDurationSeconds": 102.765688,
+      "gapAfterFrames": 0
+    },
+    {
+      "id": "06",
+      "audio": "Episode2/6.mp3",
+      "from": 13945,
+      "durationInFrames": 3739,
+      "audioDurationSeconds": 124.60408163265306,
+      "gapAfterFrames": 0
+    }
+  ]
+}

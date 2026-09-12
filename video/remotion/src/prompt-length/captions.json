@@ -1,0 +1,191 @@
+[
+  {
+    "text": "最近、AIにうまく指示するには、長い文章を書かないといけない。",
+    "startMs": 0,
+    "endMs": 4090,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そんなイメージ、ありませんか？",
+    "startMs": 4240,
+    "endMs": 5710,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "条件を細かく書いて、例もたくさん入れて、禁止事項も並べて。",
+    "startMs": 6280,
+    "endMs": 10430,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "なんとなく、長く書いた方がAIが賢くなる気がしますよね。",
+    "startMs": 10800,
+    "endMs": 14730,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、ここがちょっと面白いところです。",
+    "startMs": 15620,
+    "endMs": 17550,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIにとって大事なのは、文章の長さそのものではありません。",
+    "startMs": 17980,
+    "endMs": 21670,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "「何を目指しているのか」と、",
+    "startMs": 22380,
+    "endMs": 24030,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "「判断するために何を知っておく必要があるのか」です。",
+    "startMs": 24220,
+    "endMs": 27710,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ちょっと旅行で例えてみますね。",
+    "startMs": 28460,
+    "endMs": 30630,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "友だちに、「いい感じの温泉に連れていって」",
+    "startMs": 30640,
+    "endMs": 33540,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "だけだと、さすがに困ります。",
+    "startMs": 33540,
+    "endMs": 35670,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、「静かな温泉で、東京から日帰り。",
+    "startMs": 36200,
+    "endMs": 39770,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "できれば人が少ないところ」",
+    "startMs": 39780,
+    "endMs": 41490,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "まで分かれば、かなり探しやすくなります。",
+    "startMs": 41840,
+    "endMs": 44350,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "逆に、服装や朝ごはんや昨日見たテレビの話まで全部渡しても、",
+    "startMs": 45060,
+    "endMs": 49510,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "温泉探しにはあまり関係ありません。",
+    "startMs": 49740,
+    "endMs": 52150,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIも似ています。",
+    "startMs": 52780,
+    "endMs": 53910,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここ、一回整理しますね。",
+    "startMs": 54960,
+    "endMs": 56370,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "大事なのは、たくさん指示することではなく、",
+    "startMs": 57060,
+    "endMs": 60170,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "目的と、必要な情報をちゃんと共有すること。",
+    "startMs": 60360,
+    "endMs": 64270,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そして最初から完璧に伝えようとしなくても大丈夫です。",
+    "startMs": 64840,
+    "endMs": 68310,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "一度やってもらって、",
+    "startMs": 68880,
+    "endMs": 70060,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "「ここは違う」「こっちはいい」と返していけば、",
+    "startMs": 70060,
+    "endMs": 73150,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "だんだん狙っている方向に近づけられます。",
+    "startMs": 73360,
+    "endMs": 75770,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIへの指示は、長さ勝負ではありません。",
+    "startMs": 76720,
+    "endMs": 79290,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "一緒に目的地を共有して、必要な情報を渡しながら進める。",
+    "startMs": 79940,
+    "endMs": 84450,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "まずはこのくらいのイメージで大丈夫です。",
+    "startMs": 84880,
+    "endMs": 87249,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

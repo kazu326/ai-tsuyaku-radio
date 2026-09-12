@@ -1,0 +1,6 @@
+[
+  {"id":"comparison-entry","from":3155,"durationInFrames":55,"volume":0.06,"purpose":"注意喚起：CPU／GPU比較の開始"},
+  {"id":"photo-entry","from":8357,"durationInFrames":55,"volume":0.06,"purpose":"話題転換：実物の大きさを見る"},
+  {"id":"bypass-entry","from":11668,"durationInFrames":55,"volume":0.06,"purpose":"注意喚起：不良箇所を避ける仕組み"},
+  {"id":"summary-entry","from":15432,"durationInFrames":55,"volume":0.05,"purpose":"話題転換：重要点の再確認"}
+]
