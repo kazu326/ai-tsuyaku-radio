@@ -11,7 +11,7 @@ AI業界の難しいニュース・技術・専門用語を、AIに詳しくな�
 - `context/` — AI・人間が最初に確認する現在地、ブランド、編集方針、確定事項
 - `episodes/` — 各エピソードのリサーチ、台本、記事、SNS派生物
 - `knowledge/` — 複数テーマで再利用する知識・調査
-- `video/` — 動画制作。既存Remotionプロジェクトは正常動作確認後にここへ収容予定
+- `video/` — 動画制作。Remotion本番環境は `video/remotion/` へ統合済み
 - `web/` — Webサイト・公開レイヤー
 - `social/` — SNS向け運用・共通素材
 - `logs/` — 日々の観察・作業・意思決定に至った経緯
@@ -34,6 +34,6 @@ AI業界の難しいニュース・技術・専門用語を、AIに詳しくな�
 
 日々のログと現在地は分離します。`logs/` は経緯を残す場所、`context/` は現在有効な情報を短く保つ場所です。
 
-## Remotion移行について
+## Remotionについて
 
-既存の `ai-radio-remotion-test` は現時点では独立したテスト環境として保護します。正常動作する状態をGitHubへコミットした後、このリポジトリの `video/remotion/` へ移植・統合を検討します。移植確認が完了するまで旧環境を変更・退役させません。
+Remotion本番環境は `video/remotion/` へ統合・検証済みです。旧 `ai-radio-remotion-test` はコピー元スナップショットとして保護しています。現在の状態と移植記録は `context/CURRENT.md` および `video/remotion/MIGRATION.md` を参照してください。
