@@ -1,6 +1,6 @@
 # CURRENT｜AI通訳ラジオ 現在地
 
-最終更新：2026-09-12
+最終更新：2026-09-13
 
 このファイルは、人間・ChatGPT・Codex・その他のAIが作業開始時に最初に読む短い現在地です。詳細な経緯は `logs/`、固定方針は同じ `context/` 内の各文書を参照します。
 
@@ -40,34 +40,29 @@ AI通訳ラジオをYouTube単体ではなく、AIニュース・難解トピッ
 
 ## Remotion
 
-旧Remotion環境 `kazu326/ai-radio-remotion-test` のGitHub保存は完了した。
+旧Remotion環境 `kazu326/ai-radio-remotion-test` から親リポジトリへの移植は完了した。
 
 コピー元として固定する基準Commit：`4191ac7ad8d286d296fd340f9e1e0b7f50ffdd51`
 
-MP4はGit管理対象外。ローカル素材38本は素材台帳で管理され、GitHubにはコード・設定・字幕JSON・台本・素材パス・管理情報を保存する。
+統合先：`video/remotion/`
 
-現在は親への統合フェーズ。統合設計は `video/remotion/MIGRATION.md` を正本とする。
+親リポジトリへの統合Commit：`c14798074e01c2384457c079d2185cf780ab1bac` (`Integrate Remotion production environment`)
 
-次の手順：
-1. 基準CommitのGit管理対象を `video/remotion/` へコピー
-2. コピー元リポジトリは変更しない
-3. 親をローカル取得し、`video/remotion/` で依存関係を復元
-4. lint / TypeScript / bundle / Composition 6件を再確認
-5. ローカルMP4を素材台帳記載パスへ配置して既存Compositionを確認
-6. 第2話 `AI-Radio-Episode2-Main-v01` をStudioで確認
-7. 検証完了後にのみ、文書やエピソード資産の整理へ進む
+Git管理対象198ファイルは基準Commitと一致する状態で収容し、`main` へpush済み。`npm ci`、lint、TypeScript、Remotion bundle、Composition 6件の読み込みはすべて成功した。第2話 `AI-Radio-Episode2-Main-v01` もCompositionとして読み込み済み。
+
+MP4はGit管理対象外。ローカル素材38本は `video/remotion/LOCAL_ASSETS.md` のパスを維持して配置し、コピー元とのハッシュ一致を確認済み。GitHubにはコード・設定・字幕JSON・台本・素材パス・管理情報のみを保存する。
+
+移植の完了記録と境界は `video/remotion/MIGRATION.md` を正本とする。旧プロジェクトは変更せず、引き続きコピー元スナップショットとして保護する。
 
 ## 現在の優先順位
 
-1. Remotionを親の `video/remotion/` へ同等状態で収容する
-2. 親環境で正常動作を検証する
-3. Remotion固有情報と番組全体情報を段階的に整理する
-4. WebサイトのMVPを作る
-5. 1テーマを動画・記事・SNSまで流す制作パイプラインを検証する
-6. 安定した工程から自動化する
+1. Remotion固有情報と番組全体情報を段階的に整理する
+2. WebサイトのMVPを作る
+3. 1テーマを動画・記事・SNSまで流す制作パイプラインを検証する
+4. 安定した工程から自動化する
 
 ## 作業原則
 
 最初から全媒体を完全自動化しない。まず「1テーマ → 動画 / 記事 / SNS」が一巡する最小構成を完成させ、実運用で安定した部分だけ自動化する。
 
-動作済みRemotionの移植では、移植とリファクタリングを同時に行わない。まず同等状態を再現し、検証後に整理する。
+動作済みRemotionの移植と検証は完了した。今後の整理やリファクタリングは、移植済みの同等状態を基準に別工程で行う。

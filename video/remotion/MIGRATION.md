@@ -1,6 +1,13 @@
 # Remotion Migration
 
-最終更新：2026-09-12
+最終更新：2026-09-13
+
+## 状態
+
+移植完了。2026-09-13に検証結果が承認され、親リポジトリの `main` へpushした。
+
+- 統合Commit: `c14798074e01c2384457c079d2185cf780ab1bac`
+- Commit message: `Integrate Remotion production environment`
 
 ## コピー元
 
@@ -9,7 +16,7 @@
 - Commit message: `Merge GitHub repository history`
 - 状態: 初回GitHub保存完了。ローカルでlint / TypeScript / Remotion bundle / Composition 6件の読み込み確認済み。
 
-このCommitを、親リポジトリ統合時のコピー元スナップショットとして固定する。
+このCommitを、親リポジトリ統合時のコピー元スナップショットとして固定した。旧プロジェクトは変更せず、引き続きコピー元として保護する。
 
 ## 統合先
 
@@ -19,7 +26,7 @@ RemotionはAI通訳ラジオ全体の一機能であり、親リポジトリ全�
 
 ## 移植対象
 
-コピー元の実行環境を壊さないため、原則としてGit管理されているRemotionプロジェクト一式をそのまま `video/remotion/` 配下へ移植する。
+コピー元の実行環境を壊さないため、Git管理されているRemotionプロジェクト一式198ファイルをそのまま `video/remotion/` 配下へ移植した。
 
 主な対象:
 
@@ -37,7 +44,7 @@ RemotionはAI通訳ラジオ全体の一機能であり、親リポジトリ全�
 - `.prettierrc`
 - `skills-lock.json`
 - Remotion固有の `PROJECT_CONTEXT.md`
-- ローカル素材台帳 `video/remotion/LOCAL_ASSETS.md`（コピー元内の現行パス。統合時は配置を整理する）
+- ローカル素材台帳 `video/remotion/LOCAL_ASSETS.md`（記載された相対パスを維持）
 
 ## 親へ昇格する情報
 
@@ -60,21 +67,22 @@ RemotionはAI通訳ラジオ全体の一機能であり、親リポジトリ全�
 
 MP4の実体はローカル専用。必要パス・用途・尺・解像度は素材台帳で管理する。
 
-## 統合時の重要事項
+## 移植完了記録
 
-コピー元は正常動作スナップショットとして変更しない。親への統合はコピーとして行い、旧リポジトリを削除・改名・退役させない。
+コピー元は正常動作スナップショットとして変更していない。親への統合はコピーとして行い、旧リポジトリは削除・改名・退役させていない。
 
-親へ配置後、ローカルで以下を確認するまで移植完了としない。
+親へ配置後、ローカルで以下を確認した。
 
-1. `video/remotion/` で依存関係をインストールできる
-2. lint / TypeScript がエラー0
+1. `video/remotion/` で `npm ci` 成功
+2. lintはエラー0（既存警告3件）、TypeScriptはエラー0
 3. Remotion bundle成功
-4. Composition 6件が読み込める
-5. ローカルMP4を素材台帳記載パスへ置いた状態で既存Compositionが参照できる
-6. 第2話 `AI-Radio-Episode2-Main-v01` がStudioで開ける
+4. Composition 6件の読み込み成功
+5. ローカルMP4 38本を素材台帳記載パスへ配置し、コピー元とのハッシュ一致を確認
+6. MP4配置後に全6 Compositionを再読み込みし、第2話 `AI-Radio-Episode2-Main-v01` を確認
+7. `*.mp4`、`node_modules/`、`build/`、`dist/`、`out/`、`.env` が統合Commitに含まれていないことを確認
 
 ## 方針
 
-移植フェーズでは「動いているものを整理しながら作り直す」をしない。
+移植フェーズでは「動いているものを整理しながら作り直す」を行わなかった。
 
-まず同等状態で親へ収容し、正常動作を確認する。その後、親リポジトリの構造に合わせた整理を別工程として行う。
+同等状態で親へ収容し、正常動作を確認済み。今後、親リポジトリの構造に合わせた整理を行う場合は、移植と分けた別工程とする。
