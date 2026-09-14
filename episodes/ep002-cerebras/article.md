@@ -1,3 +1,22 @@
+---
+title: "Cerebrasとは？ 巨大なAIチップが速さを生む理由"
+description: "ウェハ規模の巨大なAIプロセッサを作るCerebrasについて、計算・メモリ・通信を近づける設計がなぜ速さにつながるのかを、データ移動の視点から解説します。"
+slug: "ep002-cerebras"
+episode: 2
+content_type: "ai-news-explainer"
+status: "draft"
+tags:
+  - Cerebras
+  - WSE-3
+  - AIインフラ
+  - 半導体
+entities:
+  - Cerebras
+  - NVIDIA
+  - OpenAI
+  - TSMC
+---
+
 # Cerebrasとは？巨大なAIチップが速さを生む理由
 
 AIを速くする方法と聞くと、まず「もっと計算能力の高いチップを作ること」を想像するかもしれません。
