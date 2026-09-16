@@ -1,6 +1,6 @@
 # CURRENT｜AI通訳ラジオ 現在地
 
-最終更新：2026-09-16
+最終更新：2026-09-17
 
 このファイルは、人間・ChatGPT・Codex・その他のAIが作業開始時に最初に読む短い現在地です。詳細な経緯は `logs/`、固定方針は同じ `context/` 内の各文書を参照します。
 
@@ -12,7 +12,7 @@ Episode 001〜006をSeason 1として区切り、台本制作フェーズを完�
 
 Episode 006第7章は音声で確認済み。後半の「ました」「でしょうか」「思います」等の語尾反復は耳で気になったが、台本は変更せず、音声生成時に聞きながら間・呼吸・雰囲気を調整する。
 
-設計フェーズはほぼ終了。次はEpisode 003を、完成台本から正式画像、Web記事、動画、SNSまで流し、初めて制作ラインを最後まで「一周」させる。UIの細かな調整は、全体が8〜9割揃ってからトップへ戻り、情報量・文字サイズ・余白・Mobile表示をまとめて行う。
+設計フェーズはほぼ終了。次はEpisode 002・003を正式画像、Web記事、動画、SNSまで通し、制作ラインを2本連続で一周させる。UIの細かな調整は、全体が8〜9割揃ってからトップへ戻り、情報量・文字サイズ・余白・Mobile表示をまとめて行う。
 
 Actor / Story / World Modelの基礎設計フェーズはいったん完了。新しい仕組みを先回りして追加せず、制作中に必要性が発生したものだけを追加する。
 
@@ -112,7 +112,7 @@ MP4はGit管理対象外。ローカル素材38本は `video/remotion/LOCAL_ASSE
 
 ## 現在の優先順位
 
-1. Episode 003を正式画像、Web記事、動画、SNSまで通し、制作ラインを初めて最後まで「一周」させる
+1. Episode 002・003を正式画像、Web記事、動画、SNSまで通し、制作ラインを2本連続で一周させる
 2. Episode 001〜003の実コンテンツでNEWS 5件を置き換える
 3. コンテンツが揃った状態で、情報量・文字サイズ・余白・Mobile表示をまとめて調整する
 
@@ -129,7 +129,7 @@ MP4はGit管理対象外。ローカル素材38本は `video/remotion/LOCAL_ASSE
 
 ## 次回の開始点
 
-次は、`episodes/ep003-japan-semiconductor/script.md`、`episodes/ep003-japan-semiconductor/research.md`、`context/EPISODE_IMAGE_RULES.md`、`web/review/REVIEW.md` を読む。既存のDesktop基準と確定済みの正式画像を保ったまま、Episode 003をWeb記事、動画、SNSまで展開し、制作ラインを最後まで通す。
+次は、`episodes/ep002-cerebras/article.md`、`episodes/ep002-cerebras/script.md`、`episodes/ep002-cerebras/research.md`、`episodes/ep003-japan-semiconductor/script.md`、`episodes/ep003-japan-semiconductor/research.md`、`context/EPISODE_IMAGE_RULES.md`、`web/review/REVIEW.md` を読む。既存のDesktop基準と確定済みの正式画像を保ったまま、Episode 002・003をWeb記事、動画、SNSまで展開し、制作ラインを2本連続で一周させる。
 
 Episode 004「AIと半導体の国家争奪戦」、005「DeepSeek：強いGPUだけがAI競争ではない」、006「なぜAI企業はモデルを公開するのか：オープンモデルの経済」でSeason 1を閉じる。次シーズンは、「一番性能が高いAIを選べば一番うまく使えるのか」「使う側にも、どう使うか・どんな環境を作るかという設計があるのか」という問いから始める候補を残している。テーマや構成はまだ固定しない。
 
