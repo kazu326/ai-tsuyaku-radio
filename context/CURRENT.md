@@ -1,12 +1,12 @@
 # CURRENT｜AI通訳ラジオ 現在地
 
-最終更新：2026-09-15
+最終更新：2026-09-16
 
 このファイルは、人間・ChatGPT・Codex・その他のAIが作業開始時に最初に読む短い現在地です。詳細な経緯は `logs/`、固定方針は同じ `context/` 内の各文書を参照します。
 
 ## Current Focus
 
-Web MVPのトップページは、現段階の基準として一旦完成。Episode 001〜003の正式画像と画像共通ルールv0.1も確定した。Episode 003「知られざる半導体王国、日本」は、台本と制作側Knowledge Masterの最終確認を完了した。次はEpisode 003の完成台本を正式画像とともにサイト・動画へ展開し、Episode 001〜003の実コンテンツでNEWSを置き換える。
+Web MVPのトップページは、現段階の基準として一旦完成。Episode 001〜003の正式画像と画像共通ルールv0.1も確定した。Episode 003「知られざる半導体王国、日本」は、台本と制作側Knowledge Masterの最終確認を完了した。Episode 004「AIと半導体の国家争奪戦」は、初稿への赤ペンを反映した台本と制作側Knowledge Masterを作成し、最終確認待ち。Episode 005と006の制作には進んでいない。
 
 その後、記事・動画・SNSまで1テーマを流して「一周」を完成させる。UIの細かな調整は、全体が8〜9割揃ってからトップへ戻り、情報量・文字サイズ・余白・Mobile表示をまとめて行う。
 
@@ -108,11 +108,12 @@ MP4はGit管理対象外。ローカル素材38本は `video/remotion/LOCAL_ASSE
 
 ## 現在の優先順位
 
-1. Episode 003完成台本を正式画像とともにWeb・動画へ展開する
-2. Episode 001〜003の実コンテンツでNEWS 5件を置き換える
-3. 記事・動画・SNSまで反映し、1テーマの制作を「一周」させる
-4. コンテンツが揃った状態で、情報量・文字サイズ・余白・Mobile表示をまとめて調整する
-5. Episode 004「AIと半導体の国家争奪戦」以降で、共通ルールv0.1と採用画像3点を使う実制作を検証する
+1. Episode 004の台本を人間が最終確認する
+2. Episode 003完成台本を正式画像とともにWeb・動画へ展開する
+3. Episode 001〜003の実コンテンツでNEWS 5件を置き換える
+4. 記事・動画・SNSまで反映し、1テーマの制作を「一周」させる
+5. コンテンツが揃った状態で、情報量・文字サイズ・余白・Mobile表示をまとめて調整する
+6. Episode 004以降で、共通ルールv0.1と採用画像3点を使う実制作を検証する
 
 ## 作業原則
 
@@ -122,9 +123,11 @@ MP4はGit管理対象外。ローカル素材38本は `video/remotion/LOCAL_ASSE
 
 ## 次回の開始点
 
-次回は、最初にこのファイル、`episodes/ep003-japan-semiconductor/script.md`、`episodes/ep003-japan-semiconductor/research.md`、`context/EPISODE_IMAGE_RULES.md`、`web/review/REVIEW.md` を読む。そのうえで、既存のDesktop基準を保ったままEpisode 003の正式画像とコンテンツをWebへ反映する。
+Episode 004の最終確認を続ける場合は、このファイル、`episodes/ep004-ai-semiconductor-race/script.md`、`episodes/ep004-ai-semiconductor-race/research.md` を読む。台本制作の共通手順は `context/EPISODE_SCRIPT_WORKFLOW.md` を入口にする。
 
-Episode 004以降の接続方向は、004「AIと半導体の国家争奪戦」、005「DeepSeek：強いGPUだけがAI競争ではない」、006「なぜAI企業はモデルを公開するのか：オープンモデルの経済」。現時点では接続方向のみ合意済みで、制作は未着手。
+Web展開を続ける場合は、`episodes/ep003-japan-semiconductor/script.md`、`episodes/ep003-japan-semiconductor/research.md`、`context/EPISODE_IMAGE_RULES.md`、`web/review/REVIEW.md` を読み、既存のDesktop基準を保ったままEpisode 003の正式画像とコンテンツを反映する。
+
+Episode 004以降の接続方向は、004「AIと半導体の国家争奪戦」、005「DeepSeek：強いGPUだけがAI競争ではない」、006「なぜAI企業はモデルを公開するのか：オープンモデルの経済」。004は編集レビュー反映済み・最終確認待ち。005と006は接続方向のみ合意済みで、制作は未着手。
 
 Episode画像の正本：
 
