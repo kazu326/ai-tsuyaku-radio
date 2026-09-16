@@ -6,13 +6,13 @@
 
 ## Current Focus
 
-Web MVPのトップページは、現段階の基準として一旦完成。Episode 001〜003の正式画像と画像共通ルールv0.1も確定した。Episode 003「知られざる半導体王国、日本」は、台本と制作側Knowledge Masterの最終確認を完了した。Episode 004「AIと半導体の国家争奪戦」は、初稿への赤ペンを反映した台本と制作側Knowledge Masterを作成し、最終確認待ち。Episode 005「DeepSeek：強いGPUだけがAI競争ではない」とEpisode 006「なぜAI企業はモデルを公開するのか：オープンモデルの経済」は、人間レビューを完了した。
+Web MVPのトップページは、現段階の基準として一旦完成。Episode 001〜003の正式画像と画像共通ルールv0.1も確定した。Episode 003「知られざる半導体王国、日本」は、台本と制作側Knowledge Masterの最終確認を完了した。Episode 004「AIと半導体の国家争奪戦」、Episode 005「DeepSeek：強いGPUだけがAI競争ではない」、Episode 006「なぜAI企業はモデルを公開するのか：オープンモデルの経済」は、人間レビューを完了した。
 
-Episode 001〜006をSeason 1として区切り、台本一式まで到達した。004時点のWorld Model、Actor、Story Bible、Footprint、編集方針を変えずに005・006を制作した結果、発見型の語りは再現され、新しい原理候補は昇格させず観察に留めた。詳細は `logs/2026-09-16-episode-005-006-test.md` を参照する。
+Episode 001〜006をSeason 1として区切り、台本制作フェーズを完了した。004時点のWorld Model、Actor、Story Bible、Footprint、編集方針を変えずに005・006を制作した結果、発見型の語りは再現され、新しい原理候補は昇格させず観察に留めた。詳細は `logs/2026-09-16-episode-005-006-test.md` を参照する。
 
 Episode 006第7章は音声で確認済み。後半の「ました」「でしょうか」「思います」等の語尾反復は耳で気になったが、台本は変更せず、音声生成時に聞きながら間・呼吸・雰囲気を調整する。
 
-その後、記事・動画・SNSまで1テーマを流して「一周」を完成させる。UIの細かな調整は、全体が8〜9割揃ってからトップへ戻り、情報量・文字サイズ・余白・Mobile表示をまとめて行う。
+設計フェーズはほぼ終了。次はEpisode 003を、完成台本から正式画像、Web記事、動画、SNSまで流し、初めて制作ラインを最後まで「一周」させる。UIの細かな調整は、全体が8〜9割揃ってからトップへ戻り、情報量・文字サイズ・余白・Mobile表示をまとめて行う。
 
 Actor / Story / World Modelの基礎設計フェーズはいったん完了。新しい仕組みを先回りして追加せず、制作中に必要性が発生したものだけを追加する。
 
@@ -112,10 +112,9 @@ MP4はGit管理対象外。ローカル素材38本は `video/remotion/LOCAL_ASSE
 
 ## 現在の優先順位
 
-1. Episode 004〜006を最終確認する。004は人間の最終確認、005・006は確定稿の確認、006第7章は音声生成時の耳調整を行う
-2. Episode 001〜003を正式画像とともにWeb・動画・SNSへ展開し、1テーマの制作を「一周」させる
-3. Episode 001〜003の実コンテンツでNEWS 5件を置き換える
-4. コンテンツが揃った状態で、情報量・文字サイズ・余白・Mobile表示をまとめて調整する
+1. Episode 003を正式画像、Web記事、動画、SNSまで通し、制作ラインを初めて最後まで「一周」させる
+2. Episode 001〜003の実コンテンツでNEWS 5件を置き換える
+3. コンテンツが揃った状態で、情報量・文字サイズ・余白・Mobile表示をまとめて調整する
 
 次シーズンへ持ち込むWATCHは次の2件だけとし、3件目を先回りして増やさない。
 
@@ -130,9 +129,7 @@ MP4はGit管理対象外。ローカル素材38本は `video/remotion/LOCAL_ASSE
 
 ## 次回の開始点
 
-Episode 004〜006の最終確認を続ける場合は、このファイルと、各Episodeの `script.md`、`research.md` を読む。004は人間の最終確認待ち。005・006は人間レビュー完了。006第7章の語尾反復は台本で直さず、音声生成時に耳で調整する。
-
-Web展開を続ける場合は、`episodes/ep003-japan-semiconductor/script.md`、`episodes/ep003-japan-semiconductor/research.md`、`context/EPISODE_IMAGE_RULES.md`、`web/review/REVIEW.md` を読み、既存のDesktop基準を保ったままEpisode 003の正式画像とコンテンツを反映する。
+次は、`episodes/ep003-japan-semiconductor/script.md`、`episodes/ep003-japan-semiconductor/research.md`、`context/EPISODE_IMAGE_RULES.md`、`web/review/REVIEW.md` を読む。既存のDesktop基準と確定済みの正式画像を保ったまま、Episode 003をWeb記事、動画、SNSまで展開し、制作ラインを最後まで通す。
 
 Episode 004「AIと半導体の国家争奪戦」、005「DeepSeek：強いGPUだけがAI競争ではない」、006「なぜAI企業はモデルを公開するのか：オープンモデルの経済」でSeason 1を閉じる。次シーズンは、「一番性能が高いAIを選べば一番うまく使えるのか」「使う側にも、どう使うか・どんな環境を作るかという設計があるのか」という問いから始める候補を残している。テーマや構成はまだ固定しない。
 
