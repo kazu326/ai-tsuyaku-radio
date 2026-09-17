@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
+import { EpisodeAfterword } from "@/components/episode-afterword";
 import { Arrow } from "@/components/site-chrome";
 import { getEpisode } from "@/lib/episode";
 
@@ -27,6 +28,7 @@ export default async function EpisodePage() {
           <Image className="article-cover" src="/images/episode-001.png" width={1672} height={941} alt="猫のラジオパーソナリティと、AIを動かす土台を表現した光るプロセッサー" sizes="(max-width: 900px) calc(100vw - 40px), 840px" preload />
           <div className="article-body"><ReactMarkdown>{episode.body}</ReactMarkdown></div>
           {episode.youtubeUrl ? <aside className="video-link-box" aria-label="関連動画"><div><p className="eyebrow">WATCH ON YOUTUBE</p><p>この話を、動画でも。</p></div><a className="button button-navy" href={episode.youtubeUrl}>YouTubeでEpisode 001を見る<Arrow diagonal /></a></aside> : null}
+          <EpisodeAfterword afterglow={episode.afterglow} episodeLabel="EPISODE 001" glossary={episode.glossary} imageSrc="/images/episode-001.png" sources={episode.sources} sourcesTitle={episode.sourcesTitle} />
         </article>
         <Link className="back-link bottom-back" href="/">← トップに戻る</Link>
       </div>

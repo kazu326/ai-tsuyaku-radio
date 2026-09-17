@@ -13,7 +13,35 @@ const directory = path.dirname(fileURLToPath(import.meta.url));
 const origin = process.env.RADIO_REVIEW_URL || "http://127.0.0.1:3000";
 const source = await readFile(path.resolve(directory, "../../episodes/ep003-japan-semiconductor/article.md"), "utf8");
 const { data, content } = matter(source);
-const expectedHtml = marked.parse(content.replace(/^\s*# [^\r\n]+\r?\n/, "").trim());
+const sourceBody = content.replace(/^\s*# [^\r\n]+\r?\n/, "").trim();
+const sectionMatches = [...sourceBody.matchAll(/^## (.+?)\r?$/gm)];
+const getSection = (titles) => {
+  const index = sectionMatches.findIndex((heading) => titles.includes(heading[1]));
+  assert.notEqual(index, -1, `Missing section: ${titles.join(" / ")}`);
+  const heading = sectionMatches[index];
+  const start = heading.index;
+  const bodyStart = start + heading[0].length;
+  const end = sectionMatches[index + 1]?.index ?? sourceBody.length;
+  return { body: sourceBody.slice(bodyStart, end).trim(), start, end };
+};
+const sourcesSection = getSection(["一次情報・参考資料", "出典"]);
+const glossarySection = getSection(["この回の言葉", "この回のことば"]);
+const expectedBodyMarkdown = [sourcesSection, glossarySection]
+  .sort((a, b) => b.start - a.start)
+  .reduce((markdown, section) => `${markdown.slice(0, section.start).trimEnd()}\n\n${markdown.slice(section.end).trimStart()}`, sourceBody)
+  .trim();
+const expectedHtml = marked.parse(expectedBodyMarkdown);
+const expectedSourcesHtml = marked.parse(sourcesSection.body);
+const expectedGlossary = glossarySection.body.split(/\r?\n/).flatMap((line) => {
+  const match = line.match(/^- \*\*(.+?)\*\*\s+—\s+(.+)$/);
+  if (!match) return [];
+  const sentenceEnd = match[2].indexOf("。");
+  return [{
+    term: match[1],
+    meaning: sentenceEnd === -1 ? match[2] : match[2].slice(0, sentenceEnd + 1),
+    inEpisode: sentenceEnd === -1 ? "" : match[2].slice(sentenceEnd + 1).trim().replace(/^この回(?:では|で)[、]?/, ""),
+  }];
+});
 const articlePath = "/episodes/ep003-japan-semiconductor";
 const failures = [];
 const results = [];
@@ -97,10 +125,14 @@ try {
         results.push({ width, hero, contentItems: 3, newsItems: 5 });
       } else {
         assert.equal(await page.locator("h1").textContent(), data.title);
-        const comparison = await page.evaluate((html) => {
+        const comparison = await page.evaluate(({ bodyHtml, sourcesHtml }) => {
           const expected = document.createElement("div");
-          expected.innerHTML = html;
+          expected.innerHTML = bodyHtml;
+          const expectedSources = document.createElement("div");
+          expectedSources.innerHTML = sourcesHtml;
           const actual = document.querySelector(".article-body");
+          const actualSources = document.querySelector(".article-sources");
+          const zone = document.querySelector(".afterglow-zone");
           const normalize = (text) => text.replace(/\s+/g, "").trim();
           return {
             bodyMatches: normalize(actual.textContent) === normalize(expected.textContent),
@@ -109,12 +141,28 @@ try {
             h2: actual.querySelectorAll("h2").length,
             expectedH2: expected.querySelectorAll("h2").length,
             blockquotes: actual.querySelectorAll("blockquote").length,
+            sourcesMatch: normalize(actualSources.textContent) === normalize(`出典${expectedSources.textContent}`),
+            sourceLinks: [...actualSources.querySelectorAll("a")].map((link) => link.getAttribute("href")),
+            expectedSourceLinks: [...expectedSources.querySelectorAll("a")].map((link) => link.getAttribute("href")),
+            glossary: [...document.querySelectorAll(".glossary-card")].map((card) => ({
+              term: card.querySelector("h4")?.textContent,
+              meaning: card.querySelectorAll(".glossary-layer > p")[1]?.textContent,
+              inEpisode: card.querySelectorAll(".glossary-layer > p")[3]?.textContent,
+            })),
+            columns: getComputedStyle(document.querySelector(".glossary-grid")).gridTemplateColumns.split(" ").length,
+            sourcesAfterZone: Boolean(zone.compareDocumentPosition(actualSources) & Node.DOCUMENT_POSITION_FOLLOWING),
           };
-        }, expectedHtml);
+        }, { bodyHtml: expectedHtml, sourcesHtml: expectedSourcesHtml });
         assert.equal(comparison.bodyMatches, true, "All Markdown body text must be preserved");
         assert.deepEqual(comparison.links, comparison.expectedLinks);
         assert.equal(comparison.h2, comparison.expectedH2);
         assert.equal(comparison.blockquotes, 0);
+        assert.equal(comparison.sourcesMatch, true, "Source text must remain at the article bottom");
+        assert.deepEqual(comparison.sourceLinks, comparison.expectedSourceLinks);
+        assert.deepEqual(comparison.glossary, expectedGlossary);
+        assert.equal(comparison.columns, width <= 700 ? 1 : 2);
+        assert.equal(comparison.sourcesAfterZone, true);
+        assert.equal(await page.locator(".afterglow-card h2").textContent(), "日本の半導体の強さは、完成したチップの名前ではなく、1000工程の途中に隠れている。");
         assert.equal(await page.locator(".article-body table").count(), 1);
         assert.equal(await page.locator(".video-link-box").count(), 0);
         assert.equal(await page.locator("iframe").count(), 0);
@@ -123,6 +171,8 @@ try {
       await page.screenshot({ path: path.join(directory, `${name}-${width}.png`), fullPage: true });
       if (name === "article") {
         await page.screenshot({ path: path.join(directory, `article-top-${width}.png`) });
+        await page.getByRole("heading", { name: "この回のことば" }).scrollIntoViewIfNeeded();
+        await page.screenshot({ path: path.join(directory, `article-afterglow-${width}.png`) });
         await page.getByRole("heading", { name: "出典" }).scrollIntoViewIfNeeded();
         await page.screenshot({ path: path.join(directory, `article-sources-${width}.png`) });
       }

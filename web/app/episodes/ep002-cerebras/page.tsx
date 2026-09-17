@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { EpisodeAfterword } from "@/components/episode-afterword";
 import { Arrow } from "@/components/site-chrome";
 import { getEpisode2 } from "@/lib/episode";
 
@@ -44,6 +45,7 @@ export default async function Episode2Page() {
           <Image className="article-cover" src="/images/episode-002.png" width={1672} height={941} alt="約3センチのGPUと20センチを超えるCerebrasの巨大なAIチップを比較したEpisode 002正式画像" sizes="(max-width: 900px) calc(100vw - 40px), 840px" preload />
           <div className="article-body"><ReactMarkdown remarkPlugins={[remarkGfm]}>{episode.body}</ReactMarkdown></div>
           {episode.youtubeUrl ? <aside className="video-link-box" aria-label="関連動画"><div><p className="eyebrow">WATCH ON YOUTUBE</p><p>この話を、動画でも。</p></div><a className="button button-navy" href={episode.youtubeUrl}>YouTubeでEpisode 002を見る<Arrow diagonal /></a></aside> : null}
+          <EpisodeAfterword afterglow={episode.afterglow} episodeLabel="EPISODE 002" glossary={episode.glossary} imageSrc="/images/episode-002.png" sources={episode.sources} sourcesTitle={episode.sourcesTitle} />
         </article>
         <Link className="back-link bottom-back" href="/">← トップに戻る</Link>
       </div>

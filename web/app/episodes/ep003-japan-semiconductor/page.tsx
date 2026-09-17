@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import {EpisodeAfterword} from "@/components/episode-afterword";
 import {Arrow} from "@/components/site-chrome";
 import {getEpisode3} from "@/lib/episode";
 
@@ -77,6 +78,14 @@ export default async function Episode3Page() {
               </a>
             </aside>
           ) : null}
+          <EpisodeAfterword
+            afterglow={episode.afterglow}
+            episodeLabel="EPISODE 003"
+            glossary={episode.glossary}
+            imageSrc="/images/episode-003.png"
+            sources={episode.sources}
+            sourcesTitle={episode.sourcesTitle}
+          />
         </article>
         <Link className="back-link bottom-back" href="/">
           ← トップに戻る

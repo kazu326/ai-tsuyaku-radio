@@ -44,7 +44,7 @@ pnpm.cmd run start --port 3001
 - Next.js 16.3.5 / React 19.3.0 / TypeScript / 通常のCSS。UIライブラリ、API、DB、CMSはありません。
 - App RouterのServer ComponentsでトップとEpisode 001〜003の記事ページを静的生成します。
 - `../episodes/ep001-ultrafast/article.md`、`../episodes/ep002-cerebras/article.md`、`../episodes/ep003-japan-semiconductor/article.md` をビルド時に読み込みます。**リポジトリ全体を保持し、コマンドはweb内で実行してください。** webフォルダ単独では原稿を読めません。
-- Frontmatterはgray-matter、本文はreact-markdownで表示。ページ見出しと重複する先頭H1だけを表示時に除き、本文と参考資料は保持します。元記事にあるVideo IDからYouTubeリンクを表示します。
+- Frontmatterはgray-matter、本文はreact-markdownで表示。ページ見出しと重複する先頭H1だけを表示時に除きます。記事末尾の用語と出典は原稿から表示用データへ分け、共通の余韻ゾーン、続いて記事最下部の出典として表示します。元記事にあるVideo IDからYouTubeリンクを表示します。
 - Episode 001〜003だけを明示的に表示します。すべてのページに `noindex, nofollow` を設定しています。
 - 記事を更新した場合、開発サーバーは再起動、本番確認は再ビルドしてください。
 - 日本語フォントNoto Sans JPは依存パッケージから配信し、実行時にGoogle Fontsへ接続しません。
