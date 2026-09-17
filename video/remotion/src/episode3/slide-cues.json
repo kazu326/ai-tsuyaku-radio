@@ -1,0 +1,10 @@
+[
+  {"id":"core-intro","kind":"core","startSeconds":68.14,"endSeconds":78.80,"enabled":true},
+  {"id":"history","kind":"history","startSeconds":78.90,"endSeconds":151.20,"enabled":true},
+  {"id":"process","kind":"process","startSeconds":156.43,"endSeconds":245.19,"enabled":true},
+  {"id":"countries","kind":"countries","startSeconds":245.29,"endSeconds":307.53,"enabled":true},
+  {"id":"companies","kind":"companies","startSeconds":307.71,"endSeconds":382.81,"enabled":true},
+  {"id":"hidden","kind":"hidden","startSeconds":383.65,"endSeconds":425.27,"enabled":true},
+  {"id":"physical-ai","kind":"physical","startSeconds":425.41,"endSeconds":489.95,"enabled":true},
+  {"id":"summary","kind":"core","startSeconds":490.11,"endSeconds":525.41,"enabled":true}
+]

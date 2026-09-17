@@ -1,3 +1,12 @@
+## 第3話制作時点の現在地
+
+- 本編Compositionは`AI-Radio-Episode3-Main-v01`。12音声・144字幕・16993フレーム（30fps、9分26.433秒）で、Opening／Endingは含めない。
+- 12音声は`public/episode3/1.mp3`〜`12.mp3`。各音声の間へ6フレーム（200ms）の無音を挿入し、元音声は変更していない。人間レビューで間は自然、末尾ノイズも実用上ほぼ問題なしと判断された。
+- 最終台本をspoken textの正本とし、音声ごとのForced Alignmentを取得。V03方式（開始のみ300ms前倒し、終了維持、重なりは次字幕優先）で字幕を生成した。12/12の機械検査に合格。
+- 図解は8 Visual Segment、SEは5か所。Episode 002の背景、猫小窓、字幕、パネル文法を維持し、Episode 003固有の内容だけを実装した。
+- lint／TypeScript、Composition読み込み、代表8フレームの静止画確認は成功。全編MP4 `out/AI-Radio-Episode3-Main-v01.mp4` をレンダリングし、H.264 1280×720 / 30fps / 16993フレーム、AAC音声、566.485333秒を確認済み。人間の全編レビューにも合格し、現段階では追加修正なしで完成扱い。BGM追加後に再確認する。
+- 詳細は`docs/episode3/制作メモ.md`と`docs/episode3/visual-plan.md`。
+
 ## 第2話完成時点の確定事項
 
 - 本編Compositionは`AI-Radio-Episode2-Main-v01`。6音声・123字幕・17684フレーム（30fps、9分49.467秒）で、Opening／「今日の話はこちら」／Endingは含めない。

@@ -7,6 +7,7 @@ import { PromptLengthCompositionV02 } from "./prompt-length/PromptLengthTestV02"
 
 import { PromptLengthCompositionV03 } from "./prompt-length/PromptLengthTestV03";
 import { Episode2MainComposition } from "./episode2/Episode2Main";
+import { Episode3MainComposition } from "./episode3/Episode3Main";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ export const RemotionRoot: React.FC = () => {
       <PromptLengthCompositionV02 />
       <PromptLengthCompositionV03 />
       <Episode2MainComposition />
+      <Episode3MainComposition />
     </>
   );
 };

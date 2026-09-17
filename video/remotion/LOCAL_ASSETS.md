@@ -63,6 +63,10 @@
 
 第2話専用の追加MP4はない。`AI-Radio-Episode2-Main-v01`は、共通素材の`public/cat200.mp4`と`public/video/`の背景素材を使用する。音声6本、図解画像、字幕、SEはMP4ではないためGit管理対象とする。
 
+## Episode 3
+
+`AI-Radio-Episode3-Main-v01`は、共通素材の`public/cat200.mp4`、`public/video/`の背景素材、`public/se/panel-cue.mp3`を再利用する。専用音声は `public/episode3/1.mp3`〜`12.mp3`。各音声間にはComposition上で200msの無音を挿入し、元MP3自体は変更しない。音声末尾ノイズは全編確認後に判断するため、現時点ではトリミング・加工していない。
+
 ## 出力動画
 
 レンダリング結果は`out/`へ置く。`out/`もGit管理対象外であり、公開済み動画や比較用MP4の状態は`PROJECT_CONTEXT.md`と各制作メモで管理する。

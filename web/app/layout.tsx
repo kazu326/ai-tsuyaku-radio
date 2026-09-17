@@ -5,6 +5,7 @@ import "./globals.css";
 import { Footer, Header } from "@/components/site-chrome";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
   title: { default: "AI通訳ラジオ | AIの難しい話を、わかる言葉に。", template: "%s | AI通訳ラジオ" },
   description: "難しいAIニュースや技術トピックを、やさしく整理して届けるラジオ番組。猫の通訳者と、AIの世界を少しずつ。",
   robots: { index: false, follow: false },

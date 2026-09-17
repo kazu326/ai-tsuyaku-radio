@@ -1,0 +1,1010 @@
+[
+  {
+    "text": "実は日本、今でも半導体王国って知ってました？",
+    "startMs": 240,
+    "endMs": 4080,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "どうもこんにちは。",
+    "startMs": 5400,
+    "endMs": 6200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "前回は、Cerebrasが作っている、とんでもなく巨大な半導体について話しました。",
+    "startMs": 7080,
+    "endMs": 12160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "普通なら小さく切り分けるウェハを、できるだけ大きなまま使う。",
+    "startMs": 13120,
+    "endMs": 17060,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "教室の壁を取っ払って、データを近い場所で動かしやすくする。",
+    "startMs": 17760,
+    "endMs": 21260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それが、Cerebrasの速さを支える大きな理由でした。",
+    "startMs": 21940,
+    "endMs": 24820,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、前回の最後に、もう一つ気になることが出てきたんですよね。",
+    "startMs": 25266.666666666668,
+    "endMs": 28946.666666666668,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Cerebrasが半導体を設計しても、それだけでは完成しません。",
+    "startMs": 29826.666666666668,
+    "endMs": 33566.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "実際に作る工場がある。",
+    "startMs": 34326.66666666667,
+    "endMs": 35786.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "その中で使う装置がある。",
+    "startMs": 36146.66666666667,
+    "endMs": 37946.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "材料がある。",
+    "startMs": 38166.66666666667,
+    "endMs": 39006.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "検査する技術がある。",
+    "startMs": 39226.66666666667,
+    "endMs": 40366.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "で、その裏側を調べていくと、日本の会社がめちゃくちゃ出てくるんです。",
+    "startMs": 41206.66666666667,
+    "endMs": 45586.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ただ、ここでちょっと不思議じゃないですか？",
+    "startMs": 47040,
+    "endMs": 49300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AI半導体のニュースでは、アメリカのNVIDIAという名前をよく聞く。",
+    "startMs": 49300,
+    "endMs": 53540,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "実際に半導体を作る国としては台湾が強い。",
+    "startMs": 54140,
+    "endMs": 57000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "メモリでは韓国が強い。",
+    "startMs": 57460,
+    "endMs": 59040,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "あれ？",
+    "startMs": 59700,
+    "endMs": 60380,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "日本は、どこにいるんだろう。",
+    "startMs": 60380,
+    "endMs": 61800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今日は、この少し見えにくい日本の半導体産業について話してみたいと思います。",
+    "startMs": 62720,
+    "endMs": 67640,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今回、一つだけ覚えて帰ってほしいのは、日本の半導体の強さは、",
+    "startMs": 68440,
+    "endMs": 73180,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "完成したチップの名前ではなく、1000工程の途中に隠れている。",
+    "startMs": 73460,
+    "endMs": 77460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ということです。",
+    "startMs": 77980,
+    "endMs": 78660,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "1988年、日本は本当に半導体王国だった。",
+    "startMs": 79180,
+    "endMs": 83340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "まず、「今でも半導体王国」という言葉の前に、昔の話を少しだけさせてください。",
+    "startMs": 84800,
+    "endMs": 90160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "1988年。",
+    "startMs": 90960,
+    "endMs": 92460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "日本がバブル景気へ入っていった時代です。",
+    "startMs": 92960,
+    "endMs": 95340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "当時のニュース映像や、勢いのあった日本企業のCMを思い出す方もいるかもしれません。",
+    "startMs": 96240,
+    "endMs": 101560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "この頃、日本の半導体企業は、本当に強かった。",
+    "startMs": 102400,
+    "endMs": 105320,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "世界で売られていた半導体の、約半分を日本企業が占めていました。",
+    "startMs": 106120,
+    "endMs": 110460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "約半分です。",
+    "startMs": 111400,
+    "endMs": 112440,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "世界の半導体を二つ並べたら、そのうち一つが日本企業のものだった。",
+    "startMs": 113520,
+    "endMs": 117580,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ざっくり言えば、それくらい大きな存在だったわけです。",
+    "startMs": 118440,
+    "endMs": 121220,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ところが、その後、日本企業が完成した半導体で占める割合は大きく下がっていきました。",
+    "startMs": 121586.66666666667,
+    "endMs": 126786.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今、AI半導体で目立っているのはアメリカ。",
+    "startMs": 128046.66666666667,
+    "endMs": 130466.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "製造で注目されるのは台湾。",
+    "startMs": 131286.6666666667,
+    "endMs": 133086.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "メモリで強いのは韓国です。",
+    "startMs": 133766.6666666667,
+    "endMs": 135526.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "だから、完成した半導体の会社だけを見れば、「日本はもう半導体王国ではない」と感じるのも自然です。",
+    "startMs": 136306.6666666667,
+    "endMs": 143246.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、ここで見る場所を少し変えてみます。",
+    "startMs": 145006.6666666667,
+    "endMs": 147366.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "完成した半導体ではなく、その半導体が、どうやって作られているのか。",
+    "startMs": 148326.6666666667,
+    "endMs": 152406.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "工場の中まで入ってみると、景色が変わります。",
+    "startMs": 153466.6666666667,
+    "endMs": 156186.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "半導体は、1000工程で作られる。",
+    "startMs": 156726.66666666666,
+    "endMs": 159366.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "半導体って、工場へ材料を入れたら、一台の機械から完成品が出てくるわけではありません。",
+    "startMs": 160966.66666666666,
+    "endMs": 166926.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "まず、土台になる大きな丸い板を用意する。",
+    "startMs": 167866.66666666666,
+    "endMs": 170906.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "前回も出てきた、ウェハですね。",
+    "startMs": 171706.66666666666,
+    "endMs": 173526.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "その表面に、とても薄い膜を作る。",
+    "startMs": 174426.66666666666,
+    "endMs": 177086.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "特殊な材料を塗る。",
+    "startMs": 177966.66666666666,
+    "endMs": 179126.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "光を使って、細かな回路の形を写す。",
+    "startMs": 180146.66666666666,
+    "endMs": 183126.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "必要な部分を削る。",
+    "startMs": 183886.66666666666,
+    "endMs": 185366.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "洗う。",
+    "startMs": 186226.66666666666,
+    "endMs": 186446.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "測る。",
+    "startMs": 187206.66666666666,
+    "endMs": 187406.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "小さな傷やゴミがないか検査する。",
+    "startMs": 188326.66666666666,
+    "endMs": 190746.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そして、また膜を作る。",
+    "startMs": 191406.66666666666,
+    "endMs": 193106.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "また光を当てる。",
+    "startMs": 193866.66666666666,
+    "endMs": 194966.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "また削る。",
+    "startMs": 195506.66666666666,
+    "endMs": 196266.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "また洗う。",
+    "startMs": 196726.66666666666,
+    "endMs": 197526.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "これを、何度も何度も繰り返します。",
+    "startMs": 198286.66666666666,
+    "endMs": 201026.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "経済産業省の資料では、半導体を作るには、合計で1000を超える工程が必要になると説明されています。",
+    "startMs": 201446.6666666667,
+    "endMs": 208246.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "1000工程です。",
+    "startMs": 209846.6666666667,
+    "endMs": 210826.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "僕も最初にこれを見た時、「なるほど、だから一社だけでは作れないんだ」と思いました。",
+    "startMs": 211966.6666666667,
+    "endMs": 217505.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "料理でいえば、材料を入れて、オーブンで焼いたら完成、みたいな話ではないんですよね。",
+    "startMs": 218546.6666666667,
+    "endMs": 223226.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "巨大な厨房の中で、切る。",
+    "startMs": 224206.6666666667,
+    "endMs": 226566.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "塗る。",
+    "startMs": 226686.6666666667,
+    "endMs": 227146.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "焼く。",
+    "startMs": 227266.6666666667,
+    "endMs": 227806.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "洗う。",
+    "startMs": 228006.6666666667,
+    "endMs": 228406.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "測る。",
+    "startMs": 228646.6666666667,
+    "endMs": 229046.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "確認する。",
+    "startMs": 229266.6666666667,
+    "endMs": 229806.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "一つの工程でズレると、その後の工程にも影響する。",
+    "startMs": 230646.6666666667,
+    "endMs": 233986.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そんな細かな仕事を1000工程も積み重ねて、ようやく一つの半導体ができる。",
+    "startMs": 234866.6666666667,
+    "endMs": 240066.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そして、日本企業が強いのは、この1000工程の途中なんです。",
+    "startMs": 241306.6666666667,
+    "endMs": 245186.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "国ごとに、得意な場所が違う。",
+    "startMs": 245593.33333333334,
+    "endMs": 247773.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここで、世界の半導体産業を、ものすごく大きく分けてみます。",
+    "startMs": 248453.33333333334,
+    "endMs": 253033.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "アメリカには、NVIDIAのように、AI半導体の設計で強い会社がある。",
+    "startMs": 253673.33333333334,
+    "endMs": 258653.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "台湾には、TSMCのように、設計図を受け取って実際に半導体を作ることが得意な会社がある。",
+    "startMs": 259393.33333333334,
+    "endMs": 266353.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "韓国は、AIでも大量に必要になるメモリで強い。",
+    "startMs": 267193.3333333334,
+    "endMs": 270913.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そして日本は、半導体を作るための装置や材料で、今も強い分野を持っています。",
+    "startMs": 271513.3333333334,
+    "endMs": 277373.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "つまり、どこか一つの国だけで、最先端の半導体を完成させているわけではないんです。",
+    "startMs": 278313.3333333334,
+    "endMs": 283893.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "設計する会社がいる。",
+    "startMs": 284693.3333333334,
+    "endMs": 286033.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "作る会社がいる。",
+    "startMs": 286213.3333333334,
+    "endMs": 287053.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "その工場へ装置を届ける会社がいる。",
+    "startMs": 287593.3333333334,
+    "endMs": 290133.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "材料を届ける会社がいる。",
+    "startMs": 290813.3333333334,
+    "endMs": 292413.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "検査する会社がいる。",
+    "startMs": 293073.3333333334,
+    "endMs": 294213.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "世界中の会社が、1000工程のそれぞれを分担しています。",
+    "startMs": 294773.3333333334,
+    "endMs": 298573.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "半導体は、一つの国が最初から最後まで作る商品というより、国境をまたいだ巨大なチームで作る商品なんです。",
+    "startMs": 299453.3333333334,
+    "endMs": 307533.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "日本企業は、完成品の後ろに隠れている。",
+    "startMs": 308013.3333333333,
+    "endMs": 311653.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "例えば、東京エレクトロンという日本企業があります。",
+    "startMs": 313293.3333333333,
+    "endMs": 316853.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "名前だけ聞くと、家電メーカーのようにも聞こえますが、半導体を作るための装置を作っている会社です。",
+    "startMs": 317613.3333333333,
+    "endMs": 324653.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "材料を塗る。",
+    "startMs": 326133.3333333333,
+    "endMs": 326993.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "薄い膜を作る。",
+    "startMs": 327973.3333333333,
+    "endMs": 329093.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "不要な部分を削る。",
+    "startMs": 330033.3333333333,
+    "endMs": 331553.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "表面を洗う。",
+    "startMs": 332633.3333333333,
+    "endMs": 333613.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "こうした複数の工程を支える装置を、世界中の半導体工場へ届けています。",
+    "startMs": 334733.3333333333,
+    "endMs": 340433.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "もう一つ、SUMCOという日本企業があります。",
+    "startMs": 342033.3333333333,
+    "endMs": 344933.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "こちらは、半導体の土台になるシリコンウェハを作る会社です。",
+    "startMs": 345673.3333333333,
+    "endMs": 349973.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "前回のCerebrasの巨大なプロセッサも、元をたどれば、このシリコンウェハから作られています。",
+    "startMs": 351113.3333333333,
+    "endMs": 357053.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "どれだけ優れた設計図があっても、土台になるウェハの品質が安定していなければ、",
+    "startMs": 357486.6666666667,
+    "endMs": 362766.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "細かな回路を正確に作ることはできません。",
+    "startMs": 362906.6666666667,
+    "endMs": 365366.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "この二社以外にも、洗う工程に強い会社。",
+    "startMs": 366346.6666666667,
+    "endMs": 369366.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "削る工程に強い会社。",
+    "startMs": 369866.6666666667,
+    "endMs": 371406.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "光に反応する材料を作る会社。",
+    "startMs": 372106.6666666667,
+    "endMs": 374226.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "目では見えないような欠陥を検査する会社。",
+    "startMs": 375006.6666666667,
+    "endMs": 377566.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "日本には、半導体づくりの途中を支えている会社がいくつもあります。",
+    "startMs": 378306.6666666667,
+    "endMs": 382806.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、こういう会社の名前は、完成したパソコンやスマートフォンには書かれません。",
+    "startMs": 383946.6666666667,
+    "endMs": 388846.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "僕らが見るのは、最後に完成した半導体の名前です。",
+    "startMs": 389866.6666666667,
+    "endMs": 393286.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "その途中で使われた装置や材料の会社名までは、普通は見えない。",
+    "startMs": 394246.6666666667,
+    "endMs": 398466.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "料理を食べた店の名前は覚えていても、厨房のオーブンを作った会社や、包丁を作った会社までは知らない。",
+    "startMs": 399546.6666666667,
+    "endMs": 406526.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それと少し似ています。",
+    "startMs": 407306.6666666667,
+    "endMs": 408506.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "見えないから、存在感が小さいように感じる。",
+    "startMs": 409186.6666666667,
+    "endMs": 412046.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、1000工程のどこか一つが欠けるだけでも、半導体は安定して作れなくなります。",
+    "startMs": 412826.6666666667,
+    "endMs": 418586.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "日本の半導体産業は、なくなったわけではなく、完成品の後ろに隠れているんです。",
+    "startMs": 419886.6666666667,
+    "endMs": 425266.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Cerebrasから見えてきたもの。",
+    "startMs": 425706.6666666667,
+    "endMs": 427346.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここで、前回のCerebrasへ戻ってみます。",
+    "startMs": 428446.6666666667,
+    "endMs": 430966.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Cerebrasは、アメリカで巨大な半導体を設計しています。",
+    "startMs": 431866.6666666667,
+    "endMs": 435246.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "その半導体を実際に製造しているのは、台湾のTSMCです。",
+    "startMs": 435986.6666666667,
+    "endMs": 440206.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そして半導体工場では、日本を含むさまざまな国の企業が、装置や材料を供給しています。",
+    "startMs": 441126.6666666667,
+    "endMs": 447286.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "これは、Cerebrasの特定の半導体に、",
+    "startMs": 448226.6666666667,
+    "endMs": 450846.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "先ほど紹介した日本企業の製品が必ず使われている、という意味ではありません。",
+    "startMs": 451066.6666666667,
+    "endMs": 455666.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ただ、半導体産業全体を見ると、アメリカの設計。",
+    "startMs": 456466.6666666667,
+    "endMs": 460046.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "台湾の製造。",
+    "startMs": 460586.6666666667,
+    "endMs": 461446.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "韓国のメモリ。",
+    "startMs": 461966.6666666667,
+    "endMs": 462786.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "日本の装置や材料。",
+    "startMs": 463166.6666666667,
+    "endMs": 464426.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それぞれの強みがつながって、AIを動かす土台が作られています。",
+    "startMs": 465086.6666666667,
+    "endMs": 468966.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIって、画面の中やクラウドの中に、ふわっと存在しているように見えますよね。",
+    "startMs": 470366.6666666667,
+    "endMs": 475386.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、その一番下まで降りていくと、工場がある。",
+    "startMs": 476286.6666666667,
+    "endMs": 479666.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "巨大な装置がある。",
+    "startMs": 479786.6666666667,
+    "endMs": 480806.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "材料を作る会社がある。",
+    "startMs": 481486.6666666667,
+    "endMs": 482846.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "世界中から部品を運ぶ物流がある。",
+    "startMs": 483466.6666666667,
+    "endMs": 485746.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIは、ものすごく物理的な産業でもあるんです。",
+    "startMs": 486526.6666666667,
+    "endMs": 489945.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "まとめ。",
+    "startMs": 490413.3333333334,
+    "endMs": 490873.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ということで今回は、「知られざる半導体王国、日本」について話してみました。",
+    "startMs": 492173.3333333334,
+    "endMs": 497173.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "1988年、日本企業は世界の半導体の約半分を占めていました。",
+    "startMs": 497993.3333333334,
+    "endMs": 503193.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "その後、完成した半導体では存在感を大きく落としました。",
+    "startMs": 503893.3333333334,
+    "endMs": 507633.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、半導体を作る1000工程の中まで見ると、日本企業が今も強い場所が見えてくる。",
+    "startMs": 508293.3333333334,
+    "endMs": 514413.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "日本の半導体の強さは、完成したチップの名前ではなく、1000工程の途中に隠れている。",
+    "startMs": 515553.3333333334,
+    "endMs": 521413.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今日、一つだけ覚えて帰るなら、これだけで大丈夫です。",
+    "startMs": 522093.3333333334,
+    "endMs": 525413.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そして、ここまで調べると、もう一つ疑問が出てきました。",
+    "startMs": 526733.3333333334,
+    "endMs": 529753.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "半導体は、いろいろな国が得意な場所を分担して作っている。",
+    "startMs": 530613.3333333334,
+    "endMs": 534153.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それなのに今、アメリカも、日本も、ヨーロッパも、自分たちの国へ半導体工場を作ろうとしています。",
+    "startMs": 534713.3333333334,
+    "endMs": 540993.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "しかも、企業だけではなく、国が大きなお金を出して工場を呼び込もうとしている。",
+    "startMs": 541533.3333333334,
+    "endMs": 546593.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "どうして、AIの競争が、国同士の半導体工場争奪戦にまで広がっているのか。",
+    "startMs": 547493.3333333334,
+    "endMs": 552873.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "次回は、「AIと半導体の国家争奪戦」。",
+    "startMs": 554213.3333333334,
+    "endMs": 557093.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIを作る競争が、なぜ工場を奪い合う競争になったのか。",
+    "startMs": 557813.3333333334,
+    "endMs": 561693.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "この辺を話してみたいと思います。",
+    "startMs": 562213.3333333334,
+    "endMs": 564093.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それでは今回は、この辺で。",
+    "startMs": 564913.3333333334,
+    "endMs": 566373.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

@@ -150,6 +150,9 @@ h2 { font-size: 28px; font-weight: 700; letter-spacing: -.035em; line-height: 1.
 .article-body li + li { margin-top: 8px; }
 .article-body ul, .article-body ol { padding-left: 1.5em; }
 .article-body code { font-size: .9em; background: #edf1f3; padding: 2px 5px; border-radius: 3px; }
+.article-body table { display: block; width: 100%; margin-block: 28px; border-collapse: collapse; overflow-x: auto; font-size: 14px; line-height: 1.7; }
+.article-body th, .article-body td { min-width: 150px; padding: 12px 14px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+.article-body th { background: #edf1f3; font-weight: 700; }
 .video-link-box { margin-top: 48px; border-block: 1px solid var(--line); padding-block: 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 .video-link-box .eyebrow { color: #79511b; font-size: 10px; margin-bottom: 8px; }
 .video-link-box p + p { font-weight: 700; font-size: 19px; }

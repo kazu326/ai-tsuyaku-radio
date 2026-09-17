@@ -6,13 +6,13 @@
 
 ## Current Focus
 
-Web MVPのトップページは、現段階の基準として一旦完成。Episode 001〜003の正式画像と画像共通ルールv0.1も確定した。Episode 003「知られざる半導体王国、日本」は、台本と制作側Knowledge Masterの最終確認を完了した。Episode 004「AIと半導体の国家争奪戦」、Episode 005「DeepSeek：強いGPUだけがAI競争ではない」、Episode 006「なぜAI企業はモデルを公開するのか：オープンモデルの経済」は、人間レビューを完了した。
+Web MVPのトップページは、現段階の基準として一旦完成。Episode 001〜003の正式画像と画像共通ルールv0.1も確定した。Episode 002は、正式画像・Web記事・公開済み動画・SNS派生物まで接続し、制作ラインの初回通過を完了した。Episode 003「知られざる半導体王国、日本」は、正式画像・Web記事・動画v01・SNS派生物まで接続し、制作ラインを再現できた。完成MP4は人間の全編レビューに合格し、追加修正なしで完成扱い。BGM追加後に音声を再確認する。Web記事は一段階目の人間レビューに合格し、本文を大きく変えずに次のレビューを待つ。Episode 004「AIと半導体の国家争奪戦」、Episode 005「DeepSeek：強いGPUだけがAI競争ではない」、Episode 006「なぜAI企業はモデルを公開するのか：オープンモデルの経済」は、人間レビューを完了した。
 
 Episode 001〜006をSeason 1として区切り、台本制作フェーズを完了した。004時点のWorld Model、Actor、Story Bible、Footprint、編集方針を変えずに005・006を制作した結果、発見型の語りは再現され、新しい原理候補は昇格させず観察に留めた。詳細は `logs/2026-09-16-episode-005-006-test.md` を参照する。
 
 Episode 006第7章は音声で確認済み。後半の「ました」「でしょうか」「思います」等の語尾反復は耳で気になったが、台本は変更せず、音声生成時に聞きながら間・呼吸・雰囲気を調整する。
 
-設計フェーズはほぼ終了。次はEpisode 002・003を正式画像、Web記事、動画、SNSまで通し、制作ラインを2本連続で一周させる。UIの細かな調整は、全体が8〜9割揃ってからトップへ戻り、情報量・文字サイズ・余白・Mobile表示をまとめて行う。
+設計フェーズはほぼ終了。Episode 002で制作ラインの「初回通過」を完了し、Episode 003でも同じ順序でWeb記事・動画・SNSまで制作できた。Episode 003動画は人間レビューを終え、200msの音声間隔と末尾ノイズは現状のまま承認された。UIの細かな調整は、全体が8〜9割揃ってからトップへ戻り、情報量・文字サイズ・余白・Mobile表示をまとめて行う。
 
 Actor / Story / World Modelの基礎設計フェーズはいったん完了。新しい仕組みを先回りして追加せず、制作中に必要性が発生したものだけを追加する。
 
@@ -65,14 +65,16 @@ AI通訳ラジオをYouTube単体ではなく、AIニュース・難解トピッ
 
 - トップ：`/`
 - Episode 001記事：`/episodes/ep001-ultrafast`
-- 原稿の正本：`episodes/ep001-ultrafast/article.md`。ビルド時に読み込み、複製・改稿しない
+- Episode 002記事：`/episodes/ep002-cerebras`
+- Episode 003記事：`/episodes/ep003-japan-semiconductor`
+- 原稿の正本：各Episodeの `article.md`。ビルド時に読み込み、複製・改稿しない
 - トップ構成：ヘッダー、Desktop / Mobile専用ヒーロー、読む・聞く・見る、最新エピソード、NEWS 5件、番組紹介、フッター
 - 正式素材：ヘッダーロゴ、Desktopヒーロー、Mobileヒーロー、フッター用反転アイコン
-- 正式Episode画像：`episodes/images/episode-001.png`〜`episode-003.png`。Webへの反映は次工程
-- 現在のWeb表示：Episode 001は旧仮サムネイルのまま。コンテンツ流し込み時に正式画像へ差し替える
+- 正式Episode画像：`episodes/images/episode-001.png`〜`episode-003.png`。Episode 002・003は正本と同じハッシュでWebへ反映済み
+- 現在のWeb表示：最新エピソードはEpisode 003。Episode 001は旧仮サムネイルのまま
 - 仮データ：NEWS 5件。UI確認用で本文ページや運用基盤は未実装
-- 記事詳細：本文全文、一次情報・参考資料、YouTubeリンクを表示
-- レビュー状態：375 / 768 / 1440pxで横スクロール・重なりなし。lint、TypeScript、本番ビルド、ブラウザ確認に合格
+- 記事詳細：本文全文、一次情報・参考資料、比較表、記事末尾の「この回の言葉」を表示。原稿にVideo IDがある場合だけYouTubeリンクを表示
+- レビュー状態：375 / 768 / 1440pxで横スクロール・重なりなし。Episode 003追加後もlint、TypeScript、本番ビルド、ブラウザ確認に合格
 - 公開状態：ローカルMVP。`noindex, nofollow`。未デプロイ
 
 実装・起動手順は `web/README.md`、最終確認内容は `web/review/REVIEW.md` を参照する。
@@ -104,7 +106,9 @@ AI通訳ラジオをYouTube単体ではなく、AIニュース・難解トピッ
 
 親リポジトリへの統合Commit：`c14798074e01c2384457c079d2185cf780ab1bac` (`Integrate Remotion production environment`)
 
-Git管理対象198ファイルは基準Commitと一致する状態で収容し、`main` へpush済み。`npm ci`、lint、TypeScript、Remotion bundle、Composition 6件の読み込みはすべて成功した。第2話 `AI-Radio-Episode2-Main-v01` もCompositionとして読み込み済み。
+Git管理対象198ファイルは基準Commitと一致する状態で収容し、`main` へpush済み。移植時の`npm ci`、lint、TypeScript、Remotion bundle、Composition 6件の読み込みはすべて成功した。第2話 `AI-Radio-Episode2-Main-v01` は人間評価承認、手動レンダリング、編集、公開まで完了済み。
+
+Episode 003では`AI-Radio-Episode3-Main-v01`を追加し、Compositionは7件になった。12音声の間に6フレーム（200ms）の無音を入れ、144字幕、8 Visual Segment、SE 5か所を同期。`out/AI-Radio-Episode3-Main-v01.mp4`をレンダリングし、H.264 1280×720 / 30fps / 16993フレーム、AAC音声、566.485333秒を確認済み。人間の全編レビューでは200msの間に違和感がなく、末尾ノイズも実用上ほぼ問題ないと判断され、現段階では追加修正なしで完成扱い。BGM追加後に再確認する。
 
 MP4はGit管理対象外。ローカル素材38本は `video/remotion/LOCAL_ASSETS.md` のパスを維持して配置し、コピー元とのハッシュ一致を確認済み。GitHubにはコード・設定・字幕JSON・台本・素材パス・管理情報のみを保存する。
 
@@ -112,9 +116,10 @@ MP4はGit管理対象外。ローカル素材38本は `video/remotion/LOCAL_ASSE
 
 ## 現在の優先順位
 
-1. Episode 002・003を正式画像、Web記事、動画、SNSまで通し、制作ラインを2本連続で一周させる
-2. Episode 001〜003の実コンテンツでNEWS 5件を置き換える
-3. コンテンツが揃った状態で、情報量・文字サイズ・余白・Mobile表示をまとめて調整する
+1. Episode 003 Web記事の次段階の人間レビューを待ち、本文の大きな変更は行わない
+2. Episode 003へBGMを追加した後、音声間隔と末尾ノイズを再確認し、公開・URL記録・SNS差し込みまで完了する
+3. Episode 001〜003の実コンテンツでNEWS 5件を置き換える
+4. コンテンツが揃った状態で、情報量・文字サイズ・余白・Mobile表示をまとめて調整する
 
 次シーズンへ持ち込むWATCHは次の2件だけとし、3件目を先回りして増やさない。
 
@@ -129,7 +134,7 @@ MP4はGit管理対象外。ローカル素材38本は `video/remotion/LOCAL_ASSE
 
 ## 次回の開始点
 
-次は、`episodes/ep002-cerebras/article.md`、`episodes/ep002-cerebras/script.md`、`episodes/ep002-cerebras/research.md`、`episodes/ep003-japan-semiconductor/script.md`、`episodes/ep003-japan-semiconductor/research.md`、`context/EPISODE_IMAGE_RULES.md`、`web/review/REVIEW.md` を読む。既存のDesktop基準と確定済みの正式画像を保ったまま、Episode 002・003をWeb記事、動画、SNSまで展開し、制作ラインを2本連続で一周させる。
+次は、Episode 003 Web記事の次段階の人間レビュー結果を待つ。本文の大きな変更は行わない。動画は現段階で完成扱いとし、後工程でBGMを追加した状態でもう一度だけ音声間隔と末尾ノイズを確認する。公開後にURLを記録し、Webの動画導線とSNSの差し込み項目を更新してEpisode 003の再現性確認を正式完了とする。
 
 Episode 004「AIと半導体の国家争奪戦」、005「DeepSeek：強いGPUだけがAI競争ではない」、006「なぜAI企業はモデルを公開するのか：オープンモデルの経済」でSeason 1を閉じる。次シーズンは、「一番性能が高いAIを選べば一番うまく使えるのか」「使う側にも、どう使うか・どんな環境を作るかという設計があるのか」という問いから始める候補を残している。テーマや構成はまだ固定しない。
 

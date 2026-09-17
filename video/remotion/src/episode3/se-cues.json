@@ -1,0 +1,7 @@
+[
+  {"id":"core-intro","from":2035,"durationInFrames":30,"volume":0.08,"purpose":"今回の核心"},
+  {"id":"process","from":4684,"durationInFrames":30,"volume":0.08,"purpose":"1000工程"},
+  {"id":"countries","from":7350,"durationInFrames":30,"volume":0.08,"purpose":"世界の分業"},
+  {"id":"companies","from":9222,"durationInFrames":30,"volume":0.08,"purpose":"日本企業の役割"},
+  {"id":"physical-ai","from":12753,"durationInFrames":30,"volume":0.08,"purpose":"AIの物理的な土台"}
+]

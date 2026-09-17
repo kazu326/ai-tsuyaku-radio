@@ -1,0 +1,105 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "durationInFrames": 16993,
+  "interClipGapFrames": 6,
+  "segments": [
+    {
+      "id": "01",
+      "audio": "episode3/1.mp3",
+      "from": 0,
+      "durationInFrames": 746,
+      "audioDurationSeconds": 24.842438,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "02",
+      "audio": "episode3/2.mp3",
+      "from": 752,
+      "durationInFrames": 649,
+      "audioDurationSeconds": 21.629375,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "03",
+      "audio": "episode3/3.mp3",
+      "from": 1407,
+      "durationInFrames": 957,
+      "audioDurationSeconds": 31.869375,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "04",
+      "audio": "episode3/4.mp3",
+      "from": 2370,
+      "durationInFrames": 1268,
+      "audioDurationSeconds": 42.266063,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "05",
+      "audio": "episode3/5.mp3",
+      "from": 3644,
+      "durationInFrames": 1044,
+      "audioDurationSeconds": 34.768938,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "06",
+      "audio": "episode3/6.mp3",
+      "from": 4694,
+      "durationInFrames": 1338,
+      "audioDurationSeconds": 44.591,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "07",
+      "audio": "episode3/7.mp3",
+      "from": 6038,
+      "durationInFrames": 1319,
+      "audioDurationSeconds": 43.964063,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "08",
+      "audio": "episode3/8.mp3",
+      "from": 7363,
+      "durationInFrames": 1866,
+      "audioDurationSeconds": 62.1975,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "09",
+      "audio": "episode3/9.mp3",
+      "from": 9235,
+      "durationInFrames": 1480,
+      "audioDurationSeconds": 49.319125,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "10",
+      "audio": "episode3/10.mp3",
+      "from": 10721,
+      "durationInFrames": 2040,
+      "audioDurationSeconds": 67.970563,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "11",
+      "audio": "episode3/11.mp3",
+      "from": 12767,
+      "durationInFrames": 1934,
+      "audioDurationSeconds": 64.444063,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "12",
+      "audio": "episode3/12.mp3",
+      "from": 14707,
+      "durationInFrames": 2286,
+      "audioDurationSeconds": 76.199125,
+      "gapAfterFrames": 0
+    }
+  ]
+}

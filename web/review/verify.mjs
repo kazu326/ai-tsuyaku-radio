@@ -11,10 +11,10 @@ const { chromium } = require("playwright");
 const { marked } = require("marked");
 const directory = path.dirname(fileURLToPath(import.meta.url));
 const origin = process.env.RADIO_REVIEW_URL || "http://127.0.0.1:3000";
-const source = await readFile(path.resolve(directory, "../../episodes/ep001-ultrafast/article.md"), "utf8");
+const source = await readFile(path.resolve(directory, "../../episodes/ep003-japan-semiconductor/article.md"), "utf8");
 const { data, content } = matter(source);
 const expectedHtml = marked.parse(content.replace(/^\s*# [^\r\n]+\r?\n/, "").trim());
-const articlePath = "/episodes/ep001-ultrafast";
+const articlePath = "/episodes/ep003-japan-semiconductor";
 const failures = [];
 const results = [];
 const browser = await chromium.launch({ channel: "chrome", headless: true });
@@ -58,6 +58,8 @@ try {
         assert.equal(await page.locator(".content-item").count(), 3);
         assert.equal(await page.locator(".news-list > li").count(), 5);
         assert.equal(await page.locator(".desktop-nav a").count(), 4);
+        assert.match(await page.locator(".episode-image-link img").getAttribute("src"), /episode-003\.png/);
+        assert.equal(await page.locator(".image-label").textContent(), "EPISODE.003");
         const hero = await page.locator(".hero").evaluate((element) => ({
           height: element.getBoundingClientRect().height,
           image: document.querySelector(".hero-image")?.currentSrc,
@@ -112,15 +114,16 @@ try {
         assert.equal(comparison.bodyMatches, true, "All Markdown body text must be preserved");
         assert.deepEqual(comparison.links, comparison.expectedLinks);
         assert.equal(comparison.h2, comparison.expectedH2);
-        assert.ok(comparison.blockquotes > 0);
-        assert.equal(await page.getByRole("link", { name: "YouTubeでEpisode 001を見る" }).getAttribute("href"), "https://www.youtube.com/watch?v=FbcFznXk0Bg");
+        assert.equal(comparison.blockquotes, 0);
+        assert.equal(await page.locator(".article-body table").count(), 1);
+        assert.equal(await page.locator(".video-link-box").count(), 0);
         assert.equal(await page.locator("iframe").count(), 0);
         results.push({ width, article: comparison });
       }
       await page.screenshot({ path: path.join(directory, `${name}-${width}.png`), fullPage: true });
       if (name === "article") {
         await page.screenshot({ path: path.join(directory, `article-top-${width}.png`) });
-        await page.getByRole("heading", { name: "一次情報・参考資料" }).scrollIntoViewIfNeeded();
+        await page.getByRole("heading", { name: "出典" }).scrollIntoViewIfNeeded();
         await page.screenshot({ path: path.join(directory, `article-sources-${width}.png`) });
       }
       results.push({ name, ...metrics });
@@ -128,7 +131,7 @@ try {
 
     await page.getByRole("link", { name: "トップに戻る", exact: false }).click();
     await page.waitForURL(origin + "/");
-    await page.getByRole("link", { name: "Episode 001を読む", exact: true }).click();
+    await page.getByRole("link", { name: "Episode 003を読む", exact: true }).click();
     await page.waitForURL(origin + articlePath);
     await page.getByRole("link", { name: "エピソードに戻る" }).click();
     await page.waitForURL(origin + "/#episodes");

@@ -4,7 +4,7 @@ description: "ウェハ規模の巨大なAIプロセッサを作るCerebrasに�
 slug: "ep002-cerebras"
 episode: 2
 content_type: "ai-news-explainer"
-status: "draft"
+status: "final"
 tags:
   - Cerebras
   - WSE-3
@@ -133,3 +133,11 @@ AIがさらに賢くなるほど、その知能をどんな環境で動かすか
 - Cerebras, [How Cerebras serves GPT-5.6 Sol at up to 750 tokens per second](https://www.cerebras.ai/blog/how-cerebras-serves-gpt-5-6-sol-at-up-to-750-tokens-per-second)
 - OpenAI, [Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed](https://openai.com/index/previewing-ultrafast/)
 - U.S. SEC, [Cerebras Systems Form DRS](https://www.sec.gov/Archives/edgar/data/2021728/000162828024041596/cerebras-sx1.htm)
+
+## この回の言葉
+
+- **Cerebras** — AI向けのウェハ規模プロセッサを開発する企業。この回では、AIが動きやすい計算環境をハードウェアから設計する代表例として取り上げました。
+- **WSE-3** — Cerebrasの第3世代Wafer Scale Engine。通常は小さく切り分けるウェハを、巨大な一つのプロセッサとして使う発想を具体化したチップです。
+- **ウェハ** — 半導体回路を作り込む円盤状の基板。Cerebrasは、通常のように多数の小さなチップへ切り分けず、ほぼ全面を一つの計算機として使います。
+- **オンチップSRAM** — プロセッサと同じチップ上に置かれた高速なメモリ。この回では、計算に必要なデータを近くへ置き、移動の負担を減らす仕組みとして登場しました。
+- **データ移動** — 計算装置とメモリの間などでデータを運ぶこと。この回では、計算そのものだけでなく、この移動時間を減らすことがAI高速化の鍵だと整理しました。
