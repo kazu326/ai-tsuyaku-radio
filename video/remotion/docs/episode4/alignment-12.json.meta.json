@@ -1,0 +1,11 @@
+{
+  "audioSha256": "9f544c8229d78bd02ac3c6b82632baf18868752977197bea61f97c45a0741976",
+  "textSha256": "6b2d4ff2229168822f29687115d7aaaf207a6f0306a1f0145dfb9b5a3ec80039",
+  "endpoint": "https://api.elevenlabs.io/v1/forced-alignment",
+  "audioPath": "public/episode4/12.mp3",
+  "textPath": "docs/episode4/spoken-text-12.txt",
+  "createdAt": "2026-09-17T17:53:46.192Z",
+  "elapsedMs": 941,
+  "apiCalls": 1,
+  "responseSha256": "84a023566f358a0f1c9d8549a466a8b1cdd0457156429652e80e042176f36c5a"
+}

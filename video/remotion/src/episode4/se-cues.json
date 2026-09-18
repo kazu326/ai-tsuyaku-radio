@@ -1,0 +1,8 @@
+[
+  {"id":"core","from":3710,"durationInFrames":30,"volume":0.08,"purpose":"今回の核心"},
+  {"id":"compute","from":4569,"durationInFrames":30,"volume":0.08,"purpose":"計算基盤"},
+  {"id":"fab","from":7121,"durationInFrames":30,"volume":0.08,"purpose":"工場の難しさ"},
+  {"id":"shortage","from":9244,"durationInFrames":30,"volume":0.08,"purpose":"供給途絶"},
+  {"id":"locations","from":12077,"durationInFrames":30,"volume":0.08,"purpose":"複数拠点"},
+  {"id":"capability","from":16416,"durationInFrames":30,"volume":0.08,"purpose":"取り合っている能力"}
+]

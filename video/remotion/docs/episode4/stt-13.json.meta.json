@@ -1,0 +1,15 @@
+{
+  "audioPath": "public/episode4/13.mp3",
+  "audioSha256": "5df99301496160ff811f44c730236024cb73805db6ad72d714a0c0be49b2ced7",
+  "endpoint": "https://api.elevenlabs.io/v1/speech-to-text",
+  "options": {
+    "model_id": "scribe_v2",
+    "language_code": "ja",
+    "timestamps_granularity": "word",
+    "tag_audio_events": "false",
+    "diarize": "false"
+  },
+  "createdAt": "2026-09-17T17:53:17.275Z",
+  "responseSha256": "740a3e94ffefcec968e6b1f2ada9b16eca2336f108c1052a576596536b41d743",
+  "apiCalls": 1
+}

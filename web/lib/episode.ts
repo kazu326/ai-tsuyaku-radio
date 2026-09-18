@@ -6,6 +6,7 @@ import matter from "gray-matter";
 export const episodeHref = "/episodes/ep001-ultrafast";
 export const episode2Href = "/episodes/ep002-cerebras";
 export const episode3Href = "/episodes/ep003-japan-semiconductor";
+export const episode4Href = "/episodes/ep004-ai-semiconductor-race";
 
 export type GlossaryItem = {
   term: string;
@@ -24,6 +25,7 @@ const afterglowBySlug: Record<string, string> = {
   "ep001-ultrafast": "14倍は目を引く数字です。でも、本当に面白い変化は、その数字を生み出した土台の方にあります。",
   "ep002-cerebras": "AIがさらに賢くなるほど、その知能をどんな環境で動かすかが、体験の違いとして見えやすくなっていきそうです。",
   "ep003-japan-semiconductor": "日本の半導体の強さは、完成したチップの名前ではなく、1000工程の途中に隠れている。",
+  "ep004-ai-semiconductor-race": "AIは画面の中では国境がないように見えます。でも、その計算を支える場所は、世界地図の上にあります。",
 };
 
 const findSection = (markdown: string, titles: string[]): MarkdownSection | null => {
@@ -113,3 +115,4 @@ const loadEpisode = cache(async (slug: string, episodeNumber: number) => {
 export const getEpisode = () => loadEpisode("ep001-ultrafast", 1);
 export const getEpisode2 = () => loadEpisode("ep002-cerebras", 2);
 export const getEpisode3 = () => loadEpisode("ep003-japan-semiconductor", 3);
+export const getEpisode4 = () => loadEpisode("ep004-ai-semiconductor-race", 4);

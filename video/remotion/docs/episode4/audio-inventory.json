@@ -1,0 +1,197 @@
+{
+  "source": "Supplied Episode 004 narration; no trimming or processing",
+  "totalAudioSeconds": 731.4546938775511,
+  "insertedSilenceSeconds": 3.6,
+  "files": [
+    {
+      "id": "01",
+      "file": "public/episode4/1.mp3",
+      "sha256": "5ad21c1d8e2e272ca49f333faa8e7f23382c95b6bef39f4013ad081d47208280",
+      "bytes": 799485,
+      "durationSeconds": 49.031836734693876,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "02",
+      "file": "public/episode4/2.mp3",
+      "sha256": "c044d8636219068c264d67c4d7ac0a4385c1a384d81753d1c7856174be89ae35",
+      "bytes": 608478,
+      "durationSeconds": 37.06775510204081,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "03",
+      "file": "public/episode4/3.mp3",
+      "sha256": "bdb6272d4eec8bc98006f34725eaaf460dcc60d2c61badfebc51c0bd96c632cc",
+      "bytes": 610985,
+      "durationSeconds": 37.224489795918366,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "04",
+      "file": "public/episode4/4.mp3",
+      "sha256": "b7362ed9a7139eab7c099e353d09c699dca08aecd76128688d1968105b2ad5dd",
+      "bytes": 470551,
+      "durationSeconds": 28.421224489795918,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "05",
+      "file": "public/episode4/5.mp3",
+      "sha256": "a3c20d8f1c5cb22672b3481f13dbbc941cf3209aa4a0fd59ea2c5c62c5274738",
+      "bytes": 543276,
+      "durationSeconds": 32.966530612244895,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "06",
+      "file": "public/episode4/6.mp3",
+      "sha256": "a26475149bc2e0802ee81039fdebcc398ec49065999ecf48b5ff3dbc6888c23b",
+      "bytes": 841699,
+      "durationSeconds": 51.670204081632654,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "07",
+      "file": "public/episode4/7.mp3",
+      "sha256": "e57c4baa9a091befa12f766ebe7495c9dac6c63f78e64ecebdb72232827c1857",
+      "bytes": 685382,
+      "durationSeconds": 41.87428571428571,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "08",
+      "file": "public/episode4/8.mp3",
+      "sha256": "8f743bc1c21241d1d5034aaadb203bfa1630447ae285b7696d174f918be6690d",
+      "bytes": 470551,
+      "durationSeconds": 28.421224489795918,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "09",
+      "file": "public/episode4/9.mp3",
+      "sha256": "b120daa537a09a1cc60fcdb5be3f280bb506102894a988e67453c1c19bc89fa5",
+      "bytes": 659887,
+      "durationSeconds": 40.28081632653061,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "10",
+      "file": "public/episode4/10.mp3",
+      "sha256": "8c245e2492f624a3f78c7caea981a98da87a7499503a23c88aefc80f560989e5",
+      "bytes": 378182,
+      "durationSeconds": 22.622040816326532,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "11",
+      "file": "public/episode4/11.mp3",
+      "sha256": "51c35136dcfa2bc52e827307a24f443a543c63f65b3d12462bae73ca2978fea4",
+      "bytes": 510257,
+      "durationSeconds": 30.902857142857144,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "12",
+      "file": "public/episode4/12.mp3",
+      "sha256": "9f544c8229d78bd02ac3c6b82632baf18868752977197bea61f97c45a0741976",
+      "bytes": 641914,
+      "durationSeconds": 39.157551020408164,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "13",
+      "file": "public/episode4/13.mp3",
+      "sha256": "5df99301496160ff811f44c730236024cb73805db6ad72d714a0c0be49b2ced7",
+      "bytes": 438368,
+      "durationSeconds": 26.409795918367347,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "14",
+      "file": "public/episode4/14.mp3",
+      "sha256": "f9b7971b25c5aca3de91c96348bd081f815940fed58d6120cf6d27a6f1d1a95e",
+      "bytes": 548292,
+      "durationSeconds": 33.28,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "15",
+      "file": "public/episode4/15.mp3",
+      "sha256": "24350c12d7ae98d248c9ed0dad6c43e681704fba24e87ff53ab08a714a68cc3e",
+      "bytes": 733865,
+      "durationSeconds": 44.904489795918366,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "16",
+      "file": "public/episode4/16.mp3",
+      "sha256": "66fd2d194828c3319896bff409d67c579127bd6bc0a7d22bb391bef170e77470",
+      "bytes": 781513,
+      "durationSeconds": 47.90857142857143,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "17",
+      "file": "public/episode4/17.mp3",
+      "sha256": "a974571d0f0da3a38a221404b4756728d58290987fc4eff64b670f440a307467",
+      "bytes": 548292,
+      "durationSeconds": 33.28,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "18",
+      "file": "public/episode4/18.mp3",
+      "sha256": "cd2c896c3672e4a025117ef07b41bbf63c342d2fc162075ba2fd1711541d9d84",
+      "bytes": 710878,
+      "durationSeconds": 43.46775510204082,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "19",
+      "file": "public/episode4/19.mp3",
+      "sha256": "b11c14b20866c299cd52ede782914cd63151d4ecd988b9881094ca6f19d71e06",
+      "bytes": 1015570,
+      "durationSeconds": 62.563265306122446,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    }
+  ]
+}

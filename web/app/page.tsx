@@ -1,7 +1,7 @@
 import Image, { getImageProps } from "next/image";
 import Link from "next/link";
 import { Arrow } from "@/components/site-chrome";
-import { episode3Href, getEpisode3 } from "@/lib/episode";
+import { episode4Href, getEpisode4 } from "@/lib/episode";
 
 export const dynamic = "force-static";
 
@@ -97,7 +97,7 @@ function VideoIcon() {
 }
 
 export default async function Home() {
-  const episode = await getEpisode3();
+  const episode = await getEpisode4();
   return (
     <main id="main">
       <section className="hero" aria-labelledby="hero-title">
@@ -107,7 +107,7 @@ export default async function Home() {
             <p className="hero-kicker">AIを、みんなのそばに</p>
             <h1 id="hero-title">AIの難しい話を、<br /><span>わかる言葉に。</span></h1>
             <p className="hero-description">難しいAIニュースや技術トピックを、<br />やさしく整理して届けるラジオ番組。<br />毎日の変化を、置いていかれない言葉で。</p>
-            <Link className="button button-amber" href={episode3Href}>Episode 003を読む<Arrow /></Link>
+            <Link className="button button-amber" href={episode4Href}>Episode 004を読む<Arrow /></Link>
           </div>
         </div>
       </section>
@@ -140,15 +140,15 @@ export default async function Home() {
           <section id="episodes" className="latest-block" aria-labelledby="episodes-title">
             <div className="compact-heading inline-heading"><h2 id="episodes-title"><span className="heading-bar" /> 最新のエピソード</h2><span className="eyebrow">LATEST EPISODE</span></div>
             <article className="episode-card">
-              <Link className="episode-image-link" href={episode3Href} aria-label="Episode 003の記事を読む">
-                <Image src="/images/episode-003.png" alt="青い半導体工場、シリコンウェハ、製造装置、発光する日本地図を配置したEpisode 003正式画像" width={1672} height={941} sizes="(max-width: 700px) calc(100vw - 40px), (max-width: 1050px) 52vw, 480px" />
-                <span className="image-label">EPISODE.003</span>
+              <Link className="episode-image-link" href={episode4Href} aria-label="Episode 004の記事を読む">
+                <Image src="/images/episode-004.png" alt="夜の世界地図を供給網が結び、半導体工場、ウェハー、AIチップを配置したEpisode 004画像" width={1672} height={941} sizes="(max-width: 700px) calc(100vw - 40px), (max-width: 1050px) 52vw, 480px" />
+                <span className="image-label">EPISODE.004</span>
               </Link>
               <div className="episode-copy">
-                <div className="episode-meta"><span className="category">難解トピック翻訳</span><time dateTime="2026-09-17">2026.09.17</time></div>
-                <h3><Link href={episode3Href}>{episode.title}</Link></h3>
+                <div className="episode-meta"><span className="category">難解トピック翻訳</span><time dateTime="2026-09-18">2026.09.18</time></div>
+                <h3><Link href={episode4Href}>{episode.title}</Link></h3>
                 <p>{episode.description}</p>
-                <Link className="button button-amber episode-button" href={episode3Href}>エピソードを読む<Arrow /></Link>
+                <Link className="button button-amber episode-button" href={episode4Href}>エピソードを読む<Arrow /></Link>
               </div>
             </article>
           </section>

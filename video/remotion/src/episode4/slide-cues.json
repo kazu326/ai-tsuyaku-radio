@@ -1,0 +1,11 @@
+[
+  {"id":"farm-to-fab","kind":"intro","startSeconds":1.00,"endSeconds":48.90,"enabled":true},
+  {"id":"world-team","kind":"world","startSeconds":86.53,"endSeconds":123.63,"enabled":true},
+  {"id":"core-thesis","kind":"core","startSeconds":123.97,"endSeconds":152.17,"enabled":true},
+  {"id":"compute-capacity","kind":"compute","startSeconds":152.60,"endSeconds":237.29,"enabled":true},
+  {"id":"fab-lead-time","kind":"fab","startSeconds":237.67,"endSeconds":308.05,"enabled":true},
+  {"id":"shortage-cascade","kind":"shortage","startSeconds":308.42,"endSeconds":402.50,"enabled":true},
+  {"id":"multiple-locations","kind":"locations","startSeconds":402.87,"endSeconds":468.53,"enabled":true},
+  {"id":"multiple-routes","kind":"resilience","startSeconds":468.87,"endSeconds":547.15,"enabled":true},
+  {"id":"capability","kind":"capability","startSeconds":547.50,"endSeconds":672.50,"enabled":true}
+]
