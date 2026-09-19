@@ -7,6 +7,37 @@ export const episodeHref = "/episodes/ep001-ultrafast";
 export const episode2Href = "/episodes/ep002-cerebras";
 export const episode3Href = "/episodes/ep003-japan-semiconductor";
 export const episode4Href = "/episodes/ep004-ai-semiconductor-race";
+export const episode5Href = "/episodes/ep005-deepseek";
+export const episode6Href = "/episodes/ep006-open-model-economy";
+
+const episodeDefinitions = [
+  { slug: "ep001-ultrafast", episode: 1, href: episodeHref, imageSrc: "/images/episode-001-ai-infrastructure.png" },
+  { slug: "ep002-cerebras", episode: 2, href: episode2Href, imageSrc: "/images/episode-002.png" },
+  { slug: "ep003-japan-semiconductor", episode: 3, href: episode3Href, imageSrc: "/images/episode-003.png" },
+  { slug: "ep004-ai-semiconductor-race", episode: 4, href: episode4Href, imageSrc: "/images/episode-004.png" },
+  { slug: "ep005-deepseek", episode: 5, href: episode5Href, imageSrc: "/images/episode-005.png" },
+  { slug: "ep006-open-model-economy", episode: 6, href: episode6Href, imageSrc: "/images/episode-006.png" },
+] as const;
+
+const contentTypeLabels: Record<string, string> = {
+  "ai-news-explainer": "AIニュース解説",
+  "difficult-topic-translation": "難解トピック翻訳",
+};
+
+export type EpisodeSummary = {
+  title: string;
+  description: string;
+  slug: string;
+  episode: number;
+  season: number;
+  href: string;
+  imageSrc: string;
+  imageAlt: string;
+  contentType: string;
+  contentTypeLabel: string;
+  tags: string[];
+  entities: string[];
+};
 
 export type GlossaryItem = {
   term: string;
@@ -26,6 +57,8 @@ const afterglowBySlug: Record<string, string> = {
   "ep002-cerebras": "AIがさらに賢くなるほど、その知能をどんな環境で動かすかが、体験の違いとして見えやすくなっていきそうです。",
   "ep003-japan-semiconductor": "日本の半導体の強さは、完成したチップの名前ではなく、1000工程の途中に隠れている。",
   "ep004-ai-semiconductor-race": "AIは画面の中では国境がないように見えます。でも、その計算を支える場所は、世界地図の上にあります。",
+  "ep005-deepseek": "強いGPUは、AI競争の上限を押し上げる。でも、そのGPUをどれだけ働かせられるかは、設計で変わる。",
+  "ep006-open-model-economy": "AIの強さは、モデル一個の性能だけでなく、その周りに作られた仕組み全体で決まっているのかもしれません。",
 };
 
 const findSection = (markdown: string, titles: string[]): MarkdownSection | null => {
@@ -85,10 +118,20 @@ const loadEpisode = cache(async (slug: string, episodeNumber: number) => {
     typeof data.title !== "string" ||
     typeof data.description !== "string" ||
     data.slug !== slug ||
-    data.episode !== episodeNumber
+    data.episode !== episodeNumber ||
+    !Number.isInteger(data.season)
   ) {
     throw new Error(`Episode ${String(episodeNumber).padStart(3, "0")} article metadata is missing or invalid.`);
   }
+
+  const definition = episodeDefinitions.find((episode) => episode.slug === slug);
+  if (!definition) {
+    throw new Error(`Episode ${String(episodeNumber).padStart(3, "0")} is not registered.`);
+  }
+
+  const tags = Array.isArray(data.tags) ? data.tags.filter((tag): tag is string => typeof tag === "string") : [];
+  const entities = Array.isArray(data.entities) ? data.entities.filter((entity): entity is string => typeof entity === "string") : [];
+  const contentType = typeof data.content_type === "string" ? data.content_type : "";
 
   const videoId = content.match(/Video ID:\s*`([A-Za-z0-9_-]{11})`/)?.[1];
   const sourceBody = content.replace(/^\s*# [^\r\n]+\r?\n/, "").trim();
@@ -101,6 +144,16 @@ const loadEpisode = cache(async (slug: string, episodeNumber: number) => {
   return {
     title: data.title,
     description: data.description,
+    slug,
+    episode: episodeNumber,
+    season: data.season,
+    href: definition.href,
+    imageSrc: definition.imageSrc,
+    imageAlt: `${data.title}のEpisode ${String(episodeNumber).padStart(3, "0")}画像`,
+    contentType,
+    contentTypeLabel: contentTypeLabels[contentType] ?? "AI解説",
+    tags,
+    entities,
     // Render the source H1 once in the page header and move closing sections without changing the source file.
     body: removeSections(sourceBody, [sources, glossary]),
     afterglow: afterglowBySlug[slug],
@@ -116,3 +169,26 @@ export const getEpisode = () => loadEpisode("ep001-ultrafast", 1);
 export const getEpisode2 = () => loadEpisode("ep002-cerebras", 2);
 export const getEpisode3 = () => loadEpisode("ep003-japan-semiconductor", 3);
 export const getEpisode4 = () => loadEpisode("ep004-ai-semiconductor-race", 4);
+export const getEpisode5 = () => loadEpisode("ep005-deepseek", 5);
+export const getEpisode6 = () => loadEpisode("ep006-open-model-economy", 6);
+
+export const getAllEpisodes = cache(async (): Promise<EpisodeSummary[]> => {
+  const episodes = await Promise.all(
+    episodeDefinitions.map(({ slug, episode }) => loadEpisode(slug, episode)),
+  );
+
+  return episodes.map((episode) => ({
+    title: episode.title,
+    description: episode.description,
+    slug: episode.slug,
+    episode: episode.episode,
+    season: episode.season,
+    href: episode.href,
+    imageSrc: episode.imageSrc,
+    imageAlt: episode.imageAlt,
+    contentType: episode.contentType,
+    contentTypeLabel: episode.contentTypeLabel,
+    tags: episode.tags,
+    entities: episode.entities,
+  }));
+});

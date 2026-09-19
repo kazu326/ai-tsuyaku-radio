@@ -35,7 +35,7 @@ export default async function Episode2Page() {
   return (
     <main id="main" className="article-main">
       <div className="article-shell">
-        <Link className="back-link" href="/#episodes"><span aria-hidden="true">←</span> エピソードに戻る</Link>
+        <Link className="back-link" href="/episodes"><span aria-hidden="true">←</span> エピソードに戻る</Link>
         <article>
           <header className="article-header">
             <div className="episode-meta"><span className="eyebrow">EPISODE 002</span><span className="category">AIニュース解説</span></div>

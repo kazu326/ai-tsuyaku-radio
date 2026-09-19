@@ -42,7 +42,7 @@ export default async function Episode4Page() {
   return (
     <main id="main" className="article-main">
       <div className="article-shell">
-        <Link className="back-link" href="/#episodes">
+        <Link className="back-link" href="/episodes">
           <span aria-hidden="true">←</span> エピソードに戻る
         </Link>
         <article>

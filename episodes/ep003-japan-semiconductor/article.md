@@ -3,6 +3,7 @@ title: "日本は今も半導体王国？ 1000工程の途中にある本当の�
 description: "完成した半導体では存在感を落とした日本が、製造装置・シリコンウェハ・材料・検査など、1000を超える製造工程のどこで今も強いのかを整理します。"
 slug: "ep003-japan-semiconductor"
 episode: 3
+season: 1
 content_type: "difficult-topic-translation"
 status: "final"
 tags:

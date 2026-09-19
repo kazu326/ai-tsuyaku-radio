@@ -3,6 +3,7 @@ title: "GPT-5.6 Sol『Ultrafast』とは？ 14倍の速度より面白い、AI�
 description: "GPT-5.6 Solを最大14倍高速化するUltrafastを入口に、AI競争がモデル単体から実行環境全体へ広がる可能性を、事実と解釈を分けて解説します。"
 slug: "ep001-ultrafast"
 episode: 1
+season: 1
 content_type: "ai-news-explainer"
 status: "draft"
 tags:

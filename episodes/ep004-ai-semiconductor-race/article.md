@@ -3,6 +3,7 @@ title: "なぜ世界は半導体工場を取り合うのか？ AI競争の足元
 description: "世界分業で作るはずの半導体を、なぜアメリカ、日本、ヨーロッパは自国にも呼び込むのか。AIを作り続ける能力と、供給ルートの選択肢をめぐる競争を整理します。"
 slug: "ep004-ai-semiconductor-race"
 episode: 4
+season: 1
 content_type: "difficult-topic-translation"
 status: "editorial-review-pending"
 tags:

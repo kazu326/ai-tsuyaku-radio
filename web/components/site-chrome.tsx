@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { SiteNavigation } from "@/components/site-navigation";
 
 export function Brand() {
   return (
@@ -16,22 +17,11 @@ export function Header() {
       <div className="container header-inner">
         <Brand />
         <div className="header-actions">
-          <nav className="desktop-nav" aria-label="メインナビゲーション">
-            <Link href="/">ホーム</Link>
-            <Link href="/#episodes">エピソード</Link>
-            <Link href="/#news">お知らせ</Link>
-            <Link href="/#about">この番組について</Link>
-          </nav>
+          <SiteNavigation />
           <a className="header-listen" href="https://www.youtube.com/watch?v=FbcFznXk0Bg"><span aria-hidden="true">▶</span> 番組を聴く</a>
           <details className="mobile-nav">
             <summary><span className="visually-hidden">メニューを開く</span><span aria-hidden="true" className="menu-lines" /></summary>
-            <nav aria-label="モバイルナビゲーション">
-              <Link href="/">ホーム</Link>
-              <Link href="/#episodes">エピソード</Link>
-              <Link href="/#news">お知らせ</Link>
-              <Link href="/#about">この番組について</Link>
-              <a href="https://www.youtube.com/watch?v=FbcFznXk0Bg">番組を聴く</a>
-            </nav>
+            <SiteNavigation mobile />
           </details>
         </div>
       </div>

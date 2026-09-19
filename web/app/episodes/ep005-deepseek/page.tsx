@@ -5,13 +5,13 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import {EpisodeAfterword} from "@/components/episode-afterword";
 import {Arrow} from "@/components/site-chrome";
-import {getEpisode3} from "@/lib/episode";
+import {getEpisode5} from "@/lib/episode";
 
 export const dynamic = "force-static";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const episode = await getEpisode3();
-  const image = "/images/episode-003.png";
+  const episode = await getEpisode5();
+  const image = "/images/episode-005.png";
   return {
     title: episode.title,
     description: episode.description,
@@ -24,7 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
           url: image,
           width: 1672,
           height: 941,
-          alt: "Episode 003 知られざる半導体王国 日本",
+          alt: "Episode 005 強いGPUだけがAI競争ではない",
         },
       ],
     },
@@ -37,8 +37,8 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default async function Episode3Page() {
-  const episode = await getEpisode3();
+export default async function Episode5Page() {
+  const episode = await getEpisode5();
   return (
     <main id="main" className="article-main">
       <div className="article-shell">
@@ -48,7 +48,7 @@ export default async function Episode3Page() {
         <article>
           <header className="article-header">
             <div className="episode-meta">
-              <span className="eyebrow">EPISODE 003</span>
+              <span className="eyebrow">EPISODE 005</span>
               <span className="category">難解トピック翻訳</span>
             </div>
             <h1>{episode.title}</h1>
@@ -56,10 +56,10 @@ export default async function Episode3Page() {
           </header>
           <Image
             className="article-cover"
-            src="/images/episode-003.png"
+            src="/images/episode-005.png"
             width={1672}
             height={941}
-            alt="青い半導体工場、シリコンウェハ、製造装置、発光する日本地図を配置したEpisode 003正式画像"
+            alt="夜のデータセンターでGPUの列の一部だけがオレンジに点灯し、光の線でつながる構図に「強いGPUだけがAI競争ではない」と大きく書かれたEpisode 005の画像"
             sizes="(max-width: 900px) calc(100vw - 40px), 840px"
             preload
           />
@@ -73,16 +73,16 @@ export default async function Episode3Page() {
                 <p>この話を、動画でも。</p>
               </div>
               <a className="button button-navy" href={episode.youtubeUrl}>
-                YouTubeでEpisode 003を見る
+                YouTubeでEpisode 005を見る
                 <Arrow diagonal />
               </a>
             </aside>
           ) : null}
           <EpisodeAfterword
             afterglow={episode.afterglow}
-            episodeLabel="EPISODE 003"
+            episodeLabel="EPISODE 005"
             glossary={episode.glossary}
-            imageSrc="/images/episode-003.png"
+            imageSrc="/images/episode-005.png"
             sources={episode.sources}
             sourcesTitle={episode.sourcesTitle}
           />
