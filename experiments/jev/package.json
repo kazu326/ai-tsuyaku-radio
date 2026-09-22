@@ -1,0 +1,17 @@
+{
+  "name": "ai-tsuyaku-radio-jev-experiment",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "prepare-input": "node src/cli.mjs prepare",
+    "evaluate": "node src/cli.mjs evaluate",
+    "compare": "node src/cli.mjs compare",
+    "test": "node --test test/*.test.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "ai": "7.0.105" },
+  "devDependencies": { "typescript": "5.9.3", "@types/node": "24.10.0" }
+}

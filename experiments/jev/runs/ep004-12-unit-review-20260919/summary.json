@@ -1,0 +1,48 @@
+{
+  "successful": 12,
+  "attemptedSample": 12,
+  "choices": {
+    "visualAid": {
+      "NONE": 9,
+      "TEXT": 0,
+      "IMAGE": 0,
+      "DIAGRAM": 2,
+      "COMPARISON": 1
+    },
+    "sectionChange": {
+      "YES": 3,
+      "NO": 9
+    },
+    "attentionReset": {
+      "YES": 8,
+      "NO": 4
+    }
+  },
+  "totalElapsedMs": 6442,
+  "medianElapsedMs": 526,
+  "inputTokens": 16144,
+  "outputTokens": 1458,
+  "costs": {
+    "cost": 0,
+    "marketCost": 0.000678048,
+    "gatewayCost": 0,
+    "surchargeCost": 0
+  },
+  "provenance": {
+    "sourceRuns": [
+      "20260919T130843167Z-18aed0be",
+      "20260919T132314811Z-a30bfb5a"
+    ],
+    "rateLimitedRuns": [
+      "20260919T130843167Z-18aed0be",
+      "20260919T131008509Z-dff14f9f",
+      "20260919T131126782Z-3efbeb04"
+    ],
+    "successfulRequests": 12,
+    "rateLimitedRequests": 3,
+    "totalGatewayRequests": 15,
+    "successfulUnitsRepeated": 0,
+    "providerOptions": {},
+    "note": "最初の5単位はチャージ前、残り7単位はチャージ後。429のusage/costは未返却。コスト集計は成功12応答の報告値のみ。過去の403切り分け呼び出しは今回の件数に含めない。"
+  }
+}

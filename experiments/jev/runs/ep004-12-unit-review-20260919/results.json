@@ -1,0 +1,1198 @@
+{
+  "datasetId": "14702726730ebdb98a5623aede9d900a6cd4bdfa3e5ef86050c526f1b58e294c",
+  "provenance": {
+    "sourceRuns": [
+      "20260919T130843167Z-18aed0be",
+      "20260919T132314811Z-a30bfb5a"
+    ],
+    "rateLimitedRuns": [
+      "20260919T130843167Z-18aed0be",
+      "20260919T131008509Z-dff14f9f",
+      "20260919T131126782Z-3efbeb04"
+    ],
+    "successfulRequests": 12,
+    "rateLimitedRequests": 3,
+    "totalGatewayRequests": 15,
+    "successfulUnitsRepeated": 0,
+    "providerOptions": {},
+    "note": "最初の5単位はチャージ前、残り7単位はチャージ後。429のusage/costは未返却。コスト集計は成功12応答の報告値のみ。過去の403切り分け呼び出しは今回の件数に含めない。"
+  },
+  "records": [
+    {
+      "id": "ep004-c001",
+      "status": "ok",
+      "elapsedMs": 635,
+      "decisions": {
+        "visualAid": {
+          "choice": "NONE",
+          "value": "NONE",
+          "probabilities": {
+            "COMPARISON": 0,
+            "IMAGE": 0.01,
+            "DIAGRAM": 0,
+            "TEXT": 0,
+            "NONE": 0.99
+          },
+          "selectedProbability": 0.99,
+          "confidence": 0.99,
+          "confidenceStatus": "provider-reported"
+        },
+        "sectionChange": {
+          "choice": "NO",
+          "value": false,
+          "probabilities": {
+            "NO": 0.99,
+            "YES": 0.01
+          },
+          "selectedProbability": 0.99,
+          "confidence": 0.99,
+          "confidenceStatus": "provider-reported"
+        },
+        "attentionReset": {
+          "choice": "NO",
+          "value": false,
+          "probabilities": {
+            "NO": 0.84,
+            "YES": 0.16
+          },
+          "selectedProbability": 0.84,
+          "confidence": 0.68,
+          "confidenceStatus": "provider-reported"
+        }
+      },
+      "response": {
+        "answers": {
+          "visualAid": {
+            "type": "choice",
+            "choice": "NONE",
+            "probabilities": {
+              "COMPARISON": 0,
+              "IMAGE": 0.01,
+              "DIAGRAM": 0,
+              "TEXT": 0,
+              "NONE": 0.99
+            }
+          },
+          "sectionChange": {
+            "type": "choice",
+            "choice": "NO",
+            "probabilities": {
+              "NO": 0.99,
+              "YES": 0.01
+            }
+          },
+          "attentionReset": {
+            "type": "choice",
+            "choice": "NO",
+            "probabilities": {
+              "NO": 0.84,
+              "YES": 0.16
+            }
+          }
+        },
+        "confidence": {
+          "visualAid": 0.99,
+          "sectionChange": 0.99,
+          "attentionReset": 0.68
+        },
+        "usage": {
+          "inputTokens": 1230,
+          "outputTokens": 121,
+          "totalTokens": 1351
+        },
+        "costs": {
+          "cost": "0",
+          "marketCost": "0.00005166",
+          "gatewayCost": "0",
+          "surchargeCost": "0"
+        },
+        "rounding": {
+          "probabilityDecimals": 2,
+          "scoreDecimals": 2
+        },
+        "modelId": "typesafe-ai/jev",
+        "timestamp": "2026-09-19T13:09:09.084Z",
+        "warningCount": 0
+      },
+      "sourceRun": "20260919T130843167Z-18aed0be"
+    },
+    {
+      "id": "ep004-c017",
+      "status": "ok",
+      "elapsedMs": 489,
+      "decisions": {
+        "visualAid": {
+          "choice": "NONE",
+          "value": "NONE",
+          "probabilities": {
+            "COMPARISON": 0.08,
+            "DIAGRAM": 0.25,
+            "TEXT": 0.11,
+            "IMAGE": 0.1,
+            "NONE": 0.46
+          },
+          "selectedProbability": 0.46,
+          "confidence": 0.32,
+          "confidenceStatus": "provider-reported"
+        },
+        "sectionChange": {
+          "choice": "YES",
+          "value": true,
+          "probabilities": {
+            "NO": 0.18,
+            "YES": 0.82
+          },
+          "selectedProbability": 0.82,
+          "confidence": 0.63,
+          "confidenceStatus": "provider-reported"
+        },
+        "attentionReset": {
+          "choice": "YES",
+          "value": true,
+          "probabilities": {
+            "YES": 0.9,
+            "NO": 0.1
+          },
+          "selectedProbability": 0.9,
+          "confidence": 0.81,
+          "confidenceStatus": "provider-reported"
+        }
+      },
+      "response": {
+        "answers": {
+          "visualAid": {
+            "type": "choice",
+            "choice": "NONE",
+            "probabilities": {
+              "COMPARISON": 0.08,
+              "DIAGRAM": 0.25,
+              "TEXT": 0.11,
+              "IMAGE": 0.1,
+              "NONE": 0.46
+            }
+          },
+          "sectionChange": {
+            "type": "choice",
+            "choice": "YES",
+            "probabilities": {
+              "NO": 0.18,
+              "YES": 0.82
+            }
+          },
+          "attentionReset": {
+            "type": "choice",
+            "choice": "YES",
+            "probabilities": {
+              "YES": 0.9,
+              "NO": 0.1
+            }
+          }
+        },
+        "confidence": {
+          "visualAid": 0.32,
+          "sectionChange": 0.63,
+          "attentionReset": 0.81
+        },
+        "usage": {
+          "inputTokens": 1344,
+          "outputTokens": 121,
+          "totalTokens": 1465
+        },
+        "costs": {
+          "cost": "0",
+          "marketCost": "0.000056448",
+          "gatewayCost": "0",
+          "surchargeCost": "0"
+        },
+        "rounding": {
+          "probabilityDecimals": 2,
+          "scoreDecimals": 2
+        },
+        "modelId": "typesafe-ai/jev",
+        "timestamp": "2026-09-19T13:09:09.582Z",
+        "warningCount": 0
+      },
+      "sourceRun": "20260919T130843167Z-18aed0be"
+    },
+    {
+      "id": "ep004-c034",
+      "status": "ok",
+      "elapsedMs": 540,
+      "decisions": {
+        "visualAid": {
+          "choice": "NONE",
+          "value": "NONE",
+          "probabilities": {
+            "COMPARISON": 0.08,
+            "NONE": 0.52,
+            "IMAGE": 0.02,
+            "TEXT": 0.05,
+            "DIAGRAM": 0.33
+          },
+          "selectedProbability": 0.52,
+          "confidence": 0.4,
+          "confidenceStatus": "provider-reported"
+        },
+        "sectionChange": {
+          "choice": "NO",
+          "value": false,
+          "probabilities": {
+            "YES": 0.17,
+            "NO": 0.83
+          },
+          "selectedProbability": 0.83,
+          "confidence": 0.66,
+          "confidenceStatus": "provider-reported"
+        },
+        "attentionReset": {
+          "choice": "YES",
+          "value": true,
+          "probabilities": {
+            "NO": 0.21,
+            "YES": 0.79
+          },
+          "selectedProbability": 0.79,
+          "confidence": 0.58,
+          "confidenceStatus": "provider-reported"
+        }
+      },
+      "response": {
+        "answers": {
+          "visualAid": {
+            "type": "choice",
+            "choice": "NONE",
+            "probabilities": {
+              "COMPARISON": 0.08,
+              "NONE": 0.52,
+              "IMAGE": 0.02,
+              "TEXT": 0.05,
+              "DIAGRAM": 0.33
+            }
+          },
+          "sectionChange": {
+            "type": "choice",
+            "choice": "NO",
+            "probabilities": {
+              "YES": 0.17,
+              "NO": 0.83
+            }
+          },
+          "attentionReset": {
+            "type": "choice",
+            "choice": "YES",
+            "probabilities": {
+              "NO": 0.21,
+              "YES": 0.79
+            }
+          }
+        },
+        "confidence": {
+          "visualAid": 0.4,
+          "sectionChange": 0.66,
+          "attentionReset": 0.58
+        },
+        "usage": {
+          "inputTokens": 1384,
+          "outputTokens": 121,
+          "totalTokens": 1505
+        },
+        "costs": {
+          "cost": "0",
+          "marketCost": "0.000058128",
+          "gatewayCost": "0",
+          "surchargeCost": "0"
+        },
+        "rounding": {
+          "probabilityDecimals": 2,
+          "scoreDecimals": 2
+        },
+        "modelId": "typesafe-ai/jev",
+        "timestamp": "2026-09-19T13:09:10.131Z",
+        "warningCount": 0
+      },
+      "sourceRun": "20260919T130843167Z-18aed0be"
+    },
+    {
+      "id": "ep004-c050",
+      "status": "ok",
+      "elapsedMs": 609,
+      "decisions": {
+        "visualAid": {
+          "choice": "NONE",
+          "value": "NONE",
+          "probabilities": {
+            "COMPARISON": 0,
+            "TEXT": 0.09,
+            "NONE": 0.65,
+            "DIAGRAM": 0.05,
+            "IMAGE": 0.21
+          },
+          "selectedProbability": 0.65,
+          "confidence": 0.56,
+          "confidenceStatus": "provider-reported"
+        },
+        "sectionChange": {
+          "choice": "NO",
+          "value": false,
+          "probabilities": {
+            "YES": 0.01,
+            "NO": 0.99
+          },
+          "selectedProbability": 0.99,
+          "confidence": 0.98,
+          "confidenceStatus": "provider-reported"
+        },
+        "attentionReset": {
+          "choice": "NO",
+          "value": false,
+          "probabilities": {
+            "YES": 0.18,
+            "NO": 0.82
+          },
+          "selectedProbability": 0.82,
+          "confidence": 0.64,
+          "confidenceStatus": "provider-reported"
+        }
+      },
+      "response": {
+        "answers": {
+          "visualAid": {
+            "type": "choice",
+            "choice": "NONE",
+            "probabilities": {
+              "COMPARISON": 0,
+              "TEXT": 0.09,
+              "NONE": 0.65,
+              "DIAGRAM": 0.05,
+              "IMAGE": 0.21
+            }
+          },
+          "sectionChange": {
+            "type": "choice",
+            "choice": "NO",
+            "probabilities": {
+              "YES": 0.01,
+              "NO": 0.99
+            }
+          },
+          "attentionReset": {
+            "type": "choice",
+            "choice": "NO",
+            "probabilities": {
+              "YES": 0.18,
+              "NO": 0.82
+            }
+          }
+        },
+        "confidence": {
+          "visualAid": 0.56,
+          "sectionChange": 0.98,
+          "attentionReset": 0.64
+        },
+        "usage": {
+          "inputTokens": 1316,
+          "outputTokens": 121,
+          "totalTokens": 1437
+        },
+        "costs": {
+          "cost": "0",
+          "marketCost": "0.000055272",
+          "gatewayCost": "0",
+          "surchargeCost": "0"
+        },
+        "rounding": {
+          "probabilityDecimals": 2,
+          "scoreDecimals": 2
+        },
+        "modelId": "typesafe-ai/jev",
+        "timestamp": "2026-09-19T13:09:10.745Z",
+        "warningCount": 0
+      },
+      "sourceRun": "20260919T130843167Z-18aed0be"
+    },
+    {
+      "id": "ep004-c067",
+      "status": "ok",
+      "elapsedMs": 526,
+      "decisions": {
+        "visualAid": {
+          "choice": "NONE",
+          "value": "NONE",
+          "probabilities": {
+            "COMPARISON": 0.01,
+            "IMAGE": 0.03,
+            "DIAGRAM": 0.01,
+            "NONE": 0.95,
+            "TEXT": 0
+          },
+          "selectedProbability": 0.95,
+          "confidence": 0.93,
+          "confidenceStatus": "provider-reported"
+        },
+        "sectionChange": {
+          "choice": "NO",
+          "value": false,
+          "probabilities": {
+            "NO": 0.98,
+            "YES": 0.02
+          },
+          "selectedProbability": 0.98,
+          "confidence": 0.96,
+          "confidenceStatus": "provider-reported"
+        },
+        "attentionReset": {
+          "choice": "YES",
+          "value": true,
+          "probabilities": {
+            "NO": 0.48,
+            "YES": 0.52
+          },
+          "selectedProbability": 0.52,
+          "confidence": 0.04,
+          "confidenceStatus": "provider-reported"
+        }
+      },
+      "response": {
+        "answers": {
+          "visualAid": {
+            "type": "choice",
+            "choice": "NONE",
+            "probabilities": {
+              "COMPARISON": 0.01,
+              "IMAGE": 0.03,
+              "DIAGRAM": 0.01,
+              "NONE": 0.95,
+              "TEXT": 0
+            }
+          },
+          "sectionChange": {
+            "type": "choice",
+            "choice": "NO",
+            "probabilities": {
+              "NO": 0.98,
+              "YES": 0.02
+            }
+          },
+          "attentionReset": {
+            "type": "choice",
+            "choice": "YES",
+            "probabilities": {
+              "NO": 0.48,
+              "YES": 0.52
+            }
+          }
+        },
+        "confidence": {
+          "visualAid": 0.93,
+          "sectionChange": 0.96,
+          "attentionReset": 0.04
+        },
+        "usage": {
+          "inputTokens": 1378,
+          "outputTokens": 121,
+          "totalTokens": 1499
+        },
+        "costs": {
+          "cost": "0",
+          "marketCost": "0.000057876",
+          "gatewayCost": "0",
+          "surchargeCost": "0"
+        },
+        "rounding": {
+          "probabilityDecimals": 2,
+          "scoreDecimals": 2
+        },
+        "modelId": "typesafe-ai/jev",
+        "timestamp": "2026-09-19T13:09:11.277Z",
+        "warningCount": 0
+      },
+      "sourceRun": "20260919T130843167Z-18aed0be"
+    },
+    {
+      "id": "ep004-c083",
+      "status": "ok",
+      "elapsedMs": 617,
+      "decisions": {
+        "visualAid": {
+          "choice": "NONE",
+          "value": "NONE",
+          "probabilities": {
+            "TEXT": 0.03,
+            "COMPARISON": 0.01,
+            "IMAGE": 0.02,
+            "NONE": 0.86,
+            "DIAGRAM": 0.08
+          },
+          "selectedProbability": 0.86,
+          "confidence": 0.83,
+          "confidenceStatus": "provider-reported"
+        },
+        "sectionChange": {
+          "choice": "YES",
+          "value": true,
+          "probabilities": {
+            "YES": 0.92,
+            "NO": 0.08
+          },
+          "selectedProbability": 0.92,
+          "confidence": 0.84,
+          "confidenceStatus": "provider-reported"
+        },
+        "attentionReset": {
+          "choice": "YES",
+          "value": true,
+          "probabilities": {
+            "YES": 0.93,
+            "NO": 0.07
+          },
+          "selectedProbability": 0.93,
+          "confidence": 0.86,
+          "confidenceStatus": "provider-reported"
+        }
+      },
+      "response": {
+        "answers": {
+          "visualAid": {
+            "type": "choice",
+            "choice": "NONE",
+            "probabilities": {
+              "TEXT": 0.03,
+              "COMPARISON": 0.01,
+              "IMAGE": 0.02,
+              "NONE": 0.86,
+              "DIAGRAM": 0.08
+            }
+          },
+          "sectionChange": {
+            "type": "choice",
+            "choice": "YES",
+            "probabilities": {
+              "YES": 0.92,
+              "NO": 0.08
+            }
+          },
+          "attentionReset": {
+            "type": "choice",
+            "choice": "YES",
+            "probabilities": {
+              "YES": 0.93,
+              "NO": 0.07
+            }
+          }
+        },
+        "confidence": {
+          "visualAid": 0.83,
+          "sectionChange": 0.84,
+          "attentionReset": 0.86
+        },
+        "usage": {
+          "inputTokens": 1368,
+          "outputTokens": 121,
+          "totalTokens": 1489
+        },
+        "costs": {
+          "cost": "0",
+          "marketCost": "0.000057456",
+          "gatewayCost": "0",
+          "surchargeCost": "0"
+        },
+        "rounding": {
+          "probabilityDecimals": 2,
+          "scoreDecimals": 2
+        },
+        "modelId": "typesafe-ai/jev",
+        "timestamp": "2026-09-19T13:23:29.517Z",
+        "warningCount": 0
+      },
+      "sourceRun": "20260919T132314811Z-a30bfb5a"
+    },
+    {
+      "id": "ep004-c100",
+      "status": "ok",
+      "elapsedMs": 452,
+      "decisions": {
+        "visualAid": {
+          "choice": "NONE",
+          "value": "NONE",
+          "probabilities": {
+            "IMAGE": 0.38,
+            "NONE": 0.48,
+            "COMPARISON": 0.01,
+            "DIAGRAM": 0.1,
+            "TEXT": 0.03
+          },
+          "selectedProbability": 0.48,
+          "confidence": 0.35,
+          "confidenceStatus": "provider-reported"
+        },
+        "sectionChange": {
+          "choice": "NO",
+          "value": false,
+          "probabilities": {
+            "NO": 0.76,
+            "YES": 0.24
+          },
+          "selectedProbability": 0.76,
+          "confidence": 0.52,
+          "confidenceStatus": "provider-reported"
+        },
+        "attentionReset": {
+          "choice": "YES",
+          "value": true,
+          "probabilities": {
+            "NO": 0.37,
+            "YES": 0.63
+          },
+          "selectedProbability": 0.63,
+          "confidence": 0.26,
+          "confidenceStatus": "provider-reported"
+        }
+      },
+      "response": {
+        "answers": {
+          "visualAid": {
+            "type": "choice",
+            "choice": "NONE",
+            "probabilities": {
+              "IMAGE": 0.38,
+              "NONE": 0.48,
+              "COMPARISON": 0.01,
+              "DIAGRAM": 0.1,
+              "TEXT": 0.03
+            }
+          },
+          "sectionChange": {
+            "type": "choice",
+            "choice": "NO",
+            "probabilities": {
+              "NO": 0.76,
+              "YES": 0.24
+            }
+          },
+          "attentionReset": {
+            "type": "choice",
+            "choice": "YES",
+            "probabilities": {
+              "NO": 0.37,
+              "YES": 0.63
+            }
+          }
+        },
+        "confidence": {
+          "visualAid": 0.35,
+          "sectionChange": 0.52,
+          "attentionReset": 0.26
+        },
+        "usage": {
+          "inputTokens": 1296,
+          "outputTokens": 121,
+          "totalTokens": 1417
+        },
+        "costs": {
+          "cost": "0",
+          "marketCost": "0.000054432",
+          "gatewayCost": "0",
+          "surchargeCost": "0"
+        },
+        "rounding": {
+          "probabilityDecimals": 2,
+          "scoreDecimals": 2
+        },
+        "modelId": "typesafe-ai/jev",
+        "timestamp": "2026-09-19T13:23:31.989Z",
+        "warningCount": 0
+      },
+      "sourceRun": "20260919T132314811Z-a30bfb5a"
+    },
+    {
+      "id": "ep004-c116",
+      "status": "ok",
+      "elapsedMs": 501,
+      "decisions": {
+        "visualAid": {
+          "choice": "COMPARISON",
+          "value": "COMPARISON",
+          "probabilities": {
+            "COMPARISON": 0.68,
+            "NONE": 0.2,
+            "IMAGE": 0,
+            "DIAGRAM": 0.09,
+            "TEXT": 0.03
+          },
+          "selectedProbability": 0.68,
+          "confidence": 0.61,
+          "confidenceStatus": "provider-reported"
+        },
+        "sectionChange": {
+          "choice": "YES",
+          "value": true,
+          "probabilities": {
+            "NO": 0.41,
+            "YES": 0.59
+          },
+          "selectedProbability": 0.59,
+          "confidence": 0.18,
+          "confidenceStatus": "provider-reported"
+        },
+        "attentionReset": {
+          "choice": "YES",
+          "value": true,
+          "probabilities": {
+            "NO": 0.15,
+            "YES": 0.85
+          },
+          "selectedProbability": 0.85,
+          "confidence": 0.71,
+          "confidenceStatus": "provider-reported"
+        }
+      },
+      "response": {
+        "answers": {
+          "visualAid": {
+            "type": "choice",
+            "choice": "COMPARISON",
+            "probabilities": {
+              "COMPARISON": 0.68,
+              "NONE": 0.2,
+              "IMAGE": 0,
+              "DIAGRAM": 0.09,
+              "TEXT": 0.03
+            }
+          },
+          "sectionChange": {
+            "type": "choice",
+            "choice": "YES",
+            "probabilities": {
+              "NO": 0.41,
+              "YES": 0.59
+            }
+          },
+          "attentionReset": {
+            "type": "choice",
+            "choice": "YES",
+            "probabilities": {
+              "NO": 0.15,
+              "YES": 0.85
+            }
+          }
+        },
+        "confidence": {
+          "visualAid": 0.61,
+          "sectionChange": 0.18,
+          "attentionReset": 0.71
+        },
+        "usage": {
+          "inputTokens": 1378,
+          "outputTokens": 123,
+          "totalTokens": 1501
+        },
+        "costs": {
+          "cost": "0",
+          "marketCost": "0.000057876",
+          "gatewayCost": "0",
+          "surchargeCost": "0"
+        },
+        "rounding": {
+          "probabilityDecimals": 2,
+          "scoreDecimals": 2
+        },
+        "modelId": "typesafe-ai/jev",
+        "timestamp": "2026-09-19T13:23:34.503Z",
+        "warningCount": 0
+      },
+      "sourceRun": "20260919T132314811Z-a30bfb5a"
+    },
+    {
+      "id": "ep004-c133",
+      "status": "ok",
+      "elapsedMs": 410,
+      "decisions": {
+        "visualAid": {
+          "choice": "NONE",
+          "value": "NONE",
+          "probabilities": {
+            "TEXT": 0.1,
+            "DIAGRAM": 0.39,
+            "NONE": 0.47000000000000003,
+            "IMAGE": 0.03,
+            "COMPARISON": 0.01
+          },
+          "selectedProbability": 0.47000000000000003,
+          "confidence": 0.32,
+          "confidenceStatus": "provider-reported"
+        },
+        "sectionChange": {
+          "choice": "NO",
+          "value": false,
+          "probabilities": {
+            "NO": 0.89,
+            "YES": 0.11
+          },
+          "selectedProbability": 0.89,
+          "confidence": 0.78,
+          "confidenceStatus": "provider-reported"
+        },
+        "attentionReset": {
+          "choice": "YES",
+          "value": true,
+          "probabilities": {
+            "NO": 0.49,
+            "YES": 0.51
+          },
+          "selectedProbability": 0.51,
+          "confidence": 0.01,
+          "confidenceStatus": "provider-reported"
+        }
+      },
+      "response": {
+        "answers": {
+          "visualAid": {
+            "type": "choice",
+            "choice": "NONE",
+            "probabilities": {
+              "TEXT": 0.1,
+              "DIAGRAM": 0.39,
+              "NONE": 0.47000000000000003,
+              "IMAGE": 0.03,
+              "COMPARISON": 0.01
+            }
+          },
+          "sectionChange": {
+            "type": "choice",
+            "choice": "NO",
+            "probabilities": {
+              "NO": 0.89,
+              "YES": 0.11
+            }
+          },
+          "attentionReset": {
+            "type": "choice",
+            "choice": "YES",
+            "probabilities": {
+              "NO": 0.49,
+              "YES": 0.51
+            }
+          }
+        },
+        "confidence": {
+          "visualAid": 0.32,
+          "sectionChange": 0.78,
+          "attentionReset": 0.01
+        },
+        "usage": {
+          "inputTokens": 1356,
+          "outputTokens": 121,
+          "totalTokens": 1477
+        },
+        "costs": {
+          "cost": "0",
+          "marketCost": "0.000056952",
+          "gatewayCost": "0",
+          "surchargeCost": "0"
+        },
+        "rounding": {
+          "probabilityDecimals": 2,
+          "scoreDecimals": 2
+        },
+        "modelId": "typesafe-ai/jev",
+        "timestamp": "2026-09-19T13:23:36.924Z",
+        "warningCount": 0
+      },
+      "sourceRun": "20260919T132314811Z-a30bfb5a"
+    },
+    {
+      "id": "ep004-c149",
+      "status": "ok",
+      "elapsedMs": 638,
+      "decisions": {
+        "visualAid": {
+          "choice": "DIAGRAM",
+          "value": "DIAGRAM",
+          "probabilities": {
+            "TEXT": 0.31,
+            "COMPARISON": 0.05,
+            "DIAGRAM": 0.43,
+            "NONE": 0.2,
+            "IMAGE": 0.01
+          },
+          "selectedProbability": 0.43,
+          "confidence": 0.28,
+          "confidenceStatus": "provider-reported"
+        },
+        "sectionChange": {
+          "choice": "NO",
+          "value": false,
+          "probabilities": {
+            "YES": 0.06,
+            "NO": 0.94
+          },
+          "selectedProbability": 0.94,
+          "confidence": 0.88,
+          "confidenceStatus": "provider-reported"
+        },
+        "attentionReset": {
+          "choice": "YES",
+          "value": true,
+          "probabilities": {
+            "YES": 0.88,
+            "NO": 0.12
+          },
+          "selectedProbability": 0.88,
+          "confidence": 0.75,
+          "confidenceStatus": "provider-reported"
+        }
+      },
+      "response": {
+        "answers": {
+          "visualAid": {
+            "type": "choice",
+            "choice": "DIAGRAM",
+            "probabilities": {
+              "TEXT": 0.31,
+              "COMPARISON": 0.05,
+              "DIAGRAM": 0.43,
+              "NONE": 0.2,
+              "IMAGE": 0.01
+            }
+          },
+          "sectionChange": {
+            "type": "choice",
+            "choice": "NO",
+            "probabilities": {
+              "YES": 0.06,
+              "NO": 0.94
+            }
+          },
+          "attentionReset": {
+            "type": "choice",
+            "choice": "YES",
+            "probabilities": {
+              "YES": 0.88,
+              "NO": 0.12
+            }
+          }
+        },
+        "confidence": {
+          "visualAid": 0.28,
+          "sectionChange": 0.88,
+          "attentionReset": 0.75
+        },
+        "usage": {
+          "inputTokens": 1379,
+          "outputTokens": 123,
+          "totalTokens": 1502
+        },
+        "costs": {
+          "cost": "0",
+          "marketCost": "0.000057918",
+          "gatewayCost": "0",
+          "surchargeCost": "0"
+        },
+        "rounding": {
+          "probabilityDecimals": 2,
+          "scoreDecimals": 2
+        },
+        "modelId": "typesafe-ai/jev",
+        "timestamp": "2026-09-19T13:23:39.575Z",
+        "warningCount": 0
+      },
+      "sourceRun": "20260919T132314811Z-a30bfb5a"
+    },
+    {
+      "id": "ep004-c166",
+      "status": "ok",
+      "elapsedMs": 499,
+      "decisions": {
+        "visualAid": {
+          "choice": "DIAGRAM",
+          "value": "DIAGRAM",
+          "probabilities": {
+            "TEXT": 0.09,
+            "DIAGRAM": 0.73,
+            "NONE": 0.13,
+            "IMAGE": 0.02,
+            "COMPARISON": 0.03
+          },
+          "selectedProbability": 0.73,
+          "confidence": 0.66,
+          "confidenceStatus": "provider-reported"
+        },
+        "sectionChange": {
+          "choice": "NO",
+          "value": false,
+          "probabilities": {
+            "NO": 0.74,
+            "YES": 0.26
+          },
+          "selectedProbability": 0.74,
+          "confidence": 0.48,
+          "confidenceStatus": "provider-reported"
+        },
+        "attentionReset": {
+          "choice": "NO",
+          "value": false,
+          "probabilities": {
+            "NO": 0.58,
+            "YES": 0.42
+          },
+          "selectedProbability": 0.58,
+          "confidence": 0.16,
+          "confidenceStatus": "provider-reported"
+        }
+      },
+      "response": {
+        "answers": {
+          "visualAid": {
+            "type": "choice",
+            "choice": "DIAGRAM",
+            "probabilities": {
+              "TEXT": 0.09,
+              "DIAGRAM": 0.73,
+              "NONE": 0.13,
+              "IMAGE": 0.02,
+              "COMPARISON": 0.03
+            }
+          },
+          "sectionChange": {
+            "type": "choice",
+            "choice": "NO",
+            "probabilities": {
+              "NO": 0.74,
+              "YES": 0.26
+            }
+          },
+          "attentionReset": {
+            "type": "choice",
+            "choice": "NO",
+            "probabilities": {
+              "NO": 0.58,
+              "YES": 0.42
+            }
+          }
+        },
+        "confidence": {
+          "visualAid": 0.66,
+          "sectionChange": 0.48,
+          "attentionReset": 0.16
+        },
+        "usage": {
+          "inputTokens": 1407,
+          "outputTokens": 123,
+          "totalTokens": 1530
+        },
+        "costs": {
+          "cost": "0",
+          "marketCost": "0.000059094",
+          "gatewayCost": "0",
+          "surchargeCost": "0"
+        },
+        "rounding": {
+          "probabilityDecimals": 2,
+          "scoreDecimals": 2
+        },
+        "modelId": "typesafe-ai/jev",
+        "timestamp": "2026-09-19T13:23:42.086Z",
+        "warningCount": 0
+      },
+      "sourceRun": "20260919T132314811Z-a30bfb5a"
+    },
+    {
+      "id": "ep004-c182",
+      "status": "ok",
+      "elapsedMs": 526,
+      "decisions": {
+        "visualAid": {
+          "choice": "NONE",
+          "value": "NONE",
+          "probabilities": {
+            "NONE": 1,
+            "TEXT": 0,
+            "DIAGRAM": 0,
+            "COMPARISON": 0,
+            "IMAGE": 0
+          },
+          "selectedProbability": 1,
+          "confidence": 1,
+          "confidenceStatus": "provider-reported"
+        },
+        "sectionChange": {
+          "choice": "NO",
+          "value": false,
+          "probabilities": {
+            "YES": 0.05,
+            "NO": 0.95
+          },
+          "selectedProbability": 0.95,
+          "confidence": 0.9,
+          "confidenceStatus": "provider-reported"
+        },
+        "attentionReset": {
+          "choice": "NO",
+          "value": false,
+          "probabilities": {
+            "YES": 0.23,
+            "NO": 0.77
+          },
+          "selectedProbability": 0.77,
+          "confidence": 0.55,
+          "confidenceStatus": "provider-reported"
+        }
+      },
+      "response": {
+        "answers": {
+          "visualAid": {
+            "type": "choice",
+            "choice": "NONE",
+            "probabilities": {
+              "NONE": 1,
+              "TEXT": 0,
+              "DIAGRAM": 0,
+              "COMPARISON": 0,
+              "IMAGE": 0
+            }
+          },
+          "sectionChange": {
+            "type": "choice",
+            "choice": "NO",
+            "probabilities": {
+              "YES": 0.05,
+              "NO": 0.95
+            }
+          },
+          "attentionReset": {
+            "type": "choice",
+            "choice": "NO",
+            "probabilities": {
+              "YES": 0.23,
+              "NO": 0.77
+            }
+          }
+        },
+        "confidence": {
+          "visualAid": 1,
+          "sectionChange": 0.9,
+          "attentionReset": 0.55
+        },
+        "usage": {
+          "inputTokens": 1308,
+          "outputTokens": 121,
+          "totalTokens": 1429
+        },
+        "costs": {
+          "cost": "0",
+          "marketCost": "0.000054936",
+          "gatewayCost": "0",
+          "surchargeCost": "0"
+        },
+        "rounding": {
+          "probabilityDecimals": 2,
+          "scoreDecimals": 2
+        },
+        "modelId": "typesafe-ai/jev",
+        "timestamp": "2026-09-19T13:23:44.625Z",
+        "warningCount": 0
+      },
+      "sourceRun": "20260919T132314811Z-a30bfb5a"
+    }
+  ]
+}

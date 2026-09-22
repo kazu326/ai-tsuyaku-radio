@@ -1,0 +1,1462 @@
+{
+  "datasetId": "14702726730ebdb98a5623aede9d900a6cd4bdfa3e5ef86050c526f1b58e294c",
+  "instructions": "完成動画の実際の編集を見て記入。nullは未判定。無演出・NOとは区別する。複合表現は主目的を一つ選びnotesへ補足。映像にない意図は推測しない。",
+  "units": [
+    {
+      "id": "ep004-c001",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c002",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c003",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c004",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c005",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c006",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c007",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c008",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c009",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c010",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c011",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c012",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c013",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c014",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c015",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c016",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c017",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c018",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c019",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c020",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c021",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c022",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c023",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c024",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c025",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c026",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c027",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c028",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c029",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c030",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c031",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c032",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c033",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c034",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c035",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c036",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c037",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c038",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c039",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c040",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c041",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c042",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c043",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c044",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c045",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c046",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c047",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c048",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c049",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c050",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c051",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c052",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c053",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c054",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c055",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c056",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c057",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c058",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c059",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c060",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c061",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c062",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c063",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c064",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c065",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c066",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c067",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c068",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c069",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c070",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c071",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c072",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c073",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c074",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c075",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c076",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c077",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c078",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c079",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c080",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c081",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c082",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c083",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c084",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c085",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c086",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c087",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c088",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c089",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c090",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c091",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c092",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c093",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c094",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c095",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c096",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c097",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c098",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c099",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c100",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c101",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c102",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c103",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c104",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c105",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c106",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c107",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c108",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c109",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c110",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c111",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c112",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c113",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c114",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c115",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c116",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c117",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c118",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c119",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c120",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c121",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c122",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c123",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c124",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c125",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c126",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c127",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c128",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c129",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c130",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c131",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c132",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c133",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c134",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c135",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c136",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c137",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c138",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c139",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c140",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c141",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c142",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c143",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c144",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c145",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c146",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c147",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c148",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c149",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c150",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c151",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c152",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c153",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c154",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c155",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c156",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c157",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c158",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c159",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c160",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c161",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c162",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c163",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c164",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c165",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c166",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c167",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c168",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c169",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c170",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c171",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c172",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c173",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c174",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c175",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c176",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c177",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c178",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c179",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c180",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c181",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "id": "ep004-c182",
+      "visualAid": null,
+      "sectionChange": null,
+      "attentionReset": null,
+      "evidence": "",
+      "notes": ""
+    }
+  ]
+}
