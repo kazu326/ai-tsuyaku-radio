@@ -1,0 +1,79 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "durationInFrames": 15305,
+  "interClipGapFrames": 6,
+  "segments": [
+    {
+      "id": "01",
+      "audio": "episode5/1.mp3",
+      "from": 0,
+      "durationInFrames": 1938,
+      "audioDurationSeconds": 66.56,
+      "audioStartSeconds": 0.48,
+      "audioEndSeconds": 65.08,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "02",
+      "audio": "episode5/2.mp3",
+      "from": 1944,
+      "durationInFrames": 2397,
+      "audioDurationSeconds": 82.70367346938775,
+      "audioStartSeconds": 0.96,
+      "audioEndSeconds": 80.86,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "03",
+      "audio": "episode5/3.mp3",
+      "from": 4347,
+      "durationInFrames": 2470,
+      "audioDurationSeconds": 86.93551020408164,
+      "audioStartSeconds": 2.24,
+      "audioEndSeconds": 84.56,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "04",
+      "audio": "episode5/4.mp3",
+      "from": 6823,
+      "durationInFrames": 2161,
+      "audioDurationSeconds": 75.88571428571429,
+      "audioStartSeconds": 1.72,
+      "audioEndSeconds": 73.78,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "05",
+      "audio": "episode5/5.mp3",
+      "from": 8990,
+      "durationInFrames": 1519,
+      "audioDurationSeconds": 54.93551020408163,
+      "audioStartSeconds": 2.12,
+      "audioEndSeconds": 52.76,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "06",
+      "audio": "episode5/6.mp3",
+      "from": 10515,
+      "durationInFrames": 1934,
+      "audioDurationSeconds": 66.82122448979592,
+      "audioStartSeconds": 0.86,
+      "audioEndSeconds": 65.34,
+      "gapAfterFrames": 6
+    },
+    {
+      "id": "07",
+      "audio": "episode5/7.mp3",
+      "from": 12455,
+      "durationInFrames": 2850,
+      "audioDurationSeconds": 98.40326530612245,
+      "audioStartSeconds": 1.5,
+      "audioEndSeconds": 96.5,
+      "gapAfterFrames": 0
+    }
+  ]
+}

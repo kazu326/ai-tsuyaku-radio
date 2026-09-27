@@ -1,0 +1,12 @@
+{
+  "basis": "ElevenLabs forced alignment of each recording cue and first/last body characters; cut starts 60ms before body, ends 120ms after body",
+  "files": [
+    {"id": "01", "startSeconds": 0.48, "endSeconds": 65.08},
+    {"id": "02", "startSeconds": 0.96, "endSeconds": 80.86},
+    {"id": "03", "startSeconds": 2.24, "endSeconds": 84.56},
+    {"id": "04", "startSeconds": 1.72, "endSeconds": 73.78},
+    {"id": "05", "startSeconds": 2.12, "endSeconds": 52.76},
+    {"id": "06", "startSeconds": 0.86, "endSeconds": 65.34},
+    {"id": "07", "startSeconds": 1.50, "endSeconds": 96.50}
+  ]
+}

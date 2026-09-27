@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "id": "01",
+      "openingCue": "はい。",
+      "closingCue": "はい。",
+      "cutStart": 0.48,
+      "bodyStart": 0.54,
+      "bodyEnd": 64.959,
+      "cutEnd": 65.08,
+      "passed": true
+    },
+    {
+      "id": "02",
+      "openingCue": "はい。",
+      "closingCue": "はい。",
+      "cutStart": 0.96,
+      "bodyStart": 1.02,
+      "bodyEnd": 80.74,
+      "cutEnd": 80.86,
+      "passed": true
+    },
+    {
+      "id": "03",
+      "openingCue": "はい。",
+      "closingCue": "はい。",
+      "cutStart": 2.24,
+      "bodyStart": 2.3,
+      "bodyEnd": 84.44,
+      "cutEnd": 84.56,
+      "passed": true
+    },
+    {
+      "id": "04",
+      "openingCue": "はい。",
+      "closingCue": "はい。",
+      "cutStart": 1.72,
+      "bodyStart": 1.78,
+      "bodyEnd": 73.66,
+      "cutEnd": 73.78,
+      "passed": true
+    },
+    {
+      "id": "05",
+      "openingCue": "はい。",
+      "closingCue": "はい。",
+      "cutStart": 2.12,
+      "bodyStart": 2.18,
+      "bodyEnd": 52.64,
+      "cutEnd": 52.76,
+      "passed": true
+    },
+    {
+      "id": "06",
+      "openingCue": "はい。",
+      "closingCue": "はい。",
+      "cutStart": 0.86,
+      "bodyStart": 0.92,
+      "bodyEnd": 65.22,
+      "cutEnd": 65.34,
+      "passed": true
+    },
+    {
+      "id": "07",
+      "openingCue": "はい。",
+      "closingCue": "はい。",
+      "cutStart": 1.5,
+      "bodyStart": 1.56,
+      "bodyEnd": 96.38,
+      "cutEnd": 96.5,
+      "passed": true
+    }
+  ],
+  "captions": 102,
+  "cueCaptions": [],
+  "maxLineCharacters": 35,
+  "passed": true
+}

@@ -1,0 +1,44 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 13501,
+  "interClipGapFrames": 0,
+  "segments": [
+    {
+      "id": "01",
+      "audio": "episode6/1.mp3",
+      "from": 0,
+      "durationInFrames": 3553,
+      "audioDurationSeconds": 118.4391875
+    },
+    {
+      "id": "02",
+      "audio": "episode6/2.mp3",
+      "from": 3553,
+      "durationInFrames": 2356,
+      "audioDurationSeconds": 78.5240625
+    },
+    {
+      "id": "03",
+      "audio": "episode6/3.mp3",
+      "from": 5909,
+      "durationInFrames": 2302,
+      "audioDurationSeconds": 76.74775
+    },
+    {
+      "id": "04",
+      "audio": "episode6/4.mp3",
+      "from": 8211,
+      "durationInFrames": 3076,
+      "audioDurationSeconds": 102.530625
+    },
+    {
+      "id": "05",
+      "audio": "episode6/5.mp3",
+      "from": 11287,
+      "durationInFrames": 2214,
+      "audioDurationSeconds": 73.7959375
+    }
+  ]
+}

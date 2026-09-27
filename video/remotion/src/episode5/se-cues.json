@@ -1,0 +1,7 @@
+[
+  {"id":"scope","from":1944,"durationInFrames":30,"volume":0.08,"purpose":"560万ドルの範囲"},
+  {"id":"experts","from":4347,"durationInFrames":30,"volume":0.08,"purpose":"必要な部分を動かす"},
+  {"id":"r1","from":6823,"durationInFrames":30,"volume":0.08,"purpose":"R1の学習"},
+  {"id":"gpu","from":10515,"durationInFrames":30,"volume":0.08,"purpose":"GPUの価値"},
+  {"id":"summary","from":12455,"durationInFrames":30,"volume":0.08,"purpose":"まとめ"}
+]

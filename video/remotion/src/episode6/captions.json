@@ -1,0 +1,639 @@
+[
+  {
+    "text": "長い時間をかけて研究し、大量のGPUを\n使って作ったAIを完成したら他の会社にも配る。",
+    "startMs": 890,
+    "endMs": 8620,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "これ、会社の行動としてはかなり不思議ですよね。",
+    "startMs": 10090,
+    "endMs": 14180,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "どうもこんにちは。",
+    "startMs": 15630,
+    "endMs": 16760,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "実はEpisode 001で、DeepSeekの\nように同じ性能をもっと安く作ることを徹底するチームが",
+    "startMs": 17210,
+    "endMs": 25060,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "、仕事を終える速度と価格で巨大な会社を\n上回るかもしれないと話していました。",
+    "startMs": 24690,
+    "endMs": 31020,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "あの時はその先に起きる競争を想像した話でした。",
+    "startMs": 31630,
+    "endMs": 35560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "前回、そのDeepSeekが実際に何をしたのかを調べました。",
+    "startMs": 36290,
+    "endMs": 40560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ただし、制約があったから優れたAIが自然にできたわけではありません。",
+    "startMs": 41090,
+    "endMs": 46500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "モデルの中で必要な部分だけを動かす。",
+    "startMs": 47250,
+    "endMs": 50320,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "GPUがデータを待つ時間を減らす。",
+    "startMs": 49950,
+    "endMs": 53720,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "限られた計算を能力へ変える。",
+    "startMs": 54190,
+    "endMs": 56520,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "設計と実装の技術力があったんです。",
+    "startMs": 56690,
+    "endMs": 59440,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そうして作られたV3やR1のモデルの重みを\nDeepSeekは公開しています。",
+    "startMs": 60030,
+    "endMs": 65820,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "R1は利用したり、改良したり、別のAIを\n学習させたりできるライセンスで配られました。",
+    "startMs": 65450,
+    "endMs": 73240,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "せっかく見つけた技術なら、会社の中へ隠して使\nいたい人から料金を取る方が自然にも見えます。",
+    "startMs": 74130,
+    "endMs": 81000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "公開したら競合企業まで使えてしまう。",
+    "startMs": 81510,
+    "endMs": 84460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "では、なぜAI企業は自分たちのモデルを公開するのでしょうか。",
+    "startMs": 85150,
+    "endMs": 89940,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "最初に思いつくのは研究への貢献や宣伝です。",
+    "startMs": 90750,
+    "endMs": 94540,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "もちろんそれもあります。",
+    "startMs": 94930,
+    "endMs": 96560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、企業の公開ページを見ていくと、\nもっと事業に近い理由も見えてきます。",
+    "startMs": 96950,
+    "endMs": 102480,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今回、一つだけ覚えて帰ってほしいのは、\nモデルを公開することは利益を捨てることではなく",
+    "startMs": 103070,
+    "endMs": 109540,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "、自分たちのAIを多くの製品やサービスが\n乗る土台にする戦略になり得るということです。",
+    "startMs": 109170,
+    "endMs": 116620,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "無料で配りながら有料でも売れる。",
+    "startMs": 119043.33333333334,
+    "endMs": 121893.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "その答えを探していて気になったのが、モデルを公開している",
+    "startMs": 121583.33333333334,
+    "endMs": 125673.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "会社が同じAIを使う有料サービスも提供していることです。",
+    "startMs": 125303.33333333334,
+    "endMs": 129653.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "例えば、フランスのMistralAI。",
+    "startMs": 130143.33333333334,
+    "endMs": 132733.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "同社はMistral3というモデルを自\n由度の高いライセンスで公開しています。",
+    "startMs": 133283.33333333334,
+    "endMs": 138133.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "誰でもダウンロードして自分たちで動かせます。",
+    "startMs": 138503.33333333334,
+    "endMs": 141373.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "その一方で、Mistralはすぐに使える有料APIや企業向けの\n導入カスタマイズも提供しています。",
+    "startMs": 141763.33333333334,
+    "endMs": 148933.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "無料で手に入るなら、誰もお金を払わないように見えますよね。",
+    "startMs": 149483.33333333334,
+    "endMs": 153273.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、大きなAIを安定して動かすにはGPUが必要です。",
+    "startMs": 153803.33333333334,
+    "endMs": 158133.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "利用者が増えた時に止まらないようにする必要がある。",
+    "startMs": 158603.33333333334,
+    "endMs": 161713.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "会社のデータへ安全につなぐ。",
+    "startMs": 162023.33333333334,
+    "endMs": 164093.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "問題が起きたら直す。",
+    "startMs": 164363.33333333334,
+    "endMs": 165873.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "新しい版へ更新する。",
+    "startMs": 166103.33333333334,
+    "endMs": 167993.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "こうした仕事は、モデルの重みをダウンロードしただけでは終わりません。",
+    "startMs": 168243.33333333334,
+    "endMs": 172413.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "モデルが無料でも、便利に早く安全に動\nかすサービスには価値が残るんです。",
+    "startMs": 173543.33333333334,
+    "endMs": 179053.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここは少し車に例えてみます。",
+    "startMs": 180523.33333333334,
+    "endMs": 182953.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "自分で運転したい会社にはモデルという車を渡す。",
+    "startMs": 183383.33333333334,
+    "endMs": 187093.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "運転まで任せたい会社にはAPIや運用を売る。",
+    "startMs": 187543.33333333334,
+    "endMs": 191193.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "公開と有料サービスは反対ではありませんでした。",
+    "startMs": 191763.33333333334,
+    "endMs": 195013.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "公開されているのはAIのどこまで？",
+    "startMs": 198276.66666666666,
+    "endMs": 200926.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "では、無料で公開されているのはAIのどこまでなのでしょうか？",
+    "startMs": 202256.66666666666,
+    "endMs": 206666.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "DeepSeek-R1で公開されている\n大事なものの一つがモデルの重みです。",
+    "startMs": 206296.66666666666,
+    "endMs": 213046.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "重みはAIが学習した結果を保存した大量の数字です。",
+    "startMs": 213576.66666666666,
+    "endMs": 217926.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "これがあれば、同じモデルを自分たちのコンピューターで\n動かしたり、目的に合わせて調整したりできます。",
+    "startMs": 218436.66666666666,
+    "endMs": 224786.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、重みを公開することと、AIを作った全工程を\n公開することは同じではありません。",
+    "startMs": 225236.66666666666,
+    "endMs": 231626.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "どんなデータをどのように集めて整えたの\nか、何回失敗し、どの条件を試したのか。",
+    "startMs": 232136.66666666666,
+    "endMs": 238426.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "実際の学習に使ったコードや設備をどこまで再現できるのか。",
+    "startMs": 238876.66666666666,
+    "endMs": 243146.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そこまで全部揃っているとは限りません。",
+    "startMs": 243596.66666666666,
+    "endMs": 246226.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "完成したAIは動かせる。",
+    "startMs": 246656.66666666666,
+    "endMs": 248786.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、同じAIを最初から作り直せるとは限らない。",
+    "startMs": 248996.66666666666,
+    "endMs": 253006.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "つまり、企業は研究所も工場も丸ごと渡しているわけではないんです。",
+    "startMs": 253816.66666666666,
+    "endMs": 258666.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "価値のある一部を開きながら、データ、学習の\n経験、次のモデルを作る能力は会社の中に残せる。",
+    "startMs": 259136.66666666666,
+    "endMs": 266306.6666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここで最初の全部タダで配っているという見え方も変わります。",
+    "startMs": 266736.6666666666,
+    "endMs": 271366.6666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "公開した先にできる土台。",
+    "startMs": 275370,
+    "endMs": 278740,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ただ、ここで疑問が残ります。",
+    "startMs": 279810,
+    "endMs": 281820,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "APIや運用サービスで利益を得られるなら、\nなぜモデルそのものまで公開するのでしょう。",
+    "startMs": 281450,
+    "endMs": 287940,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "隠したままAPIだけ提供しても良さそうですよね。",
+    "startMs": 288290,
+    "endMs": 291980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、さっきの車の例えで言えば、車そのものを\n渡すと、自分で運転したい人にも使ってもらえます。",
+    "startMs": 293150,
+    "endMs": 300180,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "モデルを公開した時も同じです。",
+    "startMs": 300490,
+    "endMs": 302760,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "世界中の開発者や企業が自分たちで試し、工夫を始める。",
+    "startMs": 302890,
+    "endMs": 307140,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "その中から対応する道具やサービス、使い方の知識や環境が増えていく。",
+    "startMs": 307390,
+    "endMs": 312920,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "一社だけでは作れない広がりです。",
+    "startMs": 313250,
+    "endMs": 315640,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "こうして、そのモデルが多くの人や企業\nが仕事をする土台になっていきます。",
+    "startMs": 316450,
+    "endMs": 322160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "では、その土台を作った企業はどこで価値を受け取るのでしょう。",
+    "startMs": 322850,
+    "endMs": 327060,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "答えは企業によって違います。",
+    "startMs": 327650,
+    "endMs": 329880,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "モデルそのものから利益を得る。",
+    "startMs": 330390,
+    "endMs": 332720,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "広く配ってAPIや運用サービスから利益を得る。",
+    "startMs": 333490,
+    "endMs": 337180,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "共通の土台にして本業を強くする。",
+    "startMs": 338070,
+    "endMs": 341140,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "もちろん公開といっても何もかも開かれているわけではありません。",
+    "startMs": 341970,
+    "endMs": 346340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "何をどこまで開くかはモデルによって違います。",
+    "startMs": 346830,
+    "endMs": 350160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "前回のDeepSeekも、限られた計算資源を\n効率よく能力へ変える技術を持っていました。",
+    "startMs": 351050,
+    "endMs": 357080,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "モデルを作るだけでなく、安価なAPIと\nして提供し、重みも公開しています。",
+    "startMs": 357610,
+    "endMs": 363140,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "無料だから、公開しているからすごいという話ではありません。",
+    "startMs": 363850,
+    "endMs": 368020,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "技術を作り、届け、使われるところまで含めてAIの競争なんです。",
+    "startMs": 368470,
+    "endMs": 373700,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "シーズンワンの終わりに。",
+    "startMs": 378083.3333333334,
+    "endMs": 379633.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここでEpisode 001からの話を振り返ってみます。",
+    "startMs": 380183.3333333334,
+    "endMs": 384133.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "GPUをどう使うか。",
+    "startMs": 383763.3333333334,
+    "endMs": 386873.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "チップをどう作るか。",
+    "startMs": 387623.3333333334,
+    "endMs": 389373.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "半導体をどこで作るか。",
+    "startMs": 390143.3333333334,
+    "endMs": 392253.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "限られた計算資源をどう能力へ変えるか。",
+    "startMs": 393043.3333333334,
+    "endMs": 396413.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "作ったAIをどこまで開き、どう広げるか。",
+    "startMs": 397143.3333333334,
+    "endMs": 400693.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIの強さはモデル一個の知能だけではなく、\nその周りに作られた仕組み全体にも左右される。",
+    "startMs": 400323.3333333334,
+    "endMs": 408652.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "シーズン1で追いかけてきた作る側、支\nえる側の競争はそういうものでした。",
+    "startMs": 409463.3333333334,
+    "endMs": 414793.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "では、僕たち使う側はどうでしょう。",
+    "startMs": 416263.3333333334,
+    "endMs": 418993.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "一番性能の高いAIを選べばそれで終わりなのでしょうか。",
+    "startMs": 419823.3333333334,
+    "endMs": 423713.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "同じAIでも渡す情報や指示、持たせる文脈、\nつなぐ道具、使うルールや環境で結果は変わります。",
+    "startMs": 424663.3333333334,
+    "endMs": 433413.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "僕たちはAIの周りにどんな仕組みを作れるのでしょう。",
+    "startMs": 434063.3333333334,
+    "endMs": 437973.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "シーズン2では視点を使う側へ移して、AIをどう使うか考えていきます。",
+    "startMs": 439083.3333333334,
+    "endMs": 445033.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それでは今回はこの辺で。",
+    "startMs": 446003.3333333334,
+    "endMs": 448133.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

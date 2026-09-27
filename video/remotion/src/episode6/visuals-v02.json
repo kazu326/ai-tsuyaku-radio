@@ -1,0 +1,319 @@
+{
+  "canvas": [
+    {
+      "id": "A",
+      "file": "episode6/canvas/ep006_A_weights_from_212.80s.webm",
+      "from": 8052,
+      "durationInFrames": 1656,
+      "x": 110,
+      "y": 50,
+      "width": 1700,
+      "height": 740,
+      "anchor": "modelWeights"
+    },
+    {
+      "id": "B",
+      "file": "episode6/canvas/ep006_B_foundation_from_293.60s.webm",
+      "from": 10331,
+      "durationInFrames": 918,
+      "x": 110,
+      "y": 50,
+      "width": 1700,
+      "height": 740,
+      "anchor": "foundation"
+    }
+  ],
+  "chapterTitles": [
+    {
+      "id": "01",
+      "title": "高価なAIの横に、ダウンロードボタンがある",
+      "from": 1874,
+      "durationInFrames": 90
+    },
+    {
+      "id": "02",
+      "title": "無料で配りながら、有料でも売れる",
+      "from": 5341,
+      "durationInFrames": 90
+    },
+    {
+      "id": "03",
+      "title": "公開されているのは、AIのどこまで？",
+      "from": 7614,
+      "durationInFrames": 90
+    },
+    {
+      "id": "04",
+      "title": "公開した先にできる「土台」",
+      "from": 9800,
+      "durationInFrames": 90
+    },
+    {
+      "id": "05",
+      "title": "Season 1の終わりに",
+      "from": 12744,
+      "durationInFrames": 90
+    }
+  ],
+  "panels": [
+    {
+      "id": "free-download",
+      "from": 2,
+      "durationInFrames": 240,
+      "title": "無料で受け取る",
+      "cards": [
+        "ダウンロード",
+        "使ってみる"
+      ],
+      "footer": "入口が開く",
+      "relation": "flow"
+    },
+    {
+      "id": "freemium",
+      "from": 273,
+      "durationInFrames": 360,
+      "title": "無料の、その先",
+      "cards": [
+        "無料体験",
+        "便利な機能",
+        "継続利用"
+      ],
+      "footer": "使い続ける価値にお金を払う",
+      "relation": "flow"
+    },
+    {
+      "id": "cat-sample",
+      "from": 718,
+      "durationInFrames": 390,
+      "title": "猫のごはんの試供品",
+      "cards": [
+        "試してみる",
+        "気に入る",
+        "選び続ける"
+      ],
+      "footer": "無料で渡すことにも理由がある",
+      "relation": "flow"
+    },
+    {
+      "id": "model-foundation",
+      "from": 1203,
+      "durationInFrames": 540,
+      "title": "AIモデルを公開すると",
+      "cards": [
+        "モデル",
+        "開発者・企業",
+        "製品・サービス"
+      ],
+      "footer": "多くの人が使う土台へ",
+      "relation": "flow"
+    },
+    {
+      "id": "deepseek-release",
+      "from": 3650,
+      "durationInFrames": 360,
+      "title": "DeepSeekが公開したもの",
+      "cards": [
+        "V3・R1",
+        "モデルの重み",
+        "利用・改良"
+      ],
+      "footer": "公開は競合にも届く",
+      "relation": "flow"
+    },
+    {
+      "id": "why-publish",
+      "from": 4404,
+      "durationInFrames": 450,
+      "title": "なぜ、あえて公開する？",
+      "cards": [
+        "研究への貢献",
+        "宣伝",
+        "事業の土台"
+      ],
+      "footer": "公開する企業側の理由を探す",
+      "relation": "options"
+    },
+    {
+      "id": "free-and-paid",
+      "from": 5431,
+      "durationInFrames": 420,
+      "title": "無料で配り、有料でも売る",
+      "cards": [
+        "モデルを自分で動かす",
+        "API・導入を任せる"
+      ],
+      "footer": "選べる使い方がある",
+      "relation": "options"
+    },
+    {
+      "id": "api-operation",
+      "from": 6024,
+      "durationInFrames": 600,
+      "title": "重みだけでは終わらない仕事",
+      "cards": [
+        "GPUで動かす",
+        "止めずに運用",
+        "安全につなぐ"
+      ],
+      "footer": "便利さ・速さ・安全性に価値が残る",
+      "relation": "options"
+    },
+    {
+      "id": "car-analogy",
+      "from": 7187,
+      "durationInFrames": 360,
+      "title": "車にたとえると",
+      "cards": [
+        "車を渡す",
+        "運転まで任せる"
+      ],
+      "footer": "モデルの公開とAPIの販売は両立する",
+      "relation": "options"
+    },
+    {
+      "id": "what-is-open",
+      "from": 7704,
+      "durationInFrames": 270,
+      "title": "公開されるのは、どこまで？",
+      "cards": [
+        "モデルの重み",
+        "作った全工程"
+      ],
+      "footer": "この違いを確かめる",
+      "relation": "contrast"
+    },
+    {
+      "id": "api-only",
+      "from": 9890,
+      "durationInFrames": 330,
+      "title": "APIだけでも売れるのに",
+      "cards": [
+        "APIだけ提供",
+        "モデルも公開"
+      ],
+      "footer": "なぜ、モデルを渡すのか",
+      "relation": "contrast"
+    },
+    {
+      "id": "revenue-paths",
+      "from": 11372,
+      "durationInFrames": 360,
+      "title": "価値を受け取る道",
+      "cards": [
+        "モデル",
+        "API・運用",
+        "本業"
+      ],
+      "footer": "企業によって選び方は違う",
+      "relation": "options"
+    },
+    {
+      "id": "open-scope",
+      "from": 11800,
+      "durationInFrames": 210,
+      "title": "公開の範囲を選ぶ",
+      "cards": [
+        "何を開くか",
+        "どこまで開くか"
+      ],
+      "footer": "モデルごとに違う",
+      "relation": "options"
+    },
+    {
+      "id": "make-deliver-use",
+      "from": 12070,
+      "durationInFrames": 450,
+      "title": "AIの競争は、届け方まで",
+      "cards": [
+        "技術を作る",
+        "APIとして届ける",
+        "使われる"
+      ],
+      "footer": "公開だけで評価は決まらない",
+      "relation": "flow"
+    },
+    {
+      "id": "season-recap",
+      "from": 12809,
+      "durationInFrames": 540,
+      "title": "Season 1を振り返る",
+      "cards": [
+        "GPU",
+        "チップ",
+        "半導体",
+        "モデル公開"
+      ],
+      "footer": "作る側・支える側の競争",
+      "relation": "options"
+    },
+    {
+      "id": "surrounding-system",
+      "from": 13413,
+      "durationInFrames": 360,
+      "title": "AIを支える仕組み",
+      "cards": [
+        "モデル",
+        "計算資源",
+        "道具・環境"
+      ],
+      "footer": "強さは知能だけで決まらない",
+      "relation": "options"
+    },
+    {
+      "id": "user-side",
+      "from": 13891,
+      "durationInFrames": 510,
+      "title": "次は、使う側へ",
+      "cards": [
+        "渡す情報",
+        "指示・文脈",
+        "つなぐ道具"
+      ],
+      "footer": "同じAIでも結果は変わる",
+      "relation": "options"
+    },
+    {
+      "id": "season-two",
+      "from": 14576,
+      "durationInFrames": 258,
+      "title": "Season 2へ",
+      "cards": [
+        "AIをどう使うか"
+      ],
+      "footer": "僕たちの問いへ",
+      "relation": "flow"
+    }
+  ],
+  "seCues": [
+    {
+      "id": "chapter-01",
+      "from": 1874,
+      "durationInFrames": 30,
+      "volume": 0.08
+    },
+    {
+      "id": "chapter-02",
+      "from": 5341,
+      "durationInFrames": 30,
+      "volume": 0.08
+    },
+    {
+      "id": "chapter-03",
+      "from": 7614,
+      "durationInFrames": 30,
+      "volume": 0.08
+    },
+    {
+      "id": "chapter-04",
+      "from": 9800,
+      "durationInFrames": 30,
+      "volume": 0.08
+    },
+    {
+      "id": "chapter-05",
+      "from": 12744,
+      "durationInFrames": 30,
+      "volume": 0.08
+    }
+  ]
+}

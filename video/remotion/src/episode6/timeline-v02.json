@@ -1,0 +1,221 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 14840,
+  "interClipGapFrames": 0,
+  "segments": [
+    {
+      "id": "shortstory",
+      "audio": "episode6/shortstory.mp3",
+      "from": 0,
+      "durationInFrames": 1874,
+      "trimBeforeFrames": 41,
+      "trimAfterFrames": 1915,
+      "cutStartSeconds": 1.38,
+      "cutEndSeconds": 63.82,
+      "bodyStartSeconds": 1.44,
+      "bodyEndSeconds": 63.7,
+      "openingCueEndSeconds": 0.52,
+      "closingCueStartSeconds": 65.08,
+      "sourceSha256": "672873bb4659283ed3c8cd423baeca169583e33e54a2842a7d506d2c3792ebc8",
+      "timingSource": "stt-shortstory.json"
+    },
+    {
+      "id": "01",
+      "audio": "episode6/1.mp3",
+      "from": 1874,
+      "durationInFrames": 3467,
+      "trimBeforeFrames": 32,
+      "trimAfterFrames": 3499,
+      "cutStartSeconds": 1.08,
+      "cutEndSeconds": 116.62,
+      "bodyStartSeconds": 1.14,
+      "bodyEndSeconds": 116.5,
+      "openingCueEndSeconds": 0.4,
+      "closingCueStartSeconds": 117.84,
+      "sourceSha256": "068c649f19dcc963ba221d1375020659a1287f5b928a7589fdbf20359b4f1f08",
+      "timingSource": "stt-01.json"
+    },
+    {
+      "id": "02",
+      "audio": "episode6/2.mp3",
+      "from": 5341,
+      "durationInFrames": 2273,
+      "trimBeforeFrames": 24,
+      "trimAfterFrames": 2297,
+      "cutStartSeconds": 0.8,
+      "cutEndSeconds": 76.58,
+      "bodyStartSeconds": 0.86,
+      "bodyEndSeconds": 76.46,
+      "openingCueEndSeconds": 0.38,
+      "closingCueStartSeconds": 78.3,
+      "sourceSha256": "212eecea95ef12053c06e2316c3a3200813ee51da191f52aa16e33dd66738950",
+      "timingSource": "stt-02.json"
+    },
+    {
+      "id": "03",
+      "audio": "episode6/3.mp3",
+      "from": 7614,
+      "durationInFrames": 2186,
+      "trimBeforeFrames": 45,
+      "trimAfterFrames": 2231,
+      "cutStartSeconds": 1.5,
+      "cutEndSeconds": 74.38,
+      "bodyStartSeconds": 1.56,
+      "bodyEndSeconds": 74.26,
+      "openingCueEndSeconds": 0.36,
+      "closingCueStartSeconds": 76.22,
+      "sourceSha256": "d4f8df58e4bd8d8dddd5f7cab5f90379124928493db5b5aaabfb0a78d24c62ff",
+      "timingSource": "alignment-03.json"
+    },
+    {
+      "id": "04",
+      "audio": "episode6/4.mp3",
+      "from": 9800,
+      "durationInFrames": 2944,
+      "trimBeforeFrames": 56,
+      "trimAfterFrames": 3000,
+      "cutStartSeconds": 1.86,
+      "cutEndSeconds": 100,
+      "bodyStartSeconds": 1.92,
+      "bodyEndSeconds": 99.88,
+      "openingCueEndSeconds": 0.34,
+      "closingCueStartSeconds": 102.02,
+      "sourceSha256": "7b145c13006f0ba5f27a9fb76e43615054ca85b145748d97ca8bcafc8a29970e",
+      "timingSource": "alignment-04.json"
+    },
+    {
+      "id": "05",
+      "audio": "episode6/5.mp3",
+      "from": 12744,
+      "durationInFrames": 2096,
+      "trimBeforeFrames": 61,
+      "trimAfterFrames": 2157,
+      "cutStartSeconds": 2.04,
+      "cutEndSeconds": 71.9,
+      "bodyStartSeconds": 2.1,
+      "bodyEndSeconds": 71.78,
+      "openingCueEndSeconds": 0.38,
+      "closingCueStartSeconds": 73.46,
+      "sourceSha256": "5d9b359465ea38f2ed2ea0b7e55b83390bc530181d5acac2e4504c475559b767",
+      "timingSource": "stt-05.json"
+    }
+  ],
+  "cues": {
+    "freeDownload": {
+      "segmentId": "shortstory",
+      "phrase": "無料ダウンロード",
+      "sourceSeconds": 1.44,
+      "frame": 2
+    },
+    "freemiumQuestion": {
+      "segmentId": "shortstory",
+      "phrase": "どうせ後から有料",
+      "sourceSeconds": 10.46,
+      "frame": 273
+    },
+    "catSample": {
+      "segmentId": "shortstory",
+      "phrase": "私も猫のご飯",
+      "sourceSeconds": 25.3,
+      "frame": 718
+    },
+    "openModelAnalogy": {
+      "segmentId": "shortstory",
+      "phrase": "AIモデルの公開も",
+      "sourceSeconds": 41.46,
+      "frame": 1203
+    },
+    "developerFoundation": {
+      "segmentId": "shortstory",
+      "phrase": "多くの開発者や会社",
+      "sourceSeconds": 51.94,
+      "frame": 1517
+    },
+    "deepSeekOpens": {
+      "segmentId": "01",
+      "phrase": "そうして作られたV3",
+      "sourceSeconds": 60.28,
+      "frame": 3650
+    },
+    "whyPublish": {
+      "segmentId": "01",
+      "phrase": "では、なぜAI企業は",
+      "sourceSeconds": 85.4,
+      "frame": 4404
+    },
+    "paidApi": {
+      "segmentId": "02",
+      "phrase": "その一方で",
+      "sourceSeconds": 23.58,
+      "frame": 6024
+    },
+    "managedValue": {
+      "segmentId": "02",
+      "phrase": "モデルが無料でも",
+      "sourceSeconds": 55.36,
+      "frame": 6978
+    },
+    "carAnalogy": {
+      "segmentId": "02",
+      "phrase": "ここは少し車",
+      "sourceSeconds": 62.34,
+      "frame": 7187
+    },
+    "modelWeights": {
+      "segmentId": "03",
+      "phrase": "重みは、AIが",
+      "sourceSeconds": 16.9,
+      "frame": 8076
+    },
+    "foundation": {
+      "segmentId": "04",
+      "phrase": "でも、さっきの車",
+      "sourceSeconds": 19.76,
+      "frame": 10337
+    },
+    "revenuePaths": {
+      "segmentId": "04",
+      "phrase": "答えは、企業によって",
+      "sourceSeconds": 54.26,
+      "frame": 11372
+    },
+    "openScope": {
+      "segmentId": "04",
+      "phrase": "もちろん、公開といっても",
+      "sourceSeconds": 68.52,
+      "frame": 11800
+    },
+    "deepSeekExample": {
+      "segmentId": "04",
+      "phrase": "前回のDeepSeekも",
+      "sourceSeconds": 77.54,
+      "frame": 12070
+    },
+    "seasonRecap": {
+      "segmentId": "05",
+      "phrase": "ここでエピソード001",
+      "sourceSeconds": 4.2,
+      "frame": 12809
+    },
+    "surroundingSystem": {
+      "segmentId": "05",
+      "phrase": "AIの強さは",
+      "sourceSeconds": 24.34,
+      "frame": 13413
+    },
+    "userSide": {
+      "segmentId": "05",
+      "phrase": "では、僕たち使う側は",
+      "sourceSeconds": 40.28,
+      "frame": 13891
+    },
+    "season2": {
+      "segmentId": "05",
+      "phrase": "シーズン2",
+      "sourceSeconds": 63.1,
+      "frame": 14576
+    }
+  }
+}

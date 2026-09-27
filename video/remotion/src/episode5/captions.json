@@ -1,0 +1,716 @@
+[
+  {
+    "text": "前回はAIを作るための半導体が企業だけでなく国同士の\n競争にもなっているという話をしました。",
+    "startMs": 0,
+    "endMs": 6680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "その先に残ったのは、最も強いGPUを十分に手に入れられなければ、\nもうAI競争では勝てないのか？",
+    "startMs": 7139.999999999999,
+    "endMs": 14940,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "という疑問です。",
+    "startMs": 14640,
+    "endMs": 15739,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そこへ現れたのが中国のAI企業DeepSeekでした。",
+    "startMs": 16299.999999999996,
+    "endMs": 20380,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "注目された数字は約600万ドル、\nもう少し正確に言うと約560万ドルです。",
+    "startMs": 20940,
+    "endMs": 27599.999999999996,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "日本円ならざっくり8〜9億円です。",
+    "startMs": 28020,
+    "endMs": 31020,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "いや、普通に聞いたらめちゃくちゃ高いじゃんって思いますよね。",
+    "startMs": 31420.000000000004,
+    "endMs": 34540.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも当時の最先端AIって学習だけで数千万ドル、",
+    "startMs": 35080,
+    "endMs": 39360.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "場合によっては数億ドル規模のお金がかかると言われていた世界なんです。",
+    "startMs": 39580,
+    "endMs": 43740,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "しかも、DeepSeek自身の評価では、",
+    "startMs": 44180.00000000001,
+    "endMs": 46580.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "GPT-4oやClaude 3.5 Sonnetのような当時の",
+    "startMs": 46740.00000000001,
+    "endMs": 51320,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "トップクラスのAIに匹敵する結果を出したテストもありました。",
+    "startMs": 51020,
+    "endMs": 54940.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "つまり、驚かれたのは8〜9億円が安いからじゃない。",
+    "startMs": 55480,
+    "endMs": 59320,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "このレベルのAIをこの規模の計算で作ったの？",
+    "startMs": 59700,
+    "endMs": 63539.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "というところなんです。",
+    "startMs": 63239.00000000001,
+    "endMs": 64479,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "約560万ドルは何の値段なのか。",
+    "startMs": 64800,
+    "endMs": 67580,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ただし、この驚きをそのまま受け取る前に、\nあの数字が何を測ったのかは確かめておく必要があります。",
+    "startMs": 68120,
+    "endMs": 74300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "DeepSeekが技術報告で約560万ドルと\n計算したのはR1の開発総額ではありません。",
+    "startMs": 74780,
+    "endMs": 81420,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "その土台になったDeepSeek-V3というモデルの\n公式な学習に使ったGPU時間の換算額です。",
+    "startMs": 81760,
+    "endMs": 89580,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "報告によると、\n学習には2048基のNVIDIA H800が使われました。",
+    "startMs": 90160,
+    "endMs": 96279,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "H800は家庭用のパソコンに入っているようなGPUではありません。",
+    "startMs": 96940,
+    "endMs": 101260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "巨大なAIを学習させるための高性能なGPUです。",
+    "startMs": 101540,
+    "endMs": 105560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "研究や比較実験など、それ以前の費用まで全部含んだ数字ではありません。",
+    "startMs": 106140,
+    "endMs": 111020,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "つまり、DeepSeekという会社やR1まで全部まと\nめて約600万ドルで作ったという話ではないんです。",
+    "startMs": 111480,
+    "endMs": 119120,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここで僕の最初の理解は少し変わりました。",
+    "startMs": 119680,
+    "endMs": 122400,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "会社を丸ごと約600万ドルで作ったという驚きではない。",
+    "startMs": 122840,
+    "endMs": 127020,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それでも、最先端級の性能を目指したV3の\n公式な学習をこの計算量で終えたという驚きは残る。",
+    "startMs": 127440,
+    "endMs": 134980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "では、どうやってそこまで計算を節約したのでしょうか？",
+    "startMs": 135460,
+    "endMs": 139620,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "DeepSeekが公開した技術報告には、\nその工夫がかなり具体的に書かれていました。",
+    "startMs": 139320,
+    "endMs": 144580,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "大きなAIを全部いっぺんに動かさない。",
+    "startMs": 144900,
+    "endMs": 148680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "DeepSeek-V3はとても大きなAIです。",
+    "startMs": 149460,
+    "endMs": 152480,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、質問へ答えるたびに、\nその中のすべてを同じように動かすわけではありません。",
+    "startMs": 152760,
+    "endMs": 158000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "入力された言葉に合わせて必要な部分を選んで動かします。",
+    "startMs": 158500,
+    "endMs": 162280,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "会社全体へ毎回同じ仕事をさせるのではなく、\n内容に合った担当者だけが集まるような仕組みです。",
+    "startMs": 162660,
+    "endMs": 168980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "技術の世界ではMixture of Experts、\n日本語では専門家の混合などと呼ばれます。",
+    "startMs": 169480,
+    "endMs": 175720,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "名前は覚えなくても大丈夫です。",
+    "startMs": 176020,
+    "endMs": 177960,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "大事なのは、AIを大きくしながら、\n毎回の計算では必要な部分へ仕事を絞ったことです。",
+    "startMs": 178280,
+    "endMs": 184560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "DeepSeekはさらに計算の細かさを調整し、\nGPU同士がデータをやりとりする待ち時間も減らしました。",
+    "startMs": 185080,
+    "endMs": 191980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "一つ一つのGPUを急に強くしたわけではありません。",
+    "startMs": 192460,
+    "endMs": 195920,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "GPUが何を計算するか、どの順番で計算するか、\n計算とデータの移動をどう重ねるか。",
+    "startMs": 196280,
+    "endMs": 203080,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "モデルと学習システムを一緒に設計して、\n持っている計算能力が止まっている時間を減らしたんです。",
+    "startMs": 203480,
+    "endMs": 209580,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここまで来て、約560万ドルという数字の見え方が変わりました。",
+    "startMs": 210280,
+    "endMs": 215000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ただ安かったのではありません。",
+    "startMs": 215480,
+    "endMs": 217300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "必要な部分だけを動かす。",
+    "startMs": 217640,
+    "endMs": 219460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "GPUを待たせない。",
+    "startMs": 219680,
+    "endMs": 221240,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "限られた計算から性能を引き出すために、\n細かな設計を積み重ねた結果だったんです。",
+    "startMs": 221640,
+    "endMs": 227100,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "R1は考え方の学ばせ方も変えた。",
+    "startMs": 227433.33333333334,
+    "endMs": 230193.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そのV3を土台に作られたのがDeepSeek-R1です。",
+    "startMs": 230993.33333333334,
+    "endMs": 235213.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "R1でDeepSeekが伸ばそうとしたのは、\n答えにすぐ飛びつくのではなく、途中で考え、確かめながら進む力です。",
+    "startMs": 236233.33333333334,
+    "endMs": 243693.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "DeepSeekは数学の答えやプログラムのテスト結果のように、\n正解を機械で確かめやすい課題を使いました。",
+    "startMs": 244573.33333333334,
+    "endMs": 251393.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "AIが出した答えを人間が一つずつ細かく採点するだけではなく、\n答えが合っているかを機械で確認しやすい課題も使う。",
+    "startMs": 252113.33333333334,
+    "endMs": 260013.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "DeepSeekはこうした強化学習に\nよって推論能力を伸ばしたと説明しています。",
+    "startMs": 260713.33333333334,
+    "endMs": 266133.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "もちろん、これにも計算は必要です。",
+    "startMs": 266773.3333333334,
+    "endMs": 268993.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "R1の技術報告には、学習に使ったGPU時間の総額は書かれていません。",
+    "startMs": 269733.3333333334,
+    "endMs": 274973.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "だから、R1はほとんど計算を使わずに賢くなったとは言えません。",
+    "startMs": 275593.3333333334,
+    "endMs": 280093.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それでも計算を使う場所が一つではないとわかったのは大きいと思います。",
+    "startMs": 280973.3333333334,
+    "endMs": 285533.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "大きなモデルを最初から学習させるだけではなく、\nすでにある土台へ答えを確かめながら考える方法を学ばせる。",
+    "startMs": 286293.3333333334,
+    "endMs": 293393.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "限られた計算をどの段階へ使うか。",
+    "startMs": 294133.3333333334,
+    "endMs": 296653.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そこにも設計の余地があったんです。",
+    "startMs": 297173.3333333334,
+    "endMs": 299373.3333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "輸出規制がDeepSeekを作ったのか。",
+    "startMs": 299666.6666666667,
+    "endMs": 302486.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここで前回の話とつながります。",
+    "startMs": 304446.6666666667,
+    "endMs": 306706.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "アメリカは中国向けの高度なAI用半導体に輸出管理を設けています。",
+    "startMs": 307086.6666666667,
+    "endMs": 312246.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "DeepSeek-V3の学習に使われたH800も、",
+    "startMs": 312606.6666666667,
+    "endMs": 316446.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "V3の学習が公表される前に許可なく中国へ輸出で\nきない対象になっていました。",
+    "startMs": 316526.6666666667,
+    "endMs": 322186.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "制約が少ない計算を有効に使う動機になった可能性はあります。",
+    "startMs": 322686.6666666667,
+    "endMs": 327526.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ただ、DeepSeekの公開資料だけから輸出管理が\n技術革新の原因だったとは断定できません。",
+    "startMs": 327826.6666666667,
+    "endMs": 334646.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "確認できるのは、GPUへのアクセスに制約がある環境でも、",
+    "startMs": 335086.6666666667,
+    "endMs": 339586.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "モデルと学習システムの工夫で競争力のあるAIを\n作ったとDeepSeekが報告したことです。",
+    "startMs": 339326.6666666667,
+    "endMs": 345926.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "原因と結果を綺麗な物語にしすぎない方が良さそうです。",
+    "startMs": 346346.6666666667,
+    "endMs": 350186.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "GPUの価値が下がったわけではない。",
+    "startMs": 350500,
+    "endMs": 353280,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ここまで来ると最初の問いへの答えも変わります。",
+    "startMs": 353900,
+    "endMs": 356960,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "DeepSeekはGPUがいらないと証明したわけではありません。",
+    "startMs": 357140,
+    "endMs": 360800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "実際、2048基の高性能GPUを動かしています。",
+    "startMs": 361160,
+    "endMs": 365200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "強いGPUを多く持てば、より大きな実験を試せる。",
+    "startMs": 365740,
+    "endMs": 369220,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "失敗しても次を早く試せる。",
+    "startMs": 369580,
+    "endMs": 371660,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "たくさんの利用者へAIを提供するときにも計算資源は必要です。",
+    "startMs": 371960,
+    "endMs": 376340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ハードウェアの差は今も大きい。",
+    "startMs": 376760,
+    "endMs": 378680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ただし、同じ計算資源を持っていても、\n使い方が違えば出てくる能力は同じではありません。",
+    "startMs": 379080,
+    "endMs": 384800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "全部を毎回動かすのか、必要な部分へ仕事を絞るのか、\nデータが届くのを待つのか、計算しながら次のデータを運ぶのか。",
+    "startMs": 385460,
+    "endMs": 394960,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "強いGPUはAI競争の上限を押し上げる。",
+    "startMs": 395720,
+    "endMs": 399040,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "でも、そのGPUをどれだけ働かせられるかは、\nモデルとソフトウェアの設計で変わる。",
+    "startMs": 399380,
+    "endMs": 404900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "DeepSeekが見せたのは、\n計算資源の競争が終わったことではありません。",
+    "startMs": 405440,
+    "endMs": 409720,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "計算資源を無駄なく能力へ変える競争もあるということだったんです。",
+    "startMs": 410160,
+    "endMs": 414860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "まとめです。",
+    "startMs": 415166.6666666667,
+    "endMs": 415846.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ということで、今回はDeepSeek、\n強いGPUだけがAI競争ではないについて話してみました。",
+    "startMs": 416406.6666666667,
+    "endMs": 423846.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "約600万ドルという数字は、\nDeepSeekやR1の開発総額ではありません。",
+    "startMs": 424486.6666666667,
+    "endMs": 429905.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "V3というモデルの公式な学習に使ったGPU時間を\n一定の価格で換算した数字です。",
+    "startMs": 430346.6666666667,
+    "endMs": 437846.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "そして、DeepSeekはGPUを使わずにAIを作ったわけでもない。",
+    "startMs": 438286.6666666667,
+    "endMs": 443086.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それでも、必要な部分だけを動かすモデル設計や、",
+    "startMs": 443526.6666666667,
+    "endMs": 446926.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "GPUの待ち時間を減らす学習システムによって、\n計算資源の使い方を変えました。",
+    "startMs": 447066.6666666667,
+    "endMs": 452926.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今日一つだけ覚えて帰るなら、AI競争はGPUの強さを比べるだけでなく、",
+    "startMs": 453946.6666666667,
+    "endMs": 459866.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "限られた計算をどれだけ無駄なく能力へ変えるかの競争でもある。",
+    "startMs": 460106.6666666667,
+    "endMs": 464906.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "これだけで大丈夫です。",
+    "startMs": 465086.6666666667,
+    "endMs": 466706.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ただ、調べていてもう一つ不思議なことが残りました。",
+    "startMs": 467966.6666666667,
+    "endMs": 471506.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "DeepSeekはV3やR1のモデルの重みを公開しました。",
+    "startMs": 472006.6666666667,
+    "endMs": 476546.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "技術報告にも自分たちが工夫した方法を書いています。",
+    "startMs": 477066.6666666667,
+    "endMs": 481186.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "せっかく見つけた効率の良い作り方なら、\n会社の中へ隠しておいた方が有利にも見えます。",
+    "startMs": 481666.6666666667,
+    "endMs": 487526.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それなのに、なぜAI企業は自分たちのモデルを公開するのでしょうか。",
+    "startMs": 487966.6666666667,
+    "endMs": 493026.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "次回は、なぜAI企業はモデルを公開するのか。",
+    "startMs": 494226.6666666667,
+    "endMs": 498166.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "オープンモデルの経済。",
+    "startMs": 498346.6666666667,
+    "endMs": 499966.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "無料で配っているように見えるモデルが企業の競争力へどうつながるのか、\nこの辺りを話してみたいと思います。",
+    "startMs": 500586.6666666667,
+    "endMs": 507706.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "それでは今回はこの辺で。",
+    "startMs": 508186.6666666667,
+    "endMs": 510046.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

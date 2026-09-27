@@ -1,0 +1,23 @@
+episode006 本編先頭からの時刻（秒）
+1.mp3〜5.mp3をこの順に、追加の無音なしで連結した基準。
+ElevenLabs Forced Alignment: alignment-03.json / alignment-04.json
+
+A開始 96 start=214.28 end=218.22
+A-2 98 start=219.16 end=225.08
+A-3 100 start=225.96 end=231.92
+A-3a 102 start=232.80 end=235.44
+A-3b 104 start=236.16 end=238.72
+A-3c 106 start=239.60 end=243.44
+A-4 110 start=247.48 end=249.08
+A-5 112 start=249.72 end=253.30
+A-6 114 start=254.48 end=258.96
+A-7 116 start=259.80 end=266.60
+A終了の目安 118 start=267.38 end=271.64
+
+B開始 130 start=294.05 end=300.65
+B-2 132 start=301.35 end=303.23
+B-3 134 start=303.81 end=307.61
+B-4 136 start=308.23 end=313.39
+B-5 138 start=314.11 end=316.11
+B-6 140 start=317.29 end=322.63
+B終了の目安 142 start=323.71 end=327.51

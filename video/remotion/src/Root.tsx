@@ -10,6 +10,10 @@ import { Episode2MainComposition } from "./episode2/Episode2Main";
 import { Episode3MainComposition } from "./episode3/Episode3Main";
 import { Episode4AudioReviewComposition } from "./episode4/Episode4AudioReview";
 import { Episode4MainComposition } from "./episode4/Episode4Main";
+import { Episode5AudioReviewComposition } from "./episode5/Episode5AudioReview";
+import { Episode5MainComposition } from "./episode5/Episode5Main";
+import { Episode6MainComposition } from "./episode6/Episode6Main";
+import { Episode6MainV02Composition } from "./episode6/Episode6MainV02";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -23,6 +27,10 @@ export const RemotionRoot: React.FC = () => {
       <Episode3MainComposition />
       <Episode4AudioReviewComposition />
       <Episode4MainComposition />
+      <Episode5AudioReviewComposition />
+      <Episode5MainComposition />
+      <Episode6MainComposition />
+      <Episode6MainV02Composition />
     </>
   );
 };

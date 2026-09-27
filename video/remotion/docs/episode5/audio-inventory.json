@@ -1,0 +1,78 @@
+{
+  "source": "Supplied Episode 005 narration; no trimming or processing",
+  "totalAudioSeconds": 532.2448979591837,
+  "editedAudioSeconds": 508.9999999999999,
+  "insertedSilenceSeconds": 1.2,
+  "files": [
+    {
+      "id": "01",
+      "file": "public/episode5/1.mp3",
+      "sha256": "02798995ee430854b32e2d8329635b269d6fff7628338e2b3d071332f0d5283e",
+      "bytes": 1079518,
+      "durationSeconds": 66.56,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "02",
+      "file": "public/episode5/2.mp3",
+      "sha256": "e810d01249df494803ee102fbe002acd5472f2b8b2393f22f96da3775ed894e5",
+      "bytes": 1336981,
+      "durationSeconds": 82.70367346938775,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "03",
+      "file": "public/episode5/3.mp3",
+      "sha256": "5a3f1211b67e6274bfe448f81dc98324a72510cd640532baf7ac075eeb8b17dd",
+      "bytes": 1404690,
+      "durationSeconds": 86.93551020408164,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "04",
+      "file": "public/episode5/4.mp3",
+      "sha256": "cad7aa772366482000d5d5a033da1e1583e659430a44729852d452b2655246ac",
+      "bytes": 1228311,
+      "durationSeconds": 75.88571428571429,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "05",
+      "file": "public/episode5/5.mp3",
+      "sha256": "4b541210b742239e42f01a6e9120b3dd5ddaf2ec24122b5db65dad3453c1bfd1",
+      "bytes": 893944,
+      "durationSeconds": 54.93551020408163,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "06",
+      "file": "public/episode5/6.mp3",
+      "sha256": "b96af605c620ff70b0acf36ddcc060f82ddcf29312662b55edc35bb402ba9e42",
+      "bytes": 1083697,
+      "durationSeconds": 66.82122448979592,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "07",
+      "file": "public/episode5/7.mp3",
+      "sha256": "cdbfffc59dc3b3644c3e66f4bf8f60fd9a68fcd8550fa2065766bd120a282ccb",
+      "bytes": 1587756,
+      "durationSeconds": 98.40326530612245,
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 1
+    }
+  ]
+}
