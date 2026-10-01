@@ -74,7 +74,8 @@ function buildLayout(ctx: CanvasRenderingContext2D, w: number, h: number): Layou
   const ctaSpace = narrow ? 170 : 132;
   const pad = narrow ? 28 : Math.max(28, h * 0.06);
   const availH = h - ctaSpace - pad;
-  const s = Math.min(availH / (LOCK.y1 - LOCK.y0), (w * 0.84) / (LOCK.x1 - LOCK.x0), 0.95);
+  // PCではロゴを主役にしすぎない（既存サイトの情報密度に合わせて上限を下げる）
+  const s = Math.min(availH / (LOCK.y1 - LOCK.y0), (w * 0.84) / (LOCK.x1 - LOCK.x0), w > 900 ? 0.62 : 0.95);
   const top = pad + (availH - (LOCK.y1 - LOCK.y0) * s) / 2;
   const cx = w / 2;
   const q = Math.min(64, w * 0.085);

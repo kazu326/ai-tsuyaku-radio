@@ -407,7 +407,16 @@ h2 { font-size: 28px; font-weight: 700; letter-spacing: -.035em; line-height: 1.
 .guide-copy .eyebrow { color: #ffc66f; margin-bottom: 12px; }
 .guide-copy h2 { font-size: 26px; line-height: 1.75; }
 .guide-copy > p:last-child { margin-top: 16px; color: #c9d6df; font-size: 13px; line-height: 2; }
-.guide-frame { border: 1px solid #ffffff2e; background: #000; }
+.guide-frame { position: relative; border: 1px solid #ffffff2e; background: #000; }
+/* 再生前：中央を空けたポスター＋再生ボタン（アンバーの再生マークに紺の三角。ヘッダーの「番組を聴く」と同じ組み合わせ） */
+.guide-play { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 0 0 15%; border: 0; background: transparent; color: var(--navy); font: inherit; cursor: pointer; transition: background .25s ease; }
+.guide-play:hover { background: rgba(8, 27, 42, .035); }
+.guide-play:focus-visible { outline: 3px solid var(--amber); outline-offset: -3px; }
+.guide-play-mark { position: relative; width: 76px; height: 76px; margin-bottom: 6px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 0 10px rgba(240, 163, 56, .18); transition: transform .25s ease, box-shadow .25s ease; }
+.guide-play-mark::after { content: ""; position: absolute; top: 50%; left: 54%; transform: translate(-50%, -50%); border-style: solid; border-width: 13px 0 13px 21px; border-color: transparent transparent transparent var(--navy); }
+.guide-play:hover .guide-play-mark { transform: scale(1.06); box-shadow: 0 0 0 14px rgba(240, 163, 56, .22); }
+.guide-play-label { font-size: 16px; font-weight: 700; letter-spacing: .04em; }
+.guide-play-meta { color: var(--muted); font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .12em; }
 .guide-video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; }
 
 /* スクロール通訳デモ（素のHTMLでは一覧表示） */
@@ -472,6 +481,11 @@ h2 { font-size: 28px; font-weight: 700; letter-spacing: -.035em; line-height: 1.
   .guide-section { padding-block: 44px; }
   .guide-inner { grid-template-columns: 1fr; gap: 24px; }
   .guide-copy h2 { font-size: 22px; }
+  .guide-play { gap: 4px; padding-bottom: 22%; }
+  .guide-play-mark { width: 46px; height: 46px; margin-bottom: 4px; box-shadow: 0 0 0 6px rgba(240, 163, 56, .18); }
+  .guide-play-mark::after { border-width: 8px 0 8px 13px; }
+  .guide-play-label { font-size: 13px; }
+  .guide-play-meta { display: none; }
   .xlate { padding-top: 44px; }
   .xlate-item { grid-template-columns: 1fr; }
   .xlate-arrow { display: none; }
@@ -494,6 +508,48 @@ h2 { font-size: 28px; font-weight: 700; letter-spacing: -.035em; line-height: 1.
   .xlate.is-scrolly .xlate-grid { width: calc(100% - 40px); }
 }
 .xlate.is-scrolly { padding-top: 0; }
+
+
+/* =========================================================
+   PCの密度調整（2026-09-30）：新しい上半分と既存の下半分を、10〜15%ずつ互いに近づける
+   モバイルは確定済みのため、幅901px以上だけに適用する
+   ========================================================= */
+@media (min-width: 901px) {
+  /* 上半分：少し締める */
+  .t-hero { height: clamp(500px, 74vh, 640px); }
+  .t-hero-cta { bottom: 34px; }
+  .guide-section { padding-block: 52px; }
+  .guide-inner { grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr); gap: 36px; }
+  .guide-copy h2 { font-size: 23px; line-height: 1.7; }
+  .guide-copy > p:last-child { font-size: 12px; }
+  .xlate.is-scrolly .xlate-stage { gap: 34px; }
+  .xlate.is-scrolly .xlate-head h2, .xlate-head h2 { font-size: 23px; }
+  .xlate.is-scrolly .xlate-grid { width: min(1000px, calc(100% - 80px)); }
+  .xlate.is-scrolly .xlate-mic { width: 170px; }
+  .xlate.is-scrolly .xlate-term { font-size: clamp(24px, 2.6vw, 34px); padding: 16px 26px; }
+  .xlate.is-scrolly .xlate-plain { min-height: 128px; padding: 22px 26px; font-size: clamp(21px, 2vw, 27px); }
+  .xlate.is-scrolly .xlate-plain::after { left: 26px; right: 26px; bottom: 15px; }
+
+  /* 下半分：少し広げる */
+  .content-section { padding-block: 46px 52px; }
+  .compact-heading { margin-bottom: 22px; }
+  .compact-heading h2 { font-size: 23px; }
+  .content-grid { gap: 14px; }
+  .content-item { min-height: 176px; }
+  .content-visual { padding: 14px 16px 16px; }
+  .content-visual strong { font-size: 25px; }
+  .content-icon { width: 66px; height: 66px; }
+  .content-copy { padding: 16px 18px; }
+  .content-copy h3 { font-size: 15px; }
+  .content-copy p { margin-top: 8px; font-size: 12px; }
+  .updates-section { padding-block: 40px 52px; }
+  .episode-copy > p { font-size: 12px; }
+  .news-list h3 { font-size: 13px; }
+  .news-list p { font-size: 10px; }
+  .news-meta time { font-size: 10px; }
+}
+
+/* 901〜1100px：通訳デモの右の枠が細くならないよう、マイク列と余白を詰める（上の密度調整より優先） */
 @media (min-width: 901px) and (max-width: 1100px) {
   .xlate.is-scrolly .xlate-grid { grid-template-columns: minmax(0, 1fr) 150px minmax(0, 1.5fr); column-gap: 28px; }
   .xlate.is-scrolly .xlate-mic { width: 150px; }
