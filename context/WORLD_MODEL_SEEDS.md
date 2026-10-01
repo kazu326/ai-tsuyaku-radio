@@ -6,11 +6,13 @@ Status: Adopted minimal roster / 2026-10-01
 
 通常の組織作業で参照できるWorld Model Seedと、まだ採用前の候補を見失わないための軽量な一覧。
 
-Narrative Secret由来のSeed候補は、存在と出典だけ一般一覧へ記載してよい。具体的な真相は対応する世界設定側で管理する。現実に保護が必要な情報は、この一覧へ載せない。
+Narrative Secret由来のSeed候補は、存在と出典だけ一般一覧へ記載してよい。具体的な真相は対応する世界設定側で管理する。Protected Information（保護情報）は、この一覧へ載せない。
 
 Seedの詳細な人格設定を作る場所ではない。UnknownはUnknownのまま残す。
 
 組織上の位置づけは `context/ORGANIZATION_MODEL.md` を参照する。
+
+責任Real Memberは役職名だけではなく、GitHub handleや安定したmember IDなど、一意に特定できる識別子で記録する。
 
 ## 現在の一覧
 
