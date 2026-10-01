@@ -88,6 +88,8 @@ Episode画像は16:9とし、ネイビー〜ブルーを基調に、白と`#f9a1
 
 ## 2026-09-14
 
+※ 用語定義は2026-10-01に更新済み。Real Member / World Model Seed / Actorを分離し、現在は `context/ORGANIZATION_MODEL.md` を優先する。以下はWorld Model育成原則の起点として残す。
+
 ### Actorを設計するのではなく、World Modelを育てる
 
 AI通訳ラジオGROUPの新しいActor／社員／担当者は、完成した人物設定を先に作らず、実際の仕事を始められる最小限のWorld Model Seedから育てる。
