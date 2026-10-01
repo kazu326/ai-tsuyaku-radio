@@ -43,7 +43,7 @@ Actor
 - `context/WORLD_MODEL_SEEDS.md`
 - `context/ACTORS.md`
 
-現在、猫はBaseline Actor。Opening由来の担当者候補と、猫を影から支える人物候補はSeed Candidateとして保持し、詳細はまだ確定しない。
+現在、猫はBaseline Actor。Opening由来の担当者候補は一般Seed Candidateとして保持する。Restricted / Secret設定に属する候補はCURRENTへ要約せず、必要な権限を持つ作業だけが秘密設定側を参照する。
 
 ---
 
@@ -112,7 +112,9 @@ Presenceがなくても仕事は成立する設計にする。
 
 2階Bの正式用途は今後も「サブ収録用」のまま。
 
-裏設定では猫が実質的な主な収録拠点として使い、秘密設定では社員一人だけが気づいて技術面を支えている。
+**2階Bの録音室・コントロールルーム内部の詳細図はユーザーが作成し、その詳細図を本社側の仮枠・座標・3Dへ反映する。** AIは未確定の内部配置を旧生成画像から推測して確定しない。
+
+世界設定は公開範囲を分離して管理する。CURRENTではRestricted / Secret内容そのものを要約しない。
 
 世界設定：
 
