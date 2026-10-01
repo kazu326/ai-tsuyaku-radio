@@ -2,11 +2,15 @@
 
 このフォルダは、AI通訳ラジオを人間と複数AIで運営するための共有設計資料です。
 
-## 人間が最初に読む
+## 新しいReal Memberが最初に読む
 
-1. `REAL_MEMBER_ONBOARDING.md` — 新しい人がどう参加するか
-2. `SYSTEM_OVERVIEW.md` — 全体を短く把握するための説明
-3. `PARALLEL_WORKSTREAMS.md` — 今どの作業を並行して進められるか
+1. `REAL_MEMBER_ONBOARDING.md` — 参加方法と最初の仕事
+2. `../README.md` — プロジェクト全体の入口
+3. `../context/CURRENT.md` — 現在地
+4. `SYSTEM_OVERVIEW.md` — 全体像
+5. 自分が触る仕事に必要な資料だけ
+
+`PARALLEL_WORKSTREAMS.md` は、現在どの作業を並行して進められるか確認したいときに参照する。
 
 ## AI・実装担当が読む
 
