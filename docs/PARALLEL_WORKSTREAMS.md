@@ -118,6 +118,12 @@ Real Member → Seed → 必要ならActor、という運用を実際の仕事�
 - 音声、マルチプレイ、VRを最初から入れない
 - 映像用高品質3DとPresence用軽量3Dを同一品質にしない
 
+### Dependency / Conflict
+
+- DはEの本社座標・Studio B空間Source of Truthを消費する側。Presence側から正本座標を独自変更しない
+- Eで座標・部屋・導線が更新された場合、Dはその採用済みスナップショットへ追従する
+- Dは現行座標のスナップショットを使ったUI試作ならEと並行して進めてよい
+
 
 ---
 
@@ -144,6 +150,12 @@ Real Member → Seed → 必要ならActor、という運用を実際の仕事�
 - 旧生成画像から間取りを逆算しない
 - 仕上げ品質より座標を先に確定
 - 秘密設定を理由に表向きの部屋用途を変更しない
+
+### Dependency / Conflict
+
+- Eが本社座標・Studio B空間の正本を更新するWorkstream
+- Dの3D Presenceはこの座標を参照するため、Eで採用済み座標が変わった場合はDへ変更を通知し追従させる
+- DとEが同じ座標データを別々に編集しない。空間Source of Truthの変更はE側で行う
 
 
 ---
