@@ -46,10 +46,10 @@ Seed候補は `context/WORLD_MODEL_SEEDS.md`、Actorは `context/ACTORS.md` を�
 
 特に、2階Bの正式用途は「サブ収録用」のまま。物語上の秘密を理由に、正式図面や通常制作を勝手に書き換えない。
 
-### Narrative SecretとHard Secret
+### Narrative SecretとProtected Information
 
 - Narrative Secret：ストーリーテリングのための秘密。内部AIは知っていてよく、根拠・provenanceも保持できる。通常公開では明示的な答え合わせを避けるが、痕跡や推測は許容する。
-- Hard Secret：現実に保護が必要な情報。必要な権限がなければ取得・出力しない。
+- Protected Information（保護情報）：現実に保護が必要な情報。必要な権限がなければ取得・出力しない。
 
 制作レビューではNarrative Secretについて事実を正直に説明してよい。Actorとしての会話や公開コンテンツでは、そのActorが知らない設定なら知らないふり・はぐらかし・冗談など、物語上の振る舞いを優先する。
 
