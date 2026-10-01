@@ -387,3 +387,172 @@ h2 { font-size: 28px; font-weight: 700; letter-spacing: -.035em; line-height: 1.
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+/* =========================================================
+   トップ上部 MVP（2026-09-30）：新Hero → 案内動画 → スクロール通訳 → 3カテゴリー（ラジオに猫）
+   ========================================================= */
+
+/* 新Hero：Canvasで「専門用語 → マイク → 猫耳ロゴ」。文字情報と導線はHTML */
+.t-hero { position: relative; height: clamp(560px, 86vh, 760px); overflow: hidden; background: var(--paper); border-bottom: 1px solid var(--line); }
+.t-hero-canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.t-hero-cta { position: absolute; left: 0; right: 0; bottom: 42px; display: flex; align-items: center; justify-content: center; gap: 30px; opacity: 0; transform: translateY(12px); pointer-events: none; transition: opacity .6s ease, transform .6s ease; }
+.t-hero-cta.is-visible { opacity: 1; transform: none; pointer-events: auto; }
+.t-hero-link { margin-top: 0; }
+.t-hero-replay { position: absolute; right: 24px; bottom: 18px; padding: 2px 0; border: 0; border-bottom: 1px solid #c5ced3; background: none; color: var(--muted); font: inherit; font-size: 11px; cursor: pointer; }
+.t-hero-replay:hover { color: #93600e; border-color: #93600e; }
+
+/* 案内動画：ElevenLabsの女性音声（表側の案内役） */
+.guide-section { padding-block: 64px; background: var(--navy); color: #fff; }
+.guide-inner { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.5fr); gap: 48px; align-items: center; }
+.guide-copy .eyebrow { color: #ffc66f; margin-bottom: 12px; }
+.guide-copy h2 { font-size: 26px; line-height: 1.75; }
+.guide-copy > p:last-child { margin-top: 16px; color: #c9d6df; font-size: 13px; line-height: 2; }
+.guide-frame { position: relative; border: 1px solid #ffffff2e; background: #000; }
+/* 再生前：中央を空けたポスター＋再生ボタン（アンバーの再生マークに紺の三角。ヘッダーの「番組を聴く」と同じ組み合わせ） */
+.guide-play { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 0 0 15%; border: 0; background: transparent; color: var(--navy); font: inherit; cursor: pointer; transition: background .25s ease; }
+.guide-play:hover { background: rgba(8, 27, 42, .035); }
+.guide-play:focus-visible { outline: 3px solid var(--amber); outline-offset: -3px; }
+.guide-play-mark { position: relative; width: 76px; height: 76px; margin-bottom: 6px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 0 10px rgba(240, 163, 56, .18); transition: transform .25s ease, box-shadow .25s ease; }
+.guide-play-mark::after { content: ""; position: absolute; top: 50%; left: 54%; transform: translate(-50%, -50%); border-style: solid; border-width: 13px 0 13px 21px; border-color: transparent transparent transparent var(--navy); }
+.guide-play:hover .guide-play-mark { transform: scale(1.06); box-shadow: 0 0 0 14px rgba(240, 163, 56, .22); }
+.guide-play-label { font-size: 16px; font-weight: 700; letter-spacing: .04em; }
+.guide-play-meta { color: var(--muted); font-family: Arial, sans-serif; font-size: 11px; letter-spacing: .12em; }
+.guide-video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; }
+
+/* スクロール通訳デモ（素のHTMLでは一覧表示） */
+.xlate { padding-top: 64px; background: #fff; border-bottom: 1px solid var(--line); }
+.xlate-head { margin-bottom: 28px; }
+.xlate-head .eyebrow { color: #445767; margin-bottom: 6px; }
+.xlate-lead { margin-top: 6px; color: var(--muted); font-size: 14px; line-height: 1.9; }
+.xlate-track { padding-bottom: 56px; }
+.xlate-label, .xlate-term-slot, .xlate-mic, .xlate-progress { display: none; }
+.xlate-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.xlate-item { display: grid; grid-template-columns: minmax(0, .8fr) 44px minmax(0, 1.5fr); align-items: stretch; border: 1px solid var(--line); background: #fff; }
+.xlate-term { display: flex; align-items: center; padding: 18px 22px; font-size: 20px; font-weight: 700; color: var(--navy); }
+.xlate-arrow { display: grid; place-items: center; color: #c47c17; font-family: Arial, sans-serif; font-size: 22px; }
+.xlate-plain { position: relative; display: flex; align-items: center; padding: 18px 22px; border-left: 3px solid var(--amber); background: #f7f8f6; font-size: 17px; font-weight: 700; line-height: 1.7; }
+
+.xlate.is-scrolly .xlate-track { height: calc(var(--count) * 85vh + 100vh); padding-bottom: 0; }
+.xlate.is-scrolly .xlate-stage { position: sticky; top: 0; height: 100vh; height: 100svh; display: flex; align-items: center; overflow: hidden; }
+.xlate.is-scrolly .xlate-grid { display: grid; grid-template-columns: minmax(0, 1fr) 200px minmax(0, 1.3fr); grid-template-areas: "lin . lout" "term mic plain" "prog prog prog"; column-gap: 44px; row-gap: 18px; align-items: center; }
+.xlate.is-scrolly .xlate-list, .xlate.is-scrolly .xlate-item { display: contents; }
+.xlate.is-scrolly .xlate-label { display: block; font-size: 12px; font-weight: 700; letter-spacing: .14em; color: var(--muted); }
+.xlate.is-scrolly .xlate-label-in { grid-area: lin; justify-self: center; }
+.xlate.is-scrolly .xlate-label-out { grid-area: lout; color: #9a6415; }
+.xlate.is-scrolly .xlate-term-slot { display: block; grid-area: term; justify-self: center; width: 10px; height: 80px; }
+.xlate.is-scrolly .xlate-mic { display: block; grid-area: mic; position: relative; width: 200px; transform: scale(calc(1 + .08 * var(--pulse, 0))); }
+.xlate-mic img { display: block; width: 100%; height: auto; }
+.xlate-waves { position: absolute; left: 88%; top: 16%; width: 54px; height: 90px; fill: none; stroke: var(--amber); stroke-width: 11; stroke-linecap: round; opacity: var(--pulse, 0); transform: translateX(calc(var(--pulse, 0) * 12px)); }
+.xlate.is-scrolly .xlate-arrow { display: none; }
+.xlate.is-scrolly .xlate-term { grid-area: term; justify-self: center; z-index: 2; padding: 20px 30px; border: 2px dashed #8796a1; background: #fff; font-size: clamp(26px, 3vw, 40px); white-space: nowrap;
+  opacity: calc(var(--in) * (1 - var(--fly)) * (1 - var(--out)));
+  transform: translate(calc(var(--fx, 0px) * var(--fly)), calc(var(--fy, 0px) * var(--fly))) scale(calc(1 - .8 * var(--fly))); }
+.xlate.is-scrolly .xlate-plain { grid-area: plain; align-self: center; min-height: 150px; padding: 26px 30px; border: 1px solid var(--line); border-left: 4px solid var(--amber); background: #fff; font-size: clamp(22px, 2.3vw, 32px); line-height: 1.6;
+  opacity: calc(min(1, var(--reveal) * 5) * (1 - var(--out)));
+  transform: translateX(calc((1 - min(1, var(--reveal) * 4)) * -24px)); }
+.xlate.is-scrolly .xlate-plain::after { content: ""; position: absolute; left: 30px; right: 30px; bottom: 18px; height: 3px; background: var(--amber); transform-origin: left; transform: scaleX(clamp(0, calc(var(--reveal) * 1.4 - .4), 1)); }
+.xlate.is-scrolly .xlate-plain-text span { opacity: clamp(0, calc(var(--reveal) * (var(--len) + 2) - var(--i)), 1); }
+.xlate.is-scrolly .xlate-progress { display: flex; grid-area: prog; justify-self: center; gap: 8px; margin-top: 18px; }
+.xlate-progress span { width: 10px; height: 10px; background: #d5dce0; transition: width .25s ease, background .25s ease; }
+.xlate-progress span[data-on] { width: 30px; background: var(--amber); }
+
+/* ラジオのカードだけ、モニター越しに猫が少しのぞく */
+.content-visual { position: relative; overflow: hidden; }
+.radio-monitor { position: absolute; right: 6px; bottom: 0; width: 58px; aspect-ratio: 16 / 10; border: 1px solid #ffffff4d; border-bottom: 0; background: #000; transform: translateY(74%); transition: transform .5s cubic-bezier(.2, .8, .2, 1); }
+.radio-monitor img { display: block; width: 100%; height: 100%; object-fit: cover; opacity: .92; }
+.radio-monitor-lamp { position: absolute; top: 4px; right: 4px; width: 5px; height: 5px; border-radius: 50%; background: var(--amber); animation: radio-lamp 2.4s ease-in-out infinite; }
+.content-item:hover .radio-monitor, .content-item:focus-within .radio-monitor { transform: translateY(0); }
+@keyframes radio-lamp { 50% { opacity: .3; } }
+
+@media (max-width: 900px) {
+  .xlate.is-scrolly .xlate-grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "lin" "term" "mic" "lout" "plain" "prog"; row-gap: 12px; }
+  .xlate.is-scrolly .xlate-label-out { justify-self: center; }
+  .xlate.is-scrolly .xlate-mic { width: 118px; justify-self: center; }
+  .xlate.is-scrolly .xlate-term-slot { height: 64px; }
+  .xlate.is-scrolly .xlate-term { padding: 14px 22px; font-size: 26px; }
+  .xlate.is-scrolly .xlate-plain { min-height: 120px; padding: 20px 22px; font-size: 21px; }
+  .xlate.is-scrolly .xlate-plain::after { left: 22px; right: 22px; bottom: 14px; }
+  .xlate.is-scrolly .xlate-progress { margin-top: 6px; }
+}
+@media (max-width: 700px) {
+  .t-hero { height: clamp(600px, 92svh, 740px); }
+  .t-hero-cta { bottom: 44px; flex-direction: column; gap: 14px; }
+  .t-hero-replay { right: 20px; bottom: 12px; }
+  .guide-section { padding-block: 44px; }
+  .guide-inner { grid-template-columns: 1fr; gap: 24px; }
+  .guide-copy h2 { font-size: 22px; }
+  .guide-play { gap: 4px; padding-bottom: 22%; }
+  .guide-play-mark { width: 46px; height: 46px; margin-bottom: 4px; box-shadow: 0 0 0 6px rgba(240, 163, 56, .18); }
+  .guide-play-mark::after { border-width: 8px 0 8px 13px; }
+  .guide-play-label { font-size: 13px; }
+  .guide-play-meta { display: none; }
+  .xlate { padding-top: 44px; }
+  .xlate-item { grid-template-columns: 1fr; }
+  .xlate-arrow { display: none; }
+  .xlate-plain { border-left: 0; border-top: 3px solid var(--amber); }
+  .radio-monitor { width: 50px; right: 5px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .radio-monitor-lamp { animation: none; }
+}
+.xlate-chunk { display: inline-block; }
+.xlate.is-scrolly .xlate-stage { flex-direction: column; justify-content: center; gap: 44px; }
+.xlate.is-scrolly .xlate-head { margin-bottom: 0; }
+.xlate.is-scrolly .xlate-grid { width: min(1120px, calc(100% - 80px)); }
+@media (max-width: 900px) {
+  .xlate.is-scrolly .xlate-stage { gap: 20px; }
+  .xlate.is-scrolly .xlate-head h2 { font-size: 21px; }
+  .xlate.is-scrolly .xlate-lead { display: none; }
+}
+@media (max-width: 700px) {
+  .xlate.is-scrolly .xlate-grid { width: calc(100% - 40px); }
+}
+.xlate.is-scrolly { padding-top: 0; }
+
+
+/* =========================================================
+   PCの密度調整（2026-09-30）：新しい上半分と既存の下半分を、10〜15%ずつ互いに近づける
+   モバイルは確定済みのため、幅901px以上だけに適用する
+   ========================================================= */
+@media (min-width: 901px) {
+  /* 上半分：少し締める */
+  .t-hero { height: clamp(500px, 74vh, 640px); }
+  .t-hero-cta { bottom: 34px; }
+  .guide-section { padding-block: 52px; }
+  .guide-inner { grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr); gap: 36px; }
+  .guide-copy h2 { font-size: 23px; line-height: 1.7; }
+  .guide-copy > p:last-child { font-size: 12px; }
+  .xlate.is-scrolly .xlate-stage { gap: 34px; }
+  .xlate.is-scrolly .xlate-head h2, .xlate-head h2 { font-size: 23px; }
+  .xlate.is-scrolly .xlate-grid { width: min(1000px, calc(100% - 80px)); }
+  .xlate.is-scrolly .xlate-mic { width: 170px; }
+  .xlate.is-scrolly .xlate-term { font-size: clamp(24px, 2.6vw, 34px); padding: 16px 26px; }
+  .xlate.is-scrolly .xlate-plain { min-height: 128px; padding: 22px 26px; font-size: clamp(21px, 2vw, 27px); }
+  .xlate.is-scrolly .xlate-plain::after { left: 26px; right: 26px; bottom: 15px; }
+
+  /* 下半分：少し広げる */
+  .content-section { padding-block: 46px 52px; }
+  .compact-heading { margin-bottom: 22px; }
+  .compact-heading h2 { font-size: 23px; }
+  .content-grid { gap: 14px; }
+  .content-item { min-height: 176px; }
+  .content-visual { padding: 14px 16px 16px; }
+  .content-visual strong { font-size: 25px; }
+  .content-icon { width: 66px; height: 66px; }
+  .content-copy { padding: 16px 18px; }
+  .content-copy h3 { font-size: 15px; }
+  .content-copy p { margin-top: 8px; font-size: 12px; }
+  .updates-section { padding-block: 40px 52px; }
+  .episode-copy > p { font-size: 12px; }
+  .news-list h3 { font-size: 13px; }
+  .news-list p { font-size: 10px; }
+  .news-meta time { font-size: 10px; }
+}
+
+/* 901〜1100px：通訳デモの右の枠が細くならないよう、マイク列と余白を詰める（上の密度調整より優先） */
+@media (min-width: 901px) and (max-width: 1100px) {
+  .xlate.is-scrolly .xlate-grid { grid-template-columns: minmax(0, 1fr) 150px minmax(0, 1.5fr); column-gap: 28px; }
+  .xlate.is-scrolly .xlate-mic { width: 150px; }
+  .xlate.is-scrolly .xlate-term { padding: 14px 22px; font-size: 24px; }
+  .xlate.is-scrolly .xlate-plain { padding: 22px 26px; font-size: 22px; }
+}

@@ -1,6 +1,9 @@
-import Image, { getImageProps } from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { Arrow } from "@/components/site-chrome";
+import { GuideVideo } from "@/components/home/guide-video";
+import { TranslationScroll } from "@/components/home/translation-scroll";
+import { TranslatorHero } from "@/components/home/translator-hero";
 import { episode6Href, getEpisode6 } from "@/lib/episode";
 
 export const dynamic = "force-static";
@@ -38,37 +41,6 @@ const newsItems = [
   },
 ];
 
-function HeroPicture() {
-  const common = {
-    alt: "夜のラジオスタジオで、ヘッドセットを着けた白黒ハチワレ猫がマイクとノートPCの前に座る様子",
-    sizes: "100vw",
-    fetchPriority: "high" as const,
-  };
-  const {
-    props: { srcSet: desktopSrcSet },
-  } = getImageProps({
-    ...common,
-    src: "/images/hero-20260915.png",
-    width: 2220,
-    height: 1082,
-  });
-  const {
-    props: { ...mobileProps },
-  } = getImageProps({
-    ...common,
-    src: "/images/hero-mobile.png",
-    width: 1620,
-    height: 1836,
-  });
-
-  return (
-    <picture className="hero-picture">
-      <source media="(min-width: 701px)" srcSet={desktopSrcSet} />
-      <img {...mobileProps} className="hero-image" alt={common.alt} />
-    </picture>
-  );
-}
-
 function ArticleIcon() {
   return (
     <svg className="content-icon" viewBox="0 0 48 48" aria-hidden="true">
@@ -96,21 +68,23 @@ function VideoIcon() {
   );
 }
 
+// ラジオのカードにだけ、スタジオのモニター越しに猫が少し見える。説明はしない（見つけた人だけが気づく）
+function RadioMonitor() {
+  return (
+    <span className="radio-monitor" aria-hidden="true">
+      <Image src="/images/radio-monitor.jpg" width={384} height={240} alt="" sizes="96px" />
+      <span className="radio-monitor-lamp" />
+    </span>
+  );
+}
+
 export default async function Home() {
   const episode = await getEpisode6();
   return (
     <main id="main">
-      <section className="hero" aria-labelledby="hero-title">
-        <HeroPicture />
-        <div className="container hero-inner">
-          <div className="hero-copy">
-            <p className="hero-kicker">AIを、みんなのそばに</p>
-            <h1 id="hero-title">AIの難しい話を、<br /><span>わかる言葉に。</span></h1>
-            <p className="hero-description">難しいAIニュースや技術トピックを、<br />やさしく整理して届けるラジオ番組。<br />毎日の変化を、置いていかれない言葉で。</p>
-            <Link className="button button-amber" href={episode6Href}>Episode 006を読む<Arrow /></Link>
-          </div>
-        </div>
-      </section>
+      <TranslatorHero />
+      <GuideVideo />
+      <TranslationScroll />
 
       <section className="content-section" aria-labelledby="content-title">
         <div className="container">
@@ -124,7 +98,7 @@ export default async function Home() {
               <div className="content-copy"><h3>ニュースや難しい話を、記事でわかりやすく。</h3><p>気になるテーマを、自分のペースでじっくり読めます。</p></div>
             </article>
             <article className="content-item">
-              <div className="content-visual"><p><strong>02</strong><span>聞く</span></p><HeadphonesIcon /></div>
+              <div className="content-visual"><p><strong>02</strong><span>聞く</span></p><HeadphonesIcon /><RadioMonitor /></div>
               <div className="content-copy"><h3>ラジオのように、耳からAIを理解する。</h3><p>移動中や作業中でも、難しい話を追いやすくします。</p></div>
             </article>
             <article className="content-item">
