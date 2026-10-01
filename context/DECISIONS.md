@@ -70,11 +70,11 @@ Cloudflare / MCP、Real Member Onboarding、World Model Seed、3D Presence、Stu
 - `world/HQ_BEHIND_THE_SCENES.md`：猫の活動や物語上の裏側を扱う設定
 - `world/HQ_SECRET.md`：真相を扱う物語・演出でのみ参照する秘密設定
 
-表向きの2階Bは最後まで「サブ収録用」。裏設定では猫が実質的な主な収録拠点として使う。
+表向きの2階Bは最後まで「サブ収録用」とする。
 
-秘密設定では、社員一人だけが猫の収録・配信活動に気づき、猫に知らせず技術面を支えている。他の社員は小さな違和感を持つことはあっても、真相を知らない。
+裏設定・秘密設定の具体内容は、一般の決定ログへ複製しない。必要な作業だけが `world/HQ_BEHIND_THE_SCENES.md` または `world/HQ_SECRET.md` を参照する。
 
-秘密設定を理由に、通常の図面・Web・3Dへ猫専用表記や未承認の設備・導線を追加しない。
+Restricted / Secret設定を理由に、通常の図面・Web・3Dへ未承認の用途・設備・導線を追加しない。
 
 ## 2026-09-15
 
