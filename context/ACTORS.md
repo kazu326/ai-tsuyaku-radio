@@ -25,7 +25,9 @@ Real Memberや内部処理だけを行うWorld Model Seedは、この名簿に�
 
 Actor候補をここで先にキャラクター化しない。
 
-Opening由来の担当者候補や、猫を影から支える人物候補は、現時点では `context/WORLD_MODEL_SEEDS.md` のCandidateとして管理する。
+Opening由来の担当者候補は、現時点では `context/WORLD_MODEL_SEEDS.md` のCandidateとして管理する。
+
+Restricted / Secret設定に属する候補は、この一般名簿へ記載しない。必要な権限を持つ作業だけが対応する秘密設定側を参照する。
 
 実際の仕事や外部との接点からActorが必要になった場合のみ、この名簿へ追加する。
 
