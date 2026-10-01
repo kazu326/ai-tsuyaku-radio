@@ -4,6 +4,44 @@
 
 ## 2026-10-01
 
+### 組織モデルを Real Member → World Model Seed → Actor に分ける
+
+現実の人間はReal Memberとして責任と最終判断を持つ。
+
+AIはまずWorld Model Seedとして内部の実務を行い、Observation / Discovery / World Modelを育てる。内部処理だけで成立する場合はActor化しない。
+
+名前・外見・声・公開時の語り方などのActor層は、動画・SNS・一般ユーザーとの会話など、外部との接点が必要になった場合だけ追加する。
+
+Real Memberを架空Actorとして扱わず、本人が示していない性格、能力、感情、事情をAIが設定しない。
+
+組織上の正本は `context/ORGANIZATION_MODEL.md`、Seed一覧は `context/WORLD_MODEL_SEEDS.md`、外向けActor一覧は `context/ACTORS.md` とする。
+
+### GitHubを本体、Cloudflareを入口、MCPを共通会社インターフェースとする
+
+GitHubを引き続きAI通訳ラジオのSource of Truthとする。
+
+Cloudflareは一般公開と内部アクセスを分ける「本社の入口」として段階的に整備する。内部Real Memberは認証後、Codex / Claudeなど異なるAIクライアントから同じ会社Contextと許可された道具へ接続できる状態を目指す。
+
+MCPは共通会社インターフェースとして使い、最初は現在地の取得、社内検索、Task Context取得、branch / PR提案、Observation記録など少数機能から始める。
+
+mainへの直接編集は初期の標準権限にしない。
+
+### 3D Presenceを実行基盤とは分離する
+
+内部向け3D本社は、仕事そのものを3Dゲームへ置き換えるものではない。
+
+誰がいるか、どこにいるか、何をしているか、話しかけられそうかを直感的に感じるPresence Layerとして実験する。
+
+フォトリアルを目標にせず、軽量なゲーム風3Dを優先する。映像用高品質3DとPresence用軽量3Dは同じ本社座標を共有できるが、同じ品質目標を持たせない。
+
+Presenceを開かなくても仕事が成立する設計を維持する。
+
+### Workstream全体の優先順位を固定しない
+
+Cloudflare / MCP、Real Member Onboarding、World Model Seed、3D Presence、Studio B、Season 2、Knowledge化は、現時点では一列のロードマップにしない。
+
+必要性、興味、依存関係、利用可能な時間に応じて並行して進め、各Workstreamで代表サンプルや最小PoCを作った時点で人間レビューを挟む。
+
 ### 本社空間の正本を平面図・座標データへ移す
 
 生成画像から間取りを推測し続けず、`experiments/headquarters-plan-20261001/headquarters-floorplans.pdf` と `headquarters-layout.json` を、本社の部屋・扉・通路・階段など空間配置のSource of Truthとして扱う。
