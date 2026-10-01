@@ -27,7 +27,7 @@ Actor候補をここで先にキャラクター化しない。
 
 Opening由来の担当者候補は、現時点では `context/WORLD_MODEL_SEEDS.md` のCandidateとして管理する。
 
-Restricted / Secret設定に属する候補は、この一般名簿へ記載しない。必要な権限を持つ作業だけが対応する秘密設定側を参照する。
+Narrative Secret由来の候補は、存在やSource Seedへの参照を一般資料に残してよい。ただし、Actor化前に真相をここで説明しすぎない。実際の外部接点が生じた場合のみActor登録を検討する。
 
 実際の仕事や外部との接点からActorが必要になった場合のみ、この名簿へ追加する。
 
