@@ -78,13 +78,13 @@ Narrative Secretは、ストーリーテリングを面白くするための「�
 
 - `world/HQ_PUBLIC.md`：通常の図面・画像・3D・Web等で使う表設定
 - `world/HQ_BEHIND_THE_SCENES.md`：猫の活動や物語上の裏側を扱う設定
-- `world/HQ_SECRET.md`：真相を扱う物語・演出でのみ参照する秘密設定
+- `world/HQ_SECRET.md`：Narrative Secretの根拠確認・制作レビュー・真相演出で参照できる設定。公開・Actor出力はReveal Policyに従う
 
 表向きの2階Bは最後まで「サブ収録用」とする。
 
-裏設定・秘密設定の具体内容は、一般の決定ログへ複製しない。必要な作業だけが `world/HQ_BEHIND_THE_SCENES.md` または `world/HQ_SECRET.md` を参照する。
+裏設定・Narrative Secretの具体内容は、一般の決定ログへ全文複製しない。`world/HQ_SECRET.md` は根拠確認・制作レビューでも参照できるが、公開・Actor出力ではReveal Policyに従う。
 
-Restricted / Secret設定を理由に、通常の図面・Web・3Dへ未承認の用途・設備・導線を追加しない。
+Narrative Secret設定を理由に、通常の図面・Web・3Dへ未承認の用途・設備・導線を追加しない。
 
 ## 2026-09-15
 
