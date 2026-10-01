@@ -1,6 +1,6 @@
 # AI通訳ラジオ本社｜秘密設定
 
-ステータス：採用設定／真相を扱う物語・演出用  
+ステータス：採用設定／Narrative Secret（根拠確認・制作レビュー・真相演出用）  
 更新日：2026-10-01
 
 ## 真相
@@ -51,7 +51,7 @@
 
 空間配置は本社平面図に従います。ブース内部の詳細設計はユーザーが作成します。この真相を表現するために、未承認の扉や抜け道、機材配置を追加しません。
 
-通常の画像・3D・Web・図面制作へこの資料を一括で渡しません。真相を扱う物語・演出に必要な場合だけ、表設定・裏設定と併せて参照します。
+通常の画像・3D・Web・図面制作へこの資料を一括で渡しません。根拠確認・制作レビュー・真相演出で必要な場合に参照し、公開・Actor出力では下記Reveal Policyに従います。
 
 ## 未確定の事項
 
@@ -68,7 +68,7 @@
 - Unknown：名前、性別、所属、外見、気づいた経緯、実務上の責任者、Seedとして独立運用するか
 - Actor：未設定
 
-この候補をActive Seedへ移す場合は、秘密設定へアクセスできるReal Memberを責任者として明示し、Purpose / Boundary / Authority / Human Approvalを設定してから運用する。
+この候補をActive Seedへ移す場合は、このSeedの責任を持ちNarrative SecretのReveal Policyを理解したReal Memberを明示し、Purpose / Boundary / Authority / Human Approvalを設定してから運用する。
 
 
 ## Reveal Policy
