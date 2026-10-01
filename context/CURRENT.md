@@ -43,7 +43,7 @@ Actor
 - `context/WORLD_MODEL_SEEDS.md`
 - `context/ACTORS.md`
 
-現在、猫はBaseline Actor。Opening由来の担当者候補は一般Seed Candidateとして保持する。Restricted / Secret設定に属する候補はCURRENTへ要約せず、必要な権限を持つ作業だけが秘密設定側を参照する。
+現在、猫はBaseline Actor。Opening由来の担当者候補に加え、Narrative Secret由来のSeed Candidateが存在する。Narrative Secretはストーリー上の秘密であり、存在や出典は隠さなくてよいが、通常の公開・Actor会話では明示的な答え合わせを避ける。
 
 ---
 
@@ -114,7 +114,7 @@ Presenceがなくても仕事は成立する設計にする。
 
 **2階Bの録音室・コントロールルーム内部の詳細図はユーザーが作成し、その詳細図を本社側の仮枠・座標・3Dへ反映する。** AIは未確定の内部配置を旧生成画像から推測して確定しない。
 
-世界設定は公開範囲を分離して管理する。CURRENTではRestricted / Secret内容そのものを要約しない。
+世界設定は用途を分けて管理する。Narrative Secretはセキュリティ上の機密ではなく、伏線・推測・偶発的な漏れを許容するストーリーテリング上の秘密として扱う。現実に保護が必要な情報とは分ける。
 
 世界設定：
 
