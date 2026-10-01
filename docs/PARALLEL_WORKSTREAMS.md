@@ -79,12 +79,12 @@ Real Member → Seed → 必要ならActor、という運用を実際の仕事�
 
 - 猫はBaseline Actor
 - Opening由来の一般Seed候補あり
-- Restricted / Secret由来の候補は一般Workstreamへ記載しない
+- Narrative Secret由来のSeed候補も存在する。存在・出典は見えてよいが、通常の作業では明示的な答え合わせを急がない
 - 一般候補の詳細は未確定
 
 ### Next deliverable
 
-**一般候補のうち必要になった1つだけに、責任Real Member・Boundary・Authorityを含む最小Seedを置き、実際の仕事を1回させる。**
+**候補のうち必要になった1つだけに、責任Real Member・Boundary・Authorityを含む最小Seedを置き、実際の仕事を1回させる。Narrative Secret由来の場合はReveal Policyも一緒に確認する。**
 
 ### Boundary
 
