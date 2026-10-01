@@ -190,6 +190,15 @@ AIは整合性のためにUnknownを勝手にKnownへ変えない。
 
 後から誤りが判明した場合は、誤情報を個性として残さず訂正する。ただし、元の判断、問題、修正、次の行動はObservationとして残せる。
 
+## Human Reviewの原則
+
+レビューはActorやSeed全体を一般的で無難な表現へ均すために行わない。
+
+- 安全、重大な事実誤認、権限逸脱、公開リスクなど、問題のある箇所だけを必要最小限修正する
+- Actor固有の語り口、視点、低リスクの不完全さは、問題がなければ残す
+- 既知の誤情報を「個性」として残すことはしない
+- 修正理由と元のObservationが有用なら、学習記録として残す
+
 ## World Modelへの昇格条件
 
 原則として次を確認する。
@@ -242,7 +251,9 @@ Real MemberはこのActor育成モデルの対象ではない。
 - `context/CAT_FOOTPRINTS.md` — 猫のObservation / Discovery候補
 - `context/ACTOR_WORLD_MODEL.md` — Seedを育てActor化する共通方法
 
-Seedが増え、一覧だけでは扱いにくくなった場合のみ、個別フォルダを検討する。
+現時点では `context/seeds/` を標準構造として採用・作成しない。
+
+まず `context/WORLD_MODEL_SEEDS.md` と既存の個別資料で運用する。将来、特定のActive SeedについてObservationやWorld Modelが増え、一覧では追跡しにくくなった場合にだけ、そのSeed用の個別フォルダを作る。
 
 ```text
 context/seeds/<seed-id>/
@@ -251,7 +262,7 @@ context/seeds/<seed-id>/
 └─ WORLD_MODEL.md
 ```
 
-現時点では必要なSeedだけに使う。
+つまり「Seedがある = 個別フォルダを作る」ではない。
 
 ## 新しいチャットでの読み方
 
