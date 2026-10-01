@@ -27,12 +27,33 @@ AI通訳ラジオでCodex、Claude Code、その他のAIエージェントが共
 人間、内部AI、外向けキャラクターを扱う場合は、まず `context/ORGANIZATION_MODEL.md` を読む。
 
 - Real Member = 現実の人間。架空設定化しない
-- World Model Seed = 内部で実務を通して育つAI作業単位
+- World Model Seed = その人・組織の目的、Context、権限、評価、経験を実務から育てるAI作業基盤
 - Actor = 外部との接点が必要になったSeedが持つ表現層
 
-Seed候補は `context/WORLD_MODEL_SEEDS.md`、Actorは `context/ACTORS.md` を参照する。
+WorldModelSeedの設計原則、Task Contract、Challenge、内部／外部Seedの違いは `context/WORLD_MODEL_SEED.md` を参照する。
+
+KnowledgeのScope、Role / Permission、Personal / Client境界は `context/KNOWLEDGE_MODEL.md` を参照する。
+
+現在存在するSeed / Candidateの一覧は `context/WORLD_MODEL_SEEDS.md`、Actor一覧は `context/ACTORS.md` を参照する。
 
 内部処理だけで成立するSeedを、名前・外見・声を持つActorへ勝手に変えない。Real Memberの性格、能力、感情、事情を推測で設定しない。
+
+Real Memberへ既定の制作担当を押し付けない。新規参加時は、本人が「AIを使って何をやってみたいか」を起点に、小さなExperimentを作る。活動は動画・記事・Web内に限定しない。
+
+全員へ同じ完成済みAgentを適用しない。内部SeedでもRole / Permission / Personal Contextに応じて必要なWorldだけを参照する。外部顧客向けSeedは内部Seedのコピーとして作らない。
+
+## Knowledgeとアクセス境界
+
+次を同一視しない。
+
+- Knowledgeが存在する
+- AgentがRetrievalできる
+- 現在のTaskでUseできる
+- 外部へDisclosureできる
+
+Protected Informationは権限がなければ取得・利用・出力しない。
+
+Client / Personal / Role Scoped Knowledgeを、便利だからという理由で組織全体のContextへ昇格しない。汎用Knowledgeへ戻す場合は、provenance、Scope、必要なHuman Reviewを確認する。
 
 ## 世界設定
 
