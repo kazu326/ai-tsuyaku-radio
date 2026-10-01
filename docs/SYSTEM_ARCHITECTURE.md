@@ -149,6 +149,16 @@ Protected information is both a retrieval and disclosure boundary.
 
 World Model provenance may cite a Narrative Secret source. This allows later explanation of why a Discovery or World Model update occurred without forcing an immediate story reveal.
 
+### Protected information storage
+
+Protected Information is not stored as ordinary content in this public repository.
+
+- credentials / tokens → provider secret stores such as Cloudflare or GitHub secret storage
+- private personal, contractual, or similarly sensitive records → approved private storage outside the public repository
+- the public repository may keep only safe references, identifiers, handling rules, or non-sensitive metadata when needed
+
+Narrative Secret files such as `world/HQ_SECRET.md` are not Protected Information merely because they contain story secrets.
+
 ## 8. Identity and roles
 
 The system should distinguish:
