@@ -16,7 +16,7 @@ AI通訳ラジオのSource of TruthをGitHubに維持したまま、Cloudflare�
 3. **MCP is the shared company interface.**
 4. **Codex / Claude are interchangeable clients where possible.**
 5. **Presence is optional UI; work must not depend on 3D being open.**
-6. **Public / internal / secret information remain separated.**
+6. **Public / internal / narrative-secret / protected information follow different disclosure rules.**
 7. **Direct main writes are not the default. Work flows through branch / PR / human review.**
 8. **Unknown stays Unknown until a human or source resolves it.**
 
@@ -132,17 +132,22 @@ Typical access:
 
 - Public production work → `world/HQ_PUBLIC.md`
 - Story work → add `world/HQ_BEHIND_THE_SCENES.md`
-- Secret reveal work → only when explicitly authorized, add `world/HQ_SECRET.md`
+- Narrative-secret production/review → may add `world/HQ_SECRET.md`; public-facing output follows its reveal policy
 
 ### Information classes
 
-The context selector separates repository information into three classes:
+The system separates information into four classes:
 
-- `public`
-- `internal`
-- `restricted`
+- `public` — public content and settings
+- `internal` — normal internal work context
+- `narrative_secret` — story information whose existence and provenance may be visible, while explicit reveal is normally deferred
+- `protected` — information that requires real access control
 
-General search uses public/internal sources only. Restricted material is included only for work that explicitly requires that layer. General rosters, CURRENT, and DECISIONS do not duplicate restricted details.
+Narrative Secret is primarily a disclosure policy, not a strict retrieval ban. Internal production and review agents may inspect the source and provenance when needed. Public-facing output and Actor-mode responses normally avoid explicit confirmation, while clues, inference, and accidental partial leaks may be allowed.
+
+Protected information is both a retrieval and disclosure boundary.
+
+World Model provenance may cite a Narrative Secret source. This allows later explanation of why a Discovery or World Model update occurred without forcing an immediate story reveal.
 
 ## 8. Identity and roles
 
@@ -210,7 +215,7 @@ Public users can access public content without internal credentials.
 
 Internal member access must not expose:
 
-- `world/HQ_SECRET.md` unless required
+- protected information outside the current member's scope
 - private work logs not intended for that member
 - credentials / tokens
 - unrestricted GitHub write access
