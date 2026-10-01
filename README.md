@@ -62,9 +62,9 @@ AI業界の難しいニュース・技術・専門用語を、AIに詳しくな�
 
 - 通常の図面・画像・3D・Web制作：`world/HQ_PUBLIC.md`
 - 猫の活動や物語上の裏側が必要な場合：`world/HQ_BEHIND_THE_SCENES.md`
-- 真相を扱う演出に必要な場合だけ：`world/HQ_SECRET.md`
+- Narrative Secretの根拠確認・制作レビュー・真相演出：`world/HQ_SECRET.md`
 
-秘密設定を、通常のWeb・図面・3D・公開設定へ自動的に露出させないでください。
+Narrative Secretは内部の根拠確認や制作レビューで参照して構いません。ただし通常のWeb・図面・3D・公開出力へ自動的に答え合わせを持ち込まず、`world/HQ_SECRET.md` のReveal Policyに従います。
 
 ## Remotionについて
 
