@@ -57,9 +57,9 @@ Seedは「完成したAI社員」ではありません。あなたの仕事を�
 
 ## 最初に読むもの
 
-1. `README.md`
-2. `context/CURRENT.md`
-3. `docs/SYSTEM_OVERVIEW.md`
+1. `../README.md`
+2. `../context/CURRENT.md`
+3. `SYSTEM_OVERVIEW.md`
 4. 自分が触る仕事に必要な資料だけ
 
 すべての過去ログや秘密設定を読む必要はありません。
