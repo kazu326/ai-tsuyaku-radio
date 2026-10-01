@@ -1,55 +1,57 @@
-# ACTORS｜AI通訳ラジオGROUP 社員名簿 v0.1
+# ACTORS｜AI通訳ラジオGROUP 外向けActor名簿 v0.2
 
 Status: Minimal roster / 必要になったActorだけ登録  
-Updated: 2026-09-14
+Updated: 2026-10-01
 
 ## この文書の役割
 
-AI通訳ラジオGROUPに現在存在するActorと、そのActorについて今どこまで分かっているかを探すための軽量な入口。
+AI通訳ラジオで、**外部との接点を持つActor**と、その現在地を探すための軽量な入口。
 
-完成した人物設定集ではない。詳しいWorld Model、観察記録、物語設定をここへ複製せず、それぞれの正本へ案内する。
+Real Memberや内部処理だけを行うWorld Model Seedは、この名簿には入れない。
 
-育て方と共通境界は `context/ACTOR_WORLD_MODEL.md` を参照する。
+- Real Member / Seed / Actorの関係：`context/ORGANIZATION_MODEL.md`
+- Seed一覧：`context/WORLD_MODEL_SEEDS.md`
+- 育て方：`context/ACTOR_WORLD_MODEL.md`
 
 ## 現在の名簿
 
-| Actor ID | 名前 | 種別 | 現在分かっている役割 | 初出 | 確認されている関係 | Seed / Model | 状態 |
-|---|---|---|---|---|---|---|---|
-| `actor-cat-001` | Unknown | 物語Actor / AI通訳者 | 人間とAIの間に立つ通訳者。ラジオパーソナリティ。Web編集部、実験室、開発室にも現れ得る | Unknown | 飼い主を近くで観察し、ときどき仕事を補助する | `context/STORY_BIBLE.md`、`context/CAT_FOOTPRINTS.md` | Active / Baseline |
+| Actor ID | 名前 | 種別 | 現在分かっている外向け役割 | Source Seed / Model | 状態 |
+|---|---|---|---|---|---|
+| `actor-cat-001` | Unknown | 物語Actor / AI通訳者 | 人間とAIの間に立つ通訳者。ラジオパーソナリティ。Web編集部、実験室、開発室にも現れ得る | `seed-cat-001` / `context/STORY_BIBLE.md` / `context/CAT_FOOTPRINTS.md` | Active / Baseline |
 
-「初出」がUnknownなのは未整理であり、AIが推測で埋めない。確認できる資料と採用判断がそろった場合に更新する。
+名前や初出など未整理の情報は、確認できる資料と採用判断がそろうまでUnknownのままにする。
 
-## 未登録の例
+## Actor化前の候補
 
-半導体担当者、ヒロイン役、各WebサイトやSNSの担当者は、構想を説明するための例であり、現時点ではActorとして登録しない。
+Actor候補をここで先にキャラクター化しない。
 
-実際のコンテンツや仕事から必要性が生まれ、最小限のSeedを置ける段階で初めて名簿へ追加する。
+Opening由来の担当者候補や、猫を影から支える人物候補は、現時点では `context/WORLD_MODEL_SEEDS.md` のCandidateとして管理する。
+
+実際の仕事や外部との接点からActorが必要になった場合のみ、この名簿へ追加する。
 
 ## 新しいActorの登録テンプレート
-
-最初からすべてを埋めない。分からない欄は `Unknown` のまま残す。
 
 ```md
 ## <Actor ID>｜<名前またはUnknown>
 
-- 種別：
-- 現在必要とされている役割：
-- なぜ今必要になったか：
+- Source Seed：
+- なぜActorが必要になったか：
+- 外部との接点：
 - 初出：
 - Known：
 - Observed：
 - Unknown：
 - 確認されている関係：
-- Seed / Modelの保存先：
-- 状態：Seed / Active / Dormant / Retired
+- Story / Modelの保存先：
+- 状態：Active / Dormant / Retired
 ```
 
 ## 登録時の境界
 
-- 組織図を埋めるためだけにActorを作らない。
-- 名前が必要でなければ、名前を先に決めない。
-- 性格、口調、過去、秘密、感情、関係を一度に完成させない。
-- 一つの自然発生した行動を、すぐ人格設定へ昇格させない。
-- 現実の人間について、本人が示していない内面や関係を作らない。
-- 既存Actorと役割が重なる場合、別Actorが本当に必要かを先に確認する。
-
+- 組織図を埋めるためだけにActorを作らない
+- Seedが内部で仕事できるなら、Actor化を急がない
+- 名前が必要でなければ先に決めない
+- 性格、口調、過去、秘密、感情、関係を一度に完成させない
+- 一つの行動をすぐ人格設定へ昇格させない
+- Real Memberを架空Actorとして登録しない
+- 既存Actorと役割が重なる場合、本当に別Actorが必要か確認する
