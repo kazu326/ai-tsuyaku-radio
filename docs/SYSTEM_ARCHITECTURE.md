@@ -1,6 +1,6 @@
 # AI通訳ラジオ｜System Architecture v0.1
 
-Status: Draft for review / 2026-10-01  
+Status: Working specification / architecture direction adopted; implementation details remain subject to PoC / 2026-10-01  
 Audience: Codex / Claude / implementation reviewers
 
 ## 1. Purpose
@@ -127,9 +127,9 @@ Only required repository sources
 
 Typical access:
 
-- Public production work → `HQ_PUBLIC.md`
-- Story work → add `HQ_BEHIND_THE_SCENES.md`
-- Secret reveal work → only when explicitly authorized, add `HQ_SECRET.md`
+- Public production work → `world/HQ_PUBLIC.md`
+- Story work → add `world/HQ_BEHIND_THE_SCENES.md`
+- Secret reveal work → only when explicitly authorized, add `world/HQ_SECRET.md`
 
 ## 8. Identity and roles
 
@@ -197,7 +197,7 @@ Public users can access public content without internal credentials.
 
 Internal member access must not expose:
 
-- `HQ_SECRET.md` unless required
+- `world/HQ_SECRET.md` unless required
 - private work logs not intended for that member
 - credentials / tokens
 - unrestricted GitHub write access
