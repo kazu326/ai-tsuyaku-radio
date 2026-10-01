@@ -26,18 +26,21 @@ AI通訳ラジオのSource of TruthをGitHubに維持したまま、Cloudflare�
 flowchart TD
     Public[Public Visitor] --> PublicWeb[Public Web / Media]
 
-    Member[Real Member] --> Access[Cloudflare Access / Login]
-    Access --> Portal[MCP Portal / Company Entrance]
+    Member[Real Member] --> Codex[Codex]
+    Member --> Claude[Claude / Claude Code]
+    Member --> Browser[Internal Web / Presence Client]
 
-    Codex[Codex] --> Portal
-    Claude[Claude / Claude Code] --> Portal
+    Codex --> Access[Cloudflare Access / Authenticated Session]
+    Claude --> Access
+    Browser --> Access
+    Access --> Portal[MCP Portal / Company Entrance]
 
     Portal --> CompanyMCP[AI通訳ラジオ Company MCP]
     CompanyMCP --> GitHub[GitHub Source of Truth]
     CompanyMCP --> Context[Context Selector]
     CompanyMCP --> Actions[Approved Actions]
 
-    Member --> Presence[3D Presence Web App]
+    Access --> Presence[3D Presence Web App]
     Presence --> PresenceState[Presence / Chat State]
     PresenceState --> CompanyMCP
 
