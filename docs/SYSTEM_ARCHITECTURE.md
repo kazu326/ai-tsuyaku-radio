@@ -141,15 +141,15 @@ The system separates information into four classes:
 - `public` — public content and settings
 - `internal` — normal internal work context
 - `narrative_secret` — story information whose existence and provenance may be visible, while explicit reveal is normally deferred
-- `protected` — information that requires real access control
+- `protected_information` — information that requires real access control
 
 Narrative Secret is primarily a disclosure policy, not a strict retrieval ban. Internal production and review agents may inspect the source and provenance when needed. Public-facing output and Actor-mode responses normally avoid explicit confirmation, while clues, inference, and accidental partial leaks may be allowed.
 
-Protected information is both a retrieval and disclosure boundary.
+Protected Information（保護情報） is both a retrieval and disclosure boundary.
 
 World Model provenance may cite a Narrative Secret source. This allows later explanation of why a Discovery or World Model update occurred without forcing an immediate story reveal.
 
-### Protected information storage
+### Protected Information storage
 
 Protected Information is not stored as ordinary content in this public repository.
 
