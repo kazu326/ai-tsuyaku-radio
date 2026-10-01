@@ -134,6 +134,16 @@ Typical access:
 - Story work → add `world/HQ_BEHIND_THE_SCENES.md`
 - Secret reveal work → only when explicitly authorized, add `world/HQ_SECRET.md`
 
+### Information classes
+
+The context selector separates repository information into three classes:
+
+- `public`
+- `internal`
+- `restricted`
+
+General search uses public/internal sources only. Restricted material is included only for work that explicitly requires that layer. General rosters, CURRENT, and DECISIONS do not duplicate restricted details.
+
 ## 8. Identity and roles
 
 The system should distinguish:
