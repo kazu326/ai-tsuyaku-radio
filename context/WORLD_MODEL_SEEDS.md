@@ -1,4 +1,4 @@
-# WORLD MODEL SEEDS｜AI通訳ラジオ Seed一覧 v0.2
+# WORLD MODEL SEEDS｜AI通訳ラジオ Seed一覧 v0.3
 
 Status: Adopted minimal roster / 2026-10-01
 
@@ -6,7 +6,7 @@ Status: Adopted minimal roster / 2026-10-01
 
 通常の組織作業で参照できるWorld Model Seedと、まだ採用前の候補を見失わないための軽量な一覧。
 
-**Restricted / Secret設定に属するSeed候補は、この一般一覧へ記載しない。** 必要な権限を持つ作業だけが、対応する秘密設定側を参照する。
+Narrative Secret由来のSeed候補は、存在と出典だけ一般一覧へ記載してよい。具体的な真相は対応する世界設定側で管理する。現実に保護が必要な情報は、この一覧へ載せない。
 
 Seedの詳細な人格設定を作る場所ではない。UnknownはUnknownのまま残す。
 
@@ -18,6 +18,7 @@ Seedの詳細な人格設定を作る場所ではない。UnknownはUnknownの�
 |---|---|---|---|---|---|---|
 | `seed-cat-001` | Active / Baseline | Project Lead / Real Member | AI通訳ラジオの猫 | 人間とAIの間に立つ通訳者として実際のコンテンツで育ってきた | `actor-cat-001` | 初出など一部未整理 |
 | `seed-opening-candidate-001` | Candidate | Unassigned until activation | Season 2 Openingの制作過程 | 制作中に担当者候補として自然発生した | なし | 名前、役割、外見、所属、Actor化するか |
+| `seed-narrative-secret-hq-001` | Candidate / Narrative Secret | Unassigned until activation | `world/HQ_SECRET.md` | Narrative Secret由来の人物候補が存在する | なし | 詳細はNarrative Secret側で管理 |
 
 ## Activeへ移す前の最低条件
 
@@ -39,7 +40,7 @@ Candidateは存在が確定したActorではない。
 - 実際の仕事やコンテンツで必要になった場合だけActive Seedへ昇格する
 - 一度の面白い演出だけで性格や過去を固定しない
 - Actor化は外部との接点が必要になってから判断する
-- Restricted / Secret由来の候補を一般一覧へ露出しない
+- Narrative Secret由来の候補は、存在・出典・状態までは露出してよい。ただし通常一覧で真相を説明しすぎない
 
 ## Seedを追加するときの最小テンプレート
 
