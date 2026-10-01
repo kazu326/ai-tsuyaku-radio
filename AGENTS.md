@@ -40,7 +40,7 @@ Seed候補は `context/WORLD_MODEL_SEEDS.md`、Actorは `context/ACTORS.md` を�
 
 - 通常の図面・画像・3D・Web制作：`world/HQ_PUBLIC.md`
 - 猫の活動や物語上の裏側が必要：`world/HQ_BEHIND_THE_SCENES.md`
-- 真相そのものを扱う物語・演出だけ：`world/HQ_SECRET.md`
+- Narrative Secretの根拠確認・制作レビュー・真相演出：`world/HQ_SECRET.md`
 
 `HQ_SECRET.md` は物語上のNarrative Secretとして扱う。制作側AIは根拠確認のため参照してよいが、Actorとして振る舞う場面や公開向け出力では、通常は明示的な答え合わせをしない。存在・痕跡・推測・偶発的な漏れは許容し、面白い出来事になった場合はStory Event候補として扱う。
 
