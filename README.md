@@ -8,7 +8,8 @@ AI業界の難しいニュース・技術・専門用語を、AIに詳しくな�
 
 ## 基本構造
 
-- `context/` — AI・人間が最初に確認する現在地、ブランド、編集方針、確定事項
+- `context/` — AI・人間が最初に確認する現在地、ブランド、編集方針、組織モデル、確定事項
+- `docs/` — 人間向け概要、オンボーディング、システム設計、並行Workstream
 - `world/` — 本社・物語世界などの設定。表設定／裏設定／秘密設定を用途別に分離
 - `episodes/` — 各エピソードのリサーチ、台本、記事、SNS派生物
 - `knowledge/` — 複数テーマで再利用する知識・調査
@@ -41,9 +42,11 @@ AI業界の難しいニュース・技術・専門用語を、AIに詳しくな�
 3. `context/CURRENT.md`
 4. 作業内容に応じた関連資料
 
-必要に応じて `context/BRAND.md`、`context/EDITORIAL.md`、`context/DECISIONS.md`、過去ログへ進みます。
+必要に応じて `context/BRAND.md`、`context/EDITORIAL.md`、`context/DECISIONS.md`、`context/ORGANIZATION_MODEL.md`、`docs/README.md`、過去ログへ進みます。
 
 日々のログと現在地は分離します。 `logs/` は経緯を残す場所、`context/` は現在有効な情報を短く保つ場所です。
+
+人間が全体像を把握したい場合は `docs/SYSTEM_OVERVIEW.md`、新しいReal Memberは `docs/REAL_MEMBER_ONBOARDING.md`、実装担当は `docs/SYSTEM_ARCHITECTURE.md` を参照します。
 
 ## 採用状態の確認
 
