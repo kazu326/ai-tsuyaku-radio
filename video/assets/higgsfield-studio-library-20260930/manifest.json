@@ -1,0 +1,1609 @@
+{
+  "date_jst": "2026-09-30",
+  "plan": {
+    "starting_balance": 840.94,
+    "target_credits": 575,
+    "max_budget": 600,
+    "image_count": 12,
+    "video_count": 18,
+    "video_duration": 10,
+    "reference_media": "8bedc7e7-eede-433f-86b7-42887b9977db",
+    "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+    "planned_video_outputs": 19,
+    "usable_video_target": 18
+  },
+  "master_request": {
+    "model": "gpt_image_2_5",
+    "variant": "flare",
+    "quality": "max",
+    "resolution": "4k",
+    "aspect_ratio": "16:9",
+    "count": 1,
+    "background": "opaque",
+    "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+    "use_unlim": false,
+    "medias": [
+      {
+        "role": "image",
+        "value": "8bedc7e7-eede-433f-86b7-42887b9977db"
+      }
+    ],
+    "prompt": "Create the definitive EMPTY recording studio master image for AI Tsuyaku Radio, using the uploaded official hero strictly as a reference for interior materials, acoustic treatment, warm lighting, gold microphone and broadcasting props. REMOVE the cat entirely; no people or animals anywhere. Expand the hero's intimate studio into a plausible premium compact radio room, beautifully furnished, warm intelligent approachable media brand, cinematic architectural CGI with tactile physically based materials. FIXED SPATIAL LAYOUT for every future shot: rectangular room approximately 6m wide by 5m deep, 3m ceiling. The north/rear wall has a centered 2.4m-wide horizontal window looking into a small control room, bordered by navy pyramidal acoustic foam. West/left wall has a single open light-oak studio doorway near its south/front corner, and narrow shelves toward the rear. East/right wall is navy acoustic foam with a slim amber floor lamp toward the rear. A single light-oak broadcast desk 2.6m wide sits centrally facing south/front camera, a comfortable empty charcoal fabric host chair BEHIND the desk on the north side. On the desk: one open dark laptop LEFT, ONE brass/gold studio condenser microphone in shock mount with black pop filter on black articulated arm RIGHT, small black audio mixer at rear left, matte black headphones neatly resting left, blank off-white ceramic mug at right, closed dark notebook and pen, small rectangular AMBER LIGHTBOX in front of desk center with a perfectly BLANK black display (no letters). Neat believable cable management. Deep navy #081B2A, secondary navy #16324F, amber #f9a135, off-white, natural oak; warm amber rim light like the hero, subtle cool navy background, soft physically plausible studio lighting, no excessive gloom. Main eye-level camera from south/front, 28mm architectural lens, no fisheye, see the whole room with generous unobstructed dark upper area for later typography. Straight lines, accurate equipment, modest lived-in details without clutter. No cats, humans, logos, readable text, inscriptions, watermarks; mug and lightbox remain blank. One finished full-frame 16:9 image, not a collage or diagram."
+  },
+  "image_jobs": [
+    {
+      "index": 1,
+      "job_id": "6d9397c6-569c-4521-a22e-f7058fd46bdc",
+      "title": "studio-master",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140553_6d9397c6-569c-4521-a22e-f7058fd46bdc.png",
+      "file": "01-studio-master.png",
+      "review_status": "rejected_reference_only",
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 2,
+      "job_id": "8aca77b0-8ca4-4363-8028-8f067ed1aba3",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "studio-angle",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140907_8aca77b0-8ca4-4363-8028-8f067ed1aba3.png",
+      "file": "02-studio-angle.png",
+      "review_status": "rejected_reference_only",
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 3,
+      "job_id": "9beeb090-f6e4-4cae-899c-6c8102bec41b",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "studio-doorway",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140908_9beeb090-f6e4-4cae-899c-6c8102bec41b.png",
+      "file": "03-studio-doorway.png",
+      "review_status": "rejected_reference_only",
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 4,
+      "job_id": "9962ba47-f9db-4fb8-9356-bb6b998c3a64",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "microphone-detail",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140907_9962ba47-f9db-4fb8-9356-bb6b998c3a64.png",
+      "file": "04-microphone-detail.png",
+      "review_status": "rejected_reference_only",
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 5,
+      "job_id": "1937067d-ba42-4039-b17e-ffa77ad74527",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "desk-equipment",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140906_1937067d-ba42-4039-b17e-ffa77ad74527.png",
+      "file": "05-desk-equipment.png",
+      "review_status": "rejected_reference_only",
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 6,
+      "job_id": "c6e040f2-4d23-4b0f-8806-90e0f280c938",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "control-room",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140906_c6e040f2-4d23-4b0f-8806-90e0f280c938.png",
+      "file": "06-control-room.png",
+      "review_status": "rejected_reference_only",
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。",
+      "previous_review_status": "rejected",
+      "production_allowed": false,
+      "reference_allowed": true
+    },
+    {
+      "index": 7,
+      "job_id": "66f354bb-90d4-489f-8832-19ba19b06ab2",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "headquarters-corridor",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140906_66f354bb-90d4-489f-8832-19ba19b06ab2.png",
+      "file": "07-headquarters-corridor.png",
+      "review_status": "accepted_corridor_material_reference",
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "2026-10-01 ユーザーが一部採用へ変更。通路の紺色の壁・木の床や枠・暖色照明のみ。写っている斜め扉、録音室への直通扉、ブースの間取りは採用しない。",
+      "allowed_use": "通路の紺色の壁・木の床や枠・暖色照明のみ。写っている斜め扉、録音室への直通扉、ブースの間取りは採用しない。"
+    },
+    {
+      "index": 8,
+      "job_id": "e96f7f37-f05f-4f4f-8c4e-ac7e44dc3ea3",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "headquarters-lobby",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140914_e96f7f37-f05f-4f4f-8c4e-ac7e44dc3ea3.png",
+      "file": "08-headquarters-lobby.png",
+      "review_status": "rejected_reference_only",
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 9,
+      "job_id": "59504406-e94c-4a88-ab0e-d7cf506a6b0a",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "headquarters-exterior",
+      "file": "09-headquarters-exterior.png",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141110_59504406-e94c-4a88-ab0e-d7cf506a6b0a.png",
+      "review_status": "accepted_exterior",
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": true,
+      "reference_allowed": true,
+      "review_reason": "2026-10-01 ユーザーが一部採用へ変更。本社外観の素材・世界観設定・間取り設計の参照。寸法は画像から実測した値ではない。",
+      "allowed_use": "本社外観の素材・世界観設定・間取り設計の参照。寸法は画像から実測した値ではない。"
+    },
+    {
+      "index": 10,
+      "job_id": "af1979cd-5c96-4d4a-85a5-6d1d65b7753a",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "production-workspace",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140914_af1979cd-5c96-4d4a-85a5-6d1d65b7753a.png",
+      "file": "10-production-workspace.png",
+      "review_status": "rejected_reference_only",
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 11,
+      "job_id": "ac20168f-8a62-48ac-a7ab-8cd88b00d5f2",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "studio-night-background",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140914_ac20168f-8a62-48ac-a7ab-8cd88b00d5f2.png",
+      "file": "11-studio-night-background.png",
+      "review_status": "rejected_reference_only",
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 12,
+      "job_id": "f918e90e-bd60-4dae-9f7d-49c35d3788d8",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "studio-day-background",
+      "file": "12-studio-day-background.png",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141109_f918e90e-bd60-4dae-9f7d-49c35d3788d8.png",
+      "review_status": "rejected_reference_only",
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 13,
+      "job_id": "2f413b4c-aa9a-47f4-a3b9-ce44e514c46f",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "control-room-reverse",
+      "file": "13-control-room-reverse.png",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141422_2f413b4c-aa9a-47f4-a3b9-ce44e514c46f.png",
+      "review_status": "rejected_reference_only",
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    }
+  ],
+  "video_jobs": [
+    {
+      "index": 1,
+      "job_id": "ccc4d624-40f2-42ac-957a-38214d751839",
+      "status": "completed",
+      "source_index": 1,
+      "title": "studio-master-static",
+      "motion": "Camera fully locked on tripod. All furniture, equipment and lights remain absolutely still. Only subtle atmospheric life, no flashing or animated screens. A quiet long-held background for voice narration. Avoid any pan, zoom or drift.",
+      "type": "video",
+      "model": "minimax_h3",
+      "file": "01-studio-master-static.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141021_ccc4d624-40f2-42ac-957a-38214d751839.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140553_6d9397c6-569c-4521-a22e-f7058fd46bdc.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/01-studio-master-static.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 2,
+      "job_id": "79b7c38b-9f5e-48be-9835-cfe7510e566d",
+      "status": "completed",
+      "source_index": 1,
+      "title": "studio-master-push",
+      "motion": "Extremely slow smooth 20cm dolly forward over 10 seconds toward the desk. Keep verticals straight and the room unchanged. Equipment stays motionless, no focus hunting. End with the same full desk and chair comfortably within frame.",
+      "type": "video",
+      "model": "minimax_h3",
+      "file": "02-studio-master-push.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141021_79b7c38b-9f5e-48be-9835-cfe7510e566d.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140553_6d9397c6-569c-4521-a22e-f7058fd46bdc.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/02-studio-master-push.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 3,
+      "job_id": "b1ab18f5-049b-4f06-8401-d78ba4e9195e",
+      "status": "completed",
+      "source_index": 2,
+      "title": "studio-angle-a",
+      "motion": "Tripod locked off. Every object stays absolutely still. Hold this furnished studio angle as a calm narration background.",
+      "type": "video",
+      "model": "minimax_h3",
+      "file": "03-studio-angle-a.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141429_b1ab18f5-049b-4f06-8401-d78ba4e9195e.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140907_8aca77b0-8ca4-4363-8028-8f067ed1aba3.png",
+      "review_status": "rejected_reference_only",
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。",
+      "previous_review_status": "rejected",
+      "production_allowed": false,
+      "reference_allowed": true
+    },
+    {
+      "index": 4,
+      "job_id": "c4b4d7b2-b490-4536-9a2b-13b0eef33d5c",
+      "status": "completed",
+      "source_index": 2,
+      "title": "studio-angle-b",
+      "motion": "Very slow 25cm lateral camera slide to the right over ten seconds, subtle parallax, no change to the furnishing.",
+      "type": "video",
+      "model": "minimax_h3",
+      "file": "04-studio-angle-b.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141429_c4b4d7b2-b490-4536-9a2b-13b0eef33d5c.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140907_8aca77b0-8ca4-4363-8028-8f067ed1aba3.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/04-studio-angle-b.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 5,
+      "job_id": "9782211b-b2b3-44d8-a4e6-2e0ae8fc21f8",
+      "status": "completed",
+      "source_index": 3,
+      "title": "studio-doorway-a",
+      "motion": "Very slow smooth forward camera dolly through this ALREADY OPEN doorway, move 60cm toward the desk over ten seconds, preserve doorframe and walking path.",
+      "type": "video",
+      "model": "minimax_h3",
+      "file": "05-studio-doorway-a.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141430_9782211b-b2b3-44d8-a4e6-2e0ae8fc21f8.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140908_9beeb090-f6e4-4cae-899c-6c8102bec41b.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/05-studio-doorway-a.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 6,
+      "job_id": "b83bdb9b-ce28-4b93-9999-23f444cb061d",
+      "status": "completed",
+      "source_index": 3,
+      "title": "studio-doorway-b",
+      "motion": "Tripod locked off at studio doorway, no camera movement or changing equipment, calm room ambience.",
+      "type": "video",
+      "model": "minimax_h3",
+      "file": "06-studio-doorway-b.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141431_b83bdb9b-ce28-4b93-9999-23f444cb061d.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140908_9beeb090-f6e4-4cae-899c-6c8102bec41b.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/06-studio-doorway-b.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 7,
+      "job_id": "7ead420e-2df2-4a37-b3c8-cfb54f805dbd",
+      "status": "completed",
+      "source_index": 4,
+      "title": "microphone-detail-a",
+      "motion": "Camera locked off. Gold microphone hardware absolutely motionless. Hold clean navy negative space at left for later titles.",
+      "type": "video",
+      "model": "minimax_h3",
+      "file": "07-microphone-detail-a.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141430_7ead420e-2df2-4a37-b3c8-cfb54f805dbd.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140907_9962ba47-f9db-4fb8-9356-bb6b998c3a64.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/07-microphone-detail-a.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 8,
+      "job_id": "8f9c0854-8527-4910-bb78-736756c3754a",
+      "status": "completed",
+      "source_index": 4,
+      "title": "microphone-detail-b",
+      "motion": "Extremely slow 10cm lateral slide, subtle shallow-depth parallax on microphone, no zoom, no microphone deformation.",
+      "type": "video",
+      "model": "minimax_h3",
+      "file": "08-microphone-detail-b.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141429_8f9c0854-8527-4910-bb78-736756c3754a.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140907_9962ba47-f9db-4fb8-9356-bb6b998c3a64.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/08-microphone-detail-b.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 9,
+      "job_id": "6f56cf79-7661-4cd6-ad49-aafcedc14a33",
+      "status": "completed",
+      "source_index": 5,
+      "title": "desk-equipment-a",
+      "motion": "Camera fixed. Hold tactile oak desk, gold microphone, laptop and blank lightbox completely still, no screen flicker.",
+      "file": "09-desk-equipment-a.mp4",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_142402_6f56cf79-7661-4cd6-ad49-aafcedc14a33.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140906_1937067d-ba42-4039-b17e-ffa77ad74527.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/09-desk-equipment-a.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 10,
+      "job_id": "ef5fecd3-884d-4c96-bf9d-1ad5680314da",
+      "status": "completed",
+      "source_index": 5,
+      "title": "desk-equipment-b",
+      "motion": "Very slow 15cm camera slide along desk, restrained equipment detail, no relocation of props.",
+      "file": "10-desk-equipment-b.mp4",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_142403_ef5fecd3-884d-4c96-bf9d-1ad5680314da.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140906_1937067d-ba42-4039-b17e-ffa77ad74527.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/10-desk-equipment-b.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 11,
+      "job_id": "785b699c-cd31-4146-8635-789037e0f495",
+      "status": "completed",
+      "source_index": 13,
+      "title": "control-room-reverse-a",
+      "motion": "Camera locked off behind mixing console, hold correct reverse studio view through window, abstract unlabeled meters may move extremely subtly.",
+      "file": "11-control-room-reverse-a.mp4",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_142402_785b699c-cd31-4146-8635-789037e0f495.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141422_2f413b4c-aa9a-47f4-a3b9-ce44e514c46f.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/11-control-room-reverse-a.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 12,
+      "job_id": "551199fb-c5fe-4a8b-8fbc-4db6cbe58b7e",
+      "status": "completed",
+      "source_index": 13,
+      "title": "control-room-reverse-b",
+      "motion": "Slow 20cm push toward console and studio glass, preserve existing reverse view and equipment, no focus hunting.",
+      "file": "12-control-room-reverse-b.mp4",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_142403_551199fb-c5fe-4a8b-8fbc-4db6cbe58b7e.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141422_2f413b4c-aa9a-47f4-a3b9-ce44e514c46f.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/12-control-room-reverse-b.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 13,
+      "status": "completed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 7,
+      "title": "headquarters-corridor-a",
+      "motion": "Smooth slow forward 70cm dolly along the clear corridor over ten seconds toward studio opening, preserve doorway and walls.",
+      "file": "13-headquarters-corridor-a.mp4",
+      "job_id": "0bbc4258-9549-439f-a1c6-6f305ffdb410",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_143212_0bbc4258-9549-439f-a1c6-6f305ffdb410.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140906_66f354bb-90d4-489f-8832-19ba19b06ab2.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/13-headquarters-corridor-a.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 14,
+      "job_id": "b6763c62-c353-433b-9555-2b1fb3ed7ffa",
+      "status": "completed",
+      "source_index": 7,
+      "title": "headquarters-corridor-b",
+      "motion": "Tripod locked hallway shot, absolutely stationary geometry and illumination, no door opening or closing.",
+      "file": "14-headquarters-corridor-b.mp4",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_142619_b6763c62-c353-433b-9555-2b1fb3ed7ffa.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140906_66f354bb-90d4-489f-8832-19ba19b06ab2.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/14-headquarters-corridor-b.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 15,
+      "job_id": "2ebab775-e753-42dd-b923-f88b69536db1",
+      "status": "completed",
+      "source_index": 8,
+      "title": "headquarters-lobby-a",
+      "motion": "Slow smooth 50cm dolly forward from lobby toward corridor, welcoming warm architecture, no changing doors.",
+      "file": "15-headquarters-lobby-a.mp4",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_142619_2ebab775-e753-42dd-b923-f88b69536db1.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140914_e96f7f37-f05f-4f4f-8c4e-ac7e44dc3ea3.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/15-headquarters-lobby-a.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 16,
+      "job_id": "5a2fa946-0f03-496c-b489-d68852132659",
+      "status": "completed",
+      "source_index": 8,
+      "title": "headquarters-lobby-b",
+      "motion": "Locked architectural lobby shot, no camera movement, maintain warm soft lighting.",
+      "file": "16-headquarters-lobby-b.mp4",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_142619_5a2fa946-0f03-496c-b489-d68852132659.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140914_e96f7f37-f05f-4f4f-8c4e-ac7e44dc3ea3.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/16-headquarters-lobby-b.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 17,
+      "status": "completed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 9,
+      "title": "headquarters-exterior-a",
+      "motion": "Slow 50cm dolly toward headquarters glass entrance, building architecture remains unchanged, gentle foliage movement only.",
+      "file": "17-headquarters-exterior-a.mp4",
+      "job_id": "61f284e3-1cb1-4a8a-ab9c-a21ee2f72f80",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_143212_61f284e3-1cb1-4a8a-ab9c-a21ee2f72f80.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141110_59504406-e94c-4a88-ab0e-d7cf506a6b0a.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/17-headquarters-exterior-a.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 18,
+      "status": "completed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 9,
+      "title": "headquarters-exterior-b",
+      "motion": "Very slow small exterior camera arc of at most five degrees, same building remains centered, no added floors or new doors.",
+      "file": "18-headquarters-exterior-b.mp4",
+      "job_id": "c218f0c8-8c94-4c07-8647-73356a15cf24",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_143212_c218f0c8-8c94-4c07-8647-73356a15cf24.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_141110_59504406-e94c-4a88-ab0e-d7cf506a6b0a.png",
+      "review_status": "rejected_reference_only",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/18-headquarters-exterior-b.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 19,
+      "source_index": 2,
+      "title": "studio-angle-repair",
+      "file": "19-studio-angle-repair.mp4",
+      "status": "completed",
+      "replaces_index": 3,
+      "job_id": "58bae12b-972b-409a-8473-c8bc3737d4d1",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_143212_58bae12b-972b-409a-8473-c8bc3737d4d1.mp4",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_140907_8aca77b0-8ca4-4363-8028-8f067ed1aba3.png",
+      "review_status": "rejected_reference_only",
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。",
+      "sample_seconds": [
+        1,
+        5,
+        9
+      ],
+      "silent_file": "silent/19-studio-angle-repair.mp4",
+      "loop_verified": false,
+      "previous_review_status": "sample_checked_candidate",
+      "production_allowed": false,
+      "reference_allowed": true
+    }
+  ],
+  "scope": [
+    "Cat-free headquarters and studio library; existing cat footage remains the source.",
+    "No changes to official logos, website, Remotion composition or opening.",
+    "Generated reference images and videos, not an editable 3D scene."
+  ],
+  "image_requests": [
+    {
+      "index": 2,
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "max",
+        "resolution": "4k",
+        "variant": "flare",
+        "background": "opaque",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Use the uploaded reference as the definitive established AI Tsuyaku Radio studio. Preserve its navy pyramidal acoustic panels, natural light-oak furniture and door frames, warm amber indirect light, single gold microphone with black pop filter and black arm, charcoal host chair, laptop, headphones, blank white mug, small mixer, notebook, and BLANK amber-edged black lightbox. Architectural cinematic photorealistic CGI, precise tactile materials, realistic modest scale. Studio layout: rear control-room window, studio doorway on left near front, shelves at left rear, slim amber floor lamp at right rear, desk center with host chair behind; laptop on desk left, microphone right, lightbox center. Match existing object design and location whenever the same room is visible. No cats, people, animals, logos, inscriptions, readable text, watermark, collages or diagrams; screens can contain abstract unlabeled audio meters only. A single finished 16:9 frame suitable as the start image of a restrained camera move. Same studio from a modest front-left three-quarter camera angle, 32mm lens. Whole broadcast desk and chair visible; show right-side depth without relocating furniture. Warm empty welcoming room, keep a spacious dark upper area for title overlay."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "max",
+        "resolution": "4k",
+        "variant": "flare",
+        "background": "opaque",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Use the uploaded reference as the definitive established AI Tsuyaku Radio studio. Preserve its navy pyramidal acoustic panels, natural light-oak furniture and door frames, warm amber indirect light, single gold microphone with black pop filter and black arm, charcoal host chair, laptop, headphones, blank white mug, small mixer, notebook, and BLANK amber-edged black lightbox. Architectural cinematic photorealistic CGI, precise tactile materials, realistic modest scale. Studio layout: rear control-room window, studio doorway on left near front, shelves at left rear, slim amber floor lamp at right rear, desk center with host chair behind; laptop on desk left, microphone right, lightbox center. Match existing object design and location whenever the same room is visible. No cats, people, animals, logos, inscriptions, readable text, watermark, collages or diagrams; screens can contain abstract unlabeled audio meters only. A single finished 16:9 frame suitable as the start image of a restrained camera move. Same studio seen from immediately outside its left/front doorway, looking diagonally into the room through the already open oak doorway. Door jamb in foreground, broadcast desk and gold microphone inside, rear control-room window visible. Accurate threshold and unobstructed walking path. 28mm architectural lens."
+      }
+    },
+    {
+      "index": 4,
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "max",
+        "resolution": "4k",
+        "variant": "flare",
+        "background": "opaque",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Use the uploaded reference as the definitive established AI Tsuyaku Radio studio. Preserve its navy pyramidal acoustic panels, natural light-oak furniture and door frames, warm amber indirect light, single gold microphone with black pop filter and black arm, charcoal host chair, laptop, headphones, blank white mug, small mixer, notebook, and BLANK amber-edged black lightbox. Architectural cinematic photorealistic CGI, precise tactile materials, realistic modest scale. Studio layout: rear control-room window, studio doorway on left near front, shelves at left rear, slim amber floor lamp at right rear, desk center with host chair behind; laptop on desk left, microphone right, lightbox center. Match existing object design and location whenever the same room is visible. No cats, people, animals, logos, inscriptions, readable text, watermark, collages or diagrams; screens can contain abstract unlabeled audio meters only. A single finished 16:9 frame suitable as the start image of a restrained camera move. Close-up inside the same studio. Gold condenser microphone and black pop filter occupy the RIGHT third; black arm attached to right edge of desk. On LEFT two thirds soft out-of-focus navy acoustic wall gives quiet negative space for typography. Amber lamp glow, convincing shock mount hardware, 65mm lens."
+      }
+    },
+    {
+      "index": 5,
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "max",
+        "resolution": "4k",
+        "variant": "flare",
+        "background": "opaque",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Use the uploaded reference as the definitive established AI Tsuyaku Radio studio. Preserve its navy pyramidal acoustic panels, natural light-oak furniture and door frames, warm amber indirect light, single gold microphone with black pop filter and black arm, charcoal host chair, laptop, headphones, blank white mug, small mixer, notebook, and BLANK amber-edged black lightbox. Architectural cinematic photorealistic CGI, precise tactile materials, realistic modest scale. Studio layout: rear control-room window, studio doorway on left near front, shelves at left rear, slim amber floor lamp at right rear, desk center with host chair behind; laptop on desk left, microphone right, lightbox center. Match existing object design and location whenever the same room is visible. No cats, people, animals, logos, inscriptions, readable text, watermark, collages or diagrams; screens can contain abstract unlabeled audio meters only. A single finished 16:9 frame suitable as the start image of a restrained camera move. Medium close oblique view from the studio front right looking across the same light-oak broadcast desk. Gold microphone prominent at right, blank white mug and dark notebook behind, blank amber-edged lightbox center, laptop and headphones toward left. Equipment positions remain consistent. Tactile oak grain, restrained depth of field, 50mm lens. No lettering anywhere."
+      }
+    },
+    {
+      "index": 6,
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "max",
+        "resolution": "4k",
+        "variant": "flare",
+        "background": "opaque",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Use the uploaded reference as the definitive established AI Tsuyaku Radio studio. Preserve its navy pyramidal acoustic panels, natural light-oak furniture and door frames, warm amber indirect light, single gold microphone with black pop filter and black arm, charcoal host chair, laptop, headphones, blank white mug, small mixer, notebook, and BLANK amber-edged black lightbox. Architectural cinematic photorealistic CGI, precise tactile materials, realistic modest scale. Studio layout: rear control-room window, studio doorway on left near front, shelves at left rear, slim amber floor lamp at right rear, desk center with host chair behind; laptop on desk left, microphone right, lightbox center. Match existing object design and location whenever the same room is visible. No cats, people, animals, logos, inscriptions, readable text, watermark, collages or diagrams; screens can contain abstract unlabeled audio meters only. A single finished 16:9 frame suitable as the start image of a restrained camera move. View from within the small control room NORTH of the reference studio looking SOUTH through the same glass window into the empty studio. A compact audio mixing console and two dark monitor screens with abstract unlabeled meters on foreground console desk, small black monitor speakers at sides. Through window see the back of the charcoal host chair, back of laptop and gold mic on the SAME studio desk; reverse view must reflect the original spatial arrangement. Navy and vertical oak acoustic treatment, warm amber practical lamps, clean cables. 32mm lens."
+      }
+    },
+    {
+      "index": 7,
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "max",
+        "resolution": "4k",
+        "variant": "flare",
+        "background": "opaque",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Use the uploaded reference as the definitive established AI Tsuyaku Radio studio. Preserve its navy pyramidal acoustic panels, natural light-oak furniture and door frames, warm amber indirect light, single gold microphone with black pop filter and black arm, charcoal host chair, laptop, headphones, blank white mug, small mixer, notebook, and BLANK amber-edged black lightbox. Architectural cinematic photorealistic CGI, precise tactile materials, realistic modest scale. Studio layout: rear control-room window, studio doorway on left near front, shelves at left rear, slim amber floor lamp at right rear, desk center with host chair behind; laptop on desk left, microphone right, lightbox center. Match existing object design and location whenever the same room is visible. No cats, people, animals, logos, inscriptions, readable text, watermark, collages or diagrams; screens can contain abstract unlabeled audio meters only. A single finished 16:9 frame suitable as the start image of a restrained camera move. Short headquarters corridor leading to the studio's LEFT/front doorway. Light-oak floor, navy walls, oak frames, soft amber strip lighting. Fully open studio doorway ahead on RIGHT leads into the established reference room; through it see oak desk, gold microphone and navy pyramidal acoustic wall. The control room is farther along corridor, not a second studio. Clear eye-level forward walking path, 28mm architectural lens."
+      }
+    },
+    {
+      "index": 8,
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "max",
+        "resolution": "4k",
+        "variant": "flare",
+        "background": "opaque",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Use the uploaded reference as the definitive established AI Tsuyaku Radio studio. Preserve its navy pyramidal acoustic panels, natural light-oak furniture and door frames, warm amber indirect light, single gold microphone with black pop filter and black arm, charcoal host chair, laptop, headphones, blank white mug, small mixer, notebook, and BLANK amber-edged black lightbox. Architectural cinematic photorealistic CGI, precise tactile materials, realistic modest scale. Studio layout: rear control-room window, studio doorway on left near front, shelves at left rear, slim amber floor lamp at right rear, desk center with host chair behind; laptop on desk left, microphone right, lightbox center. Match existing object design and location whenever the same room is visible. No cats, people, animals, logos, inscriptions, readable text, watermark, collages or diagrams; screens can contain abstract unlabeled audio meters only. A single finished 16:9 frame suitable as the start image of a restrained camera move. Inviting compact radio headquarters entrance lobby connecting to a short corridor on the right rear, which leads to the established studio. Off-white plaster, navy steel glass partitions, light-oak reception desk on right, oak bench on left, one plant, warm amber indirect light. Through rear doorway glimpse navy acoustic treatment. Reception surfaces and walls have NO lettering or logos. Eye-level 28mm architectural CGI, plausible uncluttered real-scale space."
+      }
+    },
+    {
+      "index": 9,
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "max",
+        "resolution": "4k",
+        "variant": "flare",
+        "background": "opaque",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Use the uploaded reference as the definitive established AI Tsuyaku Radio studio. Preserve its navy pyramidal acoustic panels, natural light-oak furniture and door frames, warm amber indirect light, single gold microphone with black pop filter and black arm, charcoal host chair, laptop, headphones, blank white mug, small mixer, notebook, and BLANK amber-edged black lightbox. Architectural cinematic photorealistic CGI, precise tactile materials, realistic modest scale. Studio layout: rear control-room window, studio doorway on left near front, shelves at left rear, slim amber floor lamp at right rear, desk center with host chair behind; laptop on desk left, microphone right, lightbox center. Match existing object design and location whenever the same room is visible. No cats, people, animals, logos, inscriptions, readable text, watermark, collages or diagrams; screens can contain abstract unlabeled audio meters only. A single finished 16:9 frame suitable as the start image of a restrained camera move. Exterior at blue hour of a modest contemporary two-story AI radio media headquarters with navy metal frames, off-white facade, natural oak accents, clear ground-floor glass entry and warm amber-lit lobby on right. Building has a compact rectangular plan, inviting real-scale architecture, second-floor warm windows, low plants. Front three-quarter establishing composition, 35mm lens, negative space above for later title. Do not show impossible oversized radio studio through exterior window. No signage or text."
+      }
+    },
+    {
+      "index": 10,
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "max",
+        "resolution": "4k",
+        "variant": "flare",
+        "background": "opaque",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Use the uploaded reference as the definitive established AI Tsuyaku Radio studio. Preserve its navy pyramidal acoustic panels, natural light-oak furniture and door frames, warm amber indirect light, single gold microphone with black pop filter and black arm, charcoal host chair, laptop, headphones, blank white mug, small mixer, notebook, and BLANK amber-edged black lightbox. Architectural cinematic photorealistic CGI, precise tactile materials, realistic modest scale. Studio layout: rear control-room window, studio doorway on left near front, shelves at left rear, slim amber floor lamp at right rear, desk center with host chair behind; laptop on desk left, microphone right, lightbox center. Match existing object design and location whenever the same room is visible. No cats, people, animals, logos, inscriptions, readable text, watermark, collages or diagrams; screens can contain abstract unlabeled audio meters only. A single finished 16:9 frame suitable as the start image of a restrained camera move. Adjacent small production and research workspace in the same headquarters, separate from the reference studio. Light-oak desk, navy shelving with unmarked books, two monitors showing subtle unlabeled abstract audio timeline shapes, matte black headphones, keyboard, blank notebook, mug and small plant, amber task lamp. Warm thoughtful editorial workplace, no additional studio microphone. Wide 35mm architectural view with organized human-scale detail."
+      }
+    },
+    {
+      "index": 11,
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "max",
+        "resolution": "4k",
+        "variant": "flare",
+        "background": "opaque",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Use the uploaded reference as the definitive established AI Tsuyaku Radio studio. Preserve its navy pyramidal acoustic panels, natural light-oak furniture and door frames, warm amber indirect light, single gold microphone with black pop filter and black arm, charcoal host chair, laptop, headphones, blank white mug, small mixer, notebook, and BLANK amber-edged black lightbox. Architectural cinematic photorealistic CGI, precise tactile materials, realistic modest scale. Studio layout: rear control-room window, studio doorway on left near front, shelves at left rear, slim amber floor lamp at right rear, desk center with host chair behind; laptop on desk left, microphone right, lightbox center. Match existing object design and location whenever the same room is visible. No cats, people, animals, logos, inscriptions, readable text, watermark, collages or diagrams; screens can contain abstract unlabeled audio meters only. A single finished 16:9 frame suitable as the start image of a restrained camera move. EXACT same front camera composition, architecture, furniture and prop positions as reference. Evening lighting variant only: dim amber practical lamps, deep navy walls still legible, quiet beautiful controlled contrast, desk and chair visible. Leave upper half calm and dark for captions. Do not move or replace any object; not underexposed."
+      }
+    },
+    {
+      "index": 12,
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "max",
+        "resolution": "4k",
+        "variant": "flare",
+        "background": "opaque",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Use the uploaded reference as the definitive established AI Tsuyaku Radio studio. Preserve its navy pyramidal acoustic panels, natural light-oak furniture and door frames, warm amber indirect light, single gold microphone with black pop filter and black arm, charcoal host chair, laptop, headphones, blank white mug, small mixer, notebook, and BLANK amber-edged black lightbox. Architectural cinematic photorealistic CGI, precise tactile materials, realistic modest scale. Studio layout: rear control-room window, studio doorway on left near front, shelves at left rear, slim amber floor lamp at right rear, desk center with host chair behind; laptop on desk left, microphone right, lightbox center. Match existing object design and location whenever the same room is visible. No cats, people, animals, logos, inscriptions, readable text, watermark, collages or diagrams; screens can contain abstract unlabeled audio meters only. A single finished 16:9 frame suitable as the start image of a restrained camera move. EXACT same front camera composition, architecture, furniture and prop positions as reference. Soft brighter neutral daytime studio lighting variant only, navy remains navy, warm amber practical accents maintained, wood texture readable, no new window or sunlight beam. Preserve every existing object. Upper half calm and uncluttered for captions."
+      }
+    },
+    {
+      "index": 13,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "max",
+        "resolution": "4k",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "background": "opaque",
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Create ONE correct reverse-angle view from inside the CONTROL ROOM through its glass window into the existing studio shown in the reference. Use the reference for exact materials and props, but MOVE THE CAMERA to the OPPOSITE side of the studio. This is NOT a copy of the front-facing reference composition. Camera is NORTH of studio facing SOUTH. Foreground: compact audio mixing console with two monitors and black monitor speakers in control room, the glass viewing window framed in oak/navy just beyond the console. Through glass: the BACK of the empty charcoal host chair is nearest the window, then the existing oak broadcast desk farther away. The laptop's SCREEN faces this reverse camera and displays only unlabeled subtle meters. Gold microphone and black pop filter on EAST side of desk appear at image LEFT from this reverse viewpoint. Shelves on studio WEST wall appear image RIGHT. The studio door near SOUTHWEST corner appears far RIGHT at the back. Far SOUTH wall is navy acoustic foam, no window there: the studio's only control-room window is the glass immediately in front of camera. No duplicate room or second window within the studio. Preserve navy pyramidal foam, oak, amber warm lighting and equipment identity. Clear physically plausible connected rooms, rich architectural CGI, eye level 32mm, full 16:9 frame. No cats, people, animals, text, logos, watermark. Calm complete broadcasting control suite."
+      }
+    }
+  ],
+  "video_requests": [
+    {
+      "index": 1,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Camera fully locked on tripod. All furniture, equipment and lights remain absolutely still. Only subtle atmospheric life, no flashing or animated screens. A quiet long-held background for voice narration. Avoid any pan, zoom or drift."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "6d9397c6-569c-4521-a22e-f7058fd46bdc"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Extremely slow smooth 20cm dolly forward over 10 seconds toward the desk. Keep verticals straight and the room unchanged. Equipment stays motionless, no focus hunting. End with the same full desk and chair comfortably within frame."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "8aca77b0-8ca4-4363-8028-8f067ed1aba3"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Tripod locked off. Every object stays absolutely still. Hold this furnished studio angle as a calm narration background."
+      }
+    },
+    {
+      "index": 4,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "8aca77b0-8ca4-4363-8028-8f067ed1aba3"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Very slow 25cm lateral camera slide to the right over ten seconds, subtle parallax, no change to the furnishing."
+      }
+    },
+    {
+      "index": 5,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "9beeb090-f6e4-4cae-899c-6c8102bec41b"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Very slow smooth forward camera dolly through this ALREADY OPEN doorway, move 60cm toward the desk over ten seconds, preserve doorframe and walking path."
+      }
+    },
+    {
+      "index": 6,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "9beeb090-f6e4-4cae-899c-6c8102bec41b"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Tripod locked off at studio doorway, no camera movement or changing equipment, calm room ambience."
+      }
+    },
+    {
+      "index": 7,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "9962ba47-f9db-4fb8-9356-bb6b998c3a64"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Camera locked off. Gold microphone hardware absolutely motionless. Hold clean navy negative space at left for later titles."
+      }
+    },
+    {
+      "index": 8,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "9962ba47-f9db-4fb8-9356-bb6b998c3a64"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Extremely slow 10cm lateral slide, subtle shallow-depth parallax on microphone, no zoom, no microphone deformation."
+      }
+    },
+    {
+      "index": 9,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "1937067d-ba42-4039-b17e-ffa77ad74527"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Camera fixed. Hold tactile oak desk, gold microphone, laptop and blank lightbox completely still, no screen flicker."
+      }
+    },
+    {
+      "index": 10,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "1937067d-ba42-4039-b17e-ffa77ad74527"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Very slow 15cm camera slide along desk, restrained equipment detail, no relocation of props."
+      }
+    },
+    {
+      "index": 11,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "2f413b4c-aa9a-47f4-a3b9-ce44e514c46f"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Camera locked off behind mixing console, hold correct reverse studio view through window, abstract unlabeled meters may move extremely subtly."
+      }
+    },
+    {
+      "index": 12,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "2f413b4c-aa9a-47f4-a3b9-ce44e514c46f"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Slow 20cm push toward console and studio glass, preserve existing reverse view and equipment, no focus hunting."
+      }
+    },
+    {
+      "index": 13,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "66f354bb-90d4-489f-8832-19ba19b06ab2"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Smooth slow forward 70cm dolly along the clear corridor over ten seconds toward studio opening, preserve doorway and walls."
+      }
+    },
+    {
+      "index": 14,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "66f354bb-90d4-489f-8832-19ba19b06ab2"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Tripod locked hallway shot, absolutely stationary geometry and illumination, no door opening or closing."
+      }
+    },
+    {
+      "index": 15,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "e96f7f37-f05f-4f4f-8c4e-ac7e44dc3ea3"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Slow smooth 50cm dolly forward from lobby toward corridor, welcoming warm architecture, no changing doors."
+      }
+    },
+    {
+      "index": 16,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "e96f7f37-f05f-4f4f-8c4e-ac7e44dc3ea3"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Locked architectural lobby shot, no camera movement, maintain warm soft lighting."
+      }
+    },
+    {
+      "index": 17,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "59504406-e94c-4a88-ab0e-d7cf506a6b0a"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Slow 50cm dolly toward headquarters glass entrance, building architecture remains unchanged, gentle foliage movement only."
+      }
+    },
+    {
+      "index": 18,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "59504406-e94c-4a88-ab0e-d7cf506a6b0a"
+          }
+        ],
+        "prompt": "Animate this provided start frame as the SAME empty AI Tsuyaku Radio headquarters/studio. Preserve every object, furniture arrangement, navy acoustic wall pattern, architectural geometry, gold microphone hardware, laptop and blank lightbox; no object appearance, disappearance, melting or transformation. No people, animals, cats, text, logos, watermarks or cuts. Physically plausible subtle motion, calm premium architectural cinematic CGI, stable exposure and amber/navy palette. 10 second single take. Very slow small exterior camera arc of at most five degrees, same building remains centered, no added floors or new doors."
+      }
+    },
+    {
+      "index": 19,
+      "params": {
+        "model": "minimax_h3",
+        "duration": 10,
+        "resolution": "2K",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "8aca77b0-8ca4-4363-8028-8f067ed1aba3"
+          }
+        ],
+        "prompt": "Ten-second architectural inspection of a completely UNoccupied radio recording room, matching the given first frame. The charcoal fabric chair is completely EMPTY and remains EMPTY and plainly visible for the entire shot. All that exists in the room is the exact furniture and equipment already present in the reference. The empty seat, wooden desk, gold microphone, laptop, blank lightbox, shelves and navy acoustic foam are static physical objects. Extremely slow smooth 15cm forward dolly, building interior visualization only, stable geometry and amber/navy illumination. No host, no presenter, no person, no silhouette, no face, no animal, no cat, no reflection of anyone. Nothing enters the room. No cuts, titles, new objects or transformation. Preserve the EMPTY room all ten seconds."
+      }
+    }
+  ],
+  "submission_failures": [
+    {
+      "index": 9,
+      "status": "submission_failed",
+      "error": "gpt_image_2_5 backend request failed (429): rate_limit_reached",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "headquarters-exterior"
+    },
+    {
+      "index": 12,
+      "status": "submission_failed",
+      "error": "gpt_image_2_5 backend request failed (429): rate_limit_reached",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "GPT Image 2.5 backend expects schema-key media roles"
+        }
+      },
+      "title": "studio-day-background"
+    },
+    {
+      "index": 9,
+      "status": "submission_failed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 5,
+      "title": "desk-equipment-a",
+      "motion": "Camera fixed. Hold tactile oak desk, gold microphone, laptop and blank lightbox completely still, no screen flicker.",
+      "file": "09-desk-equipment-a.mp4"
+    },
+    {
+      "index": 10,
+      "status": "submission_failed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 5,
+      "title": "desk-equipment-b",
+      "motion": "Very slow 15cm camera slide along desk, restrained equipment detail, no relocation of props.",
+      "file": "10-desk-equipment-b.mp4"
+    },
+    {
+      "index": 9,
+      "status": "submission_failed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 5,
+      "title": "desk-equipment-a",
+      "motion": "Camera fixed. Hold tactile oak desk, gold microphone, laptop and blank lightbox completely still, no screen flicker.",
+      "file": "09-desk-equipment-a.mp4"
+    },
+    {
+      "index": 10,
+      "status": "submission_failed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 5,
+      "title": "desk-equipment-b",
+      "motion": "Very slow 15cm camera slide along desk, restrained equipment detail, no relocation of props.",
+      "file": "10-desk-equipment-b.mp4"
+    },
+    {
+      "index": 11,
+      "status": "submission_failed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 13,
+      "title": "control-room-reverse-a",
+      "motion": "Camera locked off behind mixing console, hold correct reverse studio view through window, abstract unlabeled meters may move extremely subtly.",
+      "file": "11-control-room-reverse-a.mp4"
+    },
+    {
+      "index": 12,
+      "status": "submission_failed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 13,
+      "title": "control-room-reverse-b",
+      "motion": "Slow 20cm push toward console and studio glass, preserve existing reverse view and equipment, no focus hunting.",
+      "file": "12-control-room-reverse-b.mp4"
+    },
+    {
+      "index": 13,
+      "status": "submission_failed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 7,
+      "title": "headquarters-corridor-a",
+      "motion": "Smooth slow forward 70cm dolly along the clear corridor over ten seconds toward studio opening, preserve doorway and walls.",
+      "file": "13-headquarters-corridor-a.mp4"
+    },
+    {
+      "index": 14,
+      "status": "submission_failed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 7,
+      "title": "headquarters-corridor-b",
+      "motion": "Tripod locked hallway shot, absolutely stationary geometry and illumination, no door opening or closing.",
+      "file": "14-headquarters-corridor-b.mp4"
+    },
+    {
+      "index": 15,
+      "status": "submission_failed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 8,
+      "title": "headquarters-lobby-a",
+      "motion": "Slow smooth 50cm dolly forward from lobby toward corridor, welcoming warm architecture, no changing doors.",
+      "file": "15-headquarters-lobby-a.mp4"
+    },
+    {
+      "index": 16,
+      "status": "submission_failed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 8,
+      "title": "headquarters-lobby-b",
+      "motion": "Locked architectural lobby shot, no camera movement, maintain warm soft lighting.",
+      "file": "16-headquarters-lobby-b.mp4"
+    },
+    {
+      "index": 13,
+      "status": "submission_failed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 7,
+      "title": "headquarters-corridor-a",
+      "motion": "Smooth slow forward 70cm dolly along the clear corridor over ten seconds toward studio opening, preserve doorway and walls.",
+      "file": "13-headquarters-corridor-a.mp4"
+    },
+    {
+      "index": 17,
+      "status": "submission_failed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 9,
+      "title": "headquarters-exterior-a",
+      "motion": "Slow 50cm dolly toward headquarters glass entrance, building architecture remains unchanged, gentle foliage movement only.",
+      "file": "17-headquarters-exterior-a.mp4"
+    },
+    {
+      "index": 18,
+      "status": "submission_failed",
+      "error": "minimax_h3 backend request failed (429): rate_limit_reached",
+      "source_index": 9,
+      "title": "headquarters-exterior-b",
+      "motion": "Very slow small exterior camera arc of at most five degrees, same building remains centered, no added floors or new doors.",
+      "file": "18-headquarters-exterior-b.mp4"
+    }
+  ],
+  "review_notes": [
+    "Master and first derived images visually checked.",
+    "Initial image 06 repeats the studio front view rather than a correct reverse angle; retained as variant, requested corrected reverse-angle image 13.",
+    "Images are generated views, not measured architectural reconstruction.",
+    "Temporal sample check of videos 01 and 02 at 1,5,9 seconds: studio palette/furnishing retained. Video01 has camera drift despite locked-off prompt; treat as subtle-motion background rather than truly static or a verified loop."
+  ],
+  "actual_credits": 575,
+  "balance_after_submission": 265.94,
+  "delivery_counts": {
+    "generated_images": 13,
+    "image_candidates": 1,
+    "generated_videos": 19,
+    "video_candidates": 0,
+    "accepted_material_references": 1
+  },
+  "verification_summary": {
+    "images": "Selected 12 images checked at 3840x2160",
+    "videos": "All 19 originals probed at 2560x1440, 10.125 seconds; 19 silent copies contain no audio stream",
+    "visual_review": "1,5,9 second samples inspected for all19 videos; video03 excluded for unwanted person",
+    "full_frame_review": false,
+    "editable_3d_scene_created": false
+  },
+  "completed": true,
+  "adoption": {
+    "decision_date_jst": "2026-10-01",
+    "status": "rejected_by_default_with_named_exceptions",
+    "production_allowed": false,
+    "reference_allowed": true,
+    "reason": "旧素材は原則不採用。外観09は採用、通路07は素材感の参考として部分採用。動画・ブース画像・前回の3D試作は不採用を維持。",
+    "scope": "この相談で作成したスタジオ・本社の画像、動画、派生画像、静音版、Blender試作。既存の正式ヒーロー、ロゴ、猫素材、既存番組は対象外。",
+    "exceptions": [
+      {
+        "file": "video/assets/higgsfield-studio-library-20260930/09-headquarters-exterior.png",
+        "review_status": "accepted_exterior",
+        "production_allowed": true,
+        "reference_allowed": true,
+        "allowed_use": "本社外観の素材・世界観設定・間取り設計の参照。寸法は画像から実測した値ではない。"
+      },
+      {
+        "file": "video/assets/higgsfield-studio-library-20260930/07-headquarters-corridor.png",
+        "review_status": "accepted_corridor_material_reference",
+        "production_allowed": false,
+        "reference_allowed": true,
+        "allowed_use": "通路の紺色の壁・木の床や枠・暖色照明のみ。写っている斜め扉、録音室への直通扉、ブースの間取りは採用しない。"
+      }
+    ]
+  },
+  "historical_delivery_counts_before_reset": {
+    "generated_images": 13,
+    "image_candidates": 12,
+    "generated_videos": 19,
+    "video_candidates": 18
+  }
+}

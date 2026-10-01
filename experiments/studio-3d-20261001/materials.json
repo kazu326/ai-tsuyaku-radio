@@ -1,0 +1,105 @@
+{
+  "navy": {
+    "color": "#081B2A",
+    "roughness": 0.92
+  },
+  "fabric": {
+    "color": "#16324F",
+    "roughness": 0.97
+  },
+  "floor": {
+    "color": "#66523b",
+    "roughness": 0.88
+  },
+  "joint": {
+    "color": "#392e22",
+    "roughness": 1
+  },
+  "rug": {
+    "color": "#14232d",
+    "roughness": 1
+  },
+  "oak": {
+    "color": "#b88b56",
+    "roughness": 0.7
+  },
+  "oakDark": {
+    "color": "#80613d",
+    "roughness": 0.78
+  },
+  "metal": {
+    "color": "#283139",
+    "roughness": 0.36,
+    "metalness": 0.65
+  },
+  "rubber": {
+    "color": "#101820",
+    "roughness": 0.9
+  },
+  "gold": {
+    "color": "#bb9351",
+    "roughness": 0.34,
+    "metalness": 0.75
+  },
+  "goldMesh": {
+    "color": "#a89973",
+    "roughness": 0.66,
+    "metalness": 0.5
+  },
+  "pop": {
+    "color": "#121e27",
+    "roughness": 1
+  },
+  "ivory": {
+    "color": "#e4dfd0",
+    "roughness": 0.75
+  },
+  "coffee": {
+    "color": "#231812",
+    "roughness": 0.4
+  },
+  "glass": {
+    "color": "#93bbca",
+    "roughness": 0.15,
+    "transparent": true,
+    "opacity": 0.14,
+    "depthWrite": false
+  },
+  "amber": {
+    "color": "#f9a135",
+    "emissive": "#f9a135",
+    "emissiveIntensity": 2.1,
+    "roughness": 0.65
+  },
+  "shade": {
+    "color": "#d7b780",
+    "emissive": "#a35b1e",
+    "emissiveIntensity": 0.25,
+    "roughness": 1
+  },
+  "sky": {
+    "color": "#203c57",
+    "emissive": "#203c57",
+    "emissiveIntensity": 0.6,
+    "roughness": 1
+  },
+  "city": {
+    "color": "#102237",
+    "roughness": 1
+  },
+  "cityGlow": {
+    "color": "#f0c481",
+    "emissive": "#f0c481",
+    "emissiveIntensity": 0.8
+  },
+  "screen": {
+    "color": "#173d53",
+    "emissive": "#173d53",
+    "emissiveIntensity": 0.7
+  },
+  "screenText": {
+    "color": "#91aab5",
+    "emissive": "#91aab5",
+    "emissiveIntensity": 0.4
+  }
+}

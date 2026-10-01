@@ -1,0 +1,41 @@
+{
+  "room_overlaps": [],
+  "rooms_outside_envelope": [],
+  "portal_boundary_errors": [],
+  "studio_routes": {
+    "1F": {
+      "recording_connections": [
+        [
+          "controlA",
+          "recordA"
+        ]
+      ],
+      "only_via_control": true,
+      "furniture_in_booth": false
+    },
+    "2F": {
+      "recording_connections": [
+        [
+          "controlB",
+          "recordB"
+        ]
+      ],
+      "only_via_control": true,
+      "furniture_in_booth": false
+    }
+  },
+  "all_rooms_reachable": {
+    "1F": true,
+    "2F": true
+  },
+  "stairs_align": true,
+  "media_files_unchanged": true,
+  "pdf_pages": 3,
+  "scale": "A3 landscape / 1:100 / 5m scale bar = 50mm",
+  "higgsfield_calls": 0,
+  "higgsfield_credits": 0,
+  "source_sha256": {
+    "09-headquarters-exterior.png": "829670fec3c479ab179a9fda20f15cab5edee609c1cfaf91c083563339bb7f3d",
+    "07-headquarters-corridor.png": "2b7547357b0414d4e98ae92e577f94b211f811257781218b3f446b2fa2a8e13e"
+  }
+}

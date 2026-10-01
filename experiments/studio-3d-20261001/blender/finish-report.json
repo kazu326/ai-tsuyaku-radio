@@ -1,0 +1,31 @@
+{
+  "blender": "5.2.2 LTS",
+  "source": "exports/studio.glb",
+  "blend": "blender/studio-finished-v01.blend",
+  "render": "blender/studio-front.png",
+  "camera": "cam_front",
+  "render_engine": "CYCLES",
+  "gpu": [
+    "NVIDIA GeForce RTX 4060 Laptop GPU"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "samples": 48,
+  "imported_objects": 229,
+  "objects_after_finish": 232,
+  "materials_assigned": 203,
+  "embedded_images": [
+    {
+      "name": "Image_0",
+      "packed": true
+    },
+    {
+      "name": "Image_1",
+      "packed": true
+    }
+  ],
+  "higgsfield_calls": 0,
+  "higgsfield_credits": 0
+}

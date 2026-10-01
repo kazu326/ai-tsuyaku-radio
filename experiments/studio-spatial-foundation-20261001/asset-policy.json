@@ -1,0 +1,798 @@
+{
+  "policy": {
+    "decision_date_jst": "2026-10-01",
+    "status": "rejected_by_default_with_named_exceptions",
+    "production_allowed": false,
+    "reference_allowed": true,
+    "reason": "旧素材は原則不採用。外観09は採用、通路07は素材感の参考として部分採用。動画・ブース画像・前回の3D試作は不採用を維持。",
+    "scope": "この相談で作成したスタジオ・本社の画像、動画、派生画像、静音版、Blender試作。既存の正式ヒーロー、ロゴ、猫素材、既存番組は対象外。",
+    "exceptions": [
+      {
+        "file": "video/assets/higgsfield-studio-library-20260930/09-headquarters-exterior.png",
+        "review_status": "accepted_exterior",
+        "production_allowed": true,
+        "reference_allowed": true,
+        "allowed_use": "本社外観の素材・世界観設定・間取り設計の参照。寸法は画像から実測した値ではない。"
+      },
+      {
+        "file": "video/assets/higgsfield-studio-library-20260930/07-headquarters-corridor.png",
+        "review_status": "accepted_corridor_material_reference",
+        "production_allowed": false,
+        "reference_allowed": true,
+        "allowed_use": "通路の紺色の壁・木の床や枠・暖色照明のみ。写っている斜め扉、録音室への直通扉、ブースの間取りは採用しない。"
+      }
+    ]
+  },
+  "previous_scopes": [
+    "video/assets/higgsfield-studio-20260930",
+    "video/assets/higgsfield-studio-library-20260930",
+    "experiments/studio-3d-20261001"
+  ],
+  "current_production_candidates": 1,
+  "media_unchanged": true,
+  "reference_files": [
+    {
+      "file": "video/assets/higgsfield-studio-20260930/01-preview.png",
+      "bytes": 192288,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-20260930/01-studio.mp4",
+      "bytes": 5265164,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-20260930/02-preview.png",
+      "bytes": 198530,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-20260930/02-studio.mp4",
+      "bytes": 2648630,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-20260930/03-preview.png",
+      "bytes": 191807,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-20260930/03-studio.mp4",
+      "bytes": 2279557,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-20260930/04-preview.png",
+      "bytes": 186146,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-20260930/04-studio.mp4",
+      "bytes": 3285863,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-20260930/05-preview.png",
+      "bytes": 108886,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-20260930/05-studio.mp4",
+      "bytes": 1340144,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-20260930/06-preview.png",
+      "bytes": 116666,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-20260930/06-studio.mp4",
+      "bytes": 1235489,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-20260930/contact-sheet.jpg",
+      "bytes": 149323,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/01-studio-master-static-t1.png",
+      "bytes": 255139,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/01-studio-master-static-t5.png",
+      "bytes": 255119,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/01-studio-master-static-t9.png",
+      "bytes": 248257,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/01-studio-master-static.mp4",
+      "bytes": 6035686,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/01-studio-master.png",
+      "bytes": 10124542,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/02-studio-angle.png",
+      "bytes": 10199136,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/02-studio-master-push-t1.png",
+      "bytes": 257254,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/02-studio-master-push-t5.png",
+      "bytes": 246062,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/02-studio-master-push-t9.png",
+      "bytes": 256377,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/02-studio-master-push.mp4",
+      "bytes": 6945112,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/03-studio-angle-a.mp4",
+      "bytes": 3700106,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/03-studio-doorway.png",
+      "bytes": 9716420,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/04-microphone-detail.png",
+      "bytes": 7706283,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/04-studio-angle-b.mp4",
+      "bytes": 9250291,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/05-desk-equipment.png",
+      "bytes": 8932225,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/05-studio-doorway-a.mp4",
+      "bytes": 10520012,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/06-control-room.png",
+      "bytes": 8665066,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/06-studio-doorway-b.mp4",
+      "bytes": 4338016,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/07-headquarters-corridor.png",
+      "bytes": 9518935,
+      "status": "accepted_corridor_material_reference",
+      "production_allowed": false,
+      "allowed_use": "通路の紺色の壁・木の床や枠・暖色照明のみ。写っている斜め扉、録音室への直通扉、ブースの間取りは採用しない。"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/07-microphone-detail-a.mp4",
+      "bytes": 2658012,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/08-headquarters-lobby.png",
+      "bytes": 10626275,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/08-microphone-detail-b.mp4",
+      "bytes": 7049250,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/09-desk-equipment-a.mp4",
+      "bytes": 3127720,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/09-headquarters-exterior.png",
+      "bytes": 11045207,
+      "status": "accepted_exterior",
+      "production_allowed": true,
+      "allowed_use": "本社外観の素材・世界観設定・間取り設計の参照。寸法は画像から実測した値ではない。"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/10-desk-equipment-b.mp4",
+      "bytes": 6544901,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/10-production-workspace.png",
+      "bytes": 9922983,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/11-control-room-reverse-a.mp4",
+      "bytes": 3047201,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/11-studio-night-background.png",
+      "bytes": 9436702,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/12-control-room-reverse-b.mp4",
+      "bytes": 7778092,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/12-studio-day-background.png",
+      "bytes": 11216113,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/13-control-room-reverse.png",
+      "bytes": 9019414,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/13-headquarters-corridor-a.mp4",
+      "bytes": 10353124,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/14-headquarters-corridor-b.mp4",
+      "bytes": 3046007,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/15-headquarters-lobby-a.mp4",
+      "bytes": 11292816,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/16-headquarters-lobby-b.mp4",
+      "bytes": 4033477,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/17-headquarters-exterior-a.mp4",
+      "bytes": 14072501,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/18-headquarters-exterior-b.mp4",
+      "bytes": 11230687,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/19-studio-angle-repair.mp4",
+      "bytes": 9102442,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/first-videos-review.jpg",
+      "bytes": 264149,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/images-contact-sheet.jpg",
+      "bytes": 573088,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/images-selected-contact-sheet.jpg",
+      "bytes": 518346,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/official-hero-reference.png",
+      "bytes": 4662709,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/01-t1.png",
+      "bytes": 255139,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/01-t5.png",
+      "bytes": 255119,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/01-t9.png",
+      "bytes": 248257,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/02-t1.png",
+      "bytes": 257254,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/02-t5.png",
+      "bytes": 246062,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/02-t9.png",
+      "bytes": 256377,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/03-t1.png",
+      "bytes": 263310,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/03-t5.png",
+      "bytes": 267540,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/03-t9.png",
+      "bytes": 268329,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/04-t1.png",
+      "bytes": 261422,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/04-t5.png",
+      "bytes": 248813,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/04-t9.png",
+      "bytes": 258666,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/05-t1.png",
+      "bytes": 268318,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/05-t5.png",
+      "bytes": 275596,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/05-t9.png",
+      "bytes": 264326,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/06-t1.png",
+      "bytes": 260212,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/06-t5.png",
+      "bytes": 273165,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/06-t9.png",
+      "bytes": 264227,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/07-t1.png",
+      "bytes": 222722,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/07-t5.png",
+      "bytes": 222435,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/07-t9.png",
+      "bytes": 223546,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/08-t1.png",
+      "bytes": 219737,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/08-t5.png",
+      "bytes": 219761,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/08-t9.png",
+      "bytes": 222403,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/09-t1.png",
+      "bytes": 298759,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/09-t5.png",
+      "bytes": 312189,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/09-t9.png",
+      "bytes": 303547,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/10-t1.png",
+      "bytes": 304548,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/10-t5.png",
+      "bytes": 306709,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/10-t9.png",
+      "bytes": 306568,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/11-t1.png",
+      "bytes": 263061,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/11-t5.png",
+      "bytes": 264358,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/11-t9.png",
+      "bytes": 264592,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/12-t1.png",
+      "bytes": 265222,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/12-t5.png",
+      "bytes": 266749,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/12-t9.png",
+      "bytes": 262456,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/13-t1.png",
+      "bytes": 266205,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/13-t5.png",
+      "bytes": 264290,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/13-t9.png",
+      "bytes": 257315,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/14-t1.png",
+      "bytes": 261466,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/14-t5.png",
+      "bytes": 261688,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/14-t9.png",
+      "bytes": 251175,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/15-t1.png",
+      "bytes": 293481,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/15-t5.png",
+      "bytes": 296164,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/15-t9.png",
+      "bytes": 303893,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/16-t1.png",
+      "bytes": 295948,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/16-t5.png",
+      "bytes": 296883,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/16-t9.png",
+      "bytes": 298505,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/17-t1.png",
+      "bytes": 268727,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/17-t5.png",
+      "bytes": 274781,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/17-t9.png",
+      "bytes": 278046,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/18-t1.png",
+      "bytes": 268916,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/18-t5.png",
+      "bytes": 268919,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/18-t9.png",
+      "bytes": 268266,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/19-t1.png",
+      "bytes": 259650,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/19-t5.png",
+      "bytes": 247973,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/19-t9.png",
+      "bytes": 264359,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/video-review-1.jpg",
+      "bytes": 793049,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/video-review-2.jpg",
+      "bytes": 821113,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/video-review-3.jpg",
+      "bytes": 833042,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/previews/video-review-4.jpg",
+      "bytes": 138341,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/01-studio-master-static.mp4",
+      "bytes": 5860635,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/02-studio-master-push.mp4",
+      "bytes": 6936201,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/03-studio-angle-a.mp4",
+      "bytes": 3517052,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/04-studio-angle-b.mp4",
+      "bytes": 9076435,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/05-studio-doorway-a.mp4",
+      "bytes": 10347369,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/06-studio-doorway-b.mp4",
+      "bytes": 4329033,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/07-microphone-detail-a.mp4",
+      "bytes": 2483403,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/08-microphone-detail-b.mp4",
+      "bytes": 6875876,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/09-desk-equipment-a.mp4",
+      "bytes": 2957543,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/10-desk-equipment-b.mp4",
+      "bytes": 6372916,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/11-control-room-reverse-a.mp4",
+      "bytes": 2873445,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/12-control-room-reverse-b.mp4",
+      "bytes": 7609293,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/13-headquarters-corridor-a.mp4",
+      "bytes": 10181576,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/14-headquarters-corridor-b.mp4",
+      "bytes": 2875669,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/15-headquarters-lobby-a.mp4",
+      "bytes": 11119024,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/16-headquarters-lobby-b.mp4",
+      "bytes": 3859651,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/17-headquarters-exterior-a.mp4",
+      "bytes": 13901429,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/18-headquarters-exterior-b.mp4",
+      "bytes": 11061511,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/silent/19-studio-angle-repair.mp4",
+      "bytes": 9093497,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/blender/studio-finished-v01.blend",
+      "bytes": 352442,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/blender/studio-front.png",
+      "bytes": 2098050,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/exports/studio.glb",
+      "bytes": 708832,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/previews/angle-full.png",
+      "bytes": 76101,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/previews/angle-scene.png",
+      "bytes": 353714,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/previews/day-scene.png",
+      "bytes": 40547,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/previews/entry-full.png",
+      "bytes": 53308,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/previews/entry-scene.png",
+      "bytes": 154908,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/previews/front-full.png",
+      "bytes": 78747,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/previews/front-scene.png",
+      "bytes": 349333,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/previews/front.png",
+      "bytes": 72686,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/previews/opus-consultation.png",
+      "bytes": 118608,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/previews/overview-full.png",
+      "bytes": 46946,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/previews/overview-scene.png",
+      "bytes": 146200,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/previews/studio-contact-sheet.jpg",
+      "bytes": 181880,
+      "status": "rejected_reference_only"
+    },
+    {
+      "file": "experiments/studio-3d-20261001/previews/studio-preview.png",
+      "bytes": 76101,
+      "status": "rejected_reference_only"
+    }
+  ],
+  "new_layout_status": "superseded_booth_proposal_user_will_design_details",
+  "higgsfield_calls": 0,
+  "current_design_references": 2,
+  "current_headquarters_plan": "experiments/headquarters-plan-20261001/headquarters-layout.json"
+}

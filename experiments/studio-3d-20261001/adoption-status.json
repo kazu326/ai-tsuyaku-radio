@@ -1,0 +1,8 @@
+{
+  "decision_date_jst": "2026-10-01",
+  "status": "rejected_reference_only",
+  "production_allowed": false,
+  "reference_allowed": true,
+  "reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。",
+  "scope": "この相談で作成したスタジオ・本社の画像、動画、派生画像、静音版、Blender試作。既存の正式ヒーロー、ロゴ、猫素材、既存番組は対象外。"
+}

@@ -1,0 +1,817 @@
+{
+  "version": 1,
+  "date_jst": "2026-10-01",
+  "status": "worldbuilding_layout_proposal",
+  "building": {
+    "width_m": 16.0,
+    "depth_m": 11.6,
+    "outer_wall_m": 0.2,
+    "partition_m": 0.12,
+    "floor_to_floor_m": 3.4,
+    "gross_floor_area_each_m2": 185.6,
+    "gross_total_m2": 371.2
+  },
+  "coordinates": {
+    "origin": "南西の外壁外面・1階床",
+    "units": "meters",
+    "x_positive": "東",
+    "y_positive": "北",
+    "z_positive": "上",
+    "plan_north": "図面上の便宜的な北。敷地の実方位は未設定。"
+  },
+  "references": [
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/09-headquarters-exterior.png",
+      "use": "2階建て、陸屋根、正面右の入口、1階の大きなガラス、2階の3つの窓区画を採用。寸法・奥行きは仮定。"
+    },
+    {
+      "file": "video/assets/higgsfield-studio-library-20260930/07-headquarters-corridor.png",
+      "use": "通路の紺色の壁、木の床と枠、暖色照明のみ。直通扉・斜め扉・録音室の配置は採用しない。"
+    }
+  ],
+  "booth_boundary": {
+    "owner": "user",
+    "furniture_included": false,
+    "interior_layout_final": false,
+    "interface_doors": "仮の接続口。扉の形式・正確な位置・遮音壁・観察窓はユーザーの詳細図に合わせて更新。",
+    "facade_glazing": "外観側の仮開口。録音室の内殻・遮音層・内窓は詳細図で調整。"
+  },
+  "design_basis": [
+    {
+      "url": "https://wsdg.com/projects-items/vienna-city-sound/",
+      "adopted": "大きな録音区画と小さな配信・収録区画を分ける考え方。寸法・間取りの転載ではない。"
+    },
+    {
+      "url": "https://wsdg.com/wp-content/uploads/250109-2025-WSDG-Company-Profile-General-LR.pdf",
+      "adopted": "Audibleの事例（p.103）にある収録・コントロール・待機・機材・設備などの機能分け。"
+    }
+  ],
+  "stairs": {
+    "rect": [
+      12.12,
+      6.32,
+      3.68,
+      5.08
+    ],
+    "floor_to_floor_m": 3.4,
+    "risers": 20,
+    "riser_m": 0.17,
+    "tread_m": 0.27,
+    "flight_clear_m": 1.2,
+    "landing_clear_m": 1.2,
+    "note": "両階の階段区画と踊り場位置を共通にした仮の折返し階段。"
+  },
+  "floors": [
+    {
+      "id": "1F",
+      "level_z_m": 0,
+      "title": "来客を迎える、メイン収録フロア",
+      "rooms": [
+        {
+          "id": "store1",
+          "name": "機材保管",
+          "rect": [
+            0.2,
+            0.2,
+            2.28,
+            3.2
+          ],
+          "kind": "normal",
+          "net_area_m2": 7.296
+        },
+        {
+          "id": "wc1",
+          "name": "WC",
+          "rect": [
+            0.2,
+            3.52,
+            2.28,
+            3.08
+          ],
+          "kind": "normal",
+          "net_area_m2": 7.0224
+        },
+        {
+          "id": "services1",
+          "name": "設備庫",
+          "rect": [
+            0.2,
+            6.72,
+            2.28,
+            1.4
+          ],
+          "kind": "normal",
+          "net_area_m2": 3.192
+        },
+        {
+          "id": "hall1",
+          "name": "主通路",
+          "rect": [
+            2.6,
+            0.2,
+            1.8,
+            7.92
+          ],
+          "kind": "circulation",
+          "net_area_m2": 14.256
+        },
+        {
+          "id": "recordA",
+          "name": "録音室 A",
+          "rect": [
+            4.52,
+            0.2,
+            6.4,
+            3.0
+          ],
+          "kind": "user_record",
+          "net_area_m2": 19.2
+        },
+        {
+          "id": "controlA",
+          "name": "コントロール A",
+          "rect": [
+            4.52,
+            3.32,
+            6.4,
+            2.88
+          ],
+          "kind": "user_control",
+          "net_area_m2": 18.432
+        },
+        {
+          "id": "lobby",
+          "name": "受付・待合",
+          "rect": [
+            11.04,
+            0.2,
+            4.76,
+            6.0
+          ],
+          "kind": "normal",
+          "net_area_m2": 28.56
+        },
+        {
+          "id": "cross1",
+          "name": "連絡通路",
+          "rect": [
+            4.52,
+            6.32,
+            7.46,
+            1.8
+          ],
+          "kind": "circulation",
+          "net_area_m2": 13.428
+        },
+        {
+          "id": "tech1",
+          "name": "編集・技術室",
+          "rect": [
+            0.2,
+            8.24,
+            4.2,
+            3.16
+          ],
+          "kind": "normal",
+          "net_area_m2": 13.272
+        },
+        {
+          "id": "equipment1",
+          "name": "資料・機材室",
+          "rect": [
+            4.52,
+            8.24,
+            7.46,
+            3.16
+          ],
+          "kind": "normal",
+          "net_area_m2": 23.5736
+        },
+        {
+          "id": "stairs1",
+          "name": "階段",
+          "rect": [
+            12.12,
+            6.32,
+            3.68,
+            5.08
+          ],
+          "kind": "stairs",
+          "net_area_m2": 18.6944
+        }
+      ],
+      "portals": [
+        {
+          "id": "main",
+          "connects": [
+            "outside",
+            "lobby"
+          ],
+          "orientation": "h",
+          "center": [
+            14.0,
+            0.1
+          ],
+          "clear_width_m": 2.1,
+          "swing": 1,
+          "provisional": false
+        },
+        {
+          "id": "p-store1",
+          "connects": [
+            "hall1",
+            "store1"
+          ],
+          "orientation": "v",
+          "center": [
+            2.54,
+            1.5
+          ],
+          "clear_width_m": 0.9,
+          "swing": -1,
+          "provisional": false
+        },
+        {
+          "id": "p-wc1",
+          "connects": [
+            "hall1",
+            "wc1"
+          ],
+          "orientation": "v",
+          "center": [
+            2.54,
+            4.5
+          ],
+          "clear_width_m": 0.9,
+          "swing": -1,
+          "provisional": false
+        },
+        {
+          "id": "p-services1",
+          "connects": [
+            "hall1",
+            "services1"
+          ],
+          "orientation": "v",
+          "center": [
+            2.54,
+            7.5
+          ],
+          "clear_width_m": 0.7,
+          "swing": -1,
+          "provisional": false
+        },
+        {
+          "id": "p-halls1",
+          "connects": [
+            "hall1",
+            "cross1"
+          ],
+          "orientation": "v",
+          "center": [
+            4.46,
+            7.22
+          ],
+          "clear_width_m": 1.8,
+          "swing": 0,
+          "provisional": false
+        },
+        {
+          "id": "p-lobby",
+          "connects": [
+            "lobby",
+            "cross1"
+          ],
+          "orientation": "h",
+          "center": [
+            11.5,
+            6.26
+          ],
+          "clear_width_m": 0.9,
+          "swing": -1,
+          "provisional": false
+        },
+        {
+          "id": "p-stairs1",
+          "connects": [
+            "cross1",
+            "stairs1"
+          ],
+          "orientation": "v",
+          "center": [
+            12.05,
+            7.02
+          ],
+          "clear_width_m": 1.1,
+          "swing": 1,
+          "provisional": false
+        },
+        {
+          "id": "p-tech1",
+          "connects": [
+            "hall1",
+            "tech1"
+          ],
+          "orientation": "h",
+          "center": [
+            3.45,
+            8.18
+          ],
+          "clear_width_m": 1.0,
+          "swing": 1,
+          "provisional": false
+        },
+        {
+          "id": "p-equipment1",
+          "connects": [
+            "cross1",
+            "equipment1"
+          ],
+          "orientation": "h",
+          "center": [
+            8.1,
+            8.18
+          ],
+          "clear_width_m": 1.2,
+          "swing": 1,
+          "provisional": false
+        },
+        {
+          "id": "p-controlA",
+          "connects": [
+            "hall1",
+            "controlA"
+          ],
+          "orientation": "v",
+          "center": [
+            4.46,
+            4.5
+          ],
+          "clear_width_m": 1.0,
+          "swing": 1,
+          "provisional": true
+        },
+        {
+          "id": "p-recordA",
+          "connects": [
+            "controlA",
+            "recordA"
+          ],
+          "orientation": "h",
+          "center": [
+            6.0,
+            3.26
+          ],
+          "clear_width_m": 1.0,
+          "swing": -1,
+          "provisional": true
+        },
+        {
+          "id": "rear1",
+          "connects": [
+            "equipment1",
+            "outside"
+          ],
+          "orientation": "h",
+          "center": [
+            10.5,
+            11.5
+          ],
+          "clear_width_m": 1.0,
+          "swing": -1,
+          "provisional": false
+        }
+      ],
+      "windows": [
+        {
+          "id": "front-store",
+          "orientation": "h",
+          "center": [
+            1.35,
+            0.1
+          ],
+          "width": 1.65
+        },
+        {
+          "id": "front-studio",
+          "orientation": "h",
+          "center": [
+            7.7,
+            0.1
+          ],
+          "width": 5.5,
+          "provisional_interface": true
+        },
+        {
+          "id": "front-lobby-left",
+          "orientation": "h",
+          "center": [
+            12.13,
+            0.1
+          ],
+          "width": 1.42
+        },
+        {
+          "id": "front-lobby-right",
+          "orientation": "h",
+          "center": [
+            15.38,
+            0.1
+          ],
+          "width": 0.56
+        },
+        {
+          "id": "east-lobby",
+          "orientation": "v",
+          "center": [
+            15.9,
+            3.2
+          ],
+          "width": 3.8
+        },
+        {
+          "id": "north-tech",
+          "orientation": "h",
+          "center": [
+            2.2,
+            11.5
+          ],
+          "width": 2.2
+        },
+        {
+          "id": "north-equipment",
+          "orientation": "h",
+          "center": [
+            7.7,
+            11.5
+          ],
+          "width": 2.4
+        }
+      ],
+      "route": [
+        [
+          14,
+          -0.6
+        ],
+        [
+          14,
+          4.6
+        ],
+        [
+          11.5,
+          4.6
+        ],
+        [
+          11.5,
+          7.22
+        ],
+        [
+          3.5,
+          7.22
+        ],
+        [
+          3.5,
+          4.5
+        ],
+        [
+          5.25,
+          4.5
+        ],
+        [
+          6,
+          4.5
+        ],
+        [
+          6,
+          1.9
+        ]
+      ]
+    },
+    {
+      "id": "2F",
+      "level_z_m": 3.4,
+      "title": "つくる、話す、もう一つの収録フロア",
+      "rooms": [
+        {
+          "id": "work2",
+          "name": "編集・制作室",
+          "rect": [
+            0.2,
+            0.2,
+            5.0,
+            6.0
+          ],
+          "kind": "normal",
+          "net_area_m2": 30.0
+        },
+        {
+          "id": "recordB",
+          "name": "録音室 B",
+          "rect": [
+            5.32,
+            0.2,
+            5.4,
+            3.0
+          ],
+          "kind": "user_record",
+          "net_area_m2": 16.2
+        },
+        {
+          "id": "controlB",
+          "name": "コントロール B",
+          "rect": [
+            5.32,
+            3.32,
+            5.4,
+            2.88
+          ],
+          "kind": "user_control",
+          "net_area_m2": 15.552
+        },
+        {
+          "id": "project2",
+          "name": "企画・ワーク室",
+          "rect": [
+            10.84,
+            0.2,
+            4.96,
+            6.0
+          ],
+          "kind": "normal",
+          "net_area_m2": 29.76
+        },
+        {
+          "id": "cross2",
+          "name": "共用通路",
+          "rect": [
+            0.2,
+            6.32,
+            11.78,
+            1.8
+          ],
+          "kind": "circulation",
+          "net_area_m2": 21.204
+        },
+        {
+          "id": "wc2",
+          "name": "WC",
+          "rect": [
+            0.2,
+            8.24,
+            2.28,
+            3.16
+          ],
+          "kind": "normal",
+          "net_area_m2": 7.2048
+        },
+        {
+          "id": "pantry2",
+          "name": "休憩・給湯",
+          "rect": [
+            2.6,
+            8.24,
+            2.6,
+            3.16
+          ],
+          "kind": "normal",
+          "net_area_m2": 8.216
+        },
+        {
+          "id": "meeting2",
+          "name": "打合せ・資料室",
+          "rect": [
+            5.32,
+            8.24,
+            6.66,
+            3.16
+          ],
+          "kind": "normal",
+          "net_area_m2": 21.0456
+        },
+        {
+          "id": "stairs2",
+          "name": "階段",
+          "rect": [
+            12.12,
+            6.32,
+            3.68,
+            5.08
+          ],
+          "kind": "stairs",
+          "net_area_m2": 18.6944
+        }
+      ],
+      "portals": [
+        {
+          "id": "p-stairs2",
+          "connects": [
+            "stairs2",
+            "cross2"
+          ],
+          "orientation": "v",
+          "center": [
+            12.05,
+            7.02
+          ],
+          "clear_width_m": 1.1,
+          "swing": 1,
+          "provisional": false
+        },
+        {
+          "id": "p-work2",
+          "connects": [
+            "cross2",
+            "work2"
+          ],
+          "orientation": "h",
+          "center": [
+            3.4,
+            6.26
+          ],
+          "clear_width_m": 1.0,
+          "swing": -1,
+          "provisional": false
+        },
+        {
+          "id": "p-project2",
+          "connects": [
+            "cross2",
+            "project2"
+          ],
+          "orientation": "h",
+          "center": [
+            11.4,
+            6.26
+          ],
+          "clear_width_m": 0.95,
+          "swing": -1,
+          "provisional": false
+        },
+        {
+          "id": "p-wc2",
+          "connects": [
+            "cross2",
+            "wc2"
+          ],
+          "orientation": "h",
+          "center": [
+            1.7,
+            8.18
+          ],
+          "clear_width_m": 0.9,
+          "swing": 1,
+          "provisional": false
+        },
+        {
+          "id": "p-pantry2",
+          "connects": [
+            "cross2",
+            "pantry2"
+          ],
+          "orientation": "h",
+          "center": [
+            3.7,
+            8.18
+          ],
+          "clear_width_m": 0.9,
+          "swing": 1,
+          "provisional": false
+        },
+        {
+          "id": "p-meeting2",
+          "connects": [
+            "cross2",
+            "meeting2"
+          ],
+          "orientation": "h",
+          "center": [
+            8.4,
+            8.18
+          ],
+          "clear_width_m": 1.2,
+          "swing": 1,
+          "provisional": false
+        },
+        {
+          "id": "p-controlB",
+          "connects": [
+            "cross2",
+            "controlB"
+          ],
+          "orientation": "h",
+          "center": [
+            8.1,
+            6.26
+          ],
+          "clear_width_m": 1.0,
+          "swing": -1,
+          "provisional": true
+        },
+        {
+          "id": "p-recordB",
+          "connects": [
+            "controlB",
+            "recordB"
+          ],
+          "orientation": "h",
+          "center": [
+            6.7,
+            3.26
+          ],
+          "clear_width_m": 1.0,
+          "swing": -1,
+          "provisional": true
+        }
+      ],
+      "windows": [
+        {
+          "id": "front-west",
+          "orientation": "h",
+          "center": [
+            2.7,
+            0.1
+          ],
+          "width": 4.2
+        },
+        {
+          "id": "front-middle",
+          "orientation": "h",
+          "center": [
+            8.0,
+            0.1
+          ],
+          "width": 4.8,
+          "provisional_interface": true
+        },
+        {
+          "id": "front-east",
+          "orientation": "h",
+          "center": [
+            13.1,
+            0.1
+          ],
+          "width": 4.2
+        },
+        {
+          "id": "east-project",
+          "orientation": "v",
+          "center": [
+            15.9,
+            3.3
+          ],
+          "width": 2.8
+        },
+        {
+          "id": "north-pantry",
+          "orientation": "h",
+          "center": [
+            3.8,
+            11.5
+          ],
+          "width": 1.6
+        },
+        {
+          "id": "north-meeting",
+          "orientation": "h",
+          "center": [
+            8.6,
+            11.5
+          ],
+          "width": 3.6
+        }
+      ],
+      "route": [
+        [
+          13.2,
+          7.0
+        ],
+        [
+          11.3,
+          7.0
+        ],
+        [
+          8.1,
+          7.0
+        ],
+        [
+          8.1,
+          4.8
+        ],
+        [
+          6.7,
+          4.8
+        ],
+        [
+          6.7,
+          1.9
+        ]
+      ]
+    }
+  ],
+  "non_goals": [
+    "ラジオブース内の机・マイク・PC・椅子の配置",
+    "ブース内の音響・遮音仕様の確定",
+    "画像からの実測復元",
+    "敷地境界・構造躯体・法規の設計"
+  ]
+}

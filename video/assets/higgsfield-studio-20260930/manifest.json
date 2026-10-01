@@ -1,0 +1,215 @@
+{
+  "created_date_jst": "2026-09-30",
+  "project": {
+    "project_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+    "default_folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+    "workspace_id": "0aae86b5-5473-4682-841b-81315b45563e",
+    "name": "AI通訳ラジオ｜本社・スタジオ共通素材 2026-09-30"
+  },
+  "estimated_credits": 60,
+  "brief": {
+    "style": "Premium architectural 3D visualization for AI Tsuyaku Radio, an approachable intelligent Japanese radio media headquarters. A modest contemporary two-story building, coherent design language: deep navy #081B2A metal frames, secondary navy #16324F acoustic panels, warm amber #f9a135 indirect lighting, off-white plaster, light oak, clear glass, straight clean architectural lines, realistic physically based materials, restrained elegant broadcast design, warm and welcoming rather than flashy science fiction. No people, no animals, no cats, no logos, no letters, no signs, no numbers, no subtitles, no watermarks. Single continuous shot, no cuts, no flicker, stable architectural geometry. 16:9 composition, cinematic photorealistic CGI. ",
+    "scenes": [
+      {
+        "title": "01 本社外観",
+        "prompt": "Exterior establishing shot at blue hour of this compact radio headquarters. Large ground-floor glass entrance reveals amber-lit lobby, navy facade and second-floor recording studio windows. Slow gentle dolly toward the main entrance, 35mm lens, building centered with generous clean negative space in the upper left for later title overlay. Only subtle trees moving in breeze. Show an inviting real-scale media headquarters."
+      },
+      {
+        "title": "02 エントランス・ロビー",
+        "prompt": "Inside the headquarters lobby. A minimal light-oak reception desk at right, off-white walls and navy steel glass partitions, amber cove lighting, a corridor to the recording suites straight ahead. Slow forward camera glide from the entrance toward the corridor, eye-level 35mm lens, clean empty composition. Keep the entire space architecturally plausible."
+      },
+      {
+        "title": "03 スタジオへ向かう廊下",
+        "prompt": "Eye-level architectural walkthrough along the headquarters short corridor toward a recording studio. Navy acoustic wall panels, light-oak floor, amber linear ceiling lights, glass studio window at right showing a broadcast desk and microphones. Slow smooth forward dolly toward a studio doorway at the corridor end. Door is already fully open and remains still. No bending walls or shifting doors."
+      },
+      {
+        "title": "04 スタジオに入る",
+        "prompt": "One continuous eye-level camera shot gliding through an already fully open light-oak studio doorway into an intimate radio recording room. The camera begins just outside, crosses the threshold and reveals a light-oak broadcast desk, two matte-black broadcast microphones on arms, navy acoustic panels, warm amber practical lamps and rear glass control-room window. Smooth restrained forward movement, no door animation, no scene transformation."
+      },
+      {
+        "title": "05 スタジオ全景・定点背景",
+        "prompt": "Locked-off wide shot inside the intimate radio studio. Light-oak broadcast desk in the lower third, two matte-black microphones on arms, navy acoustic panels behind, warm amber lamps, rear glass control-room window. Keep the central upper half uncluttered and dark navy for later captions and graphics. Camera completely fixed, furniture completely still, only extremely subtle amber light ambience. Calm reusable broadcast background, no dramatic effects."
+      },
+      {
+        "title": "06 マイクの寄り・定点背景",
+        "prompt": "Locked-off close-up of one matte-black professional broadcast microphone on a sturdy arm, positioned in the right third of frame above the light-oak desk. Navy acoustic panels and a warm amber practical lamp softly out of focus behind. Left two-thirds provide clean dark navy negative space for later titles. Camera fixed, microphone and furniture absolutely motionless, beautiful realistic materials, no distracting particles."
+      }
+    ],
+    "requests": [
+      {
+        "index": 1,
+        "params": {
+          "model": "minimax_h3",
+          "duration": 5,
+          "resolution": "2K",
+          "aspect_ratio": "16:9",
+          "count": 1,
+          "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+          "use_unlim": false,
+          "prompt": "Premium architectural 3D visualization for AI Tsuyaku Radio, an approachable intelligent Japanese radio media headquarters. A modest contemporary two-story building, coherent design language: deep navy #081B2A metal frames, secondary navy #16324F acoustic panels, warm amber #f9a135 indirect lighting, off-white plaster, light oak, clear glass, straight clean architectural lines, realistic physically based materials, restrained elegant broadcast design, warm and welcoming rather than flashy science fiction. No people, no animals, no cats, no logos, no letters, no signs, no numbers, no subtitles, no watermarks. Single continuous shot, no cuts, no flicker, stable architectural geometry. 16:9 composition, cinematic photorealistic CGI. Exterior establishing shot at blue hour of this compact radio headquarters. Large ground-floor glass entrance reveals amber-lit lobby, navy facade and second-floor recording studio windows. Slow gentle dolly toward the main entrance, 35mm lens, building centered with generous clean negative space in the upper left for later title overlay. Only subtle trees moving in breeze. Show an inviting real-scale media headquarters."
+        }
+      },
+      {
+        "index": 2,
+        "params": {
+          "model": "minimax_h3",
+          "duration": 5,
+          "resolution": "2K",
+          "aspect_ratio": "16:9",
+          "count": 1,
+          "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+          "use_unlim": false,
+          "prompt": "Premium architectural 3D visualization for AI Tsuyaku Radio, an approachable intelligent Japanese radio media headquarters. A modest contemporary two-story building, coherent design language: deep navy #081B2A metal frames, secondary navy #16324F acoustic panels, warm amber #f9a135 indirect lighting, off-white plaster, light oak, clear glass, straight clean architectural lines, realistic physically based materials, restrained elegant broadcast design, warm and welcoming rather than flashy science fiction. No people, no animals, no cats, no logos, no letters, no signs, no numbers, no subtitles, no watermarks. Single continuous shot, no cuts, no flicker, stable architectural geometry. 16:9 composition, cinematic photorealistic CGI. Inside the headquarters lobby. A minimal light-oak reception desk at right, off-white walls and navy steel glass partitions, amber cove lighting, a corridor to the recording suites straight ahead. Slow forward camera glide from the entrance toward the corridor, eye-level 35mm lens, clean empty composition. Keep the entire space architecturally plausible."
+        }
+      },
+      {
+        "index": 3,
+        "params": {
+          "model": "minimax_h3",
+          "duration": 5,
+          "resolution": "2K",
+          "aspect_ratio": "16:9",
+          "count": 1,
+          "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+          "use_unlim": false,
+          "prompt": "Premium architectural 3D visualization for AI Tsuyaku Radio, an approachable intelligent Japanese radio media headquarters. A modest contemporary two-story building, coherent design language: deep navy #081B2A metal frames, secondary navy #16324F acoustic panels, warm amber #f9a135 indirect lighting, off-white plaster, light oak, clear glass, straight clean architectural lines, realistic physically based materials, restrained elegant broadcast design, warm and welcoming rather than flashy science fiction. No people, no animals, no cats, no logos, no letters, no signs, no numbers, no subtitles, no watermarks. Single continuous shot, no cuts, no flicker, stable architectural geometry. 16:9 composition, cinematic photorealistic CGI. Eye-level architectural walkthrough along the headquarters short corridor toward a recording studio. Navy acoustic wall panels, light-oak floor, amber linear ceiling lights, glass studio window at right showing a broadcast desk and microphones. Slow smooth forward dolly toward a studio doorway at the corridor end. Door is already fully open and remains still. No bending walls or shifting doors."
+        }
+      },
+      {
+        "index": 4,
+        "params": {
+          "model": "minimax_h3",
+          "duration": 5,
+          "resolution": "2K",
+          "aspect_ratio": "16:9",
+          "count": 1,
+          "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+          "use_unlim": false,
+          "prompt": "Premium architectural 3D visualization for AI Tsuyaku Radio, an approachable intelligent Japanese radio media headquarters. A modest contemporary two-story building, coherent design language: deep navy #081B2A metal frames, secondary navy #16324F acoustic panels, warm amber #f9a135 indirect lighting, off-white plaster, light oak, clear glass, straight clean architectural lines, realistic physically based materials, restrained elegant broadcast design, warm and welcoming rather than flashy science fiction. No people, no animals, no cats, no logos, no letters, no signs, no numbers, no subtitles, no watermarks. Single continuous shot, no cuts, no flicker, stable architectural geometry. 16:9 composition, cinematic photorealistic CGI. One continuous eye-level camera shot gliding through an already fully open light-oak studio doorway into an intimate radio recording room. The camera begins just outside, crosses the threshold and reveals a light-oak broadcast desk, two matte-black broadcast microphones on arms, navy acoustic panels, warm amber practical lamps and rear glass control-room window. Smooth restrained forward movement, no door animation, no scene transformation."
+        }
+      },
+      {
+        "index": 5,
+        "params": {
+          "model": "minimax_h3",
+          "duration": 5,
+          "resolution": "2K",
+          "aspect_ratio": "16:9",
+          "count": 1,
+          "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+          "use_unlim": false,
+          "prompt": "Premium architectural 3D visualization for AI Tsuyaku Radio, an approachable intelligent Japanese radio media headquarters. A modest contemporary two-story building, coherent design language: deep navy #081B2A metal frames, secondary navy #16324F acoustic panels, warm amber #f9a135 indirect lighting, off-white plaster, light oak, clear glass, straight clean architectural lines, realistic physically based materials, restrained elegant broadcast design, warm and welcoming rather than flashy science fiction. No people, no animals, no cats, no logos, no letters, no signs, no numbers, no subtitles, no watermarks. Single continuous shot, no cuts, no flicker, stable architectural geometry. 16:9 composition, cinematic photorealistic CGI. Locked-off wide shot inside the intimate radio studio. Light-oak broadcast desk in the lower third, two matte-black microphones on arms, navy acoustic panels behind, warm amber lamps, rear glass control-room window. Keep the central upper half uncluttered and dark navy for later captions and graphics. Camera completely fixed, furniture completely still, only extremely subtle amber light ambience. Calm reusable broadcast background, no dramatic effects."
+        }
+      },
+      {
+        "index": 6,
+        "params": {
+          "model": "minimax_h3",
+          "duration": 5,
+          "resolution": "2K",
+          "aspect_ratio": "16:9",
+          "count": 1,
+          "folder_id": "4d66c741-3aa4-4884-9585-c8138f41bdc9",
+          "use_unlim": false,
+          "prompt": "Premium architectural 3D visualization for AI Tsuyaku Radio, an approachable intelligent Japanese radio media headquarters. A modest contemporary two-story building, coherent design language: deep navy #081B2A metal frames, secondary navy #16324F acoustic panels, warm amber #f9a135 indirect lighting, off-white plaster, light oak, clear glass, straight clean architectural lines, realistic physically based materials, restrained elegant broadcast design, warm and welcoming rather than flashy science fiction. No people, no animals, no cats, no logos, no letters, no signs, no numbers, no subtitles, no watermarks. Single continuous shot, no cuts, no flicker, stable architectural geometry. 16:9 composition, cinematic photorealistic CGI. Locked-off close-up of one matte-black professional broadcast microphone on a sturdy arm, positioned in the right third of frame above the light-oak desk. Navy acoustic panels and a warm amber practical lamp softly out of focus behind. Left two-thirds provide clean dark navy negative space for later titles. Camera fixed, microphone and furniture absolutely motionless, beautiful realistic materials, no distracting particles."
+        }
+      }
+    ]
+  },
+  "jobs": [
+    {
+      "index": 1,
+      "job_id": "a02f3913-202a-4907-ba79-23976be1cdad",
+      "status": "completed",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_133001_a02f3913-202a-4907-ba79-23976be1cdad.mp4",
+      "file": "01-studio.mp4",
+      "review_status": "rejected_reference_only",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 2,
+      "job_id": "59567d39-8400-4e85-99ee-7242d0e47531",
+      "status": "completed",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_133001_59567d39-8400-4e85-99ee-7242d0e47531.mp4",
+      "file": "02-studio.mp4",
+      "review_status": "rejected_reference_only",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 3,
+      "job_id": "f9d06b1b-224c-4b19-8f9a-7281d77aa0b4",
+      "status": "completed",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_133002_f9d06b1b-224c-4b19-8f9a-7281d77aa0b4.mp4",
+      "file": "03-studio.mp4",
+      "review_status": "rejected_reference_only",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 4,
+      "job_id": "02ad95d2-28cd-4431-a4fe-ff22b9da7667",
+      "status": "completed",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_133004_02ad95d2-28cd-4431-a4fe-ff22b9da7667.mp4",
+      "file": "04-studio.mp4",
+      "review_status": "rejected_reference_only",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 5,
+      "job_id": "d9e07d81-c2dd-414f-b481-8c37380475b7",
+      "status": "completed",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_133001_d9e07d81-c2dd-414f-b481-8c37380475b7.mp4",
+      "file": "05-studio.mp4",
+      "review_status": "rejected_reference_only",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    },
+    {
+      "index": 6,
+      "job_id": "31fb1e96-5212-4986-ad09-ea1f831be2dc",
+      "status": "completed",
+      "type": "video",
+      "model": "minimax_h3",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_34UnFa4wGu5tIDGX6hDoA8Rtbmi/hf_20260930_133001_31fb1e96-5212-4986-ad09-ea1f831be2dc.mp4",
+      "file": "06-studio.mp4",
+      "review_status": "rejected_reference_only",
+      "production_allowed": false,
+      "reference_allowed": true,
+      "review_reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。"
+    }
+  ],
+  "notes": [
+    "Six independent text-to-video CGI-style shots; not a navigable 3D scene.",
+    "No cats; existing cat reaction footage remains the preferred source.",
+    "Existing logos, website, Remotion compositions, and opening remain unchanged.",
+    "Shared prompt design does not guarantee identical architecture or seamless loops."
+  ],
+  "actual_credits": 60,
+  "remaining_credits_after_submission": 840.94,
+  "adoption": {
+    "decision_date_jst": "2026-10-01",
+    "status": "rejected_reference_only",
+    "production_allowed": false,
+    "reference_allowed": true,
+    "reason": "ユーザー判断：空間的一貫性がなく、左右・配置・PCの向き・扉の位置などに違和感があるため、以前のスタジオ画像・動画をすべて不採用。作り直しの参考に限って保持する。",
+    "scope": "この相談で作成したスタジオ・本社の画像、動画、派生画像、静音版、Blender試作。既存の正式ヒーロー、ロゴ、猫素材、既存番組は対象外。"
+  }
+}

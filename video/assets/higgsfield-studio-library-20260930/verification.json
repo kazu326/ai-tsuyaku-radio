@@ -1,0 +1,268 @@
+[
+  {
+    "index": 1,
+    "file": "01-studio-master-static.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/01-studio-master-static.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 2,
+    "file": "02-studio-master-push.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/02-studio-master-push.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 3,
+    "file": "03-studio-angle-a.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/03-studio-angle-a.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 4,
+    "file": "04-studio-angle-b.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/04-studio-angle-b.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 5,
+    "file": "05-studio-doorway-a.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/05-studio-doorway-a.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 6,
+    "file": "06-studio-doorway-b.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/06-studio-doorway-b.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 7,
+    "file": "07-microphone-detail-a.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/07-microphone-detail-a.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 8,
+    "file": "08-microphone-detail-b.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/08-microphone-detail-b.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 9,
+    "file": "09-desk-equipment-a.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/09-desk-equipment-a.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 10,
+    "file": "10-desk-equipment-b.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/10-desk-equipment-b.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 11,
+    "file": "11-control-room-reverse-a.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/11-control-room-reverse-a.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 12,
+    "file": "12-control-room-reverse-b.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/12-control-room-reverse-b.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 13,
+    "file": "13-headquarters-corridor-a.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/13-headquarters-corridor-a.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 14,
+    "file": "14-headquarters-corridor-b.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/14-headquarters-corridor-b.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 15,
+    "file": "15-headquarters-lobby-a.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/15-headquarters-lobby-a.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 16,
+    "file": "16-headquarters-lobby-b.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/16-headquarters-lobby-b.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 17,
+    "file": "17-headquarters-exterior-a.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/17-headquarters-exterior-a.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 18,
+    "file": "18-headquarters-exterior-b.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/18-headquarters-exterior-b.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "index": 19,
+    "file": "19-studio-angle-repair.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 10.125,
+    "silent_file": "silent/19-studio-angle-repair.mp4",
+    "silent_audio_streams": 0,
+    "sample_seconds": [
+      1,
+      5,
+      9
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "magic": "glTF",
+  "version": 2,
+  "declaredBytes": 708832,
+  "actualBytes": 708832,
+  "nodeCount": 229,
+  "meshes": 205,
+  "materials": 205,
+  "cameras": 4,
+  "extensions": [
+    "KHR_materials_emissive_strength",
+    "KHR_materials_unlit",
+    "KHR_lights_punctual"
+  ],
+  "requiredObjects": true,
+  "allWallsExported": true,
+  "imagesEmbedded": true,
+  "higgsfieldGenerations": 0,
+  "higgsfieldCreditsSpent": 0,
+  "blenderImportVerified": false,
+  "uiChecks": {
+    "frontCamera": true,
+    "angleCamera": true,
+    "entryCamera": true,
+    "overviewCamera": true,
+    "dayNightToggle": true,
+    "objectMove": true,
+    "jsonSave": true,
+    "jsonRestore": true,
+    "glbSave": true,
+    "entryCameraMovement": true
+  },
+  "sceneRestoredToInitialDesign": true
+}
