@@ -61,7 +61,7 @@
 
 この人物は、将来的にWorld Model Seedとして実務を持たせる候補でもあります。この候補の存在と出典は通常のSeed一覧に記録して構いません。秘密にするのは「存在」ではなく、物語上の答え合わせのタイミングです。
 
-- 仮ID：`seed-restricted-hq-support-001`
+- 仮ID：`seed-narrative-secret-hq-001`
 - 状態：Candidate / Narrative Secret
 - 起点：この秘密設定
 - Known：猫の活動に気づき、猫に知らせず技術面を支える人物が一人いる
