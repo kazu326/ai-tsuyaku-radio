@@ -1,6 +1,6 @@
-# ORGANIZATION MODEL｜Real Member → World Model Seed → Actor v0.1
+# ORGANIZATION MODEL｜Real Member → World Model Seed → Actor v0.2
 
-Status: Adopted / 2026-10-01  
+Status: Draft revision for review / 2026-10-02  
 Scope: AI通訳ラジオの人間・AI・外向けキャラクターの関係を定義する組織モデルの正本
 
 ## 一言で言うと
@@ -8,6 +8,26 @@ Scope: AI通訳ラジオの人間・AI・外向けキャラクターの関係を
 **現実の人間が責任を持ち、その配下でWorld Model Seedが実務を通じて育ち、外部へ出る必要が生じたときだけActorを持つ。**
 
 AIを最初から「AI社員キャラクター」として完成させない。内部処理だけならSeedのままでよい。名前・外見・声・口調などのActor表現は、外部との接点が必要になった段階で追加する。
+
+## AI通訳ラジオという組織
+
+AI通訳ラジオは、AIニュースや技術を一般向けに翻訳するメディアであると同時に、**人間とAIエージェントが実践を通して一緒に成長する実験組織**として育てる。
+
+Real Memberの活動を、動画・記事・Web制作だけに限定しない。
+
+Real Memberはまず、
+
+**「AIを使って、何をやってみたいか？」**
+
+を考える。
+
+SNS、ソフトウェア、ハードウェア、商品開発、3Dプリント、電子工作、外注、販売、クラウドファンディングなど、AIを使って実際に試せる活動を広く対象にする。
+
+その活動から得た成功、失敗、判断、改善、KnowledgeをSeedへ戻し、本人とAIエージェントの両方を育てる。
+
+公開する価値がある経験は、AI通訳ラジオの動画・記事・SNSその他の形式へ翻訳する。
+
+つまりコンテンツ制作だけが組織活動ではなく、**実践そのものが一次情報の生成源**である。
 
 ## 基本構造
 
@@ -45,6 +65,12 @@ Real Memberを架空のActorとして扱わない。本人が示していない�
 実際の仕事を始めるための最小限のAI作業単位。
 
 Seedは人格ではない。最初に必要なのは、担当する仕事、目的、境界、参照情報、権限、未決定事項だけでよい。
+
+Seedは全員へ同じ完成済みAgentを配る仕組みでもない。
+
+同じ基盤LLMを使っていても、組織、役割、権限、本人の経験、現在のTaskが違えば、参照するWorld Modelと実行可能範囲も違う。
+
+内部Seedの考え方、外部顧客向けSeed、Task Contract、Challenge、Observationによる更新は `context/WORLD_MODEL_SEED.md` を正本とする。
 
 Seedは実務を通して次を蓄積する。
 
@@ -127,6 +153,37 @@ AI通訳ラジオ
 ```
 
 人数や部署を埋めるためにSeedやActorを作らない。実際の仕事から必要性が生じたときに追加する。
+
+## 内部Seedと外部Seed
+
+AI通訳ラジオ内部のSeedと、将来の外部顧客向けSeedを分ける。
+
+### Internal Seed
+
+内部では、組織共通Contextに加え、Role / Permission / Personal Contextを必要な範囲で組み合わせる。
+
+内部メンバーだからといって、すべての内部Knowledgeへアクセスできるわけではない。
+
+### External Seed
+
+外部SeedはAI通訳ラジオ内部Seedのコピーではない。
+
+企業・個人ごとに、
+
+- 目的
+- 業務
+- 既存Knowledge
+- Role
+- Permission
+- Personal Context
+- Evaluation
+- 実運用から得たExperience
+
+を使って個別に構築する。
+
+目標は「共通AI社員を配る」ことではなく、その企業・その人が**自分のAIを育て続けられる状態**を作ること。
+
+Knowledge Scopeと内部／外部境界は `context/KNOWLEDGE_MODEL.md` を参照する。
 
 ## Knowledgeとの関係
 
