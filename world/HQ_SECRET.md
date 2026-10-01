@@ -56,3 +56,16 @@
 ## 未確定の事項
 
 この社員の名前、性別、所属、外見、気づいた経緯、支援を始めた時期は未設定です。人数が一人であること、猫に知らせず技術面だけを支えていることを維持し、その他の人物像を勝手に確定しません。
+
+## Restricted Seed Candidate
+
+この人物は、将来的にWorld Model Seedとして実務を持たせる候補でもあります。ただし、この候補情報自体が秘密設定に属するため、`context/WORLD_MODEL_SEEDS.md` など通常の組織資料には登録しません。
+
+- 仮ID：`seed-restricted-hq-support-001`
+- 状態：Candidate / Restricted
+- 起点：この秘密設定
+- Known：猫の活動に気づき、猫に知らせず技術面を支える人物が一人いる
+- Unknown：名前、性別、所属、外見、気づいた経緯、実務上の責任者、Seedとして独立運用するか
+- Actor：未設定
+
+この候補をActive Seedへ移す場合は、秘密設定へアクセスできるReal Memberを責任者として明示し、Purpose / Boundary / Authority / Human Approvalを設定してから運用する。
