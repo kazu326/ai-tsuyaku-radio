@@ -1,12 +1,7 @@
 # Claude Code Instructions
 
-このリポジトリの Source of Truth は README.md に従う。
+共通の作業ルールは `AGENTS.md` に従う。
 
-作業開始時に必ず以下を読む。
+作業開始時は、`AGENTS.md` → `README.md` → `context/CURRENT.md` の順で確認し、その後に作業内容に必要な資料だけを参照する。
 
-1. README.md
-2. context/CURRENT.md
-
-その後、作業内容に応じて README.md に記載された関連ドキュメントを参照する。
-
-既存の設計・ブランド・制作ルールを推測で変更しない。
+Claude固有の判断で、既存の設計・ブランド・正式用途・採用状態・世界設定を推測変更しない。
