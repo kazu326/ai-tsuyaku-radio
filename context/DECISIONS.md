@@ -62,15 +62,15 @@ Cloudflare / MCP、Real Member Onboarding、World Model Seed、3D Presence、Stu
 
 高品質画像が必要な場合は、3Dレンダーを構図・座標のリファレンスとして使い、別途高品質画像生成へ渡す方法を検証する。
 
-### Narrative Secretと保護情報を分ける
+### Narrative SecretとProtected Information（保護情報）を分ける
 
-物語上の秘密設定は、現実に保護が必要な情報とは別に扱う。
+物語上の秘密設定は、Protected Information（保護情報）とは別に扱う。
 
 Narrative Secretは、ストーリーテリングを面白くするための「まだ答え合わせしない設定」。内部AIが内容や根拠を知ること、World Modelのprovenanceとして出典を残すこと、存在や痕跡から推測されることを禁止しない。
 
 通常の公開出力やActor会話では明示的な答え合わせを避ける。偶発的に一部が漏れた場合も自動的に消去・改変せず、必要ならStory Event候補として扱う。
 
-現実に保護が必要な情報は別枠とし、必要な権限なしに取得・出力しない。
+Protected Information（保護情報）は別枠とし、必要な権限なしに取得・出力しない。
 
 ### 本社設定を表／裏／秘密に分離する
 
