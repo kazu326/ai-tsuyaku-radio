@@ -49,7 +49,7 @@ Seed候補は `context/WORLD_MODEL_SEEDS.md`、Actorは `context/ACTORS.md` を�
 ### Narrative SecretとProtected Information
 
 - Narrative Secret：ストーリーテリングのための秘密。内部AIは知っていてよく、根拠・provenanceも保持できる。通常公開では明示的な答え合わせを避けるが、痕跡や推測は許容する。
-- Protected Information（保護情報）：現実に保護が必要な情報。必要な権限がなければ取得・出力しない。
+- Protected Information（保護情報）：Protected Information（保護情報）。必要な権限がなければ取得・出力しない。
 
 制作レビューではNarrative Secretについて事実を正直に説明してよい。Actorとしての会話や公開コンテンツでは、そのActorが知らない設定なら知らないふり・はぐらかし・冗談など、物語上の振る舞いを優先する。
 
