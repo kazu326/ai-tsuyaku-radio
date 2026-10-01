@@ -9,11 +9,13 @@ AI業界の難しいニュース・技術・専門用語を、AIに詳しくな�
 ## 基本構造
 
 - `context/` — AI・人間が最初に確認する現在地、ブランド、編集方針、確定事項
+- `world/` — 本社・物語世界などの設定。表設定／裏設定／秘密設定を用途別に分離
 - `episodes/` — 各エピソードのリサーチ、台本、記事、SNS派生物
 - `knowledge/` — 複数テーマで再利用する知識・調査
 - `video/` — 動画制作。Remotion本番環境は `video/remotion/` へ統合済み
 - `web/` — Webサイト・公開レイヤー
 - `social/` — SNS向け運用・共通素材
+- `experiments/` — 採用前の試作・検証。存在していることと採用済みであることは同義ではない
 - `logs/` — 日々の観察・作業・意思決定に至った経緯
 
 ## コンテンツの3本柱
@@ -30,9 +32,36 @@ AI業界の難しいニュース・技術・専門用語を、AIに詳しくな�
 
 ## AIが作業を開始するとき
 
-まず `context/CURRENT.md` を確認してください。必要に応じて `BRAND.md`、`EDITORIAL.md`、`DECISIONS.md`、過去ログへ進みます。
+共通の作業ルールは `AGENTS.md` を確認してください。
 
-日々のログと現在地は分離します。`logs/` は経緯を残す場所、`context/` は現在有効な情報を短く保つ場所です。
+基本の開始順は次です。
+
+1. `AGENTS.md`
+2. `README.md`
+3. `context/CURRENT.md`
+4. 作業内容に応じた関連資料
+
+必要に応じて `context/BRAND.md`、`context/EDITORIAL.md`、`context/DECISIONS.md`、過去ログへ進みます。
+
+日々のログと現在地は分離します。 `logs/` は経緯を残す場所、`context/` は現在有効な情報を短く保つ場所です。
+
+## 採用状態の確認
+
+**リポジトリにファイルが存在することと、現在採用されていることは同義ではありません。**
+
+特に `experiments/`、生成画像、生成動画、3D試作には、不採用・参考専用・部分採用の素材が残っています。利用前に、その実験フォルダの `README.md`、`adoption-status.json`、`asset-policy.json` など、採用状態を示す資料を確認してください。
+
+現在の本社・スタジオ空間については、`experiments/headquarters-plan-20261001/` と `experiments/studio-spatial-foundation-20261001/` の現行方針を優先します。
+
+## 世界設定の読み分け
+
+本社設定は、必要な情報だけを段階的に参照します。
+
+- 通常の図面・画像・3D・Web制作：`world/HQ_PUBLIC.md`
+- 猫の活動や物語上の裏側が必要な場合：`world/HQ_BEHIND_THE_SCENES.md`
+- 真相を扱う演出に必要な場合だけ：`world/HQ_SECRET.md`
+
+秘密設定を、通常のWeb・図面・3D・公開設定へ自動的に露出させないでください。
 
 ## Remotionについて
 
