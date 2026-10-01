@@ -22,17 +22,36 @@ AI通訳ラジオでCodex、Claude Code、その他のAIエージェントが共
 
 不採用・参考専用の素材を、ファイルが残っているという理由だけで制作へ戻さない。
 
+## 組織・Seed・Actor
+
+人間、内部AI、外向けキャラクターを扱う場合は、まず `context/ORGANIZATION_MODEL.md` を読む。
+
+- Real Member = 現実の人間。架空設定化しない
+- World Model Seed = 内部で実務を通して育つAI作業単位
+- Actor = 外部との接点が必要になったSeedが持つ表現層
+
+Seed候補は `context/WORLD_MODEL_SEEDS.md`、Actorは `context/ACTORS.md` を参照する。
+
+内部処理だけで成立するSeedを、名前・外見・声を持つActorへ勝手に変えない。Real Memberの性格、能力、感情、事情を推測で設定しない。
+
 ## 世界設定
 
 本社・猫スタジオの設定は必要な範囲だけ読む。
 
 - 通常の図面・画像・3D・Web制作：`world/HQ_PUBLIC.md`
 - 猫の活動や物語上の裏側が必要：`world/HQ_BEHIND_THE_SCENES.md`
-- 真相そのものを扱う物語・演出だけ：`world/HQ_SECRET.md`
+- Narrative Secretの根拠確認・制作レビュー・真相演出：`world/HQ_SECRET.md`
 
-`HQ_SECRET.md` の内容を通常制作へ自動的に持ち込まない。
+`HQ_SECRET.md` は物語上のNarrative Secretとして扱う。制作側AIは根拠確認のため参照してよいが、Actorとして振る舞う場面や公開向け出力では、通常は明示的な答え合わせをしない。存在・痕跡・推測・偶発的な漏れは許容し、面白い出来事になった場合はStory Event候補として扱う。
 
-特に、2階Bの正式用途は「サブ収録用」のまま。猫の実質的な活動拠点であることを理由に、「猫専用収録室」などへ勝手に変更しない。
+特に、2階Bの正式用途は「サブ収録用」のまま。物語上の秘密を理由に、正式図面や通常制作を勝手に書き換えない。
+
+### Narrative SecretとProtected Information
+
+- Narrative Secret：ストーリーテリングのための秘密。内部AIは知っていてよく、根拠・provenanceも保持できる。通常公開では明示的な答え合わせを避けるが、痕跡や推測は許容する。
+- Protected Information（保護情報）：認証情報、個人情報、契約情報など、現実に保護が必要な情報。必要な権限がなければ取得・出力しない。保存・アクセス境界は `docs/SYSTEM_ARCHITECTURE.md` の Information classes / Protected Information storage を参照する。
+
+制作レビューではNarrative Secretについて事実を正直に説明してよい。Actorとしての会話や公開コンテンツでは、そのActorが知らない設定なら知らないふり・はぐらかし・冗談など、物語上の振る舞いを優先する。
 
 ## 空間・3D
 
@@ -41,6 +60,8 @@ AI通訳ラジオでCodex、Claude Code、その他のAIエージェントが共
 旧スタジオ画像・動画・3D試作から、間取りや扉・窓・家具配置を推測して戻さない。
 
 3Dの当面の目的は、最終フォトリアル作品そのものより、複数アングルでも崩れない空間・座標・カメラの基盤を作ること。
+
+Presence用3Dは、映像用高品質3Dと同じ見た目を要求しない。軽量で位置・状態・会話のきっかけが分かることを優先する。
 
 ## 変更時の原則
 
@@ -62,3 +83,4 @@ AI通訳ラジオでCodex、Claude Code、その他のAIエージェントが共
 - 重要な確定事項を `context/DECISIONS.md` に残す必要がないか
 - READMEや関連資料への入口が切れていないか
 - 採用／不採用の状態が実ファイルと矛盾していないか
+- Seed / Actor / Real Memberの区別が崩れていないか

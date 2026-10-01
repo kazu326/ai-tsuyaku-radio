@@ -4,6 +4,44 @@
 
 ## 2026-10-01
 
+### 組織モデルを Real Member → World Model Seed → Actor に分ける
+
+現実の人間はReal Memberとして責任と最終判断を持つ。
+
+AIはまずWorld Model Seedとして内部の実務を行い、Observation / Discovery / World Modelを育てる。内部処理だけで成立する場合はActor化しない。
+
+名前・外見・声・公開時の語り方などのActor層は、動画・SNS・一般ユーザーとの会話など、外部との接点が必要になった場合だけ追加する。
+
+Real Memberを架空Actorとして扱わず、本人が示していない性格、能力、感情、事情をAIが設定しない。
+
+組織上の正本は `context/ORGANIZATION_MODEL.md`、Seed一覧は `context/WORLD_MODEL_SEEDS.md`、外向けActor一覧は `context/ACTORS.md` とする。
+
+### GitHubを本体、Cloudflareを入口、MCPを共通会社インターフェースとする
+
+GitHubを引き続きAI通訳ラジオのSource of Truthとする。
+
+Cloudflareは一般公開と内部アクセスを分ける「本社の入口」として段階的に整備する。内部Real Memberは認証後、Codex / Claudeなど異なるAIクライアントから同じ会社Contextと許可された道具へ接続できる状態を目指す。
+
+MCPは共通会社インターフェースとして使い、最初は現在地の取得、社内検索、Task Context取得、branch / PR提案、Observation記録など少数機能から始める。
+
+mainへの直接編集は初期の標準権限にしない。
+
+### 3D Presenceを実行基盤とは分離する
+
+内部向け3D本社は、仕事そのものを3Dゲームへ置き換えるものではない。
+
+誰がいるか、どこにいるか、何をしているか、話しかけられそうかを直感的に感じるPresence Layerとして実験する。
+
+フォトリアルを目標にせず、軽量なゲーム風3Dを優先する。映像用高品質3DとPresence用軽量3Dは同じ本社座標を共有できるが、同じ品質目標を持たせない。
+
+Presenceを開かなくても仕事が成立する設計を維持する。
+
+### Workstream全体の優先順位を固定しない
+
+Cloudflare / MCP、Real Member Onboarding、World Model Seed、3D Presence、Studio B、Season 2、Knowledge化は、現時点では一列のロードマップにしない。
+
+必要性、興味、依存関係、利用可能な時間に応じて並行して進め、各Workstreamで代表サンプルや最小PoCを作った時点で人間レビューを挟む。
+
 ### 本社空間の正本を平面図・座標データへ移す
 
 生成画像から間取りを推測し続けず、`experiments/headquarters-plan-20261001/headquarters-floorplans.pdf` と `headquarters-layout.json` を、本社の部屋・扉・通路・階段など空間配置のSource of Truthとして扱う。
@@ -24,19 +62,29 @@
 
 高品質画像が必要な場合は、3Dレンダーを構図・座標のリファレンスとして使い、別途高品質画像生成へ渡す方法を検証する。
 
+### Narrative SecretとProtected Information（保護情報）を分ける
+
+物語上の秘密設定は、Protected Information（保護情報）とは別に扱う。
+
+Narrative Secretは、ストーリーテリングを面白くするための「まだ答え合わせしない設定」。内部AIが内容や根拠を知ること、World Modelのprovenanceとして出典を残すこと、存在や痕跡から推測されることを禁止しない。
+
+通常の公開出力やActor会話では明示的な答え合わせを避ける。偶発的に一部が漏れた場合も自動的に消去・改変せず、必要ならStory Event候補として扱う。
+
+Protected Information（保護情報）は別枠とし、必要な権限なしに取得・出力しない。
+
 ### 本社設定を表／裏／秘密に分離する
 
 本社・猫スタジオに関する設定は、用途によって次の3階層に分ける。
 
 - `world/HQ_PUBLIC.md`：通常の図面・画像・3D・Web等で使う表設定
 - `world/HQ_BEHIND_THE_SCENES.md`：猫の活動や物語上の裏側を扱う設定
-- `world/HQ_SECRET.md`：真相を扱う物語・演出でのみ参照する秘密設定
+- `world/HQ_SECRET.md`：Narrative Secretの根拠確認・制作レビュー・真相演出で参照できる設定。公開・Actor出力はReveal Policyに従う
 
-表向きの2階Bは最後まで「サブ収録用」。裏設定では猫が実質的な主な収録拠点として使う。
+表向きの2階Bは最後まで「サブ収録用」とする。
 
-秘密設定では、社員一人だけが猫の収録・配信活動に気づき、猫に知らせず技術面を支えている。他の社員は小さな違和感を持つことはあっても、真相を知らない。
+裏設定・Narrative Secretの具体内容は、一般の決定ログへ全文複製しない。`world/HQ_SECRET.md` は根拠確認・制作レビューでも参照できるが、公開・Actor出力ではReveal Policyに従う。
 
-秘密設定を理由に、通常の図面・Web・3Dへ猫専用表記や未承認の設備・導線を追加しない。
+Narrative Secret設定を理由に、通常の図面・Web・3Dへ未承認の用途・設備・導線を追加しない。
 
 ## 2026-09-15
 
@@ -49,6 +97,8 @@ Episode画像は16:9とし、ネイビー〜ブルーを基調に、白と`#f9a1
 004以降は、共通ルールと`episodes/images/episode-001.png`〜`episode-003.png`を同時に参照する。一度の失敗だけで規則を増やさず、複数Episodeで繰り返し確認された問題や改善点だけを次版へ反映する。
 
 ## 2026-09-14
+
+※ 用語定義は2026-10-01に更新済み。Real Member / World Model Seed / Actorを分離し、現在は `context/ORGANIZATION_MODEL.md` を優先する。以下はWorld Model育成原則の起点として残す。
 
 ### Actorを設計するのではなく、World Modelを育てる
 
