@@ -1,7 +1,7 @@
 # ORGANIZATION MODEL｜Real Member → World Model Seed → Actor v0.1
 
-Status: Draft for review / 2026-10-01  
-Scope: AI通訳ラジオの人間・AI・外向けキャラクターの関係を定義する正本候補
+Status: Adopted / 2026-10-01  
+Scope: AI通訳ラジオの人間・AI・外向けキャラクターの関係を定義する組織モデルの正本
 
 ## 一言で言うと
 
