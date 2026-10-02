@@ -129,6 +129,16 @@
   }
   .copy-btn:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
   .os { font-size: 14px; color: var(--muted); }
+  .precondition { border: 1px solid var(--line); border-left: 4px solid var(--amber); background: var(--white); padding: 16px 20px; margin: 16px 0 24px; }
+  .precondition h3 { margin-bottom: 8px; }
+  .precondition ul { margin: 8px 0 0; padding-left: 20px; }
+  .substeps { margin: 8px 0 12px; padding-left: 24px; }
+  .substeps li { margin-bottom: 8px; }
+  .media-slot {
+    border: 1px dashed var(--muted); background: var(--white); color: var(--muted);
+    font-size: 13px; padding: 24px 16px; margin: 12px 0; text-align: center;
+  }
+  code.inline { background: var(--line); padding: 1px 6px; font-size: 14px; }
   .progress { font-size: 14px; color: var(--muted); margin: 0; }
   .next { margin-top: 24px; border-left: 4px solid var(--navy); padding: 8px 16px; background: var(--paper); }
   .text-link { color: var(--blue); font-weight: 700; }
@@ -243,66 +253,77 @@
 <section aria-labelledby="prep-title">
   <div class="container">
     <p class="eyebrow"><span class="bar"></span><span class="tag tag-fact">実用</span>初出勤の準備</p>
-    <h2 id="prep-title">5つの準備で、初出勤できます。</h2>
+    <h2 id="prep-title">4つの準備で、初出勤できます。</h2>
+
+    <div class="precondition">
+      <h3>入社の前提</h3>
+      <p>次のどちらかの<strong>有料アカウント</strong>をすでに持っている方を、入社にお誘いしています。</p>
+      <ul>
+        <li><strong>ChatGPT</strong>：Plus 以上（Plus / Pro）</li>
+        <li><strong>Claude</strong>：Pro 以上（Pro / Max）</li>
+      </ul>
+    </div>
+
     <p>太字が入社の手続き、その下が実際にやることです。終わったらチェックを入れてください。この画面を閉じても、チェックは残ります。</p>
-    <p class="progress" id="progress" aria-live="polite">0 / 5 完了</p>
+    <p class="progress" id="progress" aria-live="polite">0 / 4 完了</p>
 
     <ol class="steps">
       <li class="step" data-step="1">
         <label class="step-head">
           <input type="checkbox">
           <span class="step-title">社員証を受け取る<small>GitHubのアカウントを作り、Project Leadからの招待を承認する</small></span>
-          <span class="step-num">1 / 5</span>
+          <span class="step-num">1 / 4</span>
         </label>
         <div class="step-body">
-          <p>GitHubは、AI通訳ラジオの仕事と記録が置いてある場所です。アカウントを作ったら、ユーザー名をProject Lead（@kazu326）に伝えてください。届いた招待メールの「Accept invitation」を押せば完了です。</p>
+          <p>GitHubは、AI通訳ラジオの仕事と記録が置いてある場所です。画面は英語ですが、やることは次の3つです。</p>
+          <ol class="substeps">
+            <li><strong>アカウントを作る。</strong>github.com を開き「Sign up」から登録します。途中で入力する <strong>Username（ユーザー名）</strong> が、あなたのIDになります。例えば <strong>taro-yamada</strong> のような英数字とハイフンの名前です。本名でなくて大丈夫です。</li>
+            <li><strong>あなたのIDをProject Leadに伝える。</strong>IDは、GitHubの画面右上のアイコンを押すと表示されます。表示されたIDを、そのままProject Lead（<strong>kazu326</strong>）に伝えてください。</li>
+            <li><strong>招待を承認する。</strong>しばらくすると、GitHubから招待のメールが届きます。メールの「View invitation」を押し、開いた画面で緑の「Accept invitation」を押せば完了です。</li>
+          </ol>
+          <div class="media-slot">［画像枠］GitHub右上のアイコンを押したところ。ID（ユーザー名）が表示されている位置に印を付ける</div>
+          <div class="media-slot">［画像枠］招待を承認する画面。「Accept invitation」ボタンに印を付ける</div>
         </div>
       </li>
       <li class="step" data-step="2">
         <label class="step-head">
           <input type="checkbox">
-          <span class="step-title">道具をそろえる<small>Gitをインストールして、名前とメールアドレスを設定する</small></span>
-          <span class="step-num">2 / 5</span>
+          <span class="step-title">AIの相棒を呼ぶ<small>ChatGPTかClaudeのデスクトップアプリを入れて、サインインする</small></span>
+          <span class="step-num">2 / 4</span>
         </label>
         <div class="step-body">
-          <p>公式サイト（git-scm.com）からインストールします。そのあと、ターミナル（WindowsはPowerShell、Macはターミナル）で次の2つを一度だけ実行します。名前とメールアドレスは自分のものに置き換えてください。</p>
-          <div class="copy-row"><code>git config --global user.name "Taro Yamada"</code><button class="copy-btn" type="button">コピー</button></div>
-          <div class="copy-row"><code>git config --global user.email "taro@example.com"</code><button class="copy-btn" type="button">コピー</button></div>
+          <p>有料アカウントを持っている方のアプリを、パソコンに入れます。どちらか一つで大丈夫です。</p>
+          <ul class="substeps">
+            <li><strong>ChatGPTの場合：</strong>ChatGPTのデスクトップアプリを入れて、サインインします。この中の <strong>Codex</strong> が、あなたの相棒になります。</li>
+            <li><strong>Claudeの場合：</strong>Claudeのデスクトップアプリを入れて、サインインします。この中の <strong>Code</strong>（Claude Code）が、あなたの相棒になります。</li>
+          </ul>
+          <p>ここから先の準備は、すべてこのアプリの中で進めます。ターミナルを自分で開く必要はありません。</p>
+          <div class="media-slot">［画像枠］それぞれのアプリで、Codex / Code の画面を開いたところ</div>
         </div>
       </li>
       <li class="step" data-step="3">
         <label class="step-head">
           <input type="checkbox">
-          <span class="step-title">AIの相棒を呼ぶ<small>Codex CLI（またはClaude Code）をインストールしてログインする</small></span>
-          <span class="step-num">3 / 5</span>
+          <span class="step-title">自分の机を用意する<small>アプリの中で、AIに準備を頼む</small></span>
+          <span class="step-num">3 / 4</span>
         </label>
         <div class="step-body">
-          <p>インストールとログインは、公式ガイドの手順どおりに進めます。<a class="text-link" href="https://learn.chatgpt.com/docs/codex/cli">Codex CLI公式ガイド</a></p>
-          <p class="os">利用には有料プランまたはAPIの利用が必要です（「先に知っておくこと」を参照）。</p>
+          <p>アプリで作業場所（フォルダ）を聞かれたら、「ドキュメント」フォルダを選びます。</p>
+          <p>次のメッセージをコピーし、<strong>「ここにID」をステップ1で作ったIDに書き換えてから</strong>送ります。</p>
+          <div class="copy-row"><span class="prompt">私はAI通訳ラジオの新しいReal Memberです。GitHubのユーザー名は「ここにID」です。<br>AI通訳ラジオで作業を始める準備を、次の順番で手伝ってください。パソコンに変更を加える前には、毎回私に確認してください。<br>1. このパソコンにGitが入っているか確認し、なければインストールを手伝う<br>2. Gitの記録用の名前を私のGitHubユーザー名に、メールアドレスをGitHubのnoreplyアドレスに設定する<br>3. https://github.com/kazu326/ai-tsuyaku-radio を、今の作業場所にcloneする<br>4. 作業用のブランチ experiment-first-task を作る<br>5. 最後に、ai-tsuyaku-radio フォルダを作業場所として開き直す方法を教える</span><button class="copy-btn" type="button">コピー</button></div>
+          <p>AIが「これを実行してよいですか？」と聞いてきたら、内容を確認して許可します。分からないときは、そのまま伴走者に聞いてください。</p>
+          <p class="os">Gitの記録用の名前とメールアドレスは、あなたが残した変更の記録として誰でも見られる状態で残ります。そのため、普段のメールアドレスではなく、GitHubが用意する非公開用のアドレス（noreply）をAIに設定してもらいます。</p>
+          <div class="media-slot">［動画枠・20〜30秒］メッセージを貼って送り、AIが確認を求めてくるところまで（音声なし）</div>
         </div>
       </li>
       <li class="step" data-step="4">
         <label class="step-head">
           <input type="checkbox">
-          <span class="step-title">自分の机を用意する<small>リポジトリを自分のPCにコピーし、作業用のブランチを作る</small></span>
-          <span class="step-num">4 / 5</span>
+          <span class="step-title">初出勤する<small>作業場所を ai-tsuyaku-radio に切り替えて、最初の一言を送る</small></span>
+          <span class="step-num">4 / 4</span>
         </label>
         <div class="step-body">
-          <p>次の3つを、上から順に1つずつ実行します。</p>
-          <div class="copy-row"><code>git clone https://github.com/kazu326/ai-tsuyaku-radio.git</code><button class="copy-btn" type="button">コピー</button></div>
-          <div class="copy-row"><code>cd ai-tsuyaku-radio</code><button class="copy-btn" type="button">コピー</button></div>
-          <div class="copy-row"><code>git switch -c experiment-first-task</code><button class="copy-btn" type="button">コピー</button></div>
-        </div>
-      </li>
-      <li class="step" data-step="5">
-        <label class="step-head">
-          <input type="checkbox">
-          <span class="step-title">初出勤する<small>フォルダの中でAIを起動して、最初の一言を送る</small></span>
-          <span class="step-num">5 / 5</span>
-        </label>
-        <div class="step-body">
-          <div class="copy-row"><code>codex</code><button class="copy-btn" type="button">コピー</button></div>
-          <p>起動したら、次の文章をそのまま貼り付けて送ります。</p>
+          <p>ステップ3の最後にAIが教えてくれた方法で、作業場所を <strong>ai-tsuyaku-radio</strong> フォルダに切り替えます。そのあと、次の文章をそのまま貼り付けて送ります。</p>
           <div class="copy-row"><span class="prompt">私は新しいReal Memberです。このリポジトリの作業方針を確認してください。そのうえで、AIを使って何をやってみたいか一緒に整理し、最初の小さなExperimentを決めてください。必要なContextだけ読んでください。</span><button class="copy-btn" type="button">コピー</button></div>
         </div>
       </li>
@@ -312,7 +333,7 @@
       <p><strong>ここから先は、AIと一緒に進めます。</strong>小さなExperimentを決めて、やってみて、何が起きたかをPRに残せば1周です。</p>
       <p><a class="text-link" href="#">最初の1周の手順をすべて見る（REAL_MEMBER_ONBOARDING）</a></p>
     </div>
-    <p class="wf-note">コマンドとプロンプトは実装時に docs/REAL_MEMBER_ONBOARDING.md からビルド時に読み込む。ページに書き写さない。外部Contributor（fork）の手順はページでは扱わず、onboarding本文に任せる。</p>
+    <p class="wf-note">この手順は、採用済みの docs/REAL_MEMBER_ONBOARDING.md（CLI前提）の改訂が前提。onboardingを改訂したら、メッセージ文は onboarding からビルド時に読み込み、ページに書き写さない。外部Contributor（fork）の手順はページでは扱わない。</p>
   </div>
 </section>
 
@@ -334,9 +355,9 @@
       <div class="fact">
         <h3>必要なもの</h3>
         <ul>
-          <li>PC（Windows または Mac）</li>
+          <li>パソコン（Windows または Mac）</li>
           <li>GitHubアカウント（無料）</li>
-          <li>Codex か Claude Code。どちらも有料プランまたはAPIの利用が必要で、費用がかかります</li>
+          <li>ChatGPT（Plus 以上）か Claude（Pro 以上）の有料アカウント。月額の費用がかかります</li>
         </ul>
       </div>
       <div class="fact">
@@ -397,7 +418,7 @@
   // コピーボタン
   document.querySelectorAll(".copy-btn").forEach((btn) => {
     btn.addEventListener("click", async () => {
-      const text = btn.previousElementSibling.textContent.trim();
+      const text = btn.previousElementSibling.innerText.trim();
       try {
         await navigator.clipboard.writeText(text);
         btn.textContent = "コピーしました";
