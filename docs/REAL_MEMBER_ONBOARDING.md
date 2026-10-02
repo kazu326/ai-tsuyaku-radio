@@ -1,6 +1,6 @@
 # AI通訳ラジオ｜Real Member Onboarding v0.2
 
-Status: Draft for review / 2026-10-02  
+Status: Adopted / 2026-10-02  
 Audience: AI通訳ラジオに新しく参加する現実の人
 
 ## 1. ようこそ
