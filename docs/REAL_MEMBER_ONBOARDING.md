@@ -37,7 +37,7 @@ AI通訳ラジオでは、最初からAIに詳しいことを前提にしませ�
 - 勤務先や顧客の資料
 - パスワード、APIキーなどの認証情報
 
-迷ったら、置かずにPRやチャットで聞いてください。
+迷ったら、置かずにProject Leadへ確認してください。
 
 ### AIがあなたを「設定」することはありません
 
@@ -53,10 +53,14 @@ AI通訳ラジオでは、最初からAIに詳しいことを前提にしませ�
 
 ### GitHub
 
+内部Real Memberとして参加する場合：
+
 1. GitHubアカウントを作る
 2. Project Lead（`@kazu326`）から、このリポジトリへのcollaborator招待を受け取り、承認する
 
-外部Contributorとして参加する場合は、招待の代わりにリポジトリをforkして、自分のforkからPRを出します。
+この文書の一本道は、collaboratorとして参加するReal Member向けです。
+
+外部Contributorとして参加する場合は、招待の代わりにリポジトリをforkします。その場合は、後述のclone先を自分のforkへ変更し、自分のforkへpushしてから、本家 `kazu326/ai-tsuyaku-radio` の `main` にPRを送ります。
 
 ### Git
 
@@ -72,11 +76,13 @@ git config --global user.name "Taro Yamada"
 git config --global user.email "taro@example.com"
 ```
 
-名前とメールアドレスは自分のものに置き換えてください。GitHubに登録したメールアドレスを使うと、PRに自分のアカウントが表示されます。
+名前とメールアドレスは自分のものに置き換えてください。GitHubアカウントに登録済みのメールアドレス、またはGitHubのnoreplyアドレスを使うと、commitを自分のGitHubアカウントへ関連付けやすくなります。
 
 ### AIクライアント
 
-Codexを使う手順で説明します。インストールとログインは公式の手順に従ってください。
+この文書ではCodex CLIを使う手順で説明します。インストールとログインは公式ガイドに従ってください。
+
+- Codex CLI公式ガイド：https://learn.chatgpt.com/docs/codex/cli
 
 Claude Codeでも同じ流れで進められます。
 
@@ -86,9 +92,19 @@ Claude Codeでも同じ流れで進められます。
 
 ### ① リポジトリを自分のPCへ取得する
 
+collaboratorとして参加するReal Member：
+
 ```bash
 git clone https://github.com/kazu326/ai-tsuyaku-radio.git
 ```
+
+外部Contributorとしてforkした場合は、自分のGitHubユーザー名へ置き換えます。
+
+```bash
+git clone https://github.com/YOUR_GITHUB_USER/ai-tsuyaku-radio.git
+```
+
+その後：
 
 ```bash
 cd ai-tsuyaku-radio
@@ -146,7 +162,11 @@ AIはフォルダ内の `AGENTS.md`（Claude Codeでは `CLAUDE.md`）から作�
 
 AIと一緒に作業します。AIが「今の条件では難しい」と言ったら、勝手に範囲を広げさせず、条件を一緒に見直します。
 
-リポジトリに残すファイルは、採用前の試作置き場である `experiments/` に自分のフォルダを作って置くのが基本です。場所に迷ったらAIかPRで相談してください。作業がリポジトリの外（3Dプリントや販売など）で完結する場合は、記録だけをPRに残せば十分です。
+リポジトリにファイルを残す必要がある場合は、まず既存の構造を確認して適切な場所へ置きます。採用前の試作・検証なら `experiments/` を使います。場所が分からなければAIまたはProject Leadへ確認してください。
+
+3Dプリント、販売、外部サービスの運用など、作業そのものがリポジトリ外で完結するExperimentでも、PRにする場合は公開可能な短いObservationをMarkdownとして既存の適切な場所（例：既存の `logs/` 運用）へ残し、その差分をcommitします。保存場所が明確でない場合は、新しい体系を作らず先に確認してください。
+
+公開できるファイルを何も残さない場合は、無理に空のPRを作らず、Issueや既存PRへのコメントなど、その時点で指定された方法で共有します。
 
 何が変わったかは次で確認できます。AIに「変更内容を説明して」と頼んでも構いません。
 
@@ -154,9 +174,11 @@ AIと一緒に作業します。AIが「今の条件では難しい」と言っ�
 git status
 ```
 
-公開してはいけないもの（§2）が含まれていないか、ここで必ず確認します。
+公開してはいけないもの（§2）が含まれていないか、ここで必ず確認します。見覚えのないファイルや大量の生成物（例：`node_modules/`）が表示された場合は、`git add` せずAIまたはProject Leadへ確認してください。
 
 ### ⑦ commitしてpushする
+
+`git status` で内容を確認してから実行します。
 
 ```bash
 git add -A
@@ -172,9 +194,15 @@ git push -u origin experiment-first-task
 
 ブランチ名を変えた場合は、最後のコマンドの `experiment-first-task` も同じ名前にします。初めてpushするときは、ブラウザでGitHubへのログインを求められることがあります。
 
+外部Contributorの場合、この `origin` は自分のforkです。
+
 ### ⑧ PRを出す
 
-GitHubのリポジトリページを開くと「Compare & pull request」ボタンが表示されます。押して、PR本文に次を書きます。
+GitHubのリポジトリページを開くと「Compare & pull request」ボタンが表示されることがあります。表示されない場合は「Pull requests」→「New pull request」から作成します。
+
+collaboratorは本家リポジトリの `main` へ、外部Contributorは自分のforkのブランチから本家 `kazu326/ai-tsuyaku-radio` の `main` へPRを送ります。
+
+PR本文に次を書きます。
 
 ```md
 ## やりたかったこと
@@ -196,7 +224,7 @@ Project Leadや他のメンバーがレビューし、問題がなければmain�
 
 「分からない」は正常です。AI通訳ラジオも、この仕組みも完成品ではありません。
 
-使いにくかった場所、理解できなかった場所、AIが間違えた場所は、仕組みを良くするための大事な記録です。PRやチャットでそのまま伝えてください。
+使いにくかった場所、理解できなかった場所、AIが間違えた場所は、仕組みを良くするための大事な記録です。PRまたはProject Leadへそのまま伝えてください。
 
 最初から全部を理解するより、まず小さく1周してください。
 
