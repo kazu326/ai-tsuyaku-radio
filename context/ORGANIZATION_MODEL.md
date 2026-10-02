@@ -1,6 +1,6 @@
 # ORGANIZATION MODEL｜Real Member → World Model Seed → Actor v0.2
 
-Status: Draft revision for review / 2026-10-02  
+Status: Adopted / 2026-10-02  
 Scope: AI通訳ラジオの人間・AI・外向けキャラクターの関係を定義する組織モデルの正本
 
 ## 一言で言うと
