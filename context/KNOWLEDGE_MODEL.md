@@ -1,6 +1,6 @@
 # KNOWLEDGE MODEL｜情報の性質と所属Scope v0.2
 
-Status: Draft for review / 2026-10-02  
+Status: Adopted / 2026-10-02  
 Scope: Knowledgeを、誰が・どのSeedが・何の目的で扱えるかを判断するための2軸
 
 ## 1. 一言で言うと
