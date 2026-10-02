@@ -1,6 +1,6 @@
-# ORGANIZATION MODEL｜Real Member → World Model Seed → Actor v0.1
+# ORGANIZATION MODEL｜Real Member → World Model Seed → Actor v0.2
 
-Status: Adopted / 2026-10-01  
+Status: Adopted / 2026-10-02  
 Scope: AI通訳ラジオの人間・AI・外向けキャラクターの関係を定義する組織モデルの正本
 
 ## 一言で言うと
@@ -8,6 +8,18 @@ Scope: AI通訳ラジオの人間・AI・外向けキャラクターの関係を
 **現実の人間が責任を持ち、その配下でWorld Model Seedが実務を通じて育ち、外部へ出る必要が生じたときだけActorを持つ。**
 
 AIを最初から「AI社員キャラクター」として完成させない。内部処理だけならSeedのままでよい。名前・外見・声・口調などのActor表現は、外部との接点が必要になった段階で追加する。
+
+## AI通訳ラジオという組織
+
+AI通訳ラジオは、AIニュースや技術を一般向けに翻訳するメディアであると同時に、**人間とAIエージェントが実践を通して一緒に成長する実験組織**として育てる。
+
+Real Memberに既定の制作担当を割り当てるのではなく、本人の **「AIを使って、何をやってみたいか？」** から小さなExperimentを始める。活動は動画・記事・Web制作に限定しない。
+
+その活動から得た成功、失敗、判断、改善をSeedへ戻し、本人とAIエージェントの両方を育てる。公開する価値がある経験は、AI通訳ラジオの動画・記事・SNSなどへ翻訳する。
+
+コンテンツ制作だけが組織活動ではなく、**実践そのものが一次情報の生成源**である。
+
+新しいReal Memberの具体的な参加手順は `docs/REAL_MEMBER_ONBOARDING.md` を参照する。
 
 ## 基本構造
 
@@ -45,6 +57,10 @@ Real Memberを架空のActorとして扱わない。本人が示していない�
 実際の仕事を始めるための最小限のAI作業単位。
 
 Seedは人格ではない。最初に必要なのは、担当する仕事、目的、境界、参照情報、権限、未決定事項だけでよい。
+
+全員へ同じ完成済みAgentを配らない。同じ基盤モデルを使っていても、組織、役割、権限、本人の経験、現在のTaskが違えば、Seedが参照する世界と実行可能範囲も違う。
+
+Seedを人・組織に合わせて作り、実務から育て続ける仕組み（World Model Seed System）は `context/WORLD_MODEL_SEED_SYSTEM.md` を参照する。Seedの定義はこの文書、Observationからの育成と昇格は `context/ACTOR_WORLD_MODEL.md` を正本とする。
 
 Seedは実務を通して次を蓄積する。
 
@@ -128,6 +144,8 @@ AI通訳ラジオ
 
 人数や部署を埋めるためにSeedやActorを作らない。実際の仕事から必要性が生じたときに追加する。
 
+将来の外部顧客向けSeedは内部Seedのコピーではない。原則は `context/WORLD_MODEL_SEED_SYSTEM.md` §8 を参照する。
+
 ## Knowledgeとの関係
 
 人間とSeedの仕事は、可能な範囲で次の流れへ接続する。
@@ -147,6 +165,8 @@ Knowledge
 ```
 
 仕事とコンテンツ制作を分離しすぎず、実際に起きたことを一次情報として蓄積する。
+
+Knowledgeの情報の性質・所属Scope、公開リポジトリへ置いてよいものは `context/KNOWLEDGE_MODEL.md` を参照する。
 
 ## Presenceとの関係
 
@@ -196,6 +216,8 @@ Real Member Review
 
 - `context/ACTOR_WORLD_MODEL.md` — Seed / World Modelの育て方、Observation、Discoveryの考え方
 - `context/WORLD_MODEL_SEEDS.md` — 現在のSeedと候補の軽量一覧
+- `context/WORLD_MODEL_SEED_SYSTEM.md` — Seedを人・組織に合わせて作り育てる仕組み、Task Contract、Challenge、内部／外部Seed
+- `context/KNOWLEDGE_MODEL.md` — 情報の性質と所属Scope、公開リポジトリとの関係
 - `context/ACTORS.md` — 外向けActorの軽量一覧
 - `docs/SYSTEM_ARCHITECTURE.md` — GitHub / Cloudflare / MCP / Presenceの技術構造
 - `docs/REAL_MEMBER_ONBOARDING.md` — 現実の人間メンバー向け入口
