@@ -2,6 +2,36 @@
 
 このファイルには、現在採用されている重要な決定だけを記録する。検討中の案や詳細な議論は `logs/` に残す。
 
+## 2026-10-02
+
+### World Model Seed Systemを正式採用する
+
+World Model Seedは、実務を通して育つ個別のAI作業単位とする。Seedを人・組織に合わせて個別化し、実務から育て続ける仕組みを **World Model Seed System** と呼ぶ。
+
+World Modelの育成・昇格は引き続き `context/ACTOR_WORLD_MODEL.md` を正本とし、World Model Seed SystemはTask Contract、Challenge、個別化、内部／外部Seedの原則を扱う。
+
+外部提供では内部Seedをコピーせず、顧客・個人ごとに構築する。既存Knowledgeを活用し、顧客側にSeedを育て続ける能力とKnowledgeを残し、Client間でKnowledgeを混ぜない。
+
+正本は `context/WORLD_MODEL_SEED_SYSTEM.md`。
+
+### Knowledgeを「情報の性質 × 所属Scope」の2軸で扱う
+
+情報の性質は既存の `public` / `internal` / `narrative_secret` / `protected_information` を維持する。
+
+それとは別に、Knowledgeが誰の世界に属するかを organization / role・project / personal / client のScopeで考える。
+
+Scopeはアクセス制御そのものではない。公開リポジトリへProtected Information、非公開のPersonal情報、公開許可のないClient情報を保存しない。
+
+正本は `context/KNOWLEDGE_MODEL.md`。
+
+### Real Member Onboardingを「やりたいこと」起点にする
+
+新しいReal Memberには既定の制作担当を割り当てず、「AIを使って何をやってみたいか」から小さなExperimentを始めてもらう。
+
+初参加の基本導線は、GitHub collaborator招待 → clone → AIクライアント → Experiment → branch / commit / push → PRとする。外部Contributorはfork経由とする。
+
+正本は `docs/REAL_MEMBER_ONBOARDING.md`。
+
 ## 2026-10-01
 
 ### 組織モデルを Real Member → World Model Seed → Actor に分ける
