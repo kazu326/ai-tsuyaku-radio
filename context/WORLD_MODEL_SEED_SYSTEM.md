@@ -1,6 +1,6 @@
 # WORLD MODEL SEED SYSTEM｜Seedを人・組織に合わせて作り、実務から育て続ける仕組み v0.2
 
-Status: Draft for review / 2026-10-02  
+Status: Adopted / 2026-10-02  
 Scope: AI通訳ラジオ内部および将来の外部導入で、World Model Seedをどう個別化し、どう育て続けるかの設計原則
 
 ## 1. 用語
@@ -12,7 +12,7 @@ Scope: AI通訳ラジオ内部および将来の外部導入で、World Model Se
 | World Model | 実際の経験から蓄積され、複数の仕事で確認された判断原理 | `context/ACTOR_WORLD_MODEL.md` |
 | Task Contract | 今回の仕事だけに適用する一時的な契約 | この文書 §5 |
 
-この文書はSeedとWorld Modelを再定義しない。表記は「World Model Seed System」で統一し、連結表記（WorldModelSeed等）は使わない。
+この文書はSeedとWorld Modelを再定義しない。表記は「World Model Seed System」で統一し、連結表記は使わない。
 
 ここでいうWorld Modelは、基盤モデルの再学習を必須とする意味ではない。
 
