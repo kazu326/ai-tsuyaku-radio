@@ -30,7 +30,7 @@ AI通訳ラジオでCodex、Claude Code、その他のAIエージェントが共
 - World Model Seed = 内部で実務を通して育つAI作業単位
 - Actor = 外部との接点が必要になったSeedが持つ表現層
 
-Seed / Candidateの一覧は `context/WORLD_MODEL_SEEDS.md`、Actor一覧は `context/ACTORS.md` を参照する。Seedを人・組織に合わせて作り育てる仕組み（World Model Seed System）、Task Contract、Challengeは `context/WORLD_MODEL_SEED_SYSTEM.md`（Draft）を参照する。
+Seed / Candidateの一覧は `context/WORLD_MODEL_SEEDS.md`、Actor一覧は `context/ACTORS.md` を参照する。Seedを人・組織に合わせて作り育てる仕組み（World Model Seed System）、Task Contract、Challengeは `context/WORLD_MODEL_SEED_SYSTEM.md`を参照する。
 
 内部処理だけで成立するSeedを、名前・外見・声を持つActorへ勝手に変えない。Real Memberの性格、能力、感情、事情を推測で設定しない。
 
@@ -40,7 +40,7 @@ Seed / Candidateの一覧は `context/WORLD_MODEL_SEEDS.md`、Actor一覧は `co
 
 **このリポジトリは公開されている。** Protected Information、本人が公開を了承していない個人情報、公開許可のない顧客情報をcommitしない。Scopeのラベルを付けても、アクセス制御にはならない。
 
-情報の性質と所属Scopeの2軸、Retrieval / Use / Disclosureの区別は `context/KNOWLEDGE_MODEL.md`（Draft）を参照する。
+情報の性質と所属Scopeの2軸、Retrieval / Use / Disclosureの区別は `context/KNOWLEDGE_MODEL.md`を参照する。
 
 ## 世界設定
 
