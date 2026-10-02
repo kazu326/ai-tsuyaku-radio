@@ -1,353 +1,128 @@
-# KNOWLEDGE MODEL｜WorldModelSeedの知識・権限・共有境界 v0.1
+# KNOWLEDGE MODEL｜情報の性質と所属Scope v0.2
 
 Status: Draft for review / 2026-10-02  
-Scope: AI通訳ラジオ内部と将来の外部導入で、Knowledgeを誰が・どのSeedが・何の目的で扱えるかを整理する
+Scope: Knowledgeを、誰が・どのSeedが・何の目的で扱えるかを判断するための2軸
 
 ## 1. 一言で言うと
 
-**Knowledgeが存在すること、AIが取得できること、AIが利用できること、外部へ出してよいことは同じではない。**
+**Knowledgeが存在すること、AIが取得できること、今回の判断に使えること、外部へ出してよいことは同じではない。**
 
-WorldModelSeedでは、Knowledgeの価値を高めながら、必要以上に全員・全Agentへ共有しない。
+そして、**Scopeを書いたからといって、アクセス制御されたことにはならない。**
 
----
+## 2. 2つの軸
 
-## 2. なぜKnowledge Scopeが必要か
+Knowledgeは2つの独立した軸で見る。
 
-AIエージェントが強くなるほど、Contextの量だけでなく「適切なContextへ適切な権限でアクセスできるか」が重要になる。
+### 軸1：情報の性質
 
-AI通訳ラジオ内部でも、
+正本は `docs/SYSTEM_ARCHITECTURE.md` §7 Information classes。この文書では再定義しない。
 
-- 全Real Memberが知ってよい情報
-- 特定の役割だけが必要な情報
-- 本人専用の情報
-- 顧客案件の情報
-- 現実に保護が必要な情報
+- `public` — 公開してよい
+- `internal` — 通常の内部作業で使う
+- `narrative_secret` — 物語上の秘密。主に公開時の答え合わせを制限する
+- `protected_information` — 現実にアクセス制御が必要（認証情報、個人情報、契約情報など）
 
-は異なる。
+### 軸2：所属Scope（誰の世界に属するか）
 
-外部顧客でも同じで、部署・役割・人によって必要なWorld Modelは違う。
+- organization — AI通訳ラジオ全体
+- role / project — 特定の役割・担当・Project
+- personal — 特定のReal Member本人
+- client — 特定の顧客・契約・導入環境
 
-権限は単なる「ファイルが開けるか」だけではなく、**Agentがどの世界を前提として判断するか**を決める。
+具体的なRole名・Project名は、運用で必要性が確認されてから決める。
 
----
-
-## 3. 基本Scope
-
-初期分類として次を使う。
-
-### PUBLIC
-
-外部公開可能。
-
-例：
-
-- 公開済み記事
-- 公開済み動画
-- 公開ブランド情報
-- 公開ドキュメント
-
-### INTERNAL_SHARED
-
-AI通訳ラジオの通常内部作業で共有できる。
-
-例：
-
-- 一般的な制作Knowledge
-- 社内Workstream
-- 内部向け手順
-- 再利用可能な失敗・改善記録
-
-### ROLE_SCOPED
-
-特定の役割・担当・プロジェクトだけが必要。
-
-例：
-
-- 特定案件の作業Context
-- Lead向けレビュー情報
-- 特定制作チームの内部資料
-
-実際のRole名は運用から必要性が確認されてから定義する。
-
-### PERSONAL
-
-Real Member本人と、その本人を支援する許可されたAgentが扱う。
-
-例：
-
-- 個人の作業履歴
-- 本人が明示した好み
-- 本人専用の学習履歴
-- 本人のAgentを調整するためのContext
-
-個人の性格・能力・感情・健康・事情をAIが推測して追加しない。
-
-### CLIENT
-
-特定顧客・特定契約・特定導入環境だけで扱う。
-
-Client AのKnowledgeをClient BのAgentへ流さない。
-
-AI通訳ラジオ内部で得た汎用的な実装知識と、顧客固有情報を分離する。
-
-### PROTECTED
-
-認証情報、個人情報、契約情報その他、現実にアクセス制御が必要な情報。
-
-Protected Informationの保存先と実装上の扱いは `docs/SYSTEM_ARCHITECTURE.md` を参照する。
-
----
-
-## 4. Narrative Secretは別軸
-
-Narrative Secretは物語上のReveal Policy。
-
-Protected Informationとは別。
+### 2軸の組み合わせ
 
 ```text
-Narrative Secret
-= 知っていてもよいが、公開時に答え合わせしない場合がある
+顧客Aの契約書
+  情報の性質：protected_information
+  所属Scope：client-A
 
-Protected Information
-= 権限がなければ取得・利用・出力しない
+猫の真相に関する設定
+  情報の性質：narrative_secret
+  所属Scope：organization
+
+本人が公開してよいと判断したExperimentの記録
+  情報の性質：public
+  所属Scope：personal
 ```
 
-Narrative Secretを理由に、現実のセキュリティ情報を同じ扱いにしない。
+personalやclientだからprotected_informationとは限らない。逆も同じ。両方を確認する。
 
----
+どちらの軸の値も、現時点ではfrontmatterやコード上の識別子として固定しない。
 
-## 5. Retrieval / Use / Disclosureを分ける
+## 3. 公開リポジトリとの関係
 
-Knowledgeには少なくとも次の3段階を区別する。
+**このリポジトリは公開されている。** Gitにはファイル単位のアクセス制御がない。
 
-### Retrieval
+- このリポジトリに置いたものは、ラベルに関係なく誰でも読める前提で扱う
+- 次のものはこのリポジトリへ置かない
+  - `protected_information`
+  - personal Scopeのうち、本人が公開を了承していないもの
+  - client Scopeのうち、公開許可を得ていないもの
+- これらの保存先は `docs/SYSTEM_ARCHITECTURE.md` の Protected Information storage に従う
+- role / projectは「誰向けの情報か」を示す目印であり、閲覧制限ではない
 
-Agentがその情報を取得できるか。
+## 4. Retrieval / Use / Disclosure
 
-### Use
+- **Retrieval** — Agentがその情報を取得できるか
+- **Use** — 取得した情報を、今回のTaskの判断材料にしてよいか
+- **Disclosure** — 成果物、外部通信、公開コンテンツへ出してよいか
 
-取得した情報を現在のTaskの判断材料として使ってよいか。
-
-### Disclosure
-
-その情報を成果物、外部通信、公開コンテンツへ出してよいか。
-
-例：
+既存の `docs/SYSTEM_ARCHITECTURE.md` でいえば、`narrative_secret` は主にDisclosureを制限し、`protected_information` はRetrievalから制限する。
 
 ```text
-制作レビューAgent
-  → HQ_SECRETをRetrievalできる
-  → 内部レビューではUseできる
-  → 公開記事へ真相をDisclosureしない
+制作レビュー中のAgent
+  → world/HQ_SECRET.md をRetrievalできる
+  → 内部レビューの判断にUseできる
+  → 公開記事で真相をDisclosureしない
 ```
 
----
+Taskに必要なContextを選ぶときは、権限のないContextを候補に入れない。
 
-## 6. Internal Seedの構成
+## 5. 組織全体のKnowledgeへ戻すとき
 
-内部Seedは概念的に次の層を組み合わせる。
+個人の活動、特定Project、顧客案件から得た経験を、organization Scopeへ戻す場合に確認する。
 
-```text
-Core
-+
-Organization
-+
-Role / Project Scope
-+
-Permission
-+
-Personal
-+
-Task Context
-```
-
-すべてのSeedへOrganization全体を常時読み込ませない。
-
-SelectorはTaskに必要なContextだけを選ぶ。
-
-権限のないContextは、Selectorの候補に入れない。
-
----
-
-## 7. External Seedの構成
-
-外部Seedは顧客専用に構築する。
-
-```text
-WorldModelSeed Core
-+
-Client Organization
-+
-Client Knowledge
-+
-Client Role
-+
-Client Permission
-+
-Client Personal Context
-+
-Client Experience
-+
-Task Context
-```
-
-### 原則
-
-- AI通訳ラジオ内部Seedをそのまま複製しない
-- Client AのContextをClient Bへ共有しない
-- 個人Agentは会社全体のKnowledgeへ無制限アクセスさせない
-- 顧客がすでに持つ社内Knowledgeを重要な初期資産として扱う
-- 導入後のObservationを、その顧客のWorld Modelへ戻せる構造を作る
-- 顧客が自分のAgentを育て続けられることを目標にする
-
----
-
-## 8. 共通知識へ戻せるもの・戻せないもの
-
-顧客案件や個人活動から得た経験のすべてを、AI通訳ラジオ共通知識へ戻してよいわけではない。
+昇格の手順と条件そのものは `context/ACTOR_WORLD_MODEL.md` に従う。
 
 ### 戻せる可能性がある
 
-- 特定顧客を識別できない一般化された設計パターン
+- 特定の顧客や個人を識別できない、一般化された設計パターン
 - 再現性のある技術的知見
 - 公開許可を得た事例
 - AI通訳ラジオ内部で独自に検証した方法
 
 ### 原則としてそのまま戻さない
 
-- 顧客固有データ
-- 顧客内部手順
+- 顧客固有のデータ・内部手順・成果物
 - 契約・価格・認証情報
 - 個人の非公開情報
-- 顧客が権利を持つ成果物
-- 他社へ転用すると競争上・契約上問題になる情報
+- 他社へ転用すると競争上・契約上の問題になる情報
 
-汎用Knowledgeへ昇格する場合は、必要に応じて匿名化・一般化・Human Reviewを行う。
+必要に応じて、匿名化・一般化・Human Reviewを行う。
 
----
+## 6. Personal Knowledge
 
-## 9. ObservationからKnowledgeへの昇格
+Personal Knowledgeは、本人に合ったSeedを育てるための資産。ただし「本人について何でも推測してよい」という意味ではない。
 
-```text
-Observation
-  ↓
-Candidate
-  ↓
-Scope判定
-  ↓
-Provenance確認
-  ↓
-再現性 / 有用性を確認
-  ↓
-Human Review
-  ↓
-Knowledge
-```
+- 扱うのは、本人が明示した目標や好み、実際に行った作業、実測された結果、本人の評価など、活動から確認できるものだけ
+- 個人の性格・能力・感情・健康・事情をAIが推測して追加しない
+- Personal Knowledgeを組織評価や人事スコアへ転用しない
+- 本人が公開を了承していないものは、このリポジトリへ置かない（§3）
 
-一度の出来事を自動的に組織全体のルールへしない。
+## 7. 未決定
 
-反証や例外が出た場合も削除せず、必要なら適用条件を更新する。
-
----
-
-## 10. Personal Knowledge
-
-Personal Knowledgeは、個人専用Agentを強くする重要な資産。
-
-ただし「本人について何でも推測してよい」という意味ではない。
-
-保存候補は、
-
-- 本人が明示した目標
-- 本人が選んだ作業方法
-- 本人が実際に行った作業
-- 実測された成功・失敗
-- 本人が残した評価
-- 本人が保存を許可したPreference
-
-など、業務・活動から確認できる情報を中心にする。
-
-個人Knowledgeを組織評価や人事スコアへ自動転用しない。
-
----
-
-## 11. 既存Knowledgeが強い組織の扱い
-
-企業導入では、最初に新しいAgentを作ることより、
-
-**すでに存在するKnowledgeを発見・分類・接続すること**
-
-が価値になる場合がある。
-
-```text
-既存資料
-+
-過去事例
-+
-暗黙知
-+
-権限体系
-+
-評価基準
-  ↓
-Initial Organizational World Model
-```
-
-導入後は、
-
-```text
-Initial World Model
-  ↓
-実運用
-  ↓
-Observation
-  ↓
-更新
-```
-
-へ移る。
-
----
-
-## 12. Knowledgeの所有とProvenance
-
-可能な範囲で、
-
-- どこから来たか
-- 誰が確認したか
-- どのScopeか
-- いつ有効だったか
-- 現在も有効か
-- 外部利用可能か
-
-を追跡できる形を目指す。
-
-すべてを初期から厳密なDatabase Schemaへ固定する必要はない。
-
-必要性が確認された部分から構造化する。
-
----
-
-## 13. 未決定
-
-現時点では次を固定しない。
-
-- 正式な社内Role一覧
-- Roleごとの具体的権限表
-- Knowledge管理Database
-- Client間で共有可能な汎用Knowledgeの法的定義
-- Personal Seedの保存期間
-- 自動匿名化の仕組み
-- Knowledge昇格の自動スコア
-- 外部商品としての契約・価格・保守範囲
+- 正式なRole / Project一覧と、それぞれの権限
+- personal / client Knowledgeの非公開保存先
+- 2軸を記録する形式（frontmatter、Database等）
+- 匿名化の方法
 
 実運用とレビューから決める。
 
----
+## 8. 関連資料
 
-## 14. 関連資料
-
-- `context/WORLD_MODEL_SEED.md` — Seed全体の設計原則
+- `docs/SYSTEM_ARCHITECTURE.md` — Information classes / Protected Information storage
+- `context/WORLD_MODEL_SEED_SYSTEM.md` — Seedを個別化し育てる仕組み
+- `context/ACTOR_WORLD_MODEL.md` — Observationからの昇格条件
 - `context/ORGANIZATION_MODEL.md` — Real Member / Seed / Actor
-- `docs/SYSTEM_ARCHITECTURE.md` — Identity / Information classes / Protected Informationの技術設計
-- `docs/REAL_MEMBER_ONBOARDING.md` — 新規Real Memberの参加導線

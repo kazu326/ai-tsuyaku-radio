@@ -13,21 +13,13 @@ AIを最初から「AI社員キャラクター」として完成させない。�
 
 AI通訳ラジオは、AIニュースや技術を一般向けに翻訳するメディアであると同時に、**人間とAIエージェントが実践を通して一緒に成長する実験組織**として育てる。
 
-Real Memberの活動を、動画・記事・Web制作だけに限定しない。
+Real Memberに既定の制作担当を割り当てるのではなく、本人の **「AIを使って、何をやってみたいか？」** から小さなExperimentを始める。活動は動画・記事・Web制作に限定しない。
 
-Real Memberはまず、
+その活動から得た成功、失敗、判断、改善をSeedへ戻し、本人とAIエージェントの両方を育てる。公開する価値がある経験は、AI通訳ラジオの動画・記事・SNSなどへ翻訳する。
 
-**「AIを使って、何をやってみたいか？」**
+コンテンツ制作だけが組織活動ではなく、**実践そのものが一次情報の生成源**である。
 
-を考える。
-
-SNS、ソフトウェア、ハードウェア、商品開発、3Dプリント、電子工作、外注、販売、クラウドファンディングなど、AIを使って実際に試せる活動を広く対象にする。
-
-その活動から得た成功、失敗、判断、改善、KnowledgeをSeedへ戻し、本人とAIエージェントの両方を育てる。
-
-公開する価値がある経験は、AI通訳ラジオの動画・記事・SNSその他の形式へ翻訳する。
-
-つまりコンテンツ制作だけが組織活動ではなく、**実践そのものが一次情報の生成源**である。
+新しいReal Memberの具体的な参加手順は `docs/REAL_MEMBER_ONBOARDING.md` を参照する。
 
 ## 基本構造
 
@@ -66,11 +58,9 @@ Real Memberを架空のActorとして扱わない。本人が示していない�
 
 Seedは人格ではない。最初に必要なのは、担当する仕事、目的、境界、参照情報、権限、未決定事項だけでよい。
 
-Seedは全員へ同じ完成済みAgentを配る仕組みでもない。
+全員へ同じ完成済みAgentを配らない。同じ基盤モデルを使っていても、組織、役割、権限、本人の経験、現在のTaskが違えば、Seedが参照する世界と実行可能範囲も違う。
 
-同じ基盤LLMを使っていても、組織、役割、権限、本人の経験、現在のTaskが違えば、参照するWorld Modelと実行可能範囲も違う。
-
-内部Seedの考え方、外部顧客向けSeed、Task Contract、Challenge、Observationによる更新は `context/WORLD_MODEL_SEED.md` を正本とする。
+Seedを人・組織に合わせて作り、実務から育て続ける仕組み（World Model Seed System）は `context/WORLD_MODEL_SEED_SYSTEM.md` を参照する。Seedの定義はこの文書、Observationからの育成と昇格は `context/ACTOR_WORLD_MODEL.md` を正本とする。
 
 Seedは実務を通して次を蓄積する。
 
@@ -154,36 +144,7 @@ AI通訳ラジオ
 
 人数や部署を埋めるためにSeedやActorを作らない。実際の仕事から必要性が生じたときに追加する。
 
-## 内部Seedと外部Seed
-
-AI通訳ラジオ内部のSeedと、将来の外部顧客向けSeedを分ける。
-
-### Internal Seed
-
-内部では、組織共通Contextに加え、Role / Permission / Personal Contextを必要な範囲で組み合わせる。
-
-内部メンバーだからといって、すべての内部Knowledgeへアクセスできるわけではない。
-
-### External Seed
-
-外部SeedはAI通訳ラジオ内部Seedのコピーではない。
-
-企業・個人ごとに、
-
-- 目的
-- 業務
-- 既存Knowledge
-- Role
-- Permission
-- Personal Context
-- Evaluation
-- 実運用から得たExperience
-
-を使って個別に構築する。
-
-目標は「共通AI社員を配る」ことではなく、その企業・その人が**自分のAIを育て続けられる状態**を作ること。
-
-Knowledge Scopeと内部／外部境界は `context/KNOWLEDGE_MODEL.md` を参照する。
+将来の外部顧客向けSeedは内部Seedのコピーではない。原則は `context/WORLD_MODEL_SEED_SYSTEM.md` §8 を参照する。
 
 ## Knowledgeとの関係
 
@@ -204,6 +165,8 @@ Knowledge
 ```
 
 仕事とコンテンツ制作を分離しすぎず、実際に起きたことを一次情報として蓄積する。
+
+Knowledgeの情報の性質・所属Scope、公開リポジトリへ置いてよいものは `context/KNOWLEDGE_MODEL.md` を参照する。
 
 ## Presenceとの関係
 
@@ -253,6 +216,8 @@ Real Member Review
 
 - `context/ACTOR_WORLD_MODEL.md` — Seed / World Modelの育て方、Observation、Discoveryの考え方
 - `context/WORLD_MODEL_SEEDS.md` — 現在のSeedと候補の軽量一覧
+- `context/WORLD_MODEL_SEED_SYSTEM.md` — Seedを人・組織に合わせて作り育てる仕組み、Task Contract、Challenge、内部／外部Seed
+- `context/KNOWLEDGE_MODEL.md` — 情報の性質と所属Scope、公開リポジトリとの関係
 - `context/ACTORS.md` — 外向けActorの軽量一覧
 - `docs/SYSTEM_ARCHITECTURE.md` — GitHub / Cloudflare / MCP / Presenceの技術構造
 - `docs/REAL_MEMBER_ONBOARDING.md` — 現実の人間メンバー向け入口

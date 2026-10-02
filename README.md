@@ -6,11 +6,7 @@ AI業界の難しいニュース・技術・専門用語を、AIに詳しくな�
 
 同時に、AI通訳ラジオ自身が**人間とAIエージェントが実践を通して一緒に成長する実験組織**でもあります。
 
-参加するReal Memberは、動画・記事・Web制作だけに限定されません。SNS、ソフトウェア、ハードウェア、商品開発、3Dプリント、外注、販売、クラウドファンディングなど、「AIを使って何をやってみたいか」から活動を始められます。
-
-その経験をWorldModelSeedへ戻し、本人・AIエージェント・AI通訳ラジオを一緒に育て、公開する価値がある一次体験を社会へ発信します。
-
-このリポジトリを、AI通訳ラジオの制作・知識・ブランド・意思決定・WorldModelSeedを共有する **Source of Truth（正本）** として育てます。
+このリポジトリを、AI通訳ラジオの制作・知識・ブランド・意思決定を共有する **Source of Truth（正本）** として育てます。**このリポジトリは公開されています。** 個人情報、顧客や勤務先の資料、認証情報は置きません。
 
 ## 基本構造
 
@@ -25,19 +21,15 @@ AI業界の難しいニュース・技術・専門用語を、AIに詳しくな�
 - `experiments/` — 採用前の試作・検証。存在していることと採用済みであることは同義ではない
 - `logs/` — 日々の観察・作業・意思決定に至った経緯
 
-## 組織とWorldModelSeed
+## 組織とWorld Model Seed
 
-AI通訳ラジオでは、完成した「AI社員」を全員へ配ることを目指しません。
+AI通訳ラジオでは、完成した「AI社員」を全員へ配ることを目指しません。人・組織ごとに異なるWorld Model Seedを、実務の経験から育てます。
 
-共通のWorldModelSeed Coreを土台に、組織、Role、Permission、Personal Context、Experienceを組み合わせ、その人・その仕事に合うAgentを実務の中で育てます。
-
-- 組織モデル：`context/ORGANIZATION_MODEL.md`
-- WorldModelSeed設計：`context/WORLD_MODEL_SEED.md`
-- Knowledge / 権限境界：`context/KNOWLEDGE_MODEL.md`
+- 組織モデル（Real Member / Seed / Actor）：`context/ORGANIZATION_MODEL.md`
 - 現在のSeed一覧：`context/WORLD_MODEL_SEEDS.md`
+- Seedを人・組織に合わせて作り育てる仕組み：`context/WORLD_MODEL_SEED_SYSTEM.md`
+- 情報の性質と所属Scope：`context/KNOWLEDGE_MODEL.md`
 - 新規Real Member：`docs/REAL_MEMBER_ONBOARDING.md`
-
-将来の企業・個人向けSeedも、内部Seedのコピーではなく、相手の目的・既存Knowledge・権限・評価・経験に合わせて個別構築する方針です。
 
 ## コンテンツの3本柱
 
@@ -62,7 +54,7 @@ AI通訳ラジオでは、完成した「AI社員」を全員へ配ることを�
 3. `context/CURRENT.md`
 4. 作業内容に応じた関連資料
 
-必要に応じて `context/BRAND.md`、`context/EDITORIAL.md`、`context/DECISIONS.md`、`context/ORGANIZATION_MODEL.md`、`context/WORLD_MODEL_SEED.md`、`context/KNOWLEDGE_MODEL.md`、`docs/README.md`、過去ログへ進みます。
+必要に応じて `context/BRAND.md`、`context/EDITORIAL.md`、`context/DECISIONS.md`、`context/ORGANIZATION_MODEL.md`、`context/WORLD_MODEL_SEED_SYSTEM.md`、`context/KNOWLEDGE_MODEL.md`、`docs/README.md`、過去ログへ進みます。
 
 日々のログと現在地は分離します。 `logs/` は経緯を残す場所、`context/` は現在有効な情報を短く保つ場所です。
 
