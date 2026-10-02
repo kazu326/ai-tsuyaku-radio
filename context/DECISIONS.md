@@ -32,6 +32,12 @@ Scopeはアクセス制御そのものではない。公開リポジトリへPro
 
 正本は `docs/REAL_MEMBER_ONBOARDING.md`。
 
+### 音声・映像の共通制作ルールを台本制作フローへ移す
+
+Episode 006で得られた共通制作ルール（音声の「はい＋ロングポーズ」、共通ルールとEpisode固有設定の分離、最終音声タイムラインの正本化、字幕の行頭句読点の点検）は2026-09-27に `context/CURRENT.md` へ記録されたが、2026-10-01の更新（`80d2564`）で削除された。
+
+CURRENTの書き換えで再び失われないよう、意味を変えずに `context/EPISODE_SCRIPT_WORKFLOW.md` の「台本完成後：音声・映像制作の共通ルール」へ移し、そこを正本とする。台本時点の「耳に入る難しさ」は同文書の音声台本の自己レビューへ、字幕の行頭句読点は `video/remotion/docs/AI通訳ラジオ_Caption-Layout-Rule_v0.1.md` の最終確認へ戻す。Opus 5.5の役割は固定ルールではなく、Season 2で再現性を見る観察点として残す。
+
 ## 2026-10-01
 
 ### 組織モデルを Real Member → World Model Seed → Actor に分ける
