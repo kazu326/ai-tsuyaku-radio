@@ -198,6 +198,8 @@ AIが後から、
 
 ## Season 1終了時点の制作フロー
 
+この節はSeason 1で実際に運用した制作フローの記録。映像方式・映像デザインは、Season 1後半（Episode 005、特に006でのCanvas 2D実験）から見直しを続けており、新しい適用範囲や役割分担はまだ確定していない。検討状況は `docs/PARALLEL_WORKSTREAMS.md` の「F. Season 2 / Main Content」を参照する。
+
 現在もっとも有力な長編制作の流れは次。
 
 台本完成
